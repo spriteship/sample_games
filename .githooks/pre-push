@@ -1,0 +1,41 @@
+#!/bin/sh
+set -eu
+
+expected_login="spriteship"
+expected_name="spriteship"
+expected_email="dev@spriteship.com"
+
+if [ -z "${GH_TOKEN:-}" ] && [ -n "${GITHUB_TOKEN:-}" ]; then
+  export GH_TOKEN="$GITHUB_TOKEN"
+fi
+
+if [ -z "${GH_TOKEN:-}" ]; then
+  echo "Push refused: load the repository's SpriteShip GitHub token first." >&2
+  exit 1
+fi
+
+authenticated_login=$(gh api user --jq .login 2>/dev/null || true)
+if [ "$authenticated_login" != "$expected_login" ]; then
+  echo "Push refused: GitHub authentication is not the SpriteShip account." >&2
+  exit 1
+fi
+
+zero="0000000000000000000000000000000000000000"
+while read -r local_ref local_sha remote_ref remote_sha; do
+  [ "$local_sha" = "$zero" ] && continue
+  if [ "$remote_sha" = "$zero" ]; then
+    range="$local_sha"
+  else
+    range="$remote_sha..$local_sha"
+  fi
+
+  invalid_identity=$(git log "$range" --format='%an|%ae|%cn|%ce' | awk -F '|' \
+    -v name="$expected_name" -v email="$expected_email" \
+    '$1 != name || $2 != email || $3 != name || $4 != email { print; exit }')
+  if [ -n "$invalid_identity" ]; then
+    echo "Push refused: every commit must use the SpriteShip author and committer identity." >&2
+    exit 1
+  fi
+done
+
+echo "Push identity verified: SpriteShip account and commit identity."

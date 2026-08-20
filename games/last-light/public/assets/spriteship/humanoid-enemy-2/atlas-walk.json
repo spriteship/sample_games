@@ -626,7 +626,7 @@
     }
   },
   "meta": {
-    "app": "https://github.com/dorraba/spriteship",
+    "app": "https://spriteship.com",
     "version": "1.0",
     "image": "spritesheet_walk.png",
     "format": "RGBA8888",

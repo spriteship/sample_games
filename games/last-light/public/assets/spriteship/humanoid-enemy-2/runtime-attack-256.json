@@ -934,7 +934,7 @@
     }
   },
   "meta": {
-    "app": "https://github.com/dorraba/spriteship",
+    "app": "https://spriteship.com",
     "version": "1.0",
     "image": "runtime-attack-256.png",
     "format": "RGBA8888",
