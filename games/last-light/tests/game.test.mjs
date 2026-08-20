@@ -9,7 +9,7 @@ async function pngSize(url) {
 
 test("game shell includes required playable surfaces", async () => {
   const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
-  for (const id of ["game", "startButton", "hud", "upgradeChoices", "result"]) {
+  for (const id of ["game", "startButton", "hud", "colliderButton", "upgradeChoices", "result"]) {
     assert.match(html, new RegExp(`id=["']${id}["']`));
   }
 });
@@ -88,6 +88,9 @@ test("the large SpriteShip humanoid uses its walk and edited attack", async () =
   assert.match(game, /HUMANOID_WALK_ANIMATION/);
   assert.match(game, /HUMANOID_ATTACK_ANIMATION/);
   assert.doesNotMatch(game, /drawHumanoidCollisionDebug|humanoidCollisionDebug/);
+  assert.match(game, /toggleColliderDebug/);
+  assert.match(game, /drawColliderBody\(this\.getPlayerCollisionBody\(\), 0x66f5dc\)/);
+  assert.match(game, /drawColliderBody\(this\.getHumanoidCollisionBody\(enemy\)/);
   assert.match(game, /const HUMANOID_ASSET_VERSION = "c6b8b610028d"/);
   assert.match(game, /playerCollisionHitsHumanoid/);
   assert.match(game, /getHumanoidCollisionBody\(enemy\)/);

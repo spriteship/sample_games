@@ -35,7 +35,7 @@ const dom = Object.fromEntries([
   "healthText", "xpFill", "level", "kills", "runScrap", "objective", "objectiveText",
   "objectiveFill", "bestScore", "totalScrap", "upgradeChoices", "buildSummary",
   "resultKicker", "resultTitle", "resultCopy", "resultTime", "resultKills", "resultLevel",
-  "resultScrap", "startButton", "pauseButton", "resumeButton", "quitButton", "retryButton", "homeButton"
+  "resultScrap", "startButton", "pauseButton", "colliderButton", "resumeButton", "quitButton", "retryButton", "homeButton"
 ].map((id) => [id, document.getElementById(id)]));
 
 const save = readSave();
@@ -140,6 +140,9 @@ class GameScene extends Phaser.Scene {
       .play(PLAYER_IDLE_ANIMATION);
     this.playerCollisionDefinitions = this.cache.json.get(`${PLAYER_ATLAS}-collisions`);
     this.humanoidCollisionDefinitions = this.cache.json.get("humanoid-collision-bodies");
+    this.colliderDebugEnabled = false;
+    this.colliderDebug = this.add.graphics().setDepth(60);
+    this.updateColliderButton();
     this.cameras.main.startFollow(this.player, true, .09, .09);
     this.cameras.main.setDeadzone(DESKTOP_MODE ? 230 : 80, DESKTOP_MODE ? 130 : 140);
 
@@ -252,6 +255,7 @@ class GameScene extends Phaser.Scene {
     this.updateEnemyBullets(dt);
     this.updateField(time);
     this.updateDrops(dt);
+    this.drawColliderDebug();
     if (!this.boss && this.state.elapsed >= BOSS_AT) this.spawnBoss();
     if (this.state.elapsed >= RUN_SECONDS && this.boss) this.enrageBoss();
     updateHud(this.state);
@@ -358,6 +362,37 @@ class GameScene extends Phaser.Scene {
 
   playerCollisionHitsHumanoid(enemy) {
     return this.orientedRectsOverlap(this.getPlayerCollisionBody(), this.getHumanoidCollisionBody(enemy));
+  }
+
+  drawColliderBody(body, color) {
+    const corners = this.orientedRectCorners(body);
+    this.colliderDebug.lineStyle(3, color, .95).fillStyle(color, 1).beginPath();
+    this.colliderDebug.moveTo(corners[0].x, corners[0].y);
+    for (let index = 1; index < corners.length; index += 1) {
+      this.colliderDebug.lineTo(corners[index].x, corners[index].y);
+    }
+    this.colliderDebug.closePath().strokePath().fillCircle(body.x, body.y, 3);
+  }
+
+  drawColliderDebug() {
+    this.colliderDebug.clear();
+    if (!this.colliderDebugEnabled) return;
+    this.drawColliderBody(this.getPlayerCollisionBody(), 0x66f5dc);
+    for (const enemy of this.enemies) {
+      if (enemy.type !== "humanoid" || !enemy.sprite.active) continue;
+      this.drawColliderBody(this.getHumanoidCollisionBody(enemy), enemy.isAttacking ? 0xff4f71 : 0xefff55);
+    }
+  }
+
+  updateColliderButton() {
+    dom.colliderButton.setAttribute("aria-pressed", String(this.colliderDebugEnabled));
+    dom.colliderButton.textContent = this.colliderDebugEnabled ? "COLLIDERS ON" : "COLLIDERS";
+  }
+
+  toggleColliderDebug() {
+    this.colliderDebugEnabled = !this.colliderDebugEnabled;
+    this.updateColliderButton();
+    this.drawColliderDebug();
   }
 
   humanoidCanStrikePlayer(enemy) {
@@ -770,6 +805,8 @@ class GameScene extends Phaser.Scene {
   resumeRun() { hide(dom.pause); this.scene.resume(); }
 
   cleanup() {
+    dom.colliderButton.setAttribute("aria-pressed", "false");
+    dom.colliderButton.textContent = "COLLIDERS";
     hide(dom.hud); hide(dom.upgrade); hide(dom.pause);
   }
 }
@@ -916,6 +953,7 @@ dom.startButton.addEventListener("click", startRun);
 dom.retryButton.addEventListener("click", startRun);
 dom.homeButton.addEventListener("click", goHome);
 dom.pauseButton.addEventListener("click", () => game.scene.getScene("gameScene")?.pauseRun());
+dom.colliderButton.addEventListener("click", () => game.scene.getScene("gameScene")?.toggleColliderDebug());
 dom.resumeButton.addEventListener("click", () => game.scene.getScene("gameScene")?.resumeRun());
 dom.quitButton.addEventListener("click", goHome);
 document.addEventListener("visibilitychange", () => {

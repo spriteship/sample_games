@@ -16,7 +16,10 @@
         <div id="hud" class="hud is-hidden" aria-live="polite">
           <div class="hud-top">
             <div class="sector-chip"><span>BLACKOUT BLOCKS</span><strong id="timer">01:30</strong></div>
-            <button id="pauseButton" class="icon-button" aria-label="Pause game">Ⅱ</button>
+            <div class="hud-actions">
+              <button id="colliderButton" class="collider-button" type="button" aria-label="Show player and humanoid colliders" aria-pressed="false">COLLIDERS</button>
+              <button id="pauseButton" class="icon-button" type="button" aria-label="Pause game">Ⅱ</button>
+            </div>
           </div>
           <div class="bars">
             <div class="bar health-bar"><span id="healthFill"></span><b id="healthText">100 / 100</b></div>
