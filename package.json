@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "npm run dev --workspace @spriteship/last-light",
     "build": "npm run build --workspaces --if-present",
+    "build:pages": "node scripts/build-pages.mjs",
     "test": "npm test --workspaces --if-present"
   }
 }
