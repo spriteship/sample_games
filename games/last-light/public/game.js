@@ -24,7 +24,7 @@ const HUMANOID_ATTACK_ATLAS = "humanoid-enemy-attack";
 const HUMANOID_WALK_ANIMATION = "humanoid-enemy-walk-cycle";
 const HUMANOID_ATTACK_ANIMATION = "humanoid-enemy-attack-cycle";
 const HUMANOID_HEALTH_MULTIPLIER = 7;
-const HUMANOID_ASSET_VERSION = "c6b8b610028d";
+const HUMANOID_ASSET_VERSION = "c6b8b610028d-runtime2";
 const WEAPON_KEYS = Array.from({ length: 16 }, (_, index) => `weapon-${index + 1}`);
 const COLLECTIBLE_KEYS = Array.from({ length: 16 }, (_, index) => `collectible-${index + 1}`);
 const RANGED_WEAPON_KEYS = WEAPON_KEYS;
@@ -281,8 +281,7 @@ class GameScene extends Phaser.Scene {
   }
 
   getPlayerCollisionBody() {
-    const animationName = this.player.anims?.currentAnim?.key === PLAYER_IDLE_ANIMATION ? "idle_2" : "walk";
-    const definition = this.playerCollisionDefinitions[animationName];
+    const definition = this.playerCollisionDefinitions.idle_2;
     const width = 256;
     const height = 256;
     const scaleX = Math.abs(this.player.scaleX);

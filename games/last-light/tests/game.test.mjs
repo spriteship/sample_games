@@ -39,7 +39,7 @@ test("SpriteShip player atlas is wired into movement", async () => {
   assert.match(game, /this\.player\.play\(PLAYER_IDLE_ANIMATION, true\)/);
   assert.match(game, /spritesheet_idle_2_256\.png/);
   assert.match(game, /const PLAYER_WALK_FPS = 60/);
-  assert.match(game, /playerCollisionDefinitions\[animationName\]/);
+  assert.match(game, /const definition = this\.playerCollisionDefinitions\.idle_2/);
   assert.match(game, /playerCollisionHitsCircle/);
   assert.doesNotMatch(game, /SPRITESHIP HITBOX/);
   assert.doesNotMatch(game, /drawPlayerCollisionDebug/);
@@ -91,7 +91,7 @@ test("the large SpriteShip humanoid uses its walk and edited attack", async () =
   assert.match(game, /toggleColliderDebug/);
   assert.match(game, /drawColliderBody\(this\.getPlayerCollisionBody\(\), 0x66f5dc\)/);
   assert.match(game, /drawColliderBody\(this\.getHumanoidCollisionBody\(enemy\)/);
-  assert.match(game, /const HUMANOID_ASSET_VERSION = "c6b8b610028d"/);
+  assert.match(game, /const HUMANOID_ASSET_VERSION = "c6b8b610028d-runtime2"/);
   assert.match(game, /playerCollisionHitsHumanoid/);
   assert.match(game, /getHumanoidCollisionBody\(enemy\)/);
   assert.match(game, /humanoidCanStrikePlayer/);
@@ -104,6 +104,8 @@ test("the large SpriteShip humanoid uses its walk and edited attack", async () =
   assert.deepEqual(collisionBodies.attack, { kind: "rect", cx: 0.5009765625, cy: 0.513671875, hw: 0.2138671875, hh: 0.134765625 });
   assert.ok(Object.values(walkAtlas.frames).every((frame) => frame.sourceSize.w === 256 && frame.sourceSize.h === 256));
   assert.ok(Object.values(attackAtlas.frames).every((frame) => frame.sourceSize.w === 256 && frame.sourceSize.h === 256));
+  assert.ok(Object.values(walkAtlas.frames).every((frame) => frame.trimmed === false && frame.spriteSourceSize.x === 0 && frame.spriteSourceSize.y === 0));
+  assert.ok(Object.values(attackAtlas.frames).every((frame) => frame.trimmed === false && frame.spriteSourceSize.x === 0 && frame.spriteSourceSize.y === 0));
 });
 
 test("all sixteen SpriteShip weapons are wired into combat", async () => {
