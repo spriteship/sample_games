@@ -91,6 +91,10 @@ test("the large SpriteShip humanoid uses its walk and edited attack", async () =
   assert.match(game, /const HUMANOID_ASSET_VERSION = "c6b8b610028d"/);
   assert.match(game, /playerCollisionHitsHumanoid/);
   assert.match(game, /getHumanoidCollisionBody\(enemy\)/);
+  assert.match(game, /humanoidCanStrikePlayer/);
+  assert.match(game, /enemy\.sprite\.setPosition\(previousX, previousY\)/);
+  assert.match(game, /this\.startHumanoidAttack\(enemy, time\)/);
+  assert.doesNotMatch(game, /distance < enemy\.radius \+ 34/);
   assert.equal(walkAtlas.animations.walk.frames.length, 28);
   assert.equal(attackAtlas.animations.attack.frames.length, 42);
   assert.deepEqual(collisionBodies.walk, { kind: "rect", cx: 0.501953125, cy: 0.55859375, hw: 0.1796875, hh: 0.1796875 });

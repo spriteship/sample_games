@@ -360,6 +360,24 @@ class GameScene extends Phaser.Scene {
     return this.orientedRectsOverlap(this.getPlayerCollisionBody(), this.getHumanoidCollisionBody(enemy));
   }
 
+  humanoidCanStrikePlayer(enemy) {
+    const strikeBody = this.getHumanoidCollisionBody(enemy);
+    strikeBody.halfWidth += 24;
+    strikeBody.halfHeight += 24;
+    return this.orientedRectsOverlap(this.getPlayerCollisionBody(), strikeBody);
+  }
+
+  startHumanoidAttack(enemy, time) {
+    if (enemy.isAttacking || time < enemy.attackReady) return;
+    enemy.attackReady = time + 1350;
+    enemy.isAttacking = true;
+    enemy.sprite.play(HUMANOID_ATTACK_ANIMATION, true);
+    this.time.delayedCall(480, () => {
+      if (enemy.sprite.active && enemy.isAttacking && this.enemies.includes(enemy) && this.damageGrace <= 0
+        && this.humanoidCanStrikePlayer(enemy)) this.damagePlayer(enemy.damage);
+    });
+  }
+
   updateLamp(dt) {
     if (this.lamp.active) return;
     const distance = Phaser.Math.Distance.Between(this.player.x, this.player.y, this.lamp.x, this.lamp.y);
@@ -445,24 +463,20 @@ class GameScene extends Phaser.Scene {
       const dx = this.player.x - enemy.sprite.x;
       const dy = this.player.y - enemy.sprite.y;
       const distance = Math.max(1, Math.hypot(dx, dy));
-      if (enemy.type === "humanoid" && distance < enemy.radius + 34 && time >= enemy.attackReady && !enemy.isAttacking) {
-        enemy.attackReady = time + 1700;
-        enemy.isAttacking = true;
-        enemy.sprite.play(HUMANOID_ATTACK_ANIMATION, true);
-        this.time.delayedCall(480, () => {
-          if (enemy.sprite.active && enemy.isAttacking && this.enemies.includes(enemy) && this.damageGrace <= 0
-            && this.playerCollisionHitsHumanoid(enemy)) this.damagePlayer(enemy.damage);
-        });
-      }
       const humanoidAttacking = enemy.type === "humanoid" && enemy.isAttacking;
       const speed = enemy.speed
         * (this.lamp.active && Phaser.Math.Distance.Between(enemy.sprite.x, enemy.sprite.y, this.lamp.x, this.lamp.y) < 130 ? .62 : 1)
         * (humanoidAttacking ? 0 : 1);
+      const previousX = enemy.sprite.x;
+      const previousY = enemy.sprite.y;
       enemy.sprite.x += dx / distance * speed * dt;
       enemy.sprite.y += dy / distance * speed * dt;
       if (enemy.isBoss) enemy.sprite.rotation += dt * .8;
       else enemy.sprite.rotation = Phaser.Math.Angle.RotateTo(enemy.sprite.rotation, Math.atan2(dy, dx) - Math.PI / 2, enemy.type === "fast" ? .2 : .12);
-      if (enemy.type !== "humanoid" && this.playerCollisionHitsCircle(enemy.sprite.x, enemy.sprite.y, enemy.radius) && this.damageGrace <= 0) {
+      if (enemy.type === "humanoid" && !enemy.isAttacking && this.playerCollisionHitsHumanoid(enemy)) {
+        enemy.sprite.setPosition(previousX, previousY);
+        this.startHumanoidAttack(enemy, time);
+      } else if (enemy.type !== "humanoid" && this.playerCollisionHitsCircle(enemy.sprite.x, enemy.sprite.y, enemy.radius) && this.damageGrace <= 0) {
         this.damagePlayer(enemy.damage);
       }
       if (enemy.isBoss && time - this.lastBossShot > (enemy.enraged ? 820 : 1550)) {
