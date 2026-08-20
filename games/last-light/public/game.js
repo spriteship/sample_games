@@ -24,6 +24,7 @@ const HUMANOID_ATTACK_ATLAS = "humanoid-enemy-attack";
 const HUMANOID_WALK_ANIMATION = "humanoid-enemy-walk-cycle";
 const HUMANOID_ATTACK_ANIMATION = "humanoid-enemy-attack-cycle";
 const HUMANOID_HEALTH_MULTIPLIER = 7;
+const HUMANOID_ASSET_VERSION = "c6b8b610028d";
 const WEAPON_KEYS = Array.from({ length: 16 }, (_, index) => `weapon-${index + 1}`);
 const COLLECTIBLE_KEYS = Array.from({ length: 16 }, (_, index) => `collectible-${index + 1}`);
 const RANGED_WEAPON_KEYS = WEAPON_KEYS;
@@ -71,11 +72,12 @@ class BootScene extends Phaser.Scene {
     this.load.json(`${PLAYER_IDLE_ATLAS}-data`, `${assetPath}/atlas_idle_2_256.json`);
     this.load.json(`${PLAYER_ATLAS}-collisions`, `${assetPath}/collision-bodies.json`);
     const humanoidPath = "assets/spriteship/humanoid-enemy-2";
-    this.load.atlas(HUMANOID_WALK_ATLAS, `${humanoidPath}/runtime-walk-256.png`, `${humanoidPath}/runtime-walk-256.json`);
-    this.load.atlas(HUMANOID_ATTACK_ATLAS, `${humanoidPath}/runtime-attack-256.png`, `${humanoidPath}/runtime-attack-256.json`);
-    this.load.json(`${HUMANOID_WALK_ATLAS}-data`, `${humanoidPath}/runtime-walk-256.json`);
-    this.load.json(`${HUMANOID_ATTACK_ATLAS}-data`, `${humanoidPath}/runtime-attack-256.json`);
-    this.load.json("humanoid-collision-bodies", `${humanoidPath}/collision-bodies.json`);
+    const humanoidVersion = `?v=${HUMANOID_ASSET_VERSION}`;
+    this.load.atlas(HUMANOID_WALK_ATLAS, `${humanoidPath}/runtime-walk-256.png${humanoidVersion}`, `${humanoidPath}/runtime-walk-256.json${humanoidVersion}`);
+    this.load.atlas(HUMANOID_ATTACK_ATLAS, `${humanoidPath}/runtime-attack-256.png${humanoidVersion}`, `${humanoidPath}/runtime-attack-256.json${humanoidVersion}`);
+    this.load.json(`${HUMANOID_WALK_ATLAS}-data`, `${humanoidPath}/runtime-walk-256.json${humanoidVersion}`);
+    this.load.json(`${HUMANOID_ATTACK_ATLAS}-data`, `${humanoidPath}/runtime-attack-256.json${humanoidVersion}`);
+    this.load.json("humanoid-collision-bodies", `${humanoidPath}/collision-bodies.json${humanoidVersion}`);
     for (let index = 1; index <= 4; index += 1) {
       this.load.image(`enemy-bio-${index}`, `assets/spriteship/enemies/runtime/enemy-${index}.png`);
     }
@@ -138,7 +140,6 @@ class GameScene extends Phaser.Scene {
       .play(PLAYER_IDLE_ANIMATION);
     this.playerCollisionDefinitions = this.cache.json.get(`${PLAYER_ATLAS}-collisions`);
     this.humanoidCollisionDefinitions = this.cache.json.get("humanoid-collision-bodies");
-    this.humanoidCollisionDebug = this.add.graphics().setDepth(60);
     this.cameras.main.startFollow(this.player, true, .09, .09);
     this.cameras.main.setDeadzone(DESKTOP_MODE ? 230 : 80, DESKTOP_MODE ? 130 : 140);
 
@@ -359,24 +360,6 @@ class GameScene extends Phaser.Scene {
     return this.orientedRectsOverlap(this.getPlayerCollisionBody(), this.getHumanoidCollisionBody(enemy));
   }
 
-  drawHumanoidCollisionDebug() {
-    this.humanoidCollisionDebug.clear();
-    this.humanoidCollisionDebug.lineStyle(3, 0xefff55, .95);
-    this.humanoidCollisionDebug.fillStyle(0xff4f71, 1);
-    for (const enemy of this.enemies) {
-      if (enemy.type !== "humanoid" || !enemy.sprite.active) continue;
-      const body = this.getHumanoidCollisionBody(enemy);
-      const corners = this.orientedRectCorners(body);
-      this.humanoidCollisionDebug.beginPath();
-      this.humanoidCollisionDebug.moveTo(corners[0].x, corners[0].y);
-      for (let index = 1; index < corners.length; index += 1) {
-        this.humanoidCollisionDebug.lineTo(corners[index].x, corners[index].y);
-      }
-      this.humanoidCollisionDebug.closePath().strokePath();
-      this.humanoidCollisionDebug.fillCircle(body.x, body.y, 3);
-    }
-  }
-
   updateLamp(dt) {
     if (this.lamp.active) return;
     const distance = Phaser.Math.Distance.Between(this.player.x, this.player.y, this.lamp.x, this.lamp.y);
@@ -487,7 +470,6 @@ class GameScene extends Phaser.Scene {
         this.bossVolley(enemy);
       }
     }
-    this.drawHumanoidCollisionDebug();
   }
 
   fire(time) {

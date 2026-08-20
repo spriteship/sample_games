@@ -87,13 +87,14 @@ test("the large SpriteShip humanoid uses its walk and edited attack", async () =
   assert.match(game, /setDisplaySize\(256, 256\)/);
   assert.match(game, /HUMANOID_WALK_ANIMATION/);
   assert.match(game, /HUMANOID_ATTACK_ANIMATION/);
-  assert.match(game, /drawHumanoidCollisionDebug/);
+  assert.doesNotMatch(game, /drawHumanoidCollisionDebug|humanoidCollisionDebug/);
+  assert.match(game, /const HUMANOID_ASSET_VERSION = "c6b8b610028d"/);
   assert.match(game, /playerCollisionHitsHumanoid/);
   assert.match(game, /getHumanoidCollisionBody\(enemy\)/);
   assert.equal(walkAtlas.animations.walk.frames.length, 28);
   assert.equal(attackAtlas.animations.attack.frames.length, 42);
-  assert.deepEqual(collisionBodies.walk, { kind: "rect", cx: 0.5009765625, cy: 0.638671875, hw: 0.1337890625, hh: 0.134765625 });
-  assert.deepEqual(collisionBodies.attack, { kind: "rect", cx: 0.5009765625, cy: 0.787109375, hw: 0.2138671875, hh: 0.134765625 });
+  assert.deepEqual(collisionBodies.walk, { kind: "rect", cx: 0.501953125, cy: 0.55859375, hw: 0.1796875, hh: 0.1796875 });
+  assert.deepEqual(collisionBodies.attack, { kind: "rect", cx: 0.5009765625, cy: 0.513671875, hw: 0.2138671875, hh: 0.134765625 });
   assert.ok(Object.values(walkAtlas.frames).every((frame) => frame.sourceSize.w === 256 && frame.sourceSize.h === 256));
   assert.ok(Object.values(attackAtlas.frames).every((frame) => frame.sourceSize.w === 256 && frame.sourceSize.h === 256));
 });

@@ -10,10 +10,10 @@
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 21,
+        "y": 24,
+        "w": 23,
+        "h": 23
       },
       "sourceSize": {
         "w": 64,
@@ -23,7 +23,7 @@
     },
     "walk_0001": {
       "frame": {
-        "x": 66,
+        "x": 65,
         "y": 0,
         "w": 64,
         "h": 64
@@ -31,10 +31,10 @@
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 21,
+        "y": 24,
+        "w": 23,
+        "h": 22
       },
       "sourceSize": {
         "w": 64,
@@ -44,7 +44,7 @@
     },
     "walk_0002": {
       "frame": {
-        "x": 132,
+        "x": 130,
         "y": 0,
         "w": 64,
         "h": 64
@@ -52,10 +52,10 @@
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 21,
+        "y": 24,
+        "w": 23,
+        "h": 22
       },
       "sourceSize": {
         "w": 64,
@@ -65,7 +65,7 @@
     },
     "walk_0003": {
       "frame": {
-        "x": 198,
+        "x": 195,
         "y": 0,
         "w": 64,
         "h": 64
@@ -73,10 +73,10 @@
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 21,
+        "y": 24,
+        "w": 23,
+        "h": 20
       },
       "sourceSize": {
         "w": 64,
@@ -86,7 +86,7 @@
     },
     "walk_0004": {
       "frame": {
-        "x": 264,
+        "x": 260,
         "y": 0,
         "w": 64,
         "h": 64
@@ -94,10 +94,10 @@
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 21,
+        "y": 24,
+        "w": 23,
+        "h": 19
       },
       "sourceSize": {
         "w": 64,
@@ -107,7 +107,7 @@
     },
     "walk_0005": {
       "frame": {
-        "x": 330,
+        "x": 325,
         "y": 0,
         "w": 64,
         "h": 64
@@ -115,10 +115,10 @@
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 22,
+        "y": 24,
+        "w": 23,
+        "h": 20
       },
       "sourceSize": {
         "w": 64,
@@ -128,7 +128,7 @@
     },
     "walk_0006": {
       "frame": {
-        "x": 396,
+        "x": 390,
         "y": 0,
         "w": 64,
         "h": 64
@@ -136,10 +136,10 @@
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 22,
+        "y": 24,
+        "w": 22,
+        "h": 22
       },
       "sourceSize": {
         "w": 64,
@@ -149,7 +149,7 @@
     },
     "walk_0007": {
       "frame": {
-        "x": 462,
+        "x": 455,
         "y": 0,
         "w": 64,
         "h": 64
@@ -157,10 +157,10 @@
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 22,
+        "y": 24,
+        "w": 22,
+        "h": 24
       },
       "sourceSize": {
         "w": 64,
@@ -170,7 +170,7 @@
     },
     "walk_0008": {
       "frame": {
-        "x": 528,
+        "x": 520,
         "y": 0,
         "w": 64,
         "h": 64
@@ -178,10 +178,10 @@
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 22,
+        "y": 24,
+        "w": 22,
+        "h": 25
       },
       "sourceSize": {
         "w": 64,
@@ -191,7 +191,7 @@
     },
     "walk_0009": {
       "frame": {
-        "x": 594,
+        "x": 585,
         "y": 0,
         "w": 64,
         "h": 64
@@ -199,10 +199,10 @@
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 22,
+        "y": 24,
+        "w": 22,
+        "h": 25
       },
       "sourceSize": {
         "w": 64,
@@ -212,7 +212,7 @@
     },
     "walk_0010": {
       "frame": {
-        "x": 660,
+        "x": 650,
         "y": 0,
         "w": 64,
         "h": 64
@@ -220,10 +220,10 @@
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 22,
+        "y": 24,
+        "w": 22,
+        "h": 26
       },
       "sourceSize": {
         "w": 64,
@@ -233,7 +233,7 @@
     },
     "walk_0011": {
       "frame": {
-        "x": 726,
+        "x": 715,
         "y": 0,
         "w": 64,
         "h": 64
@@ -241,10 +241,10 @@
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 22,
+        "y": 24,
+        "w": 22,
+        "h": 26
       },
       "sourceSize": {
         "w": 64,
@@ -254,7 +254,7 @@
     },
     "walk_0012": {
       "frame": {
-        "x": 792,
+        "x": 780,
         "y": 0,
         "w": 64,
         "h": 64
@@ -262,10 +262,10 @@
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 22,
+        "y": 24,
+        "w": 22,
+        "h": 26
       },
       "sourceSize": {
         "w": 64,
@@ -275,7 +275,7 @@
     },
     "walk_0013": {
       "frame": {
-        "x": 858,
+        "x": 845,
         "y": 0,
         "w": 64,
         "h": 64
@@ -283,10 +283,10 @@
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 22,
+        "y": 24,
+        "w": 22,
+        "h": 24
       },
       "sourceSize": {
         "w": 64,
@@ -296,7 +296,7 @@
     },
     "walk_0014": {
       "frame": {
-        "x": 924,
+        "x": 910,
         "y": 0,
         "w": 64,
         "h": 64
@@ -304,10 +304,10 @@
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 22,
+        "y": 24,
+        "w": 22,
+        "h": 24
       },
       "sourceSize": {
         "w": 64,
@@ -318,17 +318,17 @@
     "walk_0015": {
       "frame": {
         "x": 0,
-        "y": 66,
+        "y": 65,
         "w": 64,
         "h": 64
       },
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 22,
+        "y": 24,
+        "w": 22,
+        "h": 23
       },
       "sourceSize": {
         "w": 64,
@@ -338,18 +338,18 @@
     },
     "walk_0016": {
       "frame": {
-        "x": 66,
-        "y": 66,
+        "x": 65,
+        "y": 65,
         "w": 64,
         "h": 64
       },
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 21,
+        "y": 24,
+        "w": 23,
+        "h": 22
       },
       "sourceSize": {
         "w": 64,
@@ -359,18 +359,18 @@
     },
     "walk_0017": {
       "frame": {
-        "x": 132,
-        "y": 66,
+        "x": 130,
+        "y": 65,
         "w": 64,
         "h": 64
       },
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 21,
+        "y": 24,
+        "w": 23,
+        "h": 21
       },
       "sourceSize": {
         "w": 64,
@@ -380,18 +380,18 @@
     },
     "walk_0018": {
       "frame": {
-        "x": 198,
-        "y": 66,
+        "x": 195,
+        "y": 65,
         "w": 64,
         "h": 64
       },
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 21,
+        "y": 24,
+        "w": 23,
+        "h": 20
       },
       "sourceSize": {
         "w": 64,
@@ -401,18 +401,18 @@
     },
     "walk_0019": {
       "frame": {
-        "x": 264,
-        "y": 66,
+        "x": 260,
+        "y": 65,
         "w": 64,
         "h": 64
       },
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 21,
+        "y": 24,
+        "w": 23,
+        "h": 20
       },
       "sourceSize": {
         "w": 64,
@@ -422,18 +422,18 @@
     },
     "walk_0020": {
       "frame": {
-        "x": 330,
-        "y": 66,
+        "x": 325,
+        "y": 65,
         "w": 64,
         "h": 64
       },
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 21,
+        "y": 24,
+        "w": 23,
+        "h": 21
       },
       "sourceSize": {
         "w": 64,
@@ -443,18 +443,18 @@
     },
     "walk_0021": {
       "frame": {
-        "x": 396,
-        "y": 66,
+        "x": 390,
+        "y": 65,
         "w": 64,
         "h": 64
       },
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 21,
+        "y": 24,
+        "w": 23,
+        "h": 22
       },
       "sourceSize": {
         "w": 64,
@@ -464,18 +464,18 @@
     },
     "walk_0022": {
       "frame": {
-        "x": 462,
-        "y": 66,
+        "x": 455,
+        "y": 65,
         "w": 64,
         "h": 64
       },
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 21,
+        "y": 24,
+        "w": 22,
+        "h": 24
       },
       "sourceSize": {
         "w": 64,
@@ -485,18 +485,18 @@
     },
     "walk_0023": {
       "frame": {
-        "x": 528,
-        "y": 66,
+        "x": 520,
+        "y": 65,
         "w": 64,
         "h": 64
       },
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 21,
+        "y": 24,
+        "w": 22,
+        "h": 25
       },
       "sourceSize": {
         "w": 64,
@@ -506,18 +506,18 @@
     },
     "walk_0024": {
       "frame": {
-        "x": 594,
-        "y": 66,
+        "x": 585,
+        "y": 65,
         "w": 64,
         "h": 64
       },
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 21,
+        "y": 24,
+        "w": 22,
+        "h": 26
       },
       "sourceSize": {
         "w": 64,
@@ -527,18 +527,18 @@
     },
     "walk_0025": {
       "frame": {
-        "x": 660,
-        "y": 66,
+        "x": 650,
+        "y": 65,
         "w": 64,
         "h": 64
       },
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 21,
+        "y": 24,
+        "w": 23,
+        "h": 25
       },
       "sourceSize": {
         "w": 64,
@@ -548,18 +548,18 @@
     },
     "walk_0026": {
       "frame": {
-        "x": 726,
-        "y": 66,
+        "x": 715,
+        "y": 65,
         "w": 64,
         "h": 64
       },
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 21,
+        "y": 24,
+        "w": 23,
+        "h": 24
       },
       "sourceSize": {
         "w": 64,
@@ -569,18 +569,18 @@
     },
     "walk_0027": {
       "frame": {
-        "x": 792,
-        "y": 66,
+        "x": 780,
+        "y": 65,
         "w": 64,
         "h": 64
       },
       "rotated": false,
       "trimmed": true,
       "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 64,
-        "h": 64
+        "x": 21,
+        "y": 24,
+        "w": 23,
+        "h": 23
       },
       "sourceSize": {
         "w": 64,
@@ -631,10 +631,10 @@
     "image": "runtime-walk-64.png",
     "format": "RGBA8888",
     "size": {
-      "w": 990,
-      "h": 132
+      "w": 975,
+      "h": 130
     },
-    "scale": "1",
+    "scale": "0.125",
     "frameTags": [
       {
         "name": "walk",
@@ -643,7 +643,6 @@
         "direction": "forward",
         "color": "#000000ff"
       }
-    ],
-    "spriteShipRuntimeFix": "Exact 64px runtime frames with 2px gutters."
+    ]
   }
 }
