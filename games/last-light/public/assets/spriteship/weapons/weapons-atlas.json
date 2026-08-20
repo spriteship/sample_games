@@ -1,0 +1,311 @@
+{
+  "textures": [
+    {
+      "image": "asset.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 2352,
+        "h": 1920
+      },
+      "scale": 1,
+      "frames": {
+        "tile_0": {
+          "frame": {
+            "x": 0,
+            "y": 0,
+            "w": 588,
+            "h": 480
+          },
+          "sourceSize": {
+            "w": 588,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 104,
+            "y": 40,
+            "w": 380,
+            "h": 418
+          }
+        },
+        "tile_1": {
+          "frame": {
+            "x": 588,
+            "y": 0,
+            "w": 588,
+            "h": 480
+          },
+          "sourceSize": {
+            "w": 588,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 72,
+            "y": 22,
+            "w": 445,
+            "h": 436
+          }
+        },
+        "tile_2": {
+          "frame": {
+            "x": 1176,
+            "y": 0,
+            "w": 588,
+            "h": 480
+          },
+          "sourceSize": {
+            "w": 588,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 110,
+            "y": 56,
+            "w": 368,
+            "h": 402
+          }
+        },
+        "tile_3": {
+          "frame": {
+            "x": 1764,
+            "y": 0,
+            "w": 588,
+            "h": 480
+          },
+          "sourceSize": {
+            "w": 588,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 94,
+            "y": 52,
+            "w": 400,
+            "h": 406
+          }
+        },
+        "tile_4": {
+          "frame": {
+            "x": 0,
+            "y": 480,
+            "w": 588,
+            "h": 480
+          },
+          "sourceSize": {
+            "w": 588,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 109,
+            "y": 84,
+            "w": 371,
+            "h": 374
+          }
+        },
+        "tile_5": {
+          "frame": {
+            "x": 588,
+            "y": 480,
+            "w": 588,
+            "h": 480
+          },
+          "sourceSize": {
+            "w": 588,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 136,
+            "y": 98,
+            "w": 317,
+            "h": 360
+          }
+        },
+        "tile_6": {
+          "frame": {
+            "x": 1176,
+            "y": 480,
+            "w": 588,
+            "h": 480
+          },
+          "sourceSize": {
+            "w": 588,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 78,
+            "y": 41,
+            "w": 432,
+            "h": 417
+          }
+        },
+        "tile_7": {
+          "frame": {
+            "x": 1764,
+            "y": 480,
+            "w": 588,
+            "h": 480
+          },
+          "sourceSize": {
+            "w": 588,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 82,
+            "y": 78,
+            "w": 424,
+            "h": 380
+          }
+        },
+        "tile_8": {
+          "frame": {
+            "x": 0,
+            "y": 960,
+            "w": 588,
+            "h": 480
+          },
+          "sourceSize": {
+            "w": 588,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 102,
+            "y": 50,
+            "w": 384,
+            "h": 408
+          }
+        },
+        "tile_9": {
+          "frame": {
+            "x": 588,
+            "y": 960,
+            "w": 588,
+            "h": 480
+          },
+          "sourceSize": {
+            "w": 588,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 106,
+            "y": 79,
+            "w": 376,
+            "h": 379
+          }
+        },
+        "tile_10": {
+          "frame": {
+            "x": 1176,
+            "y": 960,
+            "w": 588,
+            "h": 480
+          },
+          "sourceSize": {
+            "w": 588,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 98,
+            "y": 100,
+            "w": 393,
+            "h": 358
+          }
+        },
+        "tile_11": {
+          "frame": {
+            "x": 1764,
+            "y": 960,
+            "w": 588,
+            "h": 480
+          },
+          "sourceSize": {
+            "w": 588,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 134,
+            "y": 132,
+            "w": 321,
+            "h": 326
+          }
+        },
+        "tile_12": {
+          "frame": {
+            "x": 0,
+            "y": 1440,
+            "w": 588,
+            "h": 480
+          },
+          "sourceSize": {
+            "w": 588,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 22,
+            "y": 65,
+            "w": 544,
+            "h": 393
+          }
+        },
+        "tile_13": {
+          "frame": {
+            "x": 588,
+            "y": 1440,
+            "w": 588,
+            "h": 480
+          },
+          "sourceSize": {
+            "w": 588,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 112,
+            "y": 60,
+            "w": 365,
+            "h": 398
+          }
+        },
+        "tile_14": {
+          "frame": {
+            "x": 1176,
+            "y": 1440,
+            "w": 588,
+            "h": 480
+          },
+          "sourceSize": {
+            "w": 588,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 39,
+            "y": 100,
+            "w": 511,
+            "h": 358
+          }
+        },
+        "tile_15": {
+          "frame": {
+            "x": 1764,
+            "y": 1440,
+            "w": 588,
+            "h": 480
+          },
+          "sourceSize": {
+            "w": 588,
+            "h": 480
+          },
+          "spriteSourceSize": {
+            "x": 103,
+            "y": 48,
+            "w": 383,
+            "h": 410
+          }
+        }
+      }
+    }
+  ],
+  "animations": {},
+  "meta": {
+    "app": "tizo8",
+    "version": "1.0",
+    "assetType": "tileset",
+    "gridRows": 4,
+    "gridCols": 4
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "tileset",
+  "name": "Blackout Survivor Weapons",
+  "image": "tileset.png",
+  "imagewidth": 2352,
+  "imageheight": 1920,
+  "tilewidth": 588,
+  "tileheight": 480,
+  "tilecount": 16,
+  "columns": 4,
+  "margin": 0,
+  "spacing": 0,
+  "tiledversion": "1.11",
+  "version": "1.6"
+}

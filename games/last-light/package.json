@@ -1,0 +1,12 @@
+{
+  "name": "@spriteship/last-light",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Phaser 3 survival game built with SpriteShip assets",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/game.test.mjs"
+  }
+}

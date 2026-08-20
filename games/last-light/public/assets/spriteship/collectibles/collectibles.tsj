@@ -1,0 +1,15 @@
+{
+  "type": "tileset",
+  "name": "Blackout Collectibles",
+  "image": "tileset.png",
+  "imagewidth": 2152,
+  "imageheight": 2444,
+  "tilewidth": 538,
+  "tileheight": 611,
+  "tilecount": 16,
+  "columns": 4,
+  "margin": 0,
+  "spacing": 0,
+  "tiledversion": "1.11",
+  "version": "1.6"
+}

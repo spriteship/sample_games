@@ -1,0 +1,14 @@
+{
+  "name": "spriteship-game-samples",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "games/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace @spriteship/last-light",
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm test --workspaces --if-present"
+  }
+}

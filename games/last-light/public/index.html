@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+    <meta name="theme-color" content="#080b14" />
+    <meta name="description" content="Last Light — a one-thumb survival action roguelite built with Phaser." />
+    <title>Last Light — Blackout Protocol</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="game-frame" aria-label="Last Light game">
+        <div id="game" aria-label="Game canvas"></div>
+
+        <div id="hud" class="hud is-hidden" aria-live="polite">
+          <div class="hud-top">
+            <div class="sector-chip"><span>BLACKOUT BLOCKS</span><strong id="timer">01:30</strong></div>
+            <button id="pauseButton" class="icon-button" aria-label="Pause game">Ⅱ</button>
+          </div>
+          <div class="bars">
+            <div class="bar health-bar"><span id="healthFill"></span><b id="healthText">100 / 100</b></div>
+            <div class="bar xp-bar"><span id="xpFill"></span></div>
+          </div>
+          <div class="run-meta">
+            <span>LV <b id="level">1</b></span>
+            <span><i class="kill-dot"></i><b id="kills">0</b></span>
+            <span>SCRAP <b id="runScrap">0</b></span>
+          </div>
+          <div id="objective" class="objective-card">
+            <span class="objective-kicker">FIELD OBJECTIVE</span>
+            <strong id="objectiveText">Find and charge the street lamp</strong>
+            <div class="objective-progress"><span id="objectiveFill"></span></div>
+          </div>
+        </div>
+
+        <div id="menu" class="screen menu-screen">
+          <div class="brand-mark" aria-hidden="true"><span></span><i></i></div>
+          <p class="eyebrow">BLACKOUT PROTOCOL // 01</p>
+          <h1>LAST<br /><em>LIGHT</em></h1>
+          <p class="tagline">The city went dark.<br />You didn’t.</p>
+          <div class="mission-card">
+            <div><span>DISTRICT</span><strong>Blackout Blocks</strong></div>
+            <div><span>THREAT</span><strong class="threat"><i></i><i></i><i></i><i></i><i></i></strong></div>
+            <div><span>BEST</span><strong id="bestScore">0 kills</strong></div>
+          </div>
+          <button id="startButton" class="primary-button"><span>ENTER DISTRICT</span><b>›</b></button>
+          <div class="menu-footer">
+            <span>SCRAP <b id="totalScrap">0</b></span>
+            <span>MOVE: DRAG / WASD / ARROWS</span>
+          </div>
+        </div>
+
+        <div id="upgrade" class="screen upgrade-screen is-hidden" role="dialog" aria-modal="true" aria-labelledby="upgradeTitle">
+          <p class="eyebrow">SIGNAL ACQUIRED</p>
+          <h2 id="upgradeTitle">Choose an upgrade</h2>
+          <p class="upgrade-subtitle">Time is frozen. Build for the storm ahead.</p>
+          <div id="upgradeChoices" class="upgrade-choices"></div>
+        </div>
+
+        <div id="pause" class="screen modal-screen is-hidden" role="dialog" aria-modal="true" aria-labelledby="pauseTitle">
+          <p class="eyebrow">SYSTEM HOLD</p>
+          <h2 id="pauseTitle">Paused</h2>
+          <div id="buildSummary" class="build-summary"></div>
+          <button id="resumeButton" class="primary-button"><span>RESUME</span><b>›</b></button>
+          <button id="quitButton" class="text-button">Abandon run</button>
+        </div>
+
+        <div id="result" class="screen result-screen is-hidden" role="dialog" aria-modal="true" aria-labelledby="resultTitle">
+          <p id="resultKicker" class="eyebrow">DISTRICT SECURED</p>
+          <h2 id="resultTitle">Light<br />restored.</h2>
+          <p id="resultCopy" class="result-copy">The storm recedes—for tonight.</p>
+          <div class="result-stats">
+            <div><span>TIME</span><strong id="resultTime">00:00</strong></div>
+            <div><span>KILLS</span><strong id="resultKills">0</strong></div>
+            <div><span>LEVEL</span><strong id="resultLevel">1</strong></div>
+            <div><span>SCRAP</span><strong id="resultScrap">+0</strong></div>
+          </div>
+          <button id="retryButton" class="primary-button"><span>RUN IT AGAIN</span><b>↻</b></button>
+          <button id="homeButton" class="text-button">Return to shelter</button>
+        </div>
+
+        <div id="toast" class="toast is-hidden" aria-live="assertive"></div>
+      </section>
+      <aside class="desktop-note">
+        <span class="desktop-brand">LAST LIGHT</span>
+        <p>Desktop survival mode.<br />Full-width field with high-resolution assets.</p>
+        <div><kbd>WASD</kbd><kbd>↑ ↓ ← →</kbd></div>
+      </aside>
+    </main>
+    <script src="/vendor/phaser.min.js"></script>
+    <script type="module" src="/game.js"></script>
+  </body>
+</html>
