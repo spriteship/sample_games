@@ -24,6 +24,7 @@ const HUMANOID_ATTACK_ATLAS = "humanoid-enemy-attack";
 const HUMANOID_WALK_ANIMATION = "humanoid-enemy-walk-cycle";
 const HUMANOID_ATTACK_ANIMATION = "humanoid-enemy-attack-cycle";
 const HUMANOID_HEALTH_MULTIPLIER = 7;
+const HUMANOID_EXPLOSION_RADIUS = 104;
 const HUMANOID_ASSET_VERSION = "c6b8b610028d-runtime2";
 const WEAPON_KEYS = Array.from({ length: 16 }, (_, index) => `weapon-${index + 1}`);
 const COLLECTIBLE_KEYS = Array.from({ length: 16 }, (_, index) => `collectible-${index + 1}`);
@@ -394,11 +395,43 @@ class GameScene extends Phaser.Scene {
     this.drawColliderDebug();
   }
 
-  humanoidCanStrikePlayer(enemy) {
-    const strikeBody = this.getHumanoidCollisionBody(enemy);
-    strikeBody.halfWidth += 24;
-    strikeBody.halfHeight += 24;
-    return this.orientedRectsOverlap(this.getPlayerCollisionBody(), strikeBody);
+  spawnHumanoidExplosion(enemy) {
+    if (!enemy.sprite.active || !enemy.isAttacking || !this.enemies.includes(enemy)) return;
+    const body = this.getHumanoidCollisionBody(enemy);
+    const blast = this.add.circle(body.x, body.y, HUMANOID_EXPLOSION_RADIUS, 0xff542e, .18)
+      .setStrokeStyle(4, 0xffb347, 1)
+      .setScale(.08)
+      .setDepth(9);
+    const flash = this.add.circle(body.x, body.y, HUMANOID_EXPLOSION_RADIUS * .48, 0xffd36a, .32)
+      .setScale(.2)
+      .setDepth(9);
+    let hitPlayer = false;
+
+    this.tweens.add({
+      targets: blast,
+      scale: 1,
+      alpha: 0,
+      duration: 360,
+      ease: "Cubic.Out",
+      onUpdate: () => {
+        if (hitPlayer || this.damageGrace > 0) return;
+        const currentRadius = HUMANOID_EXPLOSION_RADIUS * blast.scaleX;
+        if (this.circleHitsOrientedRect(body.x, body.y, currentRadius, this.getPlayerCollisionBody())) {
+          hitPlayer = true;
+          this.damagePlayer(enemy.damage);
+        }
+      },
+      onComplete: () => blast.destroy(),
+    });
+    this.tweens.add({
+      targets: flash,
+      scale: 1,
+      alpha: 0,
+      duration: 180,
+      ease: "Quad.Out",
+      onComplete: () => flash.destroy(),
+    });
+    this.cameras.main.shake(90, .003);
   }
 
   startHumanoidAttack(enemy, time) {
@@ -407,8 +440,7 @@ class GameScene extends Phaser.Scene {
     enemy.isAttacking = true;
     enemy.sprite.play(HUMANOID_ATTACK_ANIMATION, true);
     this.time.delayedCall(480, () => {
-      if (enemy.sprite.active && enemy.isAttacking && this.enemies.includes(enemy) && this.damageGrace <= 0
-        && this.humanoidCanStrikePlayer(enemy)) this.damagePlayer(enemy.damage);
+      this.spawnHumanoidExplosion(enemy);
     });
   }
 
