@@ -1,0 +1,820 @@
+{
+  "manualReview": {
+    "reviewedAt": "2026-10-03T14:43:00Z",
+    "scope": "All seven native character sets: six evenly spaced delivered frame samples per animation, paired atlas bounds, and real-browser gameplay. Static collections, map and UI were visually inspected separately.",
+    "verdict": "Accepted for this playable build with visual-polish limitations; machine needs_review flags remain unchanged. Not provider certification or exhaustive frame-by-frame review.",
+    "watermarks": "All selected artwork re-downloaded after the account setting changed. No watermark visible in inspected source collections, sampled character frames or game screenshots; none removed locally.",
+    "notes": {
+      "hero": "Sword silhouette and foot anchoring are coherent. Some purple weapon-edge pixels and limited north stride remain.",
+      "guard": "Readable ivory-armored soldier and strike. Some north-facing frames read front-ish rather than a clean rear view.",
+      "ranger": "East/west bow attacks are readable. Base south attack is more a staff-like gesture than a strong bow draw.",
+      "raider": "Delivered attack uses a gauntlet/fist rather than consistently retaining the originally requested axe. Used as a melee raider; duplicate delivered attack_2 retained but not required.",
+      "knight": "Delivered weapon resembles an axe/halberd rather than the requested sword; minor purple fringes. Optional north attack failed and refunded, so base attack is the fallback.",
+      "brute": "Readable horned armored hammer unit. Side attack briefly rotates toward the camera and has slight purple hand/weapon fringes; north walk is a modest stride.",
+      "worker": "Four-direction walking and chopping silhouettes are coherent. Small magenta axe/hand pixels remain in attacks. Optional east/west chopping failed with no advertised recovery; base attack is used."
+    },
+    "standingPoses": "Direction-specific one-frame standing poses are intentional; no idle-loop motion is claimed.",
+    "rendering": "Per-clip first-frame calibration is fixed, not per-frame trimming. Logical physics coordinates and full source exports are retained."
+  },
+  "hero": {
+    "repairs": {
+      "walk_up": {
+        "jobId": "regen_1791030826451_bnzqtv"
+      },
+      "walk_right": {
+        "jobId": "regen_1791030902721_9e1s60"
+      },
+      "attack_up": {
+        "jobId": "regen_1791034378816_0e93eq"
+      }
+    },
+    "quality": {
+      "status": "needs_review",
+      "ready": false,
+      "animations": {
+        "attack": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "motion"
+          ],
+          "actions": [
+            "review_or_regenerate"
+          ]
+        },
+        "idle_up": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "walk_up": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "matte",
+            "motion"
+          ],
+          "actions": [
+            "rematte",
+            "review_or_regenerate"
+          ]
+        },
+        "attack_up": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "matte",
+            "motion"
+          ],
+          "actions": [
+            "rematte",
+            "review_or_regenerate"
+          ]
+        },
+        "idle_down": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "idle_left": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "walk_down": {
+          "status": "ready",
+          "ready": true,
+          "deliveredIssues": [],
+          "actions": []
+        },
+        "walk_left": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "idle_right": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "walk_right": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "matte"
+          ],
+          "actions": [
+            "rematte"
+          ]
+        },
+        "attack_left": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "attack_right": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "motion"
+          ],
+          "actions": [
+            "review_or_regenerate"
+          ]
+        }
+      }
+    },
+    "checkedAt": "2026-10-03T13:55:44.991Z"
+  },
+  "guard": {
+    "repairs": {},
+    "quality": {
+      "status": "needs_review",
+      "ready": false,
+      "animations": {
+        "attack": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "motion"
+          ],
+          "actions": [
+            "review_or_regenerate"
+          ]
+        },
+        "idle_up": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "walk_up": {
+          "status": "ready",
+          "ready": true,
+          "deliveredIssues": [],
+          "actions": []
+        },
+        "attack_up": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "motion"
+          ],
+          "actions": [
+            "review_or_regenerate"
+          ]
+        },
+        "idle_down": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "idle_left": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "walk_down": {
+          "status": "ready",
+          "ready": true,
+          "deliveredIssues": [],
+          "actions": []
+        },
+        "walk_left": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "idle_right": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "walk_right": {
+          "status": "ready",
+          "ready": true,
+          "deliveredIssues": [],
+          "actions": []
+        },
+        "attack_left": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "attack_right": {
+          "status": "ready",
+          "ready": true,
+          "deliveredIssues": [],
+          "actions": []
+        }
+      }
+    },
+    "checkedAt": "2026-10-03T13:55:54.616Z"
+  },
+  "ranger": {
+    "repairs": {
+      "walk_up": {
+        "jobId": "regen_1791035770853_fwpeqg"
+      },
+      "walk_down": {
+        "jobId": "regen_1791036158649_gu2xdo"
+      },
+      "walk_right": {
+        "jobId": "regen_1791036319196_103rc8"
+      },
+      "attack_right": {
+        "jobId": "regen_1791036432077_uve49j"
+      }
+    },
+    "checkedAt": "2026-10-03T14:09:04.236Z",
+    "quality": {
+      "status": "needs_review",
+      "ready": false,
+      "animations": {
+        "attack": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "motion"
+          ],
+          "actions": [
+            "review_or_regenerate"
+          ]
+        },
+        "idle_up": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "walk_up": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "matte"
+          ],
+          "actions": [
+            "rematte"
+          ]
+        },
+        "attack_up": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "motion"
+          ],
+          "actions": [
+            "review_or_regenerate"
+          ]
+        },
+        "idle_down": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "idle_left": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "walk_down": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "matte"
+          ],
+          "actions": [
+            "rematte"
+          ]
+        },
+        "walk_left": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "idle_right": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "walk_right": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "matte"
+          ],
+          "actions": [
+            "rematte"
+          ]
+        },
+        "attack_left": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "attack_right": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "matte"
+          ],
+          "actions": [
+            "rematte"
+          ]
+        }
+      }
+    }
+  },
+  "raider": {
+    "repairs": {},
+    "checkedAt": "2026-10-03T14:09:05.648Z",
+    "quality": {
+      "status": "needs_review",
+      "ready": false,
+      "animations": {
+        "attack": {
+          "status": "ready",
+          "ready": true,
+          "deliveredIssues": [],
+          "actions": []
+        },
+        "idle_up": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "walk_up": {
+          "status": "ready",
+          "ready": true,
+          "deliveredIssues": [],
+          "actions": []
+        },
+        "attack_2": {
+          "status": "ready",
+          "ready": true,
+          "deliveredIssues": [],
+          "actions": []
+        },
+        "attack_up": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "motion"
+          ],
+          "actions": [
+            "review_or_regenerate"
+          ]
+        },
+        "idle_down": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "idle_left": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "walk_down": {
+          "status": "ready",
+          "ready": true,
+          "deliveredIssues": [],
+          "actions": []
+        },
+        "walk_left": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "idle_right": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "walk_right": {
+          "status": "ready",
+          "ready": true,
+          "deliveredIssues": [],
+          "actions": []
+        },
+        "attack_left": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "attack_right": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "motion"
+          ],
+          "actions": [
+            "review_or_regenerate"
+          ]
+        }
+      }
+    }
+  },
+  "knight": {
+    "repairs": {
+      "attack": {
+        "jobId": "regen_1791036546477_o1ucm2"
+      },
+      "walk_up": {
+        "jobId": "regen_1791036667028_auckn1"
+      },
+      "walk_down": {
+        "jobId": "regen_1791036792391_dni4d5"
+      },
+      "walk_right": {
+        "jobId": "regen_1791036922142_zd5n7v"
+      }
+    },
+    "checkedAt": "2026-10-03T14:17:47.402Z",
+    "quality": {
+      "status": "needs_review",
+      "ready": false,
+      "animations": {
+        "attack": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "matte"
+          ],
+          "actions": [
+            "rematte"
+          ]
+        },
+        "idle_up": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "walk_up": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "matte"
+          ],
+          "actions": [
+            "rematte"
+          ]
+        },
+        "idle_down": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "idle_left": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "walk_down": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "matte"
+          ],
+          "actions": [
+            "rematte"
+          ]
+        },
+        "walk_left": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "idle_right": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "walk_right": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "matte"
+          ],
+          "actions": [
+            "rematte"
+          ]
+        },
+        "attack_left": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "attack_right": {
+          "status": "ready",
+          "ready": true,
+          "deliveredIssues": [],
+          "actions": []
+        }
+      }
+    }
+  },
+  "brute": {
+    "repairs": {
+      "attack": {
+        "jobId": "regen_1791037068187_ky2o7t"
+      },
+      "attack_up": {
+        "jobId": "regen_1791037225435_gvtati"
+      },
+      "walk_down": {
+        "jobId": "regen_1791037384467_wjy00k"
+      },
+      "walk_right": {
+        "jobId": "regen_1791037561541_qx0cph"
+      }
+    },
+    "checkedAt": "2026-10-03T14:28:21.042Z",
+    "quality": {
+      "status": "needs_review",
+      "ready": false,
+      "animations": {
+        "attack": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "matte"
+          ],
+          "actions": [
+            "rematte"
+          ]
+        },
+        "idle_up": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "walk_up": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "loop"
+          ],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "attack_up": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "matte"
+          ],
+          "actions": [
+            "rematte"
+          ]
+        },
+        "idle_down": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "idle_left": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "walk_down": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "matte"
+          ],
+          "actions": [
+            "rematte"
+          ]
+        },
+        "walk_left": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "idle_right": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "walk_right": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "matte"
+          ],
+          "actions": [
+            "rematte"
+          ]
+        },
+        "attack_left": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "attack_right": {
+          "status": "ready",
+          "ready": true,
+          "deliveredIssues": [],
+          "actions": []
+        }
+      }
+    }
+  },
+  "worker": {
+    "repairs": {
+      "attack_up": {
+        "jobId": "regen_1791037701842_3jfx0e"
+      }
+    },
+    "checkedAt": "2026-10-03T14:30:03.206Z",
+    "quality": {
+      "status": "needs_review",
+      "ready": false,
+      "animations": {
+        "attack": {
+          "status": "ready",
+          "ready": true,
+          "deliveredIssues": [],
+          "actions": []
+        },
+        "idle_up": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "walk_up": {
+          "status": "ready",
+          "ready": true,
+          "deliveredIssues": [],
+          "actions": []
+        },
+        "attack_up": {
+          "status": "needs_review",
+          "ready": false,
+          "deliveredIssues": [
+            "matte"
+          ],
+          "actions": [
+            "rematte"
+          ]
+        },
+        "idle_down": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "idle_left": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "walk_down": {
+          "status": "ready",
+          "ready": true,
+          "deliveredIssues": [],
+          "actions": []
+        },
+        "walk_left": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "idle_right": {
+          "status": "unscored",
+          "ready": null,
+          "deliveredIssues": [],
+          "actions": [
+            "inspect_frames"
+          ]
+        },
+        "walk_right": {
+          "status": "ready",
+          "ready": true,
+          "deliveredIssues": [],
+          "actions": []
+        }
+      }
+    }
+  }
+}

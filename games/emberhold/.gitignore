@@ -1,0 +1,10 @@
+.godot/
+dist/
+.spriteship/production.json
+.spriteship/production.json.*
+.spriteship/local.env
+.env
+.env.*
+.spriteship/map-draft.json
+.spriteship/source-exports/
+*.tmp

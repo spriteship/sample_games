@@ -1,0 +1,221 @@
+[gd_resource type="SpriteFrames" load_steps=32 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/spriteship/characters/guard/walk_right.png" id="1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0000"]
+atlas = ExtResource("1")
+region = Rect2(0, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0001"]
+atlas = ExtResource("1")
+region = Rect2(257, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0002"]
+atlas = ExtResource("1")
+region = Rect2(514, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0003"]
+atlas = ExtResource("1")
+region = Rect2(771, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0004"]
+atlas = ExtResource("1")
+region = Rect2(1028, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0005"]
+atlas = ExtResource("1")
+region = Rect2(1285, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0006"]
+atlas = ExtResource("1")
+region = Rect2(1542, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0007"]
+atlas = ExtResource("1")
+region = Rect2(1799, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0008"]
+atlas = ExtResource("1")
+region = Rect2(2056, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0009"]
+atlas = ExtResource("1")
+region = Rect2(2313, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0010"]
+atlas = ExtResource("1")
+region = Rect2(2570, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0011"]
+atlas = ExtResource("1")
+region = Rect2(2827, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0012"]
+atlas = ExtResource("1")
+region = Rect2(3084, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0013"]
+atlas = ExtResource("1")
+region = Rect2(3341, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0014"]
+atlas = ExtResource("1")
+region = Rect2(3598, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0015"]
+atlas = ExtResource("1")
+region = Rect2(0, 257, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0016"]
+atlas = ExtResource("1")
+region = Rect2(257, 257, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0017"]
+atlas = ExtResource("1")
+region = Rect2(514, 257, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0018"]
+atlas = ExtResource("1")
+region = Rect2(771, 257, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0019"]
+atlas = ExtResource("1")
+region = Rect2(1028, 257, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0020"]
+atlas = ExtResource("1")
+region = Rect2(1285, 257, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0021"]
+atlas = ExtResource("1")
+region = Rect2(1542, 257, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0022"]
+atlas = ExtResource("1")
+region = Rect2(1799, 257, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0023"]
+atlas = ExtResource("1")
+region = Rect2(2056, 257, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0024"]
+atlas = ExtResource("1")
+region = Rect2(2313, 257, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0025"]
+atlas = ExtResource("1")
+region = Rect2(2570, 257, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0026"]
+atlas = ExtResource("1")
+region = Rect2(2827, 257, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0027"]
+atlas = ExtResource("1")
+region = Rect2(3084, 257, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0028"]
+atlas = ExtResource("1")
+region = Rect2(3341, 257, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_walk_right_0029"]
+atlas = ExtResource("1")
+region = Rect2(3598, 257, 256, 256)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0000")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0001")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0002")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0003")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0004")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0005")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0006")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0007")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0008")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0009")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0010")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0011")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0012")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0013")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0014")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0015")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0016")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0017")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0018")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0019")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0020")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0021")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0022")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0023")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0024")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0025")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0026")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0027")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0028")
+}, {
+"duration": 1,
+"texture": SubResource("AtlasTexture_walk_right_0029")
+}],
+"loop": true,
+"name": &"walk_right",
+"speed": 30.0
+}]

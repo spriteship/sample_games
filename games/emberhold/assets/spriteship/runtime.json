@@ -1,0 +1,4616 @@
+{
+  "sprites": {
+    "buildings/0": {
+      "file": "buildings/item-0.png",
+      "assetId": "Emberhold_settlement_structure_1791027657461_bs18",
+      "iterationId": "Emberhold_settlement_structure_1791027657461_bs18_iter_1",
+      "itemIndex": 0,
+      "name": "Ivory-stone Hearth Hall with a large copper roof and a chimney emitting a warm glowing hearth light",
+      "visualReview": "Reviewed delivered sprite; forge and watchtower ordering corrected."
+    },
+    "buildings/1": {
+      "file": "buildings/item-1.png",
+      "assetId": "Emberhold_settlement_structure_1791027657461_bs18",
+      "iterationId": "Emberhold_settlement_structure_1791027657461_bs18_iter_1",
+      "itemIndex": 1,
+      "name": "Small timber cottage with a copper gable roof",
+      "visualReview": "Reviewed delivered sprite; forge and watchtower ordering corrected."
+    },
+    "buildings/2": {
+      "file": "buildings/item-2.png",
+      "assetId": "Emberhold_settlement_structure_1791027657461_bs18",
+      "iterationId": "Emberhold_settlement_structure_1791027657461_bs18_iter_1",
+      "itemIndex": 2,
+      "name": "Lumber camp with stacked logs and a saw canopy",
+      "visualReview": "Reviewed delivered sprite; forge and watchtower ordering corrected."
+    },
+    "buildings/3": {
+      "file": "buildings/item-3.png",
+      "assetId": "Emberhold_settlement_structure_1791027657461_bs18",
+      "iterationId": "Emberhold_settlement_structure_1791027657461_bs18_iter_1",
+      "itemIndex": 3,
+      "name": "Stone quarry shed with stacked stone blocks and a small crane",
+      "visualReview": "Reviewed delivered sprite; forge and watchtower ordering corrected."
+    },
+    "buildings/4": {
+      "file": "buildings/item-4.png",
+      "assetId": "Emberhold_settlement_structure_1791027657461_bs18",
+      "iterationId": "Emberhold_settlement_structure_1791027657461_bs18_iter_1",
+      "itemIndex": 4,
+      "name": "Gold mine entrance with timber supports and an ore cart",
+      "visualReview": "Reviewed delivered sprite; forge and watchtower ordering corrected."
+    },
+    "buildings/5": {
+      "file": "buildings/item-5.png",
+      "assetId": "Emberhold_settlement_structure_1791027657461_bs18",
+      "iterationId": "Emberhold_settlement_structure_1791027657461_bs18_iter_1",
+      "itemIndex": 5,
+      "name": "Farm with wheat beds and a tiny windmill",
+      "visualReview": "Reviewed delivered sprite; forge and watchtower ordering corrected."
+    },
+    "buildings/6": {
+      "file": "buildings/item-6.png",
+      "assetId": "Emberhold_settlement_structure_1791027657461_bs18",
+      "iterationId": "Emberhold_settlement_structure_1791027657461_bs18_iter_1",
+      "itemIndex": 6,
+      "name": "Barracks with blue banners and an adjacent training yard",
+      "visualReview": "Reviewed delivered sprite; forge and watchtower ordering corrected."
+    },
+    "buildings/7": {
+      "file": "buildings/item-7.png",
+      "assetId": "Emberhold_settlement_structure_1791027657461_bs18",
+      "iterationId": "Emberhold_settlement_structure_1791027657461_bs18_iter_1",
+      "itemIndex": 7,
+      "name": "Archery lodge with a green canvas roof and an archery target",
+      "visualReview": "Reviewed delivered sprite; forge and watchtower ordering corrected."
+    },
+    "buildings/8": {
+      "file": "buildings/item-9.png",
+      "assetId": "Emberhold_settlement_structure_1791027657461_bs18",
+      "iterationId": "Emberhold_settlement_structure_1791027657461_bs18_iter_1",
+      "itemIndex": 9,
+      "name": "Tall stone watchtower with a copper roof",
+      "visualReview": "Reviewed delivered sprite; forge and watchtower ordering corrected."
+    },
+    "buildings/9": {
+      "file": "buildings/item-8.png",
+      "assetId": "Emberhold_settlement_structure_1791027657461_bs18",
+      "iterationId": "Emberhold_settlement_structure_1791027657461_bs18_iter_1",
+      "itemIndex": 8,
+      "name": "Forge with a glowing furnace and an anvil",
+      "visualReview": "Reviewed delivered sprite; forge and watchtower ordering corrected."
+    },
+    "buildings/10": {
+      "file": "buildings/item-10.png",
+      "assetId": "Emberhold_settlement_structure_1791027657461_bs18",
+      "iterationId": "Emberhold_settlement_structure_1791027657461_bs18_iter_1",
+      "itemIndex": 10,
+      "name": "Short wooden palisade wall segment",
+      "visualReview": "Reviewed delivered sprite; forge and watchtower ordering corrected."
+    },
+    "nature/0": {
+      "file": "nature/item-0.png",
+      "assetId": "Emberhold_woodland_and_deposit_1791027762530_p99m",
+      "iterationId": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1",
+      "itemIndex": 0,
+      "name": "One large broad-canopy moss green oak tree, freestanding with its full trunk and natural base visible",
+      "visualReview": "Mapped from inspected source sheet; extra birches retained as optional art."
+    },
+    "nature/1": {
+      "file": "nature/item-1.png",
+      "assetId": "Emberhold_woodland_and_deposit_1791027762530_p99m",
+      "iterationId": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1",
+      "itemIndex": 1,
+      "name": "Two tall dark spruce trees, each freestanding with full trunks and natural bases visible",
+      "visualReview": "Mapped from inspected source sheet; extra birches retained as optional art."
+    },
+    "nature/2": {
+      "file": "nature/item-2.png",
+      "assetId": "Emberhold_woodland_and_deposit_1791027762530_p99m",
+      "iterationId": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1",
+      "itemIndex": 2,
+      "name": "Three autumn amber birch trees, each freestanding with full trunks and natural bases visible",
+      "visualReview": "Mapped from inspected source sheet; extra birches retained as optional art."
+    },
+    "nature/3": {
+      "file": "nature/item-5.png",
+      "assetId": "Emberhold_woodland_and_deposit_1791027762530_p99m",
+      "iterationId": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1",
+      "itemIndex": 5,
+      "name": "One small mossy rock cluster",
+      "visualReview": "Mapped from inspected source sheet; extra birches retained as optional art."
+    },
+    "nature/4": {
+      "file": "nature/item-6.png",
+      "assetId": "Emberhold_woodland_and_deposit_1791027762530_p99m",
+      "iterationId": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1",
+      "itemIndex": 6,
+      "name": "One low fern bush",
+      "visualReview": "Mapped from inspected source sheet; extra birches retained as optional art."
+    },
+    "nature/5": {
+      "file": "nature/item-8.png",
+      "assetId": "Emberhold_woodland_and_deposit_1791027762530_p99m",
+      "iterationId": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1",
+      "itemIndex": 8,
+      "name": "One tree stump",
+      "visualReview": "Mapped from inspected source sheet; extra birches retained as optional art."
+    },
+    "nature/6": {
+      "file": "nature/item-9.png",
+      "assetId": "Emberhold_woodland_and_deposit_1791027762530_p99m",
+      "iterationId": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1",
+      "itemIndex": 9,
+      "name": "One pile of cut wood logs",
+      "visualReview": "Mapped from inspected source sheet; extra birches retained as optional art."
+    },
+    "nature/7": {
+      "file": "nature/item-10.png",
+      "assetId": "Emberhold_woodland_and_deposit_1791027762530_p99m",
+      "iterationId": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1",
+      "itemIndex": 10,
+      "name": "One berry bush with visible red berries",
+      "visualReview": "Mapped from inspected source sheet; extra birches retained as optional art."
+    },
+    "nature/8": {
+      "file": "nature/item-11.png",
+      "assetId": "Emberhold_woodland_and_deposit_1791027762530_p99m",
+      "iterationId": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1",
+      "itemIndex": 11,
+      "name": "One large pale twisted dead tree with its full trunk and natural base visible",
+      "visualReview": "Mapped from inspected source sheet; extra birches retained as optional art."
+    },
+    "nature/9": {
+      "file": "nature/item-12.png",
+      "assetId": "Emberhold_woodland_and_deposit_1791027762530_p99m",
+      "iterationId": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1",
+      "itemIndex": 12,
+      "name": "Extracted item 13",
+      "visualReview": "Mapped from inspected source sheet; extra birches retained as optional art."
+    },
+    "nature/10": {
+      "file": "nature/item-13.png",
+      "assetId": "Emberhold_woodland_and_deposit_1791027762530_p99m",
+      "iterationId": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1",
+      "itemIndex": 13,
+      "name": "Extracted item 14",
+      "visualReview": "Mapped from inspected source sheet; extra birches retained as optional art."
+    },
+    "nature/11": {
+      "file": "nature/item-7.png",
+      "assetId": "Emberhold_woodland_and_deposit_1791027762530_p99m",
+      "iterationId": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1",
+      "itemIndex": 7,
+      "name": "One compact wildflower patch",
+      "visualReview": "Mapped from inspected source sheet; extra birches retained as optional art."
+    },
+    "nature/12": {
+      "file": "nature/item-12.png",
+      "assetId": "Emberhold_woodland_and_deposit_1791027762530_p99m",
+      "iterationId": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1",
+      "itemIndex": 12,
+      "name": "Extracted item 13"
+    },
+    "nature/13": {
+      "file": "nature/item-13.png",
+      "assetId": "Emberhold_woodland_and_deposit_1791027762530_p99m",
+      "iterationId": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1",
+      "itemIndex": 13,
+      "name": "Extracted item 14"
+    },
+    "landmarks/0": {
+      "file": "landmarks/item-0.png",
+      "assetId": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g",
+      "iterationId": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g_iter_1",
+      "itemIndex": 0,
+      "name": "Ancient ivory stone beacon tower, unlit, with circular stone dais"
+    },
+    "landmarks/1": {
+      "file": "landmarks/item-1.png",
+      "assetId": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g",
+      "iterationId": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g_iter_1",
+      "itemIndex": 1,
+      "name": "Matching ancient ivory stone beacon tower with bright amber flame burning at the top and circular stone dais"
+    },
+    "landmarks/2": {
+      "file": "landmarks/item-2.png",
+      "assetId": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g",
+      "iterationId": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g_iter_1",
+      "itemIndex": 2,
+      "name": "Ruined stone archway draped in moss"
+    },
+    "landmarks/3": {
+      "file": "landmarks/item-3.png",
+      "assetId": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g",
+      "iterationId": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g_iter_1",
+      "itemIndex": 3,
+      "name": "Abandoned small roofless stone cottage"
+    },
+    "landmarks/4": {
+      "file": "landmarks/item-4.png",
+      "assetId": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g",
+      "iterationId": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g_iter_1",
+      "itemIndex": 4,
+      "name": "Sinister dark stone Ash Crown citadel with red cloth and ember-lit gate"
+    },
+    "landmarks/5": {
+      "file": "landmarks/item-5.png",
+      "assetId": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g",
+      "iterationId": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g_iter_1",
+      "itemIndex": 5,
+      "name": "Ash raider encampment composed of black tents and a red banner"
+    },
+    "landmarks/6": {
+      "file": "landmarks/item-6.png",
+      "assetId": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g",
+      "iterationId": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g_iter_1",
+      "itemIndex": 6,
+      "name": "Ruined stone bridge segment"
+    },
+    "landmarks/7": {
+      "file": "landmarks/item-7.png",
+      "assetId": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g",
+      "iterationId": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g_iter_1",
+      "itemIndex": 7,
+      "name": "Large ancient standing runestone with one amber magical crack and no writing"
+    },
+    "ground/0": {
+      "file": "ground/item-0.png",
+      "assetId": "Emberhold_valley_materials_1791027949634_wihj",
+      "iterationId": "Emberhold_valley_materials_1791027949634_wihj_iter_1",
+      "itemIndex": 0,
+      "name": "Emberhold valley materials #1"
+    },
+    "ground/1": {
+      "file": "ground/item-1.png",
+      "assetId": "Emberhold_valley_materials_1791028027414_cr3f_1",
+      "iterationId": "Emberhold_valley_materials_1791028027414_cr3f_1_iter_1",
+      "itemIndex": 0,
+      "name": "Emberhold valley materials #2"
+    },
+    "ground/2": {
+      "file": "ground/item-2.png",
+      "assetId": "Emberhold_valley_materials_1791028027414_kxbx_2",
+      "iterationId": "Emberhold_valley_materials_1791028027414_kxbx_2_iter_1",
+      "itemIndex": 0,
+      "name": "Emberhold valley materials #3"
+    },
+    "ground/3": {
+      "file": "ground/item-3.png",
+      "assetId": "Emberhold_valley_materials_1791028027414_nema_3",
+      "iterationId": "Emberhold_valley_materials_1791028027414_nema_3_iter_1",
+      "itemIndex": 0,
+      "name": "Emberhold valley materials #4"
+    },
+    "menu/0": {
+      "file": "menu/item-0.png",
+      "assetId": "Emberhold_valley_at_dawn_1791028066368_s7hu",
+      "iterationId": "Emberhold_valley_at_dawn_1791028066368_s7hu_iter_1",
+      "itemIndex": 0,
+      "name": "One cinematic wide fantasy valley background scene at dawn, viewed from an elevated hillside, with a warm glowing copper-roof medieval stronghold and hearth in the lower right; lush mossy forest and winding river across the middle; three ancient beacon towers along distant ridges; a distant dark cit"
+    },
+    "characters/hero": {
+      "file": "portraits/hero.png",
+      "characterId": "Captain_Elara__an_original_her_1791028296579_ufc6",
+      "syncedAt": "2026-10-03T13:58:37.511Z"
+    },
+    "characters/guard": {
+      "file": "portraits/guard.png",
+      "characterId": "Frontier_guard_soldier__ivory_1791028370270_r0vq",
+      "syncedAt": "2026-10-03T13:58:44.436Z"
+    },
+    "characters/ranger": {
+      "file": "portraits/ranger.png",
+      "characterId": "Woodland_ranger_archer__moss_g_1791028461666_qi3v",
+      "syncedAt": "2026-10-03T13:58:52.206Z"
+    },
+    "characters/raider": {
+      "file": "portraits/raider.png",
+      "characterId": "Ash_Crown_raider_enemy__dark_c_1791028836943_cdjh",
+      "syncedAt": "2026-10-03T13:58:57.570Z"
+    },
+    "characters/knight": {
+      "file": "portraits/knight.png",
+      "characterId": "Emberhold_veteran_knight__eleg_1791028924802_ab3a",
+      "syncedAt": "2026-10-03T13:59:17.893Z"
+    },
+    "characters/brute": {
+      "file": "portraits/brute.png",
+      "characterId": "Ash_Crown_hulking_armored_brut_1791029083479_a7n3",
+      "syncedAt": "2026-10-03T13:59:19.601Z"
+    },
+    "ui/wood": {
+      "file": "ui/components/1-Timber/1-frame.png",
+      "componentId": "0209c93d-66e9-4cce-a29a-386f83e9f4bb",
+      "revisionId": "731e6b42-463a-4d93-a4dc-1717d68dfbbd"
+    },
+    "ui/stone": {
+      "file": "ui/components/2-Stone/1-frame.png",
+      "componentId": "50e38ed1-f0ae-4c11-aa98-28de477c4080",
+      "revisionId": "be321d48-6787-4f9e-a3e1-da666459ecfb"
+    },
+    "ui/gold": {
+      "file": "ui/components/3-Gold/1-frame.png",
+      "componentId": "2fc071ad-e453-4fe1-afa6-2b5723a4718e",
+      "revisionId": "68256b5f-6461-47d5-ac89-f5265dc2f3c0"
+    },
+    "ui/food": {
+      "file": "ui/components/4-Harvest/1-frame.png",
+      "componentId": "4f4905f9-f1ec-4da4-a72c-432bf5afcffa",
+      "revisionId": "fcc543a3-f4ad-4d1c-a24d-5aeae45b6da3"
+    },
+    "ui/population": {
+      "file": "ui/components/5-Settlers/1-frame.png",
+      "componentId": "46264e71-a223-4253-a6be-51674b516e4a",
+      "revisionId": "528a83f0-82ae-4172-a347-0fed259a820f"
+    },
+    "ui/inspector": {
+      "file": "ui/components/6-Command-panel/1-frame.png",
+      "componentId": "ce236a20-1940-43f1-af0b-06fda9241125",
+      "revisionId": "40f25333-7124-43c0-afa8-04e6a81be8e0"
+    },
+    "ui/sword": {
+      "file": "ui/components/7-Command/1-frame.png",
+      "componentId": "a38ac9ad-c9b3-4a54-a603-4b3237a46d07",
+      "revisionId": "6dde10fb-13d5-405c-a09b-0723e407175b"
+    },
+    "ui/flame": {
+      "file": "ui/components/8-Hearthlight/1-frame.png",
+      "componentId": "967fd6e5-1fbe-463f-aca3-35563a33d81c",
+      "revisionId": "142a4e14-5e90-4ee4-a3ea-a26749dd5046"
+    },
+    "ui/crown": {
+      "file": "ui/components/9-Ash-Crown/1-frame.png",
+      "componentId": "35d80fee-5602-4f3c-a1af-895c37457bda",
+      "revisionId": "0ab20f16-828f-4b84-a376-9d1b3c2d7c2a"
+    },
+    "ui/selection": {
+      "file": "ui/components/10-Unit-selection/1-frame.png",
+      "componentId": "2478cc3d-bf0c-4331-aded-474f8a9533da",
+      "revisionId": "aea4f64f-3471-4357-a716-eaded4c37532"
+    },
+    "ui/health": {
+      "file": "ui/components/11-Hearth-vitality/1-frame.png",
+      "componentId": "459e6d66-6354-4bd5-a0be-530a0edf7782",
+      "revisionId": "c0af6019-0932-4c1b-a2aa-7125eb8cb4ce"
+    },
+    "characters/worker": {
+      "file": "portraits/worker.png",
+      "characterId": "Frontier_settler_worker__sturd_1791030097469_l617",
+      "syncedAt": "2026-10-03T13:59:22.587Z"
+    },
+    "upgrades2/0": {
+      "file": "upgrades2/item-0.png",
+      "assetId": "Emberhold_veteran_structures_1791032749417_mt6m",
+      "iterationId": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1",
+      "itemIndex": 0,
+      "name": "Hearth Hall: fortified ivory-stone keep with copper roof, two small turrets, and teal pennants"
+    },
+    "upgrades2/1": {
+      "file": "upgrades2/item-1.png",
+      "assetId": "Emberhold_veteran_structures_1791032749417_mt6m",
+      "iterationId": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1",
+      "itemIndex": 1,
+      "name": "Cottage: expanded timber cottage with an upper story"
+    },
+    "upgrades2/2": {
+      "file": "upgrades2/item-2.png",
+      "assetId": "Emberhold_veteran_structures_1791032749417_mt6m",
+      "iterationId": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1",
+      "itemIndex": 2,
+      "name": "Lumber Camp: organized lumber workshop with a large saw frame and stacked logs"
+    },
+    "upgrades2/3": {
+      "file": "upgrades2/item-3.png",
+      "assetId": "Emberhold_veteran_structures_1791032749417_mt6m",
+      "iterationId": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1",
+      "itemIndex": 3,
+      "name": "Stone Quarry: expanded stone quarry shed with a stout wooden crane and stone blocks"
+    },
+    "upgrades2/4": {
+      "file": "upgrades2/item-4.png",
+      "assetId": "Emberhold_veteran_structures_1791032749417_mt6m",
+      "iterationId": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1",
+      "itemIndex": 4,
+      "name": "Gold Mine: reinforced gold mine headframe with timber hoist and ore cart"
+    },
+    "upgrades2/5": {
+      "file": "upgrades2/item-5.png",
+      "assetId": "Emberhold_veteran_structures_1791032749417_mt6m",
+      "iterationId": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1",
+      "itemIndex": 5,
+      "name": "Harvest Farm: larger farm with a copper-roof windmill and ordered wheat beds"
+    },
+    "upgrades2/6": {
+      "file": "upgrades2/item-6.png",
+      "assetId": "Emberhold_veteran_structures_1791032749417_mt6m",
+      "iterationId": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1",
+      "itemIndex": 6,
+      "name": "Barracks: fortified barracks with blue banners and a stone training yard"
+    },
+    "upgrades2/7": {
+      "file": "upgrades2/item-7.png",
+      "assetId": "Emberhold_veteran_structures_1791032749417_mt6m",
+      "iterationId": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1",
+      "itemIndex": 7,
+      "name": "Ranger Lodge: expanded ranger lodge with green roof, balcony, and archery targets"
+    },
+    "upgrades2/8": {
+      "file": "upgrades2/item-8.png",
+      "assetId": "Emberhold_veteran_structures_1791032749417_mt6m",
+      "iterationId": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1",
+      "itemIndex": 8,
+      "name": "Forge: expanded stone forge with an orange furnace and metal bellows"
+    },
+    "upgrades2/9": {
+      "file": "upgrades2/item-9.png",
+      "assetId": "Emberhold_veteran_structures_1791032749417_mt6m",
+      "iterationId": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1",
+      "itemIndex": 9,
+      "name": "Watchtower: two-level stone watchtower with copper roof and teal banner"
+    },
+    "upgrades2/10": {
+      "file": "upgrades2/item-10.png",
+      "assetId": "Emberhold_veteran_structures_1791032749417_mt6m",
+      "iterationId": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1",
+      "itemIndex": 10,
+      "name": "Palisade: strong timber palisade segment with stone end posts"
+    }
+  },
+  "characters": {
+    "hero": {
+      "characterId": "Captain_Elara__an_original_her_1791028296579_ufc6",
+      "groups": {
+        "attack": "characters/hero/attack.tres",
+        "idle_up": "characters/hero/idle_up.tres",
+        "walk_up": "characters/hero/walk_up.tres",
+        "attack_up": "characters/hero/attack_up.tres",
+        "idle_down": "characters/hero/idle_down.tres",
+        "idle_left": "characters/hero/idle_left.tres",
+        "walk_down": "characters/hero/walk_down.tres",
+        "walk_left": "characters/hero/walk_left.tres",
+        "idle_right": "characters/hero/idle_right.tres",
+        "walk_right": "characters/hero/walk_right.tres",
+        "attack_left": "characters/hero/attack_left.tres",
+        "attack_right": "characters/hero/attack_right.tres"
+      },
+      "frame_scale": 1,
+      "renderCalibration": {
+        "attack": {
+          "frameEdgeScale": 1.1557562076749435,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.900390625
+          },
+          "firstFrameBounds": {
+            "x": 0.302734375,
+            "y": 0.0390625,
+            "w": 0.396484375,
+            "h": 0.865234375
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_up": {
+          "frameEdgeScale": 1.673202614379085,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.9921875
+          },
+          "firstFrameBounds": {
+            "x": 0.3671875,
+            "y": 0.3984375,
+            "w": 0.267578125,
+            "h": 0.59765625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_up": {
+          "frameEdgeScale": 1.1154684095860568,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.916015625
+          },
+          "firstFrameBounds": {
+            "x": 0.296875,
+            "y": 0.0234375,
+            "w": 0.388671875,
+            "h": 0.896484375
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "attack_up": {
+          "frameEdgeScale": 1.2190476190476192,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.990234375
+          },
+          "firstFrameBounds": {
+            "x": 0.3203125,
+            "y": 0.173828125,
+            "w": 0.361328125,
+            "h": 0.8203125
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_down": {
+          "frameEdgeScale": 1.6842105263157894,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.9921875
+          },
+          "firstFrameBounds": {
+            "x": 0.361328125,
+            "y": 0.40234375,
+            "w": 0.27734375,
+            "h": 0.59375
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_left": {
+          "frameEdgeScale": 1.5375375375375375,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.98828125
+          },
+          "firstFrameBounds": {
+            "x": 0.40234375,
+            "y": 0.341796875,
+            "w": 0.197265625,
+            "h": 0.650390625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_down": {
+          "frameEdgeScale": 1.1106290672451193,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.986328125
+          },
+          "firstFrameBounds": {
+            "x": 0.294921875,
+            "y": 0.08984375,
+            "w": 0.375,
+            "h": 0.900390625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_left": {
+          "frameEdgeScale": 1.1824480369515011,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.9296875
+          },
+          "firstFrameBounds": {
+            "x": 0.263671875,
+            "y": 0.087890625,
+            "w": 0.470703125,
+            "h": 0.845703125
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_right": {
+          "frameEdgeScale": 1.5375375375375375,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.98828125
+          },
+          "firstFrameBounds": {
+            "x": 0.40625,
+            "y": 0.341796875,
+            "w": 0.1875,
+            "h": 0.650390625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_right": {
+          "frameEdgeScale": 1.1824480369515011,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.9296875
+          },
+          "firstFrameBounds": {
+            "x": 0.267578125,
+            "y": 0.087890625,
+            "w": 0.470703125,
+            "h": 0.845703125
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "attack_left": {
+          "frameEdgeScale": 1.3653333333333333,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.990234375
+          },
+          "firstFrameBounds": {
+            "x": 0.392578125,
+            "y": 0.26171875,
+            "w": 0.2109375,
+            "h": 0.732421875
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "attack_right": {
+          "frameEdgeScale": 1.3653333333333333,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.990234375
+          },
+          "firstFrameBounds": {
+            "x": 0.3984375,
+            "y": 0.26171875,
+            "w": 0.20703125,
+            "h": 0.732421875
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        }
+      },
+      "sourceFrameSize": 512,
+      "deliveryScale": 0.5,
+      "animationPhysics": {
+        "attack": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.47265625,
+            "hw": 0.1943359375,
+            "hh": 0.427734375
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.900390625,
+              "r": 0.1671475497159091
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.47265625,
+              "hw": 0.1943359375,
+              "hh": 0.427734375
+            }
+          },
+          "startPoseId": "pose_facing_s",
+          "endPoseId": "pose_facing_s"
+        },
+        "idle_up": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.697265625,
+            "hw": 0.1298828125,
+            "hh": 0.294921875
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.9921875,
+              "r": 0.11545632102272727
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.697265625,
+              "hw": 0.1298828125,
+              "hh": 0.294921875
+            }
+          }
+        },
+        "walk_up": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.4912109375,
+            "cy": 0.4716796875,
+            "hw": 0.1904296875,
+            "hh": 0.4443359375
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.916015625,
+              "r": 0.17318448153409088
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.4912109375,
+              "cy": 0.4716796875,
+              "hw": 0.1904296875,
+              "hh": 0.4443359375
+            }
+          },
+          "startPoseId": "pose_facing_n"
+        },
+        "attack_up": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.5859375,
+            "hw": 0.1767578125,
+            "hh": 0.408203125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.990234375,
+              "r": 0.1584694602272727
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.5859375,
+              "hw": 0.1767578125,
+              "hh": 0.408203125
+            }
+          },
+          "startPoseId": "pose_facing_n",
+          "endPoseId": "pose_facing_n"
+        },
+        "idle_down": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5,
+            "cy": 0.69921875,
+            "hw": 0.134765625,
+            "hh": 0.29296875
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.9921875,
+              "r": 0.11470170454545454
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.69921875,
+              "hw": 0.134765625,
+              "hh": 0.29296875
+            }
+          }
+        },
+        "idle_left": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.6669921875,
+            "hw": 0.0947265625,
+            "hh": 0.3212890625
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.98828125,
+              "r": 0.1256436434659091
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.6669921875,
+              "hw": 0.0947265625,
+              "hh": 0.3212890625
+            }
+          }
+        },
+        "walk_down": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.482421875,
+            "cy": 0.5400390625,
+            "hw": 0.18359375,
+            "hh": 0.4462890625
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.986328125,
+              "r": 0.17393909801136365
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.482421875,
+              "cy": 0.5400390625,
+              "hw": 0.18359375,
+              "hh": 0.4462890625
+            }
+          },
+          "startPoseId": "pose_facing_s"
+        },
+        "walk_left": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.498046875,
+            "cy": 0.5107421875,
+            "hw": 0.23046875,
+            "hh": 0.4189453125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.9296875,
+              "r": 0.16337446732954547
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.498046875,
+              "cy": 0.5107421875,
+              "hw": 0.23046875,
+              "hh": 0.4189453125
+            }
+          }
+        },
+        "idle_right": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5,
+            "cy": 0.6669921875,
+            "hw": 0.08984375,
+            "hh": 0.3212890625
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.98828125,
+              "r": 0.1256436434659091
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.6669921875,
+              "hw": 0.08984375,
+              "hh": 0.3212890625
+            }
+          }
+        },
+        "walk_right": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5029296875,
+            "cy": 0.5107421875,
+            "hw": 0.2314453125,
+            "hh": 0.4189453125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.9296875,
+              "r": 0.16337446732954547
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5029296875,
+              "cy": 0.5107421875,
+              "hw": 0.2314453125,
+              "hh": 0.4189453125
+            }
+          },
+          "startPoseId": "pose_facing_e"
+        },
+        "attack_left": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.4990234375,
+            "cy": 0.6298828125,
+            "hw": 0.1005859375,
+            "hh": 0.3642578125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.990234375,
+              "r": 0.14149058948863635
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.4990234375,
+              "cy": 0.6298828125,
+              "hw": 0.1005859375,
+              "hh": 0.3642578125
+            }
+          }
+        },
+        "attack_right": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.6298828125,
+            "hw": 0.1005859375,
+            "hh": 0.3642578125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.990234375,
+              "r": 0.14149058948863635
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.6298828125,
+              "hw": 0.1005859375,
+              "hh": 0.3642578125
+            }
+          },
+          "startPoseId": "pose_facing_e",
+          "endPoseId": "pose_facing_e"
+        }
+      },
+      "quality": {
+        "status": "needs_review",
+        "ready": false,
+        "animations": {
+          "attack": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "motion"
+            ],
+            "actions": [
+              "review_or_regenerate"
+            ]
+          },
+          "idle_up": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_up": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte",
+              "motion"
+            ],
+            "actions": [
+              "rematte",
+              "review_or_regenerate"
+            ]
+          },
+          "attack_up": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte",
+              "motion"
+            ],
+            "actions": [
+              "rematte",
+              "review_or_regenerate"
+            ]
+          },
+          "idle_down": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_down": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "walk_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_right": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_right": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "attack_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "attack_right": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "motion"
+            ],
+            "actions": [
+              "review_or_regenerate"
+            ]
+          }
+        }
+      }
+    },
+    "guard": {
+      "characterId": "Frontier_guard_soldier__ivory_1791028370270_r0vq",
+      "groups": {
+        "attack": "characters/guard/attack.tres",
+        "idle_up": "characters/guard/idle_up.tres",
+        "walk_up": "characters/guard/walk_up.tres",
+        "attack_up": "characters/guard/attack_up.tres",
+        "idle_down": "characters/guard/idle_down.tres",
+        "idle_left": "characters/guard/idle_left.tres",
+        "walk_down": "characters/guard/walk_down.tres",
+        "walk_left": "characters/guard/walk_left.tres",
+        "idle_right": "characters/guard/idle_right.tres",
+        "walk_right": "characters/guard/walk_right.tres",
+        "attack_left": "characters/guard/attack_left.tres",
+        "attack_right": "characters/guard/attack_right.tres"
+      },
+      "frame_scale": 1,
+      "renderCalibration": {
+        "attack": {
+          "frameEdgeScale": 1.4182825484764543,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.755859375
+          },
+          "firstFrameBounds": {
+            "x": 0.21484375,
+            "y": 0.0546875,
+            "w": 0.572265625,
+            "h": 0.705078125
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_up": {
+          "frameEdgeScale": 2.098360655737705,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.9921875
+          },
+          "firstFrameBounds": {
+            "x": 0.322265625,
+            "y": 0.51953125,
+            "w": 0.35546875,
+            "h": 0.4765625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_up": {
+          "frameEdgeScale": 1.3438320209973753,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.8671875
+          },
+          "firstFrameBounds": {
+            "x": 0.228515625,
+            "y": 0.126953125,
+            "w": 0.515625,
+            "h": 0.744140625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "attack_up": {
+          "frameEdgeScale": 1.5609756097560976,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.990234375
+          },
+          "firstFrameBounds": {
+            "x": 0.259765625,
+            "y": 0.353515625,
+            "w": 0.48046875,
+            "h": 0.640625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_down": {
+          "frameEdgeScale": 2.1974248927038627,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.994140625
+          },
+          "firstFrameBounds": {
+            "x": 0.31640625,
+            "y": 0.54296875,
+            "w": 0.369140625,
+            "h": 0.455078125
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_left": {
+          "frameEdgeScale": 1.620253164556962,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.978515625
+          },
+          "firstFrameBounds": {
+            "x": 0.3671875,
+            "y": 0.365234375,
+            "w": 0.265625,
+            "h": 0.6171875
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_down": {
+          "frameEdgeScale": 1.3950953678474114,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.9375
+          },
+          "firstFrameBounds": {
+            "x": 0.224609375,
+            "y": 0.224609375,
+            "w": 0.556640625,
+            "h": 0.716796875
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_left": {
+          "frameEdgeScale": 1.3689839572192513,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.869140625
+          },
+          "firstFrameBounds": {
+            "x": 0.2890625,
+            "y": 0.142578125,
+            "w": 0.494140625,
+            "h": 0.73046875
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_right": {
+          "frameEdgeScale": 1.610062893081761,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.978515625
+          },
+          "firstFrameBounds": {
+            "x": 0.35546875,
+            "y": 0.361328125,
+            "w": 0.291015625,
+            "h": 0.62109375
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_right": {
+          "frameEdgeScale": 1.3689839572192513,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.869140625
+          },
+          "firstFrameBounds": {
+            "x": 0.216796875,
+            "y": 0.142578125,
+            "w": 0.494140625,
+            "h": 0.73046875
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "attack_left": {
+          "frameEdgeScale": 1.6050156739811912,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.990234375
+          },
+          "firstFrameBounds": {
+            "x": 0.353515625,
+            "y": 0.37109375,
+            "w": 0.2890625,
+            "h": 0.623046875
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "attack_right": {
+          "frameEdgeScale": 1.6050156739811912,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.990234375
+          },
+          "firstFrameBounds": {
+            "x": 0.35546875,
+            "y": 0.37109375,
+            "w": 0.2890625,
+            "h": 0.623046875
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        }
+      },
+      "sourceFrameSize": 512,
+      "deliveryScale": 0.5,
+      "animationPhysics": {
+        "attack": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.40625,
+            "hw": 0.2822265625,
+            "hh": 0.34765625
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.755859375,
+              "r": 0.16197740709459457
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.40625,
+              "hw": 0.2822265625,
+              "hh": 0.34765625
+            }
+          },
+          "startPoseId": "pose_facing_s",
+          "endPoseId": "pose_facing_s"
+        },
+        "idle_up": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5,
+            "cy": 0.7578125,
+            "hw": 0.173828125,
+            "hh": 0.234375
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.9921875,
+              "r": 0.10948057432432433
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.7578125,
+              "hw": 0.173828125,
+              "hh": 0.234375
+            }
+          }
+        },
+        "walk_up": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.486328125,
+            "cy": 0.4990234375,
+            "hw": 0.25390625,
+            "hh": 0.3681640625
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.8671875,
+              "r": 0.17095122466216217
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.486328125,
+              "cy": 0.4990234375,
+              "hw": 0.25390625,
+              "hh": 0.3681640625
+            }
+          },
+          "startPoseId": "pose_facing_n"
+        },
+        "attack_up": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5,
+            "cy": 0.67578125,
+            "hw": 0.236328125,
+            "hh": 0.318359375
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.990234375,
+              "r": 0.14717060810810811
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.67578125,
+              "hw": 0.236328125,
+              "hh": 0.318359375
+            }
+          },
+          "startPoseId": "pose_facing_n",
+          "endPoseId": "pose_facing_n"
+        },
+        "idle_down": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.7705078125,
+            "hw": 0.1806640625,
+            "hh": 0.2236328125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.994140625,
+              "r": 0.10454497466216217
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.7705078125,
+              "hw": 0.1806640625,
+              "hh": 0.2236328125
+            }
+          }
+        },
+        "idle_left": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5,
+            "cy": 0.673828125,
+            "hw": 0.12890625,
+            "hh": 0.3046875
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.978515625,
+              "r": 0.14178631756756757
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.673828125,
+              "hw": 0.12890625,
+              "hh": 0.3046875
+            }
+          }
+        },
+        "walk_down": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.50390625,
+            "cy": 0.5830078125,
+            "hw": 0.2734375,
+            "hh": 0.3544921875
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.9375,
+              "r": 0.16466955236486489
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.50390625,
+              "cy": 0.5830078125,
+              "hw": 0.2734375,
+              "hh": 0.3544921875
+            }
+          },
+          "startPoseId": "pose_facing_s"
+        },
+        "walk_left": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5361328125,
+            "cy": 0.5078125,
+            "hw": 0.2431640625,
+            "hh": 0.361328125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.869140625,
+              "r": 0.16781038851351351
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5361328125,
+              "cy": 0.5078125,
+              "hw": 0.2431640625,
+              "hh": 0.361328125
+            }
+          }
+        },
+        "idle_right": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.6728515625,
+            "hw": 0.1416015625,
+            "hh": 0.3056640625
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.978515625,
+              "r": 0.14268369932432431
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.6728515625,
+              "hw": 0.1416015625,
+              "hh": 0.3056640625
+            }
+          }
+        },
+        "walk_right": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.4638671875,
+            "cy": 0.5078125,
+            "hw": 0.2431640625,
+            "hh": 0.361328125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.869140625,
+              "r": 0.16781038851351351
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.4638671875,
+              "cy": 0.5078125,
+              "hw": 0.2431640625,
+              "hh": 0.361328125
+            }
+          },
+          "startPoseId": "pose_facing_e"
+        },
+        "attack_left": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.498046875,
+            "cy": 0.6845703125,
+            "hw": 0.140625,
+            "hh": 0.3095703125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.990234375,
+              "r": 0.14313239020270271
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.498046875,
+              "cy": 0.6845703125,
+              "hw": 0.140625,
+              "hh": 0.3095703125
+            }
+          }
+        },
+        "attack_right": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.6845703125,
+            "hw": 0.1416015625,
+            "hh": 0.3095703125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.990234375,
+              "r": 0.14313239020270271
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.6845703125,
+              "hw": 0.1416015625,
+              "hh": 0.3095703125
+            }
+          },
+          "startPoseId": "pose_facing_e",
+          "endPoseId": "pose_facing_e"
+        }
+      },
+      "quality": {
+        "status": "needs_review",
+        "ready": false,
+        "animations": {
+          "attack": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "motion"
+            ],
+            "actions": [
+              "review_or_regenerate"
+            ]
+          },
+          "idle_up": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_up": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "attack_up": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "motion"
+            ],
+            "actions": [
+              "review_or_regenerate"
+            ]
+          },
+          "idle_down": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_down": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "walk_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_right": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_right": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "attack_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "attack_right": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          }
+        }
+      }
+    },
+    "ranger": {
+      "characterId": "Woodland_ranger_archer__moss_g_1791028461666_qi3v",
+      "groups": {
+        "attack": "characters/ranger/attack.tres",
+        "idle_up": "characters/ranger/idle_up.tres",
+        "walk_up": "characters/ranger/walk_up.tres",
+        "attack_up": "characters/ranger/attack_up.tres",
+        "idle_down": "characters/ranger/idle_down.tres",
+        "idle_left": "characters/ranger/idle_left.tres",
+        "walk_down": "characters/ranger/walk_down.tres",
+        "walk_left": "characters/ranger/walk_left.tres",
+        "idle_right": "characters/ranger/idle_right.tres",
+        "walk_right": "characters/ranger/walk_right.tres",
+        "attack_left": "characters/ranger/attack_left.tres",
+        "attack_right": "characters/ranger/attack_right.tres"
+      },
+      "frame_scale": 1,
+      "renderCalibration": {
+        "attack": {
+          "frameEdgeScale": 1.210401891252955,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.91015625
+          },
+          "firstFrameBounds": {
+            "x": 0.279296875,
+            "y": 0.087890625,
+            "w": 0.4453125,
+            "h": 0.826171875
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_up": {
+          "frameEdgeScale": 1.8823529411764706,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.9921875
+          },
+          "firstFrameBounds": {
+            "x": 0.369140625,
+            "y": 0.46484375,
+            "w": 0.26171875,
+            "h": 0.53125
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_up": {
+          "frameEdgeScale": 1.103448275862069,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.9765625
+          },
+          "firstFrameBounds": {
+            "x": 0.29296875,
+            "y": 0.07421875,
+            "w": 0.39453125,
+            "h": 0.90625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "attack_up": {
+          "frameEdgeScale": 1.5515151515151515,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.990234375
+          },
+          "firstFrameBounds": {
+            "x": 0.34375,
+            "y": 0.349609375,
+            "w": 0.3125,
+            "h": 0.64453125
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_down": {
+          "frameEdgeScale": 1.903345724907063,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.9921875
+          },
+          "firstFrameBounds": {
+            "x": 0.357421875,
+            "y": 0.470703125,
+            "w": 0.287109375,
+            "h": 0.525390625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_left": {
+          "frameEdgeScale": 1.5950155763239875,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.984375
+          },
+          "firstFrameBounds": {
+            "x": 0.37890625,
+            "y": 0.361328125,
+            "w": 0.2421875,
+            "h": 0.626953125
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_down": {
+          "frameEdgeScale": 1.2278177458033572,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.8984375
+          },
+          "firstFrameBounds": {
+            "x": 0.271484375,
+            "y": 0.087890625,
+            "w": 0.44921875,
+            "h": 0.814453125
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_left": {
+          "frameEdgeScale": 1.2641975308641975,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.892578125
+          },
+          "firstFrameBounds": {
+            "x": 0.2265625,
+            "y": 0.10546875,
+            "w": 0.53125,
+            "h": 0.791015625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_right": {
+          "frameEdgeScale": 1.620253164556962,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.984375
+          },
+          "firstFrameBounds": {
+            "x": 0.38671875,
+            "y": 0.37109375,
+            "w": 0.228515625,
+            "h": 0.6171875
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_right": {
+          "frameEdgeScale": 1.2641975308641975,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.892578125
+          },
+          "firstFrameBounds": {
+            "x": 0.2421875,
+            "y": 0.10546875,
+            "w": 0.53125,
+            "h": 0.791015625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "attack_left": {
+          "frameEdgeScale": 1.5802469135802468,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.990234375
+          },
+          "firstFrameBounds": {
+            "x": 0.3828125,
+            "y": 0.361328125,
+            "w": 0.23046875,
+            "h": 0.6328125
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "attack_right": {
+          "frameEdgeScale": 1.5802469135802468,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.990234375
+          },
+          "firstFrameBounds": {
+            "x": 0.384765625,
+            "y": 0.361328125,
+            "w": 0.23046875,
+            "h": 0.6328125
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        }
+      },
+      "sourceFrameSize": 512,
+      "deliveryScale": 0.5,
+      "animationPhysics": {
+        "attack": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.501953125,
+            "cy": 0.5009765625,
+            "hw": 0.21875,
+            "hh": 0.4091796875
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.91015625,
+              "r": 0.18979624155405406
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.501953125,
+              "cy": 0.5009765625,
+              "hw": 0.21875,
+              "hh": 0.4091796875
+            }
+          },
+          "startPoseId": "pose_facing_s",
+          "endPoseId": "pose_facing_s"
+        },
+        "idle_up": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5,
+            "cy": 0.7314453125,
+            "hw": 0.126953125,
+            "hh": 0.2607421875
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.9921875,
+              "r": 0.12204391891891893
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.7314453125,
+              "hw": 0.126953125,
+              "hh": 0.2607421875
+            }
+          }
+        },
+        "walk_up": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.490234375,
+            "cy": 0.5283203125,
+            "hw": 0.193359375,
+            "hh": 0.4482421875
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.9765625,
+              "r": 0.2081925675675676
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.490234375,
+              "cy": 0.5283203125,
+              "hw": 0.193359375,
+              "hh": 0.4482421875
+            }
+          },
+          "startPoseId": "pose_facing_n"
+        },
+        "attack_up": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5,
+            "cy": 0.673828125,
+            "hw": 0.15234375,
+            "hh": 0.3203125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.990234375,
+              "r": 0.14806798986486486
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.673828125,
+              "hw": 0.15234375,
+              "hh": 0.3203125
+            }
+          },
+          "startPoseId": "pose_facing_n",
+          "endPoseId": "pose_facing_n"
+        },
+        "idle_down": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.7333984375,
+            "hw": 0.1396484375,
+            "hh": 0.2587890625
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.9921875,
+              "r": 0.12069784628378379
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.7333984375,
+              "hw": 0.1396484375,
+              "hh": 0.2587890625
+            }
+          }
+        },
+        "idle_left": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5,
+            "cy": 0.6748046875,
+            "hw": 0.1171875,
+            "hh": 0.3095703125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.984375,
+              "r": 0.14402977195945946
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.6748046875,
+              "hw": 0.1171875,
+              "hh": 0.3095703125
+            }
+          }
+        },
+        "walk_down": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.49609375,
+            "cy": 0.4951171875,
+            "hw": 0.220703125,
+            "hh": 0.4033203125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.8984375,
+              "r": 0.1871040962837838
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.49609375,
+              "cy": 0.4951171875,
+              "hw": 0.220703125,
+              "hh": 0.4033203125
+            }
+          },
+          "startPoseId": "pose_facing_s"
+        },
+        "walk_left": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.4931640625,
+            "cy": 0.5009765625,
+            "hw": 0.2607421875,
+            "hh": 0.3916015625
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.892578125,
+              "r": 0.18171980574324326
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.4931640625,
+              "cy": 0.5009765625,
+              "hw": 0.2607421875,
+              "hh": 0.3916015625
+            }
+          }
+        },
+        "idle_right": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.6796875,
+            "hw": 0.1103515625,
+            "hh": 0.3046875
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.984375,
+              "r": 0.14178631756756757
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.6796875,
+              "hw": 0.1103515625,
+              "hh": 0.3046875
+            }
+          }
+        },
+        "walk_right": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5087890625,
+            "cy": 0.5009765625,
+            "hw": 0.2607421875,
+            "hh": 0.3916015625
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.892578125,
+              "r": 0.18171980574324326
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5087890625,
+              "cy": 0.5009765625,
+              "hw": 0.2607421875,
+              "hh": 0.3916015625
+            }
+          },
+          "startPoseId": "pose_facing_e"
+        },
+        "attack_left": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.498046875,
+            "cy": 0.6796875,
+            "hw": 0.111328125,
+            "hh": 0.314453125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.990234375,
+              "r": 0.1453758445945946
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.498046875,
+              "cy": 0.6796875,
+              "hw": 0.111328125,
+              "hh": 0.314453125
+            }
+          }
+        },
+        "attack_right": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5,
+            "cy": 0.6796875,
+            "hw": 0.111328125,
+            "hh": 0.314453125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.990234375,
+              "r": 0.1453758445945946
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.6796875,
+              "hw": 0.111328125,
+              "hh": 0.314453125
+            }
+          },
+          "startPoseId": "pose_facing_e",
+          "endPoseId": "pose_facing_e"
+        }
+      },
+      "quality": {
+        "status": "needs_review",
+        "ready": false,
+        "animations": {
+          "attack": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "motion"
+            ],
+            "actions": [
+              "review_or_regenerate"
+            ]
+          },
+          "idle_up": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_up": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "attack_up": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "motion"
+            ],
+            "actions": [
+              "review_or_regenerate"
+            ]
+          },
+          "idle_down": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_down": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "walk_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_right": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_right": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "attack_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "attack_right": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          }
+        }
+      }
+    },
+    "raider": {
+      "characterId": "Ash_Crown_raider_enemy__dark_c_1791028836943_cdjh",
+      "groups": {
+        "attack": "characters/raider/attack.tres",
+        "idle_up": "characters/raider/idle_up.tres",
+        "walk_up": "characters/raider/walk_up.tres",
+        "attack_2": "characters/raider/attack_2.tres",
+        "attack_up": "characters/raider/attack_up.tres",
+        "idle_down": "characters/raider/idle_down.tres",
+        "idle_left": "characters/raider/idle_left.tres",
+        "walk_down": "characters/raider/walk_down.tres",
+        "walk_left": "characters/raider/walk_left.tres",
+        "idle_right": "characters/raider/idle_right.tres",
+        "walk_right": "characters/raider/walk_right.tres",
+        "attack_left": "characters/raider/attack_left.tres",
+        "attack_right": "characters/raider/attack_right.tres"
+      },
+      "frame_scale": 1,
+      "renderCalibration": {
+        "attack": {
+          "frameEdgeScale": 1.158371040723982,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.92578125
+          },
+          "firstFrameBounds": {
+            "x": 0.203125,
+            "y": 0.06640625,
+            "w": 0.595703125,
+            "h": 0.86328125
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_up": {
+          "frameEdgeScale": 1.5375375375375375,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.994140625
+          },
+          "firstFrameBounds": {
+            "x": 0.2734375,
+            "y": 0.34765625,
+            "w": 0.455078125,
+            "h": 0.650390625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_up": {
+          "frameEdgeScale": 1.062240663900415,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.98828125
+          },
+          "firstFrameBounds": {
+            "x": 0.171875,
+            "y": 0.05078125,
+            "w": 0.6015625,
+            "h": 0.94140625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "attack_2": {
+          "frameEdgeScale": 1.158371040723982,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.919921875
+          },
+          "firstFrameBounds": {
+            "x": 0.203125,
+            "y": 0.060546875,
+            "w": 0.595703125,
+            "h": 0.86328125
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "attack_up": {
+          "frameEdgeScale": 1.1636363636363636,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.990234375
+          },
+          "firstFrameBounds": {
+            "x": 0.19921875,
+            "y": 0.134765625,
+            "w": 0.60546875,
+            "h": 0.859375
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_down": {
+          "frameEdgeScale": 1.5421686746987953,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.994140625
+          },
+          "firstFrameBounds": {
+            "x": 0.275390625,
+            "y": 0.349609375,
+            "w": 0.451171875,
+            "h": 0.6484375
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_left": {
+          "frameEdgeScale": 1.5375375375375375,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.994140625
+          },
+          "firstFrameBounds": {
+            "x": 0.37109375,
+            "y": 0.34765625,
+            "w": 0.26171875,
+            "h": 0.650390625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_down": {
+          "frameEdgeScale": 1.2219570405727924,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.9140625
+          },
+          "firstFrameBounds": {
+            "x": 0.19921875,
+            "y": 0.099609375,
+            "w": 0.6171875,
+            "h": 0.818359375
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_left": {
+          "frameEdgeScale": 1.2018779342723005,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.908203125
+          },
+          "firstFrameBounds": {
+            "x": 0.302734375,
+            "y": 0.080078125,
+            "w": 0.412109375,
+            "h": 0.83203125
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_right": {
+          "frameEdgeScale": 1.5375375375375375,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.994140625
+          },
+          "firstFrameBounds": {
+            "x": 0.369140625,
+            "y": 0.34765625,
+            "w": 0.26171875,
+            "h": 0.650390625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_right": {
+          "frameEdgeScale": 1.204705882352941,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.908203125
+          },
+          "firstFrameBounds": {
+            "x": 0.28515625,
+            "y": 0.08203125,
+            "w": 0.4140625,
+            "h": 0.830078125
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "attack_left": {
+          "frameEdgeScale": 1.1662870159453302,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.990234375
+          },
+          "firstFrameBounds": {
+            "x": 0.328125,
+            "y": 0.13671875,
+            "w": 0.341796875,
+            "h": 0.857421875
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "attack_right": {
+          "frameEdgeScale": 1.1662870159453302,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.990234375
+          },
+          "firstFrameBounds": {
+            "x": 0.330078125,
+            "y": 0.13671875,
+            "w": 0.341796875,
+            "h": 0.857421875
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        }
+      },
+      "sourceFrameSize": 512,
+      "deliveryScale": 0.5,
+      "animationPhysics": {
+        "attack": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.501953125,
+            "cy": 0.498046875,
+            "hw": 0.29296875,
+            "hh": 0.427734375
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.92578125,
+              "r": 0.19059456168831165
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.501953125,
+              "cy": 0.498046875,
+              "hw": 0.29296875,
+              "hh": 0.427734375
+            }
+          },
+          "startPoseId": "pose_facing_s",
+          "endPoseId": "pose_facing_s"
+        },
+        "idle_up": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.6728515625,
+            "hw": 0.2236328125,
+            "hh": 0.3212890625
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.994140625,
+              "r": 0.1435927353896104
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.6728515625,
+              "hw": 0.2236328125,
+              "hh": 0.3212890625
+            }
+          }
+        },
+        "walk_up": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.4716796875,
+            "cy": 0.5224609375,
+            "hw": 0.2958984375,
+            "hh": 0.4677734375
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.98828125,
+              "r": 0.20784293831168832
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.4716796875,
+              "cy": 0.5224609375,
+              "hw": 0.2958984375,
+              "hh": 0.4677734375
+            }
+          },
+          "startPoseId": "pose_facing_n"
+        },
+        "attack_2": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.501953125,
+            "cy": 0.4921875,
+            "hw": 0.29296875,
+            "hh": 0.427734375
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.919921875,
+              "r": 0.19059456168831165
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.501953125,
+              "cy": 0.4921875,
+              "hw": 0.29296875,
+              "hh": 0.427734375
+            }
+          },
+          "startPoseId": "pose_facing_s",
+          "endPoseId": "pose_facing_s"
+        },
+        "attack_up": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.501953125,
+            "cy": 0.5654296875,
+            "hw": 0.298828125,
+            "hh": 0.4287109375
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.990234375,
+              "r": 0.18973214285714288
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.501953125,
+              "cy": 0.5654296875,
+              "hw": 0.298828125,
+              "hh": 0.4287109375
+            }
+          },
+          "startPoseId": "pose_facing_n",
+          "endPoseId": "pose_facing_n"
+        },
+        "idle_down": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.673828125,
+            "hw": 0.2216796875,
+            "hh": 0.3203125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.994140625,
+              "r": 0.14316152597402595
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.673828125,
+              "hw": 0.2216796875,
+              "hh": 0.3203125
+            }
+          }
+        },
+        "idle_left": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.501953125,
+            "cy": 0.6728515625,
+            "hw": 0.125,
+            "hh": 0.3212890625
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.994140625,
+              "r": 0.1435927353896104
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.501953125,
+              "cy": 0.6728515625,
+              "hw": 0.125,
+              "hh": 0.3212890625
+            }
+          }
+        },
+        "walk_down": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5068359375,
+            "cy": 0.5087890625,
+            "hw": 0.3037109375,
+            "hh": 0.4052734375
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.9140625,
+              "r": 0.18067674512987011
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5068359375,
+              "cy": 0.5087890625,
+              "hw": 0.3037109375,
+              "hh": 0.4052734375
+            }
+          },
+          "startPoseId": "pose_facing_s"
+        },
+        "walk_left": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5087890625,
+            "cy": 0.4970703125,
+            "hw": 0.2021484375,
+            "hh": 0.4111328125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.908203125,
+              "r": 0.18369521103896103
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5087890625,
+              "cy": 0.4970703125,
+              "hw": 0.2021484375,
+              "hh": 0.4111328125
+            }
+          }
+        },
+        "idle_right": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5,
+            "cy": 0.673828125,
+            "hw": 0.126953125,
+            "hh": 0.3203125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.994140625,
+              "r": 0.1435927353896104
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.673828125,
+              "hw": 0.126953125,
+              "hh": 0.3203125
+            }
+          }
+        },
+        "walk_right": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.4931640625,
+            "cy": 0.4970703125,
+            "hw": 0.2021484375,
+            "hh": 0.4111328125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.908203125,
+              "r": 0.18326400162337664
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.4931640625,
+              "cy": 0.4970703125,
+              "hw": 0.2021484375,
+              "hh": 0.4111328125
+            }
+          },
+          "startPoseId": "pose_facing_e"
+        },
+        "attack_left": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.4990234375,
+            "cy": 0.5673828125,
+            "hw": 0.1669921875,
+            "hh": 0.4267578125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.990234375,
+              "r": 0.18930093344155846
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.4990234375,
+              "cy": 0.5673828125,
+              "hw": 0.1669921875,
+              "hh": 0.4267578125
+            }
+          }
+        },
+        "attack_right": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.5673828125,
+            "hw": 0.1669921875,
+            "hh": 0.4267578125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.990234375,
+              "r": 0.18930093344155846
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.5673828125,
+              "hw": 0.1669921875,
+              "hh": 0.4267578125
+            }
+          },
+          "startPoseId": "pose_facing_e",
+          "endPoseId": "pose_facing_e"
+        }
+      },
+      "quality": {
+        "status": "needs_review",
+        "ready": false,
+        "animations": {
+          "attack": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "idle_up": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_up": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "attack_2": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "attack_up": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "motion"
+            ],
+            "actions": [
+              "review_or_regenerate"
+            ]
+          },
+          "idle_down": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_down": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "walk_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_right": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_right": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "attack_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "attack_right": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "motion"
+            ],
+            "actions": [
+              "review_or_regenerate"
+            ]
+          }
+        }
+      }
+    },
+    "knight": {
+      "characterId": "Emberhold_veteran_knight__eleg_1791028924802_ab3a",
+      "groups": {
+        "attack": "characters/knight/attack.tres",
+        "idle_up": "characters/knight/idle_up.tres",
+        "walk_up": "characters/knight/walk_up.tres",
+        "idle_down": "characters/knight/idle_down.tres",
+        "idle_left": "characters/knight/idle_left.tres",
+        "walk_down": "characters/knight/walk_down.tres",
+        "walk_left": "characters/knight/walk_left.tres",
+        "idle_right": "characters/knight/idle_right.tres",
+        "walk_right": "characters/knight/walk_right.tres",
+        "attack_left": "characters/knight/attack_left.tres",
+        "attack_right": "characters/knight/attack_right.tres"
+      },
+      "frame_scale": 1,
+      "renderCalibration": {
+        "attack": {
+          "frameEdgeScale": 1.4422535211267606,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.84375
+          },
+          "firstFrameBounds": {
+            "x": 0.267578125,
+            "y": 0.154296875,
+            "w": 0.46875,
+            "h": 0.693359375
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_up": {
+          "frameEdgeScale": 1.9616858237547892,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.9921875
+          },
+          "firstFrameBounds": {
+            "x": 0.34375,
+            "y": 0.486328125,
+            "w": 0.314453125,
+            "h": 0.509765625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_up": {
+          "frameEdgeScale": 1.0847457627118644,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.98828125
+          },
+          "firstFrameBounds": {
+            "x": 0.2421875,
+            "y": 0.0703125,
+            "w": 0.447265625,
+            "h": 0.921875
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_down": {
+          "frameEdgeScale": 2.0317460317460316,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.994140625
+          },
+          "firstFrameBounds": {
+            "x": 0.333984375,
+            "y": 0.505859375,
+            "w": 0.333984375,
+            "h": 0.4921875
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_left": {
+          "frameEdgeScale": 1.7009966777408638,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.986328125
+          },
+          "firstFrameBounds": {
+            "x": 0.365234375,
+            "y": 0.40234375,
+            "w": 0.271484375,
+            "h": 0.587890625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_down": {
+          "frameEdgeScale": 1.204705882352941,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.974609375
+          },
+          "firstFrameBounds": {
+            "x": 0.267578125,
+            "y": 0.1484375,
+            "w": 0.515625,
+            "h": 0.830078125
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_left": {
+          "frameEdgeScale": 1.2248803827751196,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.912109375
+          },
+          "firstFrameBounds": {
+            "x": 0.11328125,
+            "y": 0.099609375,
+            "w": 0.689453125,
+            "h": 0.81640625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_right": {
+          "frameEdgeScale": 1.7009966777408638,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.986328125
+          },
+          "firstFrameBounds": {
+            "x": 0.35546875,
+            "y": 0.40234375,
+            "w": 0.291015625,
+            "h": 0.587890625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_right": {
+          "frameEdgeScale": 1.2248803827751196,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.912109375
+          },
+          "firstFrameBounds": {
+            "x": 0.197265625,
+            "y": 0.099609375,
+            "w": 0.689453125,
+            "h": 0.81640625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "attack_left": {
+          "frameEdgeScale": 1.678688524590164,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.990234375
+          },
+          "firstFrameBounds": {
+            "x": 0.322265625,
+            "y": 0.3984375,
+            "w": 0.29296875,
+            "h": 0.595703125
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "attack_right": {
+          "frameEdgeScale": 1.678688524590164,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.990234375
+          },
+          "firstFrameBounds": {
+            "x": 0.3828125,
+            "y": 0.3984375,
+            "w": 0.29296875,
+            "h": 0.595703125
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        }
+      },
+      "sourceFrameSize": 512,
+      "deliveryScale": 0.5,
+      "animationPhysics": {
+        "attack": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.5009765625,
+            "hw": 0.2294921875,
+            "hh": 0.3427734375
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.84375,
+              "r": 0.1370594113372093
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.5009765625,
+              "hw": 0.2294921875,
+              "hh": 0.3427734375
+            }
+          },
+          "startPoseId": "pose_facing_s",
+          "endPoseId": "pose_facing_s"
+        },
+        "idle_up": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.7412109375,
+            "hw": 0.1513671875,
+            "hh": 0.2509765625
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.9921875,
+              "r": 0.10076762354651163
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.7412109375,
+              "hw": 0.1513671875,
+              "hh": 0.2509765625
+            }
+          }
+        },
+        "walk_up": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.4658203125,
+            "cy": 0.5322265625,
+            "hw": 0.2197265625,
+            "hh": 0.4580078125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.98828125,
+              "r": 0.1822311046511628
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.4658203125,
+              "cy": 0.5322265625,
+              "hw": 0.2197265625,
+              "hh": 0.4580078125
+            }
+          },
+          "startPoseId": "pose_facing_n"
+        },
+        "idle_down": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.751953125,
+            "hw": 0.1630859375,
+            "hh": 0.2421875
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.994140625,
+              "r": 0.09729287790697674
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.751953125,
+              "hw": 0.1630859375,
+              "hh": 0.2421875
+            }
+          }
+        },
+        "idle_left": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.6962890625,
+            "hw": 0.1318359375,
+            "hh": 0.2900390625
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.986328125,
+              "r": 0.1162109375
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.6962890625,
+              "hw": 0.1318359375,
+              "hh": 0.2900390625
+            }
+          }
+        },
+        "walk_down": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5263671875,
+            "cy": 0.5634765625,
+            "hw": 0.2529296875,
+            "hh": 0.4111328125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.974609375,
+              "r": 0.16408521075581398
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5263671875,
+              "cy": 0.5634765625,
+              "hw": 0.2529296875,
+              "hh": 0.4111328125
+            }
+          },
+          "startPoseId": "pose_facing_s"
+        },
+        "walk_left": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.4580078125,
+            "cy": 0.5087890625,
+            "hw": 0.3408203125,
+            "hh": 0.4033203125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.912109375,
+              "r": 0.1613826308139535
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.4580078125,
+              "cy": 0.5087890625,
+              "hw": 0.3408203125,
+              "hh": 0.4033203125
+            }
+          }
+        },
+        "idle_right": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.6962890625,
+            "hw": 0.1416015625,
+            "hh": 0.2900390625
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.986328125,
+              "r": 0.1162109375
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.6962890625,
+              "hw": 0.1416015625,
+              "hh": 0.2900390625
+            }
+          }
+        },
+        "walk_right": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5419921875,
+            "cy": 0.5087890625,
+            "hw": 0.3408203125,
+            "hh": 0.4033203125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.912109375,
+              "r": 0.1613826308139535
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5419921875,
+              "cy": 0.5087890625,
+              "hw": 0.3408203125,
+              "hh": 0.4033203125
+            }
+          },
+          "startPoseId": "pose_facing_e"
+        },
+        "attack_left": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.46875,
+            "cy": 0.6982421875,
+            "hw": 0.142578125,
+            "hh": 0.2958984375
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.990234375,
+              "r": 0.11775526889534885
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.46875,
+              "cy": 0.6982421875,
+              "hw": 0.142578125,
+              "hh": 0.2958984375
+            }
+          }
+        },
+        "attack_right": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.529296875,
+            "cy": 0.6982421875,
+            "hw": 0.142578125,
+            "hh": 0.2958984375
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.990234375,
+              "r": 0.11775526889534885
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.529296875,
+              "cy": 0.6982421875,
+              "hw": 0.142578125,
+              "hh": 0.2958984375
+            }
+          },
+          "startPoseId": "pose_facing_e",
+          "endPoseId": "pose_facing_e"
+        }
+      },
+      "quality": {
+        "status": "needs_review",
+        "ready": false,
+        "animations": {
+          "attack": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "idle_up": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_up": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "idle_down": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_down": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "walk_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_right": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_right": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "attack_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "attack_right": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          }
+        }
+      }
+    },
+    "brute": {
+      "characterId": "Ash_Crown_hulking_armored_brut_1791029083479_a7n3",
+      "groups": {
+        "attack": "characters/brute/attack.tres",
+        "idle_up": "characters/brute/idle_up.tres",
+        "walk_up": "characters/brute/walk_up.tres",
+        "attack_up": "characters/brute/attack_up.tres",
+        "idle_down": "characters/brute/idle_down.tres",
+        "idle_left": "characters/brute/idle_left.tres",
+        "walk_down": "characters/brute/walk_down.tres",
+        "walk_left": "characters/brute/walk_left.tres",
+        "idle_right": "characters/brute/idle_right.tres",
+        "walk_right": "characters/brute/walk_right.tres",
+        "attack_left": "characters/brute/attack_left.tres",
+        "attack_right": "characters/brute/attack_right.tres"
+      },
+      "frame_scale": 1,
+      "renderCalibration": {
+        "attack": {
+          "frameEdgeScale": 1.946768060836502,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.755859375
+          },
+          "firstFrameBounds": {
+            "x": 0.279296875,
+            "y": 0.24609375,
+            "w": 0.447265625,
+            "h": 0.513671875
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_up": {
+          "frameEdgeScale": 2.295964125560538,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.994140625
+          },
+          "firstFrameBounds": {
+            "x": 0.298828125,
+            "y": 0.5625,
+            "w": 0.40234375,
+            "h": 0.435546875
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_up": {
+          "frameEdgeScale": 1.2337349397590363,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.904296875
+          },
+          "firstFrameBounds": {
+            "x": 0.1796875,
+            "y": 0.09765625,
+            "w": 0.705078125,
+            "h": 0.810546875
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "attack_up": {
+          "frameEdgeScale": 1.4222222222222223,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.990234375
+          },
+          "firstFrameBounds": {
+            "x": 0.21484375,
+            "y": 0.291015625,
+            "w": 0.650390625,
+            "h": 0.703125
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_down": {
+          "frameEdgeScale": 2.316742081447964,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.994140625
+          },
+          "firstFrameBounds": {
+            "x": 0.3125,
+            "y": 0.56640625,
+            "w": 0.375,
+            "h": 0.431640625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_left": {
+          "frameEdgeScale": 1.946768060836502,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.986328125
+          },
+          "firstFrameBounds": {
+            "x": 0.376953125,
+            "y": 0.4765625,
+            "w": 0.248046875,
+            "h": 0.513671875
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_down": {
+          "frameEdgeScale": 1.292929292929293,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.9296875
+          },
+          "firstFrameBounds": {
+            "x": 0.087890625,
+            "y": 0.16015625,
+            "w": 0.69140625,
+            "h": 0.7734375
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_left": {
+          "frameEdgeScale": 1.3473684210526315,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.884765625
+          },
+          "firstFrameBounds": {
+            "x": 0.287109375,
+            "y": 0.146484375,
+            "w": 0.515625,
+            "h": 0.7421875
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_right": {
+          "frameEdgeScale": 1.946768060836502,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.986328125
+          },
+          "firstFrameBounds": {
+            "x": 0.3671875,
+            "y": 0.4765625,
+            "w": 0.267578125,
+            "h": 0.513671875
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_right": {
+          "frameEdgeScale": 1.3473684210526315,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.884765625
+          },
+          "firstFrameBounds": {
+            "x": 0.197265625,
+            "y": 0.146484375,
+            "w": 0.515625,
+            "h": 0.7421875
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "attack_left": {
+          "frameEdgeScale": 1.8618181818181818,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.990234375
+          },
+          "firstFrameBounds": {
+            "x": 0.326171875,
+            "y": 0.45703125,
+            "w": 0.283203125,
+            "h": 0.537109375
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "attack_right": {
+          "frameEdgeScale": 1.8618181818181818,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.990234375
+          },
+          "firstFrameBounds": {
+            "x": 0.390625,
+            "y": 0.45703125,
+            "w": 0.28125,
+            "h": 0.537109375
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        }
+      },
+      "sourceFrameSize": 512,
+      "deliveryScale": 0.5,
+      "animationPhysics": {
+        "attack": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5029296875,
+            "cy": 0.5029296875,
+            "hw": 0.2197265625,
+            "hh": 0.2529296875
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.755859375,
+              "r": 0.07593410326086956
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5029296875,
+              "cy": 0.5029296875,
+              "hw": 0.2197265625,
+              "hh": 0.2529296875
+            }
+          },
+          "startPoseId": "pose_facing_s",
+          "endPoseId": "pose_facing_s"
+        },
+        "idle_up": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.4990234375,
+            "cy": 0.779296875,
+            "hw": 0.1962890625,
+            "hh": 0.212890625
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.994140625,
+              "r": 0.0643851902173913
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.4990234375,
+              "cy": 0.779296875,
+              "hw": 0.1962890625,
+              "hh": 0.212890625
+            }
+          }
+        },
+        "walk_up": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.533203125,
+            "cy": 0.5029296875,
+            "hw": 0.34765625,
+            "hh": 0.4013671875
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.904296875,
+              "r": 0.11981997282608696
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.533203125,
+              "cy": 0.5029296875,
+              "hw": 0.34765625,
+              "hh": 0.4013671875
+            }
+          },
+          "startPoseId": "pose_facing_n"
+        },
+        "attack_up": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5400390625,
+            "cy": 0.6455078125,
+            "hw": 0.3212890625,
+            "hh": 0.3486328125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.990234375,
+              "r": 0.10394021739130434
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5400390625,
+              "cy": 0.6455078125,
+              "hw": 0.3212890625,
+              "hh": 0.3486328125
+            }
+          },
+          "startPoseId": "pose_facing_n",
+          "endPoseId": "pose_facing_n"
+        },
+        "idle_down": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5,
+            "cy": 0.779296875,
+            "hw": 0.18359375,
+            "hh": 0.212890625
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.994140625,
+              "r": 0.06380774456521739
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.779296875,
+              "hw": 0.18359375,
+              "hh": 0.212890625
+            }
+          }
+        },
+        "idle_left": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.7333984375,
+            "hw": 0.1201171875,
+            "hh": 0.2529296875
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.986328125,
+              "r": 0.07593410326086956
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.7333984375,
+              "hw": 0.1201171875,
+              "hh": 0.2529296875
+            }
+          }
+        },
+        "walk_down": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.43359375,
+            "cy": 0.546875,
+            "hw": 0.341796875,
+            "hh": 0.3828125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.9296875,
+              "r": 0.11433423913043476
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.43359375,
+              "cy": 0.546875,
+              "hw": 0.341796875,
+              "hh": 0.3828125
+            }
+          },
+          "startPoseId": "pose_facing_s"
+        },
+        "walk_left": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.544921875,
+            "cy": 0.517578125,
+            "hw": 0.25390625,
+            "hh": 0.3671875
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.884765625,
+              "r": 0.10971467391304347
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.544921875,
+              "cy": 0.517578125,
+              "hw": 0.25390625,
+              "hh": 0.3671875
+            }
+          }
+        },
+        "idle_right": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.7333984375,
+            "hw": 0.1298828125,
+            "hh": 0.2529296875
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.986328125,
+              "r": 0.07593410326086956
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.7333984375,
+              "hw": 0.1298828125,
+              "hh": 0.2529296875
+            }
+          }
+        },
+        "walk_right": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.455078125,
+            "cy": 0.517578125,
+            "hw": 0.25390625,
+            "hh": 0.3671875
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.884765625,
+              "r": 0.10971467391304347
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.455078125,
+              "cy": 0.517578125,
+              "hw": 0.25390625,
+              "hh": 0.3671875
+            }
+          },
+          "startPoseId": "pose_facing_e"
+        },
+        "attack_left": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.4677734375,
+            "cy": 0.7275390625,
+            "hw": 0.1376953125,
+            "hh": 0.2666015625
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.990234375,
+              "r": 0.07939877717391305
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.4677734375,
+              "cy": 0.7275390625,
+              "hw": 0.1376953125,
+              "hh": 0.2666015625
+            }
+          }
+        },
+        "attack_right": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.53125,
+            "cy": 0.7275390625,
+            "hw": 0.13671875,
+            "hh": 0.2666015625
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.990234375,
+              "r": 0.07939877717391305
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.53125,
+              "cy": 0.7275390625,
+              "hw": 0.13671875,
+              "hh": 0.2666015625
+            }
+          },
+          "startPoseId": "pose_facing_e",
+          "endPoseId": "pose_facing_e"
+        }
+      },
+      "quality": {
+        "status": "needs_review",
+        "ready": false,
+        "animations": {
+          "attack": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "idle_up": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_up": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "loop"
+            ],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "attack_up": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "idle_down": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_down": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "walk_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_right": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_right": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "attack_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "attack_right": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          }
+        }
+      }
+    },
+    "worker": {
+      "characterId": "Frontier_settler_worker__sturd_1791030097469_l617",
+      "groups": {
+        "attack": "characters/worker/attack.tres",
+        "idle_up": "characters/worker/idle_up.tres",
+        "walk_up": "characters/worker/walk_up.tres",
+        "attack_up": "characters/worker/attack_up.tres",
+        "idle_down": "characters/worker/idle_down.tres",
+        "idle_left": "characters/worker/idle_left.tres",
+        "walk_down": "characters/worker/walk_down.tres",
+        "walk_left": "characters/worker/walk_left.tres",
+        "idle_right": "characters/worker/idle_right.tres",
+        "walk_right": "characters/worker/walk_right.tres"
+      },
+      "frame_scale": 1,
+      "renderCalibration": {
+        "attack": {
+          "frameEdgeScale": 1.2896725440806045,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.884765625
+          },
+          "firstFrameBounds": {
+            "x": 0.244140625,
+            "y": 0.11328125,
+            "w": 0.513671875,
+            "h": 0.775390625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_up": {
+          "frameEdgeScale": 1.5421686746987953,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.9921875
+          },
+          "firstFrameBounds": {
+            "x": 0.30859375,
+            "y": 0.34765625,
+            "w": 0.384765625,
+            "h": 0.6484375
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_up": {
+          "frameEdgeScale": 1.0963597430406853,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.98046875
+          },
+          "firstFrameBounds": {
+            "x": 0.244140625,
+            "y": 0.072265625,
+            "w": 0.498046875,
+            "h": 0.912109375
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "attack_up": {
+          "frameEdgeScale": 1.3837837837837839,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.990234375
+          },
+          "firstFrameBounds": {
+            "x": 0.28515625,
+            "y": 0.271484375,
+            "w": 0.4296875,
+            "h": 0.72265625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_down": {
+          "frameEdgeScale": 1.5562310030395137,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.9921875
+          },
+          "firstFrameBounds": {
+            "x": 0.287109375,
+            "y": 0.353515625,
+            "w": 0.427734375,
+            "h": 0.642578125
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_left": {
+          "frameEdgeScale": 1.5421686746987953,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.9921875
+          },
+          "firstFrameBounds": {
+            "x": 0.388671875,
+            "y": 0.34765625,
+            "w": 0.22265625,
+            "h": 0.6484375
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_down": {
+          "frameEdgeScale": 1.17162471395881,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.9765625
+          },
+          "firstFrameBounds": {
+            "x": 0.228515625,
+            "y": 0.126953125,
+            "w": 0.521484375,
+            "h": 0.853515625
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_left": {
+          "frameEdgeScale": 1.3128205128205128,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.845703125
+          },
+          "firstFrameBounds": {
+            "x": 0.310546875,
+            "y": 0.087890625,
+            "w": 0.408203125,
+            "h": 0.76171875
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "idle_right": {
+          "frameEdgeScale": 1.5421686746987953,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.9921875
+          },
+          "firstFrameBounds": {
+            "x": 0.38671875,
+            "y": 0.34765625,
+            "w": 0.228515625,
+            "h": 0.6484375
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        },
+        "walk_right": {
+          "frameEdgeScale": 1.3128205128205128,
+          "groundAnchor": {
+            "x": 0.5,
+            "y": 0.845703125
+          },
+          "firstFrameBounds": {
+            "x": 0.28125,
+            "y": 0.087890625,
+            "w": 0.41015625,
+            "h": 0.76171875
+          },
+          "method": "Fixed neutral first-frame reference; full logical frame and source artwork retained."
+        }
+      },
+      "sourceFrameSize": 512,
+      "deliveryScale": 0.5,
+      "animationPhysics": {
+        "attack": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.5009765625,
+            "hw": 0.2529296875,
+            "hh": 0.3837890625
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.884765625,
+              "r": 0.1781302787162162
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.5009765625,
+              "hw": 0.2529296875,
+              "hh": 0.3837890625
+            }
+          },
+          "startPoseId": "pose_facing_s",
+          "endPoseId": "pose_facing_s"
+        },
+        "idle_up": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.671875,
+            "hw": 0.1884765625,
+            "hh": 0.3203125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.9921875,
+              "r": 0.1489653716216216
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.671875,
+              "hw": 0.1884765625,
+              "hh": 0.3203125
+            }
+          }
+        },
+        "walk_up": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.4931640625,
+            "cy": 0.5283203125,
+            "hw": 0.2451171875,
+            "hh": 0.4521484375
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.98046875,
+              "r": 0.2095386402027027
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.4931640625,
+              "cy": 0.5283203125,
+              "hw": 0.2451171875,
+              "hh": 0.4521484375
+            }
+          },
+          "startPoseId": "pose_facing_n"
+        },
+        "attack_up": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5,
+            "cy": 0.634765625,
+            "hw": 0.2109375,
+            "hh": 0.359375
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.990234375,
+              "r": 0.166015625
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.634765625,
+              "hw": 0.2109375,
+              "hh": 0.359375
+            }
+          },
+          "startPoseId": "pose_facing_n",
+          "endPoseId": "pose_facing_n"
+        },
+        "idle_down": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.6748046875,
+            "hw": 0.2099609375,
+            "hh": 0.3173828125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.9921875,
+              "r": 0.14761929898648649
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.6748046875,
+              "hw": 0.2099609375,
+              "hh": 0.3173828125
+            }
+          }
+        },
+        "idle_left": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.671875,
+            "hw": 0.1064453125,
+            "hh": 0.3203125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.9921875,
+              "r": 0.1489653716216216
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.671875,
+              "hw": 0.1064453125,
+              "hh": 0.3203125
+            }
+          }
+        },
+        "walk_down": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.4892578125,
+            "cy": 0.5537109375,
+            "hw": 0.2568359375,
+            "hh": 0.4228515625
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.9765625,
+              "r": 0.19607791385135134
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.4892578125,
+              "cy": 0.5537109375,
+              "hw": 0.2568359375,
+              "hh": 0.4228515625
+            }
+          },
+          "startPoseId": "pose_facing_s"
+        },
+        "walk_left": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5146484375,
+            "cy": 0.46875,
+            "hw": 0.2001953125,
+            "hh": 0.376953125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.845703125,
+              "r": 0.17498944256756757
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5146484375,
+              "cy": 0.46875,
+              "hw": 0.2001953125,
+              "hh": 0.376953125
+            }
+          }
+        },
+        "idle_right": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.5009765625,
+            "cy": 0.671875,
+            "hw": 0.1103515625,
+            "hh": 0.3203125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.9921875,
+              "r": 0.1489653716216216
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.671875,
+              "hw": 0.1103515625,
+              "hh": 0.3203125
+            }
+          }
+        },
+        "walk_right": {
+          "collisionBodyMode": "auto",
+          "collisionBody": {
+            "kind": "rect",
+            "cx": 0.4873046875,
+            "cy": 0.46875,
+            "hw": 0.2001953125,
+            "hh": 0.376953125
+          },
+          "collisionRoles": {
+            "movement": {
+              "kind": "circle",
+              "cx": 0.5,
+              "cy": 0.845703125,
+              "r": 0.17498944256756757
+            },
+            "hurtbox": {
+              "kind": "rect",
+              "cx": 0.4873046875,
+              "cy": 0.46875,
+              "hw": 0.2001953125,
+              "hh": 0.376953125
+            }
+          },
+          "startPoseId": "pose_facing_e"
+        }
+      },
+      "quality": {
+        "status": "needs_review",
+        "ready": false,
+        "animations": {
+          "attack": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "idle_up": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_up": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "attack_up": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "idle_down": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_down": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "walk_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_right": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_right": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          }
+        }
+      }
+    }
+  },
+  "heading_font": "fonts/exo2.ttf",
+  "body_font": "fonts/barlow.ttf",
+  "ui_pack": {
+    "file": "ui/ui-pack.json",
+    "id": "6b066b7b-540e-4151-8e24-c02c987f475a",
+    "contentVersion": "ui-pack-v4:05e5c7b12d0ecae28c94555c3bfea119b1bd42135e00339251c9c7d1ae7b44a0"
+  },
+  "ground_file": "map/ground.png",
+  "map_file": "map/placements.json"
+}

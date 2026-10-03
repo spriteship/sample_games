@@ -1,0 +1,140 @@
+{
+  "id": "Emberhold_valley_at_dawn_1791028066368_s7hu",
+  "slug": "emberhold-menu",
+  "name": "Emberhold valley at dawn",
+  "projectId": "proj_1791027542095_991m",
+  "assetType": "background",
+  "gameType": "topdown",
+  "style": "hand painted",
+  "createdAt": "2026-10-03T11:48:42.395Z",
+  "updatedAt": "2026-10-03T11:57:15.886Z",
+  "hasAnimation": false,
+  "iterationCount": 1,
+  "tags": [],
+  "favourite": false,
+  "prompt": "Cinematic wide fantasy valley at dawn viewed from an elevated hillside. A warm glowing copper-roof medieval stronghold and hearth in lower right, lush mossy forest and winding river across middle, three ancient beacon towers along ridges in the distance, distant threatening dark citadel with ember-red windows on far northern peak. Layered atmospheric mist and elegant northwest sunlight, richly painted storybook realism, dramatic amber against slate blue. Open darker sky on left for interface title. Absolutely no text or lettering.",
+  "currentIterationId": "Emberhold_valley_at_dawn_1791028066368_s7hu_iter_1",
+  "iterations": [
+    {
+      "id": "Emberhold_valley_at_dawn_1791028066368_s7hu_iter_1",
+      "iterationIndex": 1,
+      "status": "selected",
+      "displayName": null,
+      "prompt": "CREATE\nGenerate exactly one complete opaque edge-to-edge painted scene in a 16:9 aspect ratio for the selected backgroundType scene purpose. Use a topdown game camera as specified by backgroundViewType topdown: an angled RPG-style view approximately 45 degrees downward without isometric yaw, preserving a coherent elevated hillside vista rather than diamond-shaped isometric geometry. Compose the warm glowing copper-roof medieval stronghold and hearth in the lower right; show lush mossy forest and a winding river across the middle; place three ancient beacon towers along distant ridges; and place the dark threatening citadel with ember-red windows on the far northern peak. Retain layered atmospheric mist, elegant northwest sunlight, dramatic amber against slate-blue color contrast, and a darker relatively uncluttered sky area on the left for a future interface title. Paint as one coherent storybook-realism scene with no separate objects, atlas layout, collage, grid, parallax pack, or empty backing border. Scenery only: do not generate characters, creatures, HUD, interface elements, labels, captions, text, letters, digits, pseudo-writing, signatures, logos, or watermarks. The painted floor, valley, forest, river, and hillside are scenery only and must not imply collision, navigation, deterministic terrain, or a playable level.\n\nPLANNED OUTPUTS\nUNLABELED VISUAL SUBJECTS ONLY. The following lines describe appearance; never draw, print, typeset, annotate, name, or caption them:\n- One cinematic wide fantasy valley background scene at dawn, viewed from an elevated hillside, with a warm glowing copper-roof medieval stronghold and hearth in the lower right; lush mossy forest and winding river across the middle; three ancient beacon towers along distant ridges; a distant dark cit\n\nLOOK\nHand-painted storybook realism with visible but controlled brush texture, soft ambient occlusion, layered material strokes, restrained painterly linework, sturdy readable silhouettes, and richly painted atmospheric depth. Palette: slate-blue cool shadows, #1B2528 deep background, #C87532 copper accent, #9B4438 ember-red danger glow, #F0B45B amber highlight, #D8D0B8 ivory-stone surface, #687A78 secondary blue-green, #82908A muted mist and foliage. Lighting: Consistent elegant northwest dawn sunlight with warm amber illumination on the stronghold, hearth, beacon towers, and selected valley forms; localized firelight and ember glow without flattening readability.. Atmosphere: Layered dawn mist, distant haze, dramatic amber-versus-slate-blue contrast, resilient and adventurous mood with an ominous far citadel..\n\nVIEW\nAngled RPG top-down scene camera, looking down approximately 45 degrees with readable tops and forward-facing vertical fronts. World axes project along screen axes with depth foreshortening, not symmetric diagonal isometric diamonds. Use parallel projection and a consistent camera across scenery. This is NOT strict overhead: retain appropriate visible front faces. Do not invent a horizon or expose eye-level fronts.\n\nOUTPUT\n\nCreate ONE coherent full-bleed painted background scene. Opaque scene pixels cover the canvas edge to edge. Preserve the named subject, requested composition and project style; an explicitly requested sky is sky, not an invented ground-and-building scene. Leave appropriate readable gameplay/placement space without inventing floor or platforms for a sky. Do not make a collage, contact sheet, tiny diorama with blank margins, independent-object atlas, frame, vignette, chroma plate or transparent cutout. No unrequested characters, game UI, text, letters, digits, labels, pseudo-writing or watermark. Only explicitly allowed intrinsic writing may appear. Painted ground does not generate collision or navigation. Do not claim verified seamless edges.\n\n\nVISIBLE TEXT\nNONE. Text is prohibited. Render no words, letters, numbers, names, captions, annotations, or other typography anywhere in the image. Item descriptions are private instructions only and must never become visible copy.\n\nAVOID\nText or lettering of any kind, Characters or creatures, HUD or interface elements, Labels, captions, letters, digits, pseudo-writing, Signatures, logos, or watermarks, Collage, grid, atlas, separated-object layout, or multiple images, Multiple parallax layers in one generation, Playable collision, navigation, or deterministic terrain behavior, Isometric diamond geometry, Empty backing border\n\nSTRICT ARTWORK-ONLY RULE — NO TEXT anywhere. THIS OUTPUT IS INVALID IF IT CONTAINS ANY VISIBLE TEXT OR TEXT-LIKE MARKS. Render ZERO words, letters, digits, typography, pseudo-text, gibberish glyphs, captions, labels, titles, legends, annotations, signatures, logos or watermarks anywhere in any image or video frame. Names, item descriptions, state names, prompt headings and bullet lines are private drawing instructions: depict the subject only and NEVER typeset, copy, abbreviate or echo any portion of them. Before finalizing, inspect the entire frame and remove every accidental character, detached pseudo-letter, caption fragment and typographic mark; replace it with a completely blank object surface or the required transparent/chroma background. Symbols mean recognizable non-letter pictograms, not writing. Keep signs, pages, screens, clothing and surfaces unlettered by default. Only specific intrinsic writing explicitly requested by the user is permitted, solely on its requested object; never infer permission from a genre, style, item name or reference image. A reviewed NONE text policy overrides every subject description and forbids even intrinsic writing, including on signs, books, cards and screens. No added subtitles or text overlays in animations. FINAL CHECK: if any unpermitted glyph or text-like fragment remains anywhere, remove it before returning the media.",
+      "feedbackPrompt": null,
+      "model": "gpt-image-2-5-flare-text-to-image",
+      "createdAt": "Sat Oct 03 2026 11:48:42 GMT+0000 (Coordinated Universal Time)",
+      "items": [
+        {
+          "id": "Emberhold_valley_at_dawn_1791028066368_s7hu_iter_1_item_0",
+          "itemIndex": 0,
+          "itemToken": "item_1",
+          "displayName": "One cinematic wide fantasy valley background scene at dawn, viewed from an elevated hillside, with a warm glowing copper-roof medieval stronghold and hearth in the lower right; lush mossy forest and winding river across the middle; three ancient beacon towers along distant ridges; a distant dark cit",
+          "role": "requested",
+          "sourceBbox": null,
+          "confidence": 1,
+          "parentItemId": null
+        }
+      ],
+      "itemsSource": "manifest"
+    }
+  ],
+  "animation": null,
+  "runtime": null,
+  "grid": null,
+  "background": {
+    "viewType": "topdown",
+    "bgType": "scene",
+    "aspectRatio": "16:9",
+    "resolution": "2K"
+  },
+  "extraction": null,
+  "generationPlan": {
+    "camera": {
+      "view": "topdown",
+      "source": "project_game_type"
+    },
+    "layout": {
+      "mode": "single",
+      "rows": null,
+      "columns": null,
+      "extractionMode": "single_image"
+    },
+    "preview": "One opaque, cinematic painted fantasy-valley scene for a 16:9 topdown game background: an elevated hillside overlooks a lush mossy forest and winding river, with a warm copper-roof medieval stronghold and glowing hearth in the lower right, three ancient beacon towers along distant ridges, and a threatening dark citadel with ember-red windows on a far northern peak. Layered dawn mist and elegant northwest sunlight create dramatic amber highlights against slate-blue shadows. Preserve open, darker sky on the left for an interface title area, but include no text or lettering. This is a complete edge-to-edge scene, not a playable terrain or collision asset.",
+    "estimate": {
+      "credits": 100,
+      "includedTextPlanning": true
+    },
+    "required": [
+      "Exactly one complete opaque edge-to-edge scene",
+      "16:9 cinematic composition",
+      "Elevated hillside topdown view approximately 45 degrees downward without isometric yaw",
+      "Warm glowing copper-roof medieval stronghold and hearth in the lower right",
+      "Lush mossy forest and winding river across the middle",
+      "Three ancient beacon towers along distant ridges",
+      "Dark citadel with ember-red windows on a far northern peak",
+      "Layered atmospheric dawn mist",
+      "Elegant northwest sunlight",
+      "Open darker sky on the left for interface title placement",
+      "Hand-painted storybook realism",
+      "Dramatic amber against slate-blue lighting"
+    ],
+    "warnings": [],
+    "assetType": "background",
+    "forbidden": [
+      "Text or lettering of any kind",
+      "Characters or creatures",
+      "HUD or interface elements",
+      "Labels, captions, letters, digits, pseudo-writing",
+      "Signatures, logos, or watermarks",
+      "Collage, grid, atlas, separated-object layout, or multiple images",
+      "Multiple parallax layers in one generation",
+      "Playable collision, navigation, or deterministic terrain behavior",
+      "Isometric diamond geometry",
+      "Empty backing border",
+      "external captions",
+      "item-name labels",
+      "headers",
+      "legends",
+      "signatures",
+      "watermarks"
+    ],
+    "operation": "create",
+    "disposition": "single",
+    "visibleText": {
+      "mode": "none",
+      "allowedContent": []
+    },
+    "schemaVersion": 2,
+    "outputQuantity": 1,
+    "primarySubject": "Cinematic wide fantasy valley at dawn viewed from an elevated hillside, with the requested stronghold, forest, river, beacon towers, distant citadel, mist, sunlight, and open left-side sky composition.",
+    "quantitySource": "user_explicit",
+    "requestedItems": [
+      "One cinematic wide fantasy valley background scene at dawn, viewed from an elevated hillside, with a warm glowing copper-roof medieval stronghold and hearth in the lower right; lush mossy forest and winding river across the middle; three ancient beacon towers along distant ridges; a distant dark cit"
+    ],
+    "visualTreatment": {
+      "palette": [
+        "slate-blue cool shadows",
+        "#1B2528 deep background",
+        "#C87532 copper accent",
+        "#9B4438 ember-red danger glow",
+        "#F0B45B amber highlight",
+        "#D8D0B8 ivory-stone surface",
+        "#687A78 secondary blue-green",
+        "#82908A muted mist and foliage"
+      ],
+      "lighting": "Consistent elegant northwest dawn sunlight with warm amber illumination on the stronghold, hearth, beacon towers, and selected valley forms; localized firelight and ember glow without flattening readability.",
+      "atmosphere": "Layered dawn mist, distant haze, dramatic amber-versus-slate-blue contrast, resilient and adventurous mood with an ominous far citadel.",
+      "renderingStyle": "Hand-painted storybook realism with visible but controlled brush texture, soft ambient occlusion, layered material strokes, restrained painterly linework, sturdy readable silhouettes, and richly painted atmospheric depth.",
+      "surfaceTreatment": ""
+    },
+    "backgroundPurpose": "scene",
+    "backgroundVersion": 1,
+    "requestedQuantity": 1,
+    "supplementalItems": [],
+    "projectContextHash": "WSnJu7VrzOVFBbG46jz_LeqSbMHekEFwGvhiXvkWQJA",
+    "generationDirective": "Generate exactly one complete opaque edge-to-edge painted scene in a 16:9 aspect ratio for the selected backgroundType scene purpose. Use a topdown game camera as specified by backgroundViewType topdown: an angled RPG-style view approximately 45 degrees downward without isometric yaw, preserving a coherent elevated hillside vista rather than diamond-shaped isometric geometry. Compose the warm glowing copper-roof medieval stronghold and hearth in the lower right; show lush mossy forest and a winding river across the middle; place three ancient beacon towers along distant ridges; and place the dark threatening citadel with ember-red windows on the far northern peak. Retain layered atmospheric mist, elegant northwest sunlight, dramatic amber against slate-blue color contrast, and a darker relatively uncluttered sky area on the left for a future interface title. Paint as one coherent storybook-realism scene with no separate objects, atlas layout, collage, grid, parallax pack, or empty backing border. Scenery only: do not generate characters, creatures, HUD, interface elements, labels, captions, text, letters, digits, pseudo-writing, signatures, logos, or watermarks. The painted floor, valley, forest, river, and hillside are scenery only and must not imply collision, navigation, deterministic terrain, or a playable level."
+  },
+  "material": null,
+  "quality": {}
+}

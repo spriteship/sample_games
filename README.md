@@ -7,6 +7,7 @@ Playable sample games built with assets created in [SpriteShip](https://spritesh
 | Game | Engine | Description |
 | --- | --- | --- |
 | [Last Light](games/last-light) | Phaser 3 | A top-down survival game with animated characters, enemies, weapons, and collectibles. |
+| [Emberhold: The Last Hearth](games/emberhold) | Godot 4.7.2 | A painted 2D settlement strategy campaign with gathering, construction, autonomous settlers, army commands, beacons and a final boss. |
 
 ## Play online
 
@@ -23,6 +24,8 @@ npm run dev
 ```
 
 Open <http://127.0.0.1:4173>.
+
+For Emberhold, run `npm run build:emberhold` followed by `npm run dev:emberhold`, then open <http://localhost:4174>. Rebuilding requires Godot 4.7.2 and matching Web export templates; see its [README](games/emberhold/README.md).
 
 ## Workspace commands
 

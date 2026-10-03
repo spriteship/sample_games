@@ -1,0 +1,1431 @@
+{
+  "schema": "tizo8-export",
+  "schemaVersion": "1.3",
+  "exportedAt": "2026-10-03T13:12:16.037Z",
+  "source": {
+    "app": "spriteship",
+    "appUrl": "https://spriteship.com"
+  },
+  "engine": "godot",
+  "surface": "ui-pack",
+  "title": "Emberhold Command Interface",
+  "entityId": "6b066b7b-540e-4151-8e24-c02c987f475a",
+  "engineVersion": "godot adapter; native UI Pack acceptance pending",
+  "files": [
+    {
+      "path": "components/1-Timber/1-frame.png",
+      "role": "image",
+      "description": "Timber: frame"
+    },
+    {
+      "path": "components/2-Stone/1-frame.png",
+      "role": "image",
+      "description": "Stone: frame"
+    },
+    {
+      "path": "components/3-Gold/1-frame.png",
+      "role": "image",
+      "description": "Gold: frame"
+    },
+    {
+      "path": "components/4-Harvest/1-frame.png",
+      "role": "image",
+      "description": "Harvest: frame"
+    },
+    {
+      "path": "components/5-Settlers/1-frame.png",
+      "role": "image",
+      "description": "Settlers: frame"
+    },
+    {
+      "path": "components/6-Command-panel/1-frame.png",
+      "role": "image",
+      "description": "Command panel: frame"
+    },
+    {
+      "path": "components/7-Command/1-frame.png",
+      "role": "image",
+      "description": "Command: frame"
+    },
+    {
+      "path": "components/8-Hearthlight/1-frame.png",
+      "role": "image",
+      "description": "Hearthlight: frame"
+    },
+    {
+      "path": "components/9-Ash-Crown/1-frame.png",
+      "role": "image",
+      "description": "Ash Crown: frame"
+    },
+    {
+      "path": "components/10-Unit-selection/1-frame.png",
+      "role": "image",
+      "description": "Unit selection: frame"
+    },
+    {
+      "path": "components/11-Hearth-vitality/1-frame.png",
+      "role": "image",
+      "description": "Hearth vitality: frame"
+    },
+    {
+      "path": "fonts/1-Exo-2.ttf",
+      "role": "font",
+      "description": "Exo 2 500; pinned version 205a448676a2586f"
+    },
+    {
+      "path": "fonts/1-Exo-2-LICENSE.txt",
+      "role": "license",
+      "description": "Required license notice for Exo 2; overrides blanket artwork license for this font."
+    },
+    {
+      "path": "fonts/2-Barlow.ttf",
+      "role": "font",
+      "description": "Barlow 400; pinned version 95aa02c7c43096e0"
+    },
+    {
+      "path": "fonts/2-Barlow-LICENSE.txt",
+      "role": "license",
+      "description": "Required license notice for Barlow; overrides blanket artwork license for this font."
+    },
+    {
+      "path": "ui-pack.json",
+      "role": "metadata",
+      "description": "Canonical UI Pack v1; every resource path is relative to this archive."
+    },
+    {
+      "path": "ui-runtime.js",
+      "role": "engine-script",
+      "description": "Shared Canvas/browser behavior from SpriteShip UI Pack geometry helpers."
+    },
+    {
+      "path": "SpriteShipUi.gd",
+      "role": "engine-script",
+      "description": "Godot Control builder for masked bars and NinePatchRect panels; native acceptance pending."
+    },
+    {
+      "path": "LICENSE.txt",
+      "role": "license",
+      "description": "SpriteShip asset permissions and third-party rights limitations; read before redistribution."
+    },
+    {
+      "path": "tizo-export.json",
+      "role": "manifest",
+      "description": "Self-describing manifest — file inventory + engine payload + schema version."
+    },
+    {
+      "path": "schema.json",
+      "role": "schema",
+      "description": "JSON Schema for tizo-export.json. Readable by AI coding assistants."
+    },
+    {
+      "path": "README.md",
+      "role": "readme",
+      "description": "Quick-start + loader snippet for godot."
+    },
+    {
+      "path": "preview.html",
+      "role": "preview",
+      "description": "Standalone browser preview — double-click to view without installing the engine."
+    },
+    {
+      "path": "SKILL.md",
+      "role": "skill",
+      "description": "Agent skill — integration procedure + pitfalls for AI coding assistants."
+    }
+  ],
+  "payload": {
+    "version": 1,
+    "surface": "ui-pack",
+    "contentVersion": "ui-pack-v4:05e5c7b12d0ecae28c94555c3bfea119b1bd42135e00339251c9c7d1ae7b44a0",
+    "pack": {
+      "id": "6b066b7b-540e-4151-8e24-c02c987f475a",
+      "name": "Emberhold Command Interface",
+      "projectId": "proj_1791027542095_991m"
+    },
+    "engine": "godot",
+    "components": [
+      {
+        "id": "0209c93d-66e9-4cce-a29a-386f83e9f4bb",
+        "packId": "6b066b7b-540e-4151-8e24-c02c987f475a",
+        "batchId": "c375990d-e60a-48d4-97fb-a4074cf1eef6",
+        "name": "Timber",
+        "kind": "icon",
+        "role": "wood",
+        "requiredCapabilities": [
+          "artwork"
+        ],
+        "activeRevision": {
+          "id": "731e6b42-463a-4d93-a4dc-1717d68dfbbd",
+          "method": "illustrated",
+          "version": 1,
+          "revision": 1,
+          "artifacts": [
+            {
+              "id": "731e6b42-463a-4d93-a4dc-1717d68dfbbd-frame",
+              "url": "components/1-Timber/1-frame.png",
+              "role": "frame",
+              "width": 393,
+              "height": 354,
+              "sha256": "9605e6063bc01bf8bad68db6531bb8b0c7fd62c064a5f006bcc62270e46a7525",
+              "mimeType": "image/png",
+              "storageKey": "components/1-Timber/1-frame.png"
+            }
+          ],
+          "createdAt": "2026-10-03T12:02:37.571Z",
+          "styleGuide": {
+            "id": "1fd9fb59-4f13-4156-951a-3a2f32b9e9f0",
+            "camera": "topdown",
+            "palette": {
+              "text": "#F3E8C8",
+              "muted": "#82908A",
+              "accent": "#C87532",
+              "danger": "#9B4438",
+              "outline": "#293337",
+              "success": "#829B62",
+              "surface": "#D8D0B8",
+              "warning": "#D29A45",
+              "highlight": "#F0B45B",
+              "secondary": "#687A78",
+              "background": "#1B2528"
+            },
+            "version": 1,
+            "bodyFont": {
+              "size": 16,
+              "color": "#F3E8C8",
+              "family": "Barlow",
+              "fontId": "barlow",
+              "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+              "weight": 400,
+              "version": "95aa02c7c43096e0",
+              "lineHeight": 1.5
+            },
+            "revision": 1,
+            "direction": "A premium hand-painted fantasy settlement style combining refined storybook realism with clear RTS readability. Emberhold should feel like a resilient woodland refuge: elegant medieval construction, tactile materials, atmospheric depth, and warm human light contrasted against ash-darkened wilderness.",
+            "projectId": "proj_1791027542095_991m",
+            "rendering": "Paint with visible but controlled brush texture, soft ambient occlusion, layered material strokes, and subtle atmospheric depth. Use consistent northwest lighting, slate-blue cool shadows, ivory and copper material highlights, and localized amber glow from hearths, beacons, and fire without flattening tactical readability.",
+            "references": [],
+            "headingFont": {
+              "size": 24,
+              "color": "#F3E8C8",
+              "family": "Exo 2",
+              "fontId": "exo2",
+              "sha256": "205a448676a2586f9c57c25f3d5c58ca8db7e6cf5edf7506783a010c6fe2bfb5",
+              "weight": 500,
+              "version": "205a448676a2586f",
+              "lineHeight": 1.3
+            },
+            "lockedColors": [],
+            "shapeLanguage": "Use sturdy, readable silhouettes with gently irregular hand-crafted edges: steep medieval roofs, rounded timber forms, angular stonework, layered cloaks, and distinct weapon profiles. Keep linework restrained and painterly, with moderate detail concentrated on key materials, faces, heraldic shapes, and gameplay-critical features."
+          },
+          "validation": {
+            "status": "needs_review",
+            "warnings": [
+              "Faint transparency (alpha 1–8) extends into collection gutters; artwork above this threshold is intact, but inspect faint halo edges against the retained source."
+            ],
+            "sourceHash": "9605e6063bc01bf8bad68db6531bb8b0c7fd62c064a5f006bcc62270e46a7525",
+            "capabilities": {
+              "artwork": {
+                "passed": true
+              }
+            },
+            "layoutVersion": 4,
+            "configurationHash": "7150287b03f5a48ef026636c66f39be5c5b982b5221623f4f64d0a00b572de33"
+          },
+          "componentId": "0209c93d-66e9-4cce-a29a-386f83e9f4bb",
+          "configuration": {
+            "width": 393,
+            "height": 354,
+            "layers": [
+              {
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 393,
+                  "height": 354
+                },
+                "artifactId": "731e6b42-463a-4d93-a4dc-1717d68dfbbd-frame"
+              }
+            ]
+          }
+        },
+        "createdAt": "2026-10-03T12:02:37.574Z"
+      },
+      {
+        "id": "50e38ed1-f0ae-4c11-aa98-28de477c4080",
+        "packId": "6b066b7b-540e-4151-8e24-c02c987f475a",
+        "batchId": "c375990d-e60a-48d4-97fb-a4074cf1eef6",
+        "name": "Stone",
+        "kind": "icon",
+        "role": "stone",
+        "requiredCapabilities": [
+          "artwork"
+        ],
+        "activeRevision": {
+          "id": "be321d48-6787-4f9e-a3e1-da666459ecfb",
+          "method": "illustrated",
+          "version": 1,
+          "revision": 1,
+          "artifacts": [
+            {
+              "id": "be321d48-6787-4f9e-a3e1-da666459ecfb-frame",
+              "url": "components/2-Stone/1-frame.png",
+              "role": "frame",
+              "width": 359,
+              "height": 361,
+              "sha256": "9be706e9f681d19ba0653994fabd6e02eb2427a8691b361e9d7e570e3a9e9a09",
+              "mimeType": "image/png",
+              "storageKey": "components/2-Stone/1-frame.png"
+            }
+          ],
+          "createdAt": "2026-10-03T12:02:38.174Z",
+          "styleGuide": {
+            "id": "1fd9fb59-4f13-4156-951a-3a2f32b9e9f0",
+            "camera": "topdown",
+            "palette": {
+              "text": "#F3E8C8",
+              "muted": "#82908A",
+              "accent": "#C87532",
+              "danger": "#9B4438",
+              "outline": "#293337",
+              "success": "#829B62",
+              "surface": "#D8D0B8",
+              "warning": "#D29A45",
+              "highlight": "#F0B45B",
+              "secondary": "#687A78",
+              "background": "#1B2528"
+            },
+            "version": 1,
+            "bodyFont": {
+              "size": 16,
+              "color": "#F3E8C8",
+              "family": "Barlow",
+              "fontId": "barlow",
+              "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+              "weight": 400,
+              "version": "95aa02c7c43096e0",
+              "lineHeight": 1.5
+            },
+            "revision": 1,
+            "direction": "A premium hand-painted fantasy settlement style combining refined storybook realism with clear RTS readability. Emberhold should feel like a resilient woodland refuge: elegant medieval construction, tactile materials, atmospheric depth, and warm human light contrasted against ash-darkened wilderness.",
+            "projectId": "proj_1791027542095_991m",
+            "rendering": "Paint with visible but controlled brush texture, soft ambient occlusion, layered material strokes, and subtle atmospheric depth. Use consistent northwest lighting, slate-blue cool shadows, ivory and copper material highlights, and localized amber glow from hearths, beacons, and fire without flattening tactical readability.",
+            "references": [],
+            "headingFont": {
+              "size": 24,
+              "color": "#F3E8C8",
+              "family": "Exo 2",
+              "fontId": "exo2",
+              "sha256": "205a448676a2586f9c57c25f3d5c58ca8db7e6cf5edf7506783a010c6fe2bfb5",
+              "weight": 500,
+              "version": "205a448676a2586f",
+              "lineHeight": 1.3
+            },
+            "lockedColors": [],
+            "shapeLanguage": "Use sturdy, readable silhouettes with gently irregular hand-crafted edges: steep medieval roofs, rounded timber forms, angular stonework, layered cloaks, and distinct weapon profiles. Keep linework restrained and painterly, with moderate detail concentrated on key materials, faces, heraldic shapes, and gameplay-critical features."
+          },
+          "validation": {
+            "status": "needs_review",
+            "warnings": [
+              "Faint transparency (alpha 1–8) extends into collection gutters; artwork above this threshold is intact, but inspect faint halo edges against the retained source."
+            ],
+            "sourceHash": "9be706e9f681d19ba0653994fabd6e02eb2427a8691b361e9d7e570e3a9e9a09",
+            "capabilities": {
+              "artwork": {
+                "passed": true
+              }
+            },
+            "layoutVersion": 4,
+            "configurationHash": "f0dffdcdec98f235368b41ceafcbe35a699aec5eaacd26993de21a95c2454535"
+          },
+          "componentId": "50e38ed1-f0ae-4c11-aa98-28de477c4080",
+          "configuration": {
+            "width": 359,
+            "height": 361,
+            "layers": [
+              {
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 359,
+                  "height": 361
+                },
+                "artifactId": "be321d48-6787-4f9e-a3e1-da666459ecfb-frame"
+              }
+            ]
+          }
+        },
+        "createdAt": "2026-10-03T12:02:38.178Z"
+      },
+      {
+        "id": "2fc071ad-e453-4fe1-afa6-2b5723a4718e",
+        "packId": "6b066b7b-540e-4151-8e24-c02c987f475a",
+        "batchId": "c375990d-e60a-48d4-97fb-a4074cf1eef6",
+        "name": "Gold",
+        "kind": "icon",
+        "role": "gold",
+        "requiredCapabilities": [
+          "artwork"
+        ],
+        "activeRevision": {
+          "id": "68256b5f-6461-47d5-ac89-f5265dc2f3c0",
+          "method": "illustrated",
+          "version": 1,
+          "revision": 1,
+          "artifacts": [
+            {
+              "id": "68256b5f-6461-47d5-ac89-f5265dc2f3c0-frame",
+              "url": "components/3-Gold/1-frame.png",
+              "role": "frame",
+              "width": 324,
+              "height": 311,
+              "sha256": "081b33657683ef8158bed65ca60c43cd5a46648ea506547945b4f08253b9bb4f",
+              "mimeType": "image/png",
+              "storageKey": "components/3-Gold/1-frame.png"
+            }
+          ],
+          "createdAt": "2026-10-03T12:02:38.629Z",
+          "styleGuide": {
+            "id": "1fd9fb59-4f13-4156-951a-3a2f32b9e9f0",
+            "camera": "topdown",
+            "palette": {
+              "text": "#F3E8C8",
+              "muted": "#82908A",
+              "accent": "#C87532",
+              "danger": "#9B4438",
+              "outline": "#293337",
+              "success": "#829B62",
+              "surface": "#D8D0B8",
+              "warning": "#D29A45",
+              "highlight": "#F0B45B",
+              "secondary": "#687A78",
+              "background": "#1B2528"
+            },
+            "version": 1,
+            "bodyFont": {
+              "size": 16,
+              "color": "#F3E8C8",
+              "family": "Barlow",
+              "fontId": "barlow",
+              "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+              "weight": 400,
+              "version": "95aa02c7c43096e0",
+              "lineHeight": 1.5
+            },
+            "revision": 1,
+            "direction": "A premium hand-painted fantasy settlement style combining refined storybook realism with clear RTS readability. Emberhold should feel like a resilient woodland refuge: elegant medieval construction, tactile materials, atmospheric depth, and warm human light contrasted against ash-darkened wilderness.",
+            "projectId": "proj_1791027542095_991m",
+            "rendering": "Paint with visible but controlled brush texture, soft ambient occlusion, layered material strokes, and subtle atmospheric depth. Use consistent northwest lighting, slate-blue cool shadows, ivory and copper material highlights, and localized amber glow from hearths, beacons, and fire without flattening tactical readability.",
+            "references": [],
+            "headingFont": {
+              "size": 24,
+              "color": "#F3E8C8",
+              "family": "Exo 2",
+              "fontId": "exo2",
+              "sha256": "205a448676a2586f9c57c25f3d5c58ca8db7e6cf5edf7506783a010c6fe2bfb5",
+              "weight": 500,
+              "version": "205a448676a2586f",
+              "lineHeight": 1.3
+            },
+            "lockedColors": [],
+            "shapeLanguage": "Use sturdy, readable silhouettes with gently irregular hand-crafted edges: steep medieval roofs, rounded timber forms, angular stonework, layered cloaks, and distinct weapon profiles. Keep linework restrained and painterly, with moderate detail concentrated on key materials, faces, heraldic shapes, and gameplay-critical features."
+          },
+          "validation": {
+            "status": "needs_review",
+            "warnings": [
+              "Faint transparency (alpha 1–8) extends into collection gutters; artwork above this threshold is intact, but inspect faint halo edges against the retained source."
+            ],
+            "sourceHash": "081b33657683ef8158bed65ca60c43cd5a46648ea506547945b4f08253b9bb4f",
+            "capabilities": {
+              "artwork": {
+                "passed": true
+              }
+            },
+            "layoutVersion": 4,
+            "configurationHash": "b1a185b14a182bc8d687def4a8fb15056647ac04f95c6b52a8f7cd3b78d1700b"
+          },
+          "componentId": "2fc071ad-e453-4fe1-afa6-2b5723a4718e",
+          "configuration": {
+            "width": 324,
+            "height": 311,
+            "layers": [
+              {
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 324,
+                  "height": 311
+                },
+                "artifactId": "68256b5f-6461-47d5-ac89-f5265dc2f3c0-frame"
+              }
+            ]
+          }
+        },
+        "createdAt": "2026-10-03T12:02:38.633Z"
+      },
+      {
+        "id": "4f4905f9-f1ec-4da4-a72c-432bf5afcffa",
+        "packId": "6b066b7b-540e-4151-8e24-c02c987f475a",
+        "batchId": "c375990d-e60a-48d4-97fb-a4074cf1eef6",
+        "name": "Harvest",
+        "kind": "icon",
+        "role": "food",
+        "requiredCapabilities": [
+          "artwork"
+        ],
+        "activeRevision": {
+          "id": "fcc543a3-f4ad-4d1c-a24d-5aeae45b6da3",
+          "method": "illustrated",
+          "version": 1,
+          "revision": 1,
+          "artifacts": [
+            {
+              "id": "fcc543a3-f4ad-4d1c-a24d-5aeae45b6da3-frame",
+              "url": "components/4-Harvest/1-frame.png",
+              "role": "frame",
+              "width": 389,
+              "height": 450,
+              "sha256": "d3e67e930b4d4d6544f72dca56f75c2dd2302a57e141e26ca6616d4a4260d365",
+              "mimeType": "image/png",
+              "storageKey": "components/4-Harvest/1-frame.png"
+            }
+          ],
+          "createdAt": "2026-10-03T12:02:39.080Z",
+          "styleGuide": {
+            "id": "1fd9fb59-4f13-4156-951a-3a2f32b9e9f0",
+            "camera": "topdown",
+            "palette": {
+              "text": "#F3E8C8",
+              "muted": "#82908A",
+              "accent": "#C87532",
+              "danger": "#9B4438",
+              "outline": "#293337",
+              "success": "#829B62",
+              "surface": "#D8D0B8",
+              "warning": "#D29A45",
+              "highlight": "#F0B45B",
+              "secondary": "#687A78",
+              "background": "#1B2528"
+            },
+            "version": 1,
+            "bodyFont": {
+              "size": 16,
+              "color": "#F3E8C8",
+              "family": "Barlow",
+              "fontId": "barlow",
+              "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+              "weight": 400,
+              "version": "95aa02c7c43096e0",
+              "lineHeight": 1.5
+            },
+            "revision": 1,
+            "direction": "A premium hand-painted fantasy settlement style combining refined storybook realism with clear RTS readability. Emberhold should feel like a resilient woodland refuge: elegant medieval construction, tactile materials, atmospheric depth, and warm human light contrasted against ash-darkened wilderness.",
+            "projectId": "proj_1791027542095_991m",
+            "rendering": "Paint with visible but controlled brush texture, soft ambient occlusion, layered material strokes, and subtle atmospheric depth. Use consistent northwest lighting, slate-blue cool shadows, ivory and copper material highlights, and localized amber glow from hearths, beacons, and fire without flattening tactical readability.",
+            "references": [],
+            "headingFont": {
+              "size": 24,
+              "color": "#F3E8C8",
+              "family": "Exo 2",
+              "fontId": "exo2",
+              "sha256": "205a448676a2586f9c57c25f3d5c58ca8db7e6cf5edf7506783a010c6fe2bfb5",
+              "weight": 500,
+              "version": "205a448676a2586f",
+              "lineHeight": 1.3
+            },
+            "lockedColors": [],
+            "shapeLanguage": "Use sturdy, readable silhouettes with gently irregular hand-crafted edges: steep medieval roofs, rounded timber forms, angular stonework, layered cloaks, and distinct weapon profiles. Keep linework restrained and painterly, with moderate detail concentrated on key materials, faces, heraldic shapes, and gameplay-critical features."
+          },
+          "validation": {
+            "status": "needs_review",
+            "warnings": [
+              "Faint transparency (alpha 1–8) extends into collection gutters; artwork above this threshold is intact, but inspect faint halo edges against the retained source."
+            ],
+            "sourceHash": "d3e67e930b4d4d6544f72dca56f75c2dd2302a57e141e26ca6616d4a4260d365",
+            "capabilities": {
+              "artwork": {
+                "passed": true
+              }
+            },
+            "layoutVersion": 4,
+            "configurationHash": "6a6a077e3d575900c416f4bdc5ee52ddeb5bc10eecdc3c3d278ca56dd03b23f4"
+          },
+          "componentId": "4f4905f9-f1ec-4da4-a72c-432bf5afcffa",
+          "configuration": {
+            "width": 389,
+            "height": 450,
+            "layers": [
+              {
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 389,
+                  "height": 450
+                },
+                "artifactId": "fcc543a3-f4ad-4d1c-a24d-5aeae45b6da3-frame"
+              }
+            ]
+          }
+        },
+        "createdAt": "2026-10-03T12:02:39.083Z"
+      },
+      {
+        "id": "46264e71-a223-4253-a6be-51674b516e4a",
+        "packId": "6b066b7b-540e-4151-8e24-c02c987f475a",
+        "batchId": "c375990d-e60a-48d4-97fb-a4074cf1eef6",
+        "name": "Settlers",
+        "kind": "icon",
+        "role": "population",
+        "requiredCapabilities": [
+          "artwork"
+        ],
+        "activeRevision": {
+          "id": "528a83f0-82ae-4172-a347-0fed259a820f",
+          "method": "illustrated",
+          "version": 1,
+          "revision": 1,
+          "artifacts": [
+            {
+              "id": "528a83f0-82ae-4172-a347-0fed259a820f-frame",
+              "url": "components/5-Settlers/1-frame.png",
+              "role": "frame",
+              "width": 347,
+              "height": 458,
+              "sha256": "bbfcbb530a2afd1d88b489c3e5e61278edadcf95d2bf5f82573305aad6a40a89",
+              "mimeType": "image/png",
+              "storageKey": "components/5-Settlers/1-frame.png"
+            }
+          ],
+          "createdAt": "2026-10-03T12:02:39.696Z",
+          "styleGuide": {
+            "id": "1fd9fb59-4f13-4156-951a-3a2f32b9e9f0",
+            "camera": "topdown",
+            "palette": {
+              "text": "#F3E8C8",
+              "muted": "#82908A",
+              "accent": "#C87532",
+              "danger": "#9B4438",
+              "outline": "#293337",
+              "success": "#829B62",
+              "surface": "#D8D0B8",
+              "warning": "#D29A45",
+              "highlight": "#F0B45B",
+              "secondary": "#687A78",
+              "background": "#1B2528"
+            },
+            "version": 1,
+            "bodyFont": {
+              "size": 16,
+              "color": "#F3E8C8",
+              "family": "Barlow",
+              "fontId": "barlow",
+              "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+              "weight": 400,
+              "version": "95aa02c7c43096e0",
+              "lineHeight": 1.5
+            },
+            "revision": 1,
+            "direction": "A premium hand-painted fantasy settlement style combining refined storybook realism with clear RTS readability. Emberhold should feel like a resilient woodland refuge: elegant medieval construction, tactile materials, atmospheric depth, and warm human light contrasted against ash-darkened wilderness.",
+            "projectId": "proj_1791027542095_991m",
+            "rendering": "Paint with visible but controlled brush texture, soft ambient occlusion, layered material strokes, and subtle atmospheric depth. Use consistent northwest lighting, slate-blue cool shadows, ivory and copper material highlights, and localized amber glow from hearths, beacons, and fire without flattening tactical readability.",
+            "references": [],
+            "headingFont": {
+              "size": 24,
+              "color": "#F3E8C8",
+              "family": "Exo 2",
+              "fontId": "exo2",
+              "sha256": "205a448676a2586f9c57c25f3d5c58ca8db7e6cf5edf7506783a010c6fe2bfb5",
+              "weight": 500,
+              "version": "205a448676a2586f",
+              "lineHeight": 1.3
+            },
+            "lockedColors": [],
+            "shapeLanguage": "Use sturdy, readable silhouettes with gently irregular hand-crafted edges: steep medieval roofs, rounded timber forms, angular stonework, layered cloaks, and distinct weapon profiles. Keep linework restrained and painterly, with moderate detail concentrated on key materials, faces, heraldic shapes, and gameplay-critical features."
+          },
+          "validation": {
+            "status": "needs_review",
+            "warnings": [
+              "Faint transparency (alpha 1–8) extends into collection gutters; artwork above this threshold is intact, but inspect faint halo edges against the retained source."
+            ],
+            "sourceHash": "bbfcbb530a2afd1d88b489c3e5e61278edadcf95d2bf5f82573305aad6a40a89",
+            "capabilities": {
+              "artwork": {
+                "passed": true
+              }
+            },
+            "layoutVersion": 4,
+            "configurationHash": "6e724f91f20a5b7145b98875389b441ce3c1ad4a23c674092a33ac1767dd2388"
+          },
+          "componentId": "46264e71-a223-4253-a6be-51674b516e4a",
+          "configuration": {
+            "width": 347,
+            "height": 458,
+            "layers": [
+              {
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 347,
+                  "height": 458
+                },
+                "artifactId": "528a83f0-82ae-4172-a347-0fed259a820f-frame"
+              }
+            ]
+          }
+        },
+        "createdAt": "2026-10-03T12:02:39.699Z"
+      },
+      {
+        "id": "ce236a20-1940-43f1-af0b-06fda9241125",
+        "packId": "6b066b7b-540e-4151-8e24-c02c987f475a",
+        "batchId": "a3de535f-2978-4228-b586-a15d262b6710",
+        "name": "Command panel",
+        "kind": "panel",
+        "role": "inspector",
+        "requiredCapabilities": [
+          "artwork"
+        ],
+        "activeRevision": {
+          "id": "40f25333-7124-43c0-afa8-04e6a81be8e0",
+          "method": "illustrated",
+          "version": 1,
+          "revision": 1,
+          "artifacts": [
+            {
+              "id": "40f25333-7124-43c0-afa8-04e6a81be8e0-frame",
+              "url": "components/6-Command-panel/1-frame.png",
+              "role": "frame",
+              "width": 1188,
+              "height": 717,
+              "sha256": "6d1fa2a931177eaf36be7d7699102bf7d8615d381a0dc9ece6e8e11ecca0ebb2",
+              "mimeType": "image/png",
+              "storageKey": "components/6-Command-panel/1-frame.png"
+            }
+          ],
+          "createdAt": "2026-10-03T12:02:40.700Z",
+          "styleGuide": {
+            "id": "1fd9fb59-4f13-4156-951a-3a2f32b9e9f0",
+            "camera": "topdown",
+            "palette": {
+              "text": "#F3E8C8",
+              "muted": "#82908A",
+              "accent": "#C87532",
+              "danger": "#9B4438",
+              "outline": "#293337",
+              "success": "#829B62",
+              "surface": "#D8D0B8",
+              "warning": "#D29A45",
+              "highlight": "#F0B45B",
+              "secondary": "#687A78",
+              "background": "#1B2528"
+            },
+            "version": 1,
+            "bodyFont": {
+              "size": 16,
+              "color": "#F3E8C8",
+              "family": "Barlow",
+              "fontId": "barlow",
+              "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+              "weight": 400,
+              "version": "95aa02c7c43096e0",
+              "lineHeight": 1.5
+            },
+            "revision": 1,
+            "direction": "A premium hand-painted fantasy settlement style combining refined storybook realism with clear RTS readability. Emberhold should feel like a resilient woodland refuge: elegant medieval construction, tactile materials, atmospheric depth, and warm human light contrasted against ash-darkened wilderness.",
+            "projectId": "proj_1791027542095_991m",
+            "rendering": "Paint with visible but controlled brush texture, soft ambient occlusion, layered material strokes, and subtle atmospheric depth. Use consistent northwest lighting, slate-blue cool shadows, ivory and copper material highlights, and localized amber glow from hearths, beacons, and fire without flattening tactical readability.",
+            "references": [],
+            "headingFont": {
+              "size": 24,
+              "color": "#F3E8C8",
+              "family": "Exo 2",
+              "fontId": "exo2",
+              "sha256": "205a448676a2586f9c57c25f3d5c58ca8db7e6cf5edf7506783a010c6fe2bfb5",
+              "weight": 500,
+              "version": "205a448676a2586f",
+              "lineHeight": 1.3
+            },
+            "lockedColors": [],
+            "shapeLanguage": "Use sturdy, readable silhouettes with gently irregular hand-crafted edges: steep medieval roofs, rounded timber forms, angular stonework, layered cloaks, and distinct weapon profiles. Keep linework restrained and painterly, with moderate detail concentrated on key materials, faces, heraldic shapes, and gameplay-critical features."
+          },
+          "validation": {
+            "status": "ready",
+            "warnings": [],
+            "sourceHash": "6d1fa2a931177eaf36be7d7699102bf7d8615d381a0dc9ece6e8e11ecca0ebb2",
+            "capabilities": {
+              "text": {
+                "passed": true
+              },
+              "resize": {
+                "passed": true
+              },
+              "artwork": {
+                "passed": true
+              }
+            },
+            "layoutVersion": 4,
+            "configurationHash": "d17737183d6d9008e49493f8b0fbff2bda0f49739aa6afcd4f48fb035448a5f9"
+          },
+          "componentId": "ce236a20-1940-43f1-af0b-06fda9241125",
+          "configuration": {
+            "panel": {
+              "title": "",
+              "slices": {
+                "top": 403,
+                "left": 758,
+                "right": 422,
+                "bottom": 306
+              },
+              "content": "",
+              "padding": {
+                "top": 79,
+                "left": 169,
+                "right": 169,
+                "bottom": 79
+              },
+              "bodyFont": {
+                "size": 16,
+                "color": "#F3E8C8",
+                "family": "Barlow",
+                "fontId": "barlow",
+                "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+                "weight": 400,
+                "version": "95aa02c7c43096e0",
+                "lineHeight": 1.5
+              },
+              "edgeMode": "stretch",
+              "overflow": "clip",
+              "headingFont": {
+                "size": 24,
+                "color": "#F3E8C8",
+                "family": "Exo 2",
+                "fontId": "exo2",
+                "sha256": "205a448676a2586f9c57c25f3d5c58ca8db7e6cf5edf7506783a010c6fe2bfb5",
+                "weight": 500,
+                "version": "205a448676a2586f",
+                "lineHeight": 1.3
+              },
+              "minimumWidth": 1188,
+              "actionButtons": [],
+              "minimumHeight": 717
+            },
+            "width": 1188,
+            "height": 717,
+            "layers": [
+              {
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1188,
+                  "height": 717
+                },
+                "artifactId": "40f25333-7124-43c0-afa8-04e6a81be8e0-frame"
+              }
+            ]
+          }
+        },
+        "createdAt": "2026-10-03T12:02:40.705Z"
+      },
+      {
+        "id": "a38ac9ad-c9b3-4a54-a603-4b3237a46d07",
+        "packId": "6b066b7b-540e-4151-8e24-c02c987f475a",
+        "batchId": "c375990d-e60a-48d4-97fb-a4074cf1eef6",
+        "name": "Command",
+        "kind": "icon",
+        "role": "sword",
+        "requiredCapabilities": [
+          "artwork"
+        ],
+        "activeRevision": {
+          "id": "6dde10fb-13d5-405c-a09b-0723e407175b",
+          "method": "illustrated",
+          "version": 1,
+          "revision": 1,
+          "artifacts": [
+            {
+              "id": "6dde10fb-13d5-405c-a09b-0723e407175b-frame",
+              "url": "components/7-Command/1-frame.png",
+              "role": "frame",
+              "width": 355,
+              "height": 478,
+              "sha256": "1ef879d95e156160b82165a6fda17ae11894650d68492e08645b11566890fa0a",
+              "mimeType": "image/png",
+              "storageKey": "components/7-Command/1-frame.png"
+            }
+          ],
+          "createdAt": "2026-10-03T12:02:40.999Z",
+          "styleGuide": {
+            "id": "1fd9fb59-4f13-4156-951a-3a2f32b9e9f0",
+            "camera": "topdown",
+            "palette": {
+              "text": "#F3E8C8",
+              "muted": "#82908A",
+              "accent": "#C87532",
+              "danger": "#9B4438",
+              "outline": "#293337",
+              "success": "#829B62",
+              "surface": "#D8D0B8",
+              "warning": "#D29A45",
+              "highlight": "#F0B45B",
+              "secondary": "#687A78",
+              "background": "#1B2528"
+            },
+            "version": 1,
+            "bodyFont": {
+              "size": 16,
+              "color": "#F3E8C8",
+              "family": "Barlow",
+              "fontId": "barlow",
+              "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+              "weight": 400,
+              "version": "95aa02c7c43096e0",
+              "lineHeight": 1.5
+            },
+            "revision": 1,
+            "direction": "A premium hand-painted fantasy settlement style combining refined storybook realism with clear RTS readability. Emberhold should feel like a resilient woodland refuge: elegant medieval construction, tactile materials, atmospheric depth, and warm human light contrasted against ash-darkened wilderness.",
+            "projectId": "proj_1791027542095_991m",
+            "rendering": "Paint with visible but controlled brush texture, soft ambient occlusion, layered material strokes, and subtle atmospheric depth. Use consistent northwest lighting, slate-blue cool shadows, ivory and copper material highlights, and localized amber glow from hearths, beacons, and fire without flattening tactical readability.",
+            "references": [],
+            "headingFont": {
+              "size": 24,
+              "color": "#F3E8C8",
+              "family": "Exo 2",
+              "fontId": "exo2",
+              "sha256": "205a448676a2586f9c57c25f3d5c58ca8db7e6cf5edf7506783a010c6fe2bfb5",
+              "weight": 500,
+              "version": "205a448676a2586f",
+              "lineHeight": 1.3
+            },
+            "lockedColors": [],
+            "shapeLanguage": "Use sturdy, readable silhouettes with gently irregular hand-crafted edges: steep medieval roofs, rounded timber forms, angular stonework, layered cloaks, and distinct weapon profiles. Keep linework restrained and painterly, with moderate detail concentrated on key materials, faces, heraldic shapes, and gameplay-critical features."
+          },
+          "validation": {
+            "status": "needs_review",
+            "warnings": [
+              "Faint transparency (alpha 1–8) extends into collection gutters; artwork above this threshold is intact, but inspect faint halo edges against the retained source."
+            ],
+            "sourceHash": "1ef879d95e156160b82165a6fda17ae11894650d68492e08645b11566890fa0a",
+            "capabilities": {
+              "artwork": {
+                "passed": true
+              }
+            },
+            "layoutVersion": 4,
+            "configurationHash": "172bef2f9cf4a86db14d2817a049399efa1d0169fb765db77f2aefd7cc5ed56a"
+          },
+          "componentId": "a38ac9ad-c9b3-4a54-a603-4b3237a46d07",
+          "configuration": {
+            "width": 355,
+            "height": 478,
+            "layers": [
+              {
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 355,
+                  "height": 478
+                },
+                "artifactId": "6dde10fb-13d5-405c-a09b-0723e407175b-frame"
+              }
+            ]
+          }
+        },
+        "createdAt": "2026-10-03T12:02:41.003Z"
+      },
+      {
+        "id": "967fd6e5-1fbe-463f-aca3-35563a33d81c",
+        "packId": "6b066b7b-540e-4151-8e24-c02c987f475a",
+        "batchId": "c375990d-e60a-48d4-97fb-a4074cf1eef6",
+        "name": "Hearthlight",
+        "kind": "icon",
+        "role": "flame",
+        "requiredCapabilities": [
+          "artwork"
+        ],
+        "activeRevision": {
+          "id": "142a4e14-5e90-4ee4-a3ea-a26749dd5046",
+          "method": "illustrated",
+          "version": 1,
+          "revision": 1,
+          "artifacts": [
+            {
+              "id": "142a4e14-5e90-4ee4-a3ea-a26749dd5046-frame",
+              "url": "components/8-Hearthlight/1-frame.png",
+              "role": "frame",
+              "width": 252,
+              "height": 469,
+              "sha256": "3f7eddc985b4927b97426d7af63a044dd2dac85de80942b6aa46a322020a5aa1",
+              "mimeType": "image/png",
+              "storageKey": "components/8-Hearthlight/1-frame.png"
+            }
+          ],
+          "createdAt": "2026-10-03T12:02:41.417Z",
+          "styleGuide": {
+            "id": "1fd9fb59-4f13-4156-951a-3a2f32b9e9f0",
+            "camera": "topdown",
+            "palette": {
+              "text": "#F3E8C8",
+              "muted": "#82908A",
+              "accent": "#C87532",
+              "danger": "#9B4438",
+              "outline": "#293337",
+              "success": "#829B62",
+              "surface": "#D8D0B8",
+              "warning": "#D29A45",
+              "highlight": "#F0B45B",
+              "secondary": "#687A78",
+              "background": "#1B2528"
+            },
+            "version": 1,
+            "bodyFont": {
+              "size": 16,
+              "color": "#F3E8C8",
+              "family": "Barlow",
+              "fontId": "barlow",
+              "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+              "weight": 400,
+              "version": "95aa02c7c43096e0",
+              "lineHeight": 1.5
+            },
+            "revision": 1,
+            "direction": "A premium hand-painted fantasy settlement style combining refined storybook realism with clear RTS readability. Emberhold should feel like a resilient woodland refuge: elegant medieval construction, tactile materials, atmospheric depth, and warm human light contrasted against ash-darkened wilderness.",
+            "projectId": "proj_1791027542095_991m",
+            "rendering": "Paint with visible but controlled brush texture, soft ambient occlusion, layered material strokes, and subtle atmospheric depth. Use consistent northwest lighting, slate-blue cool shadows, ivory and copper material highlights, and localized amber glow from hearths, beacons, and fire without flattening tactical readability.",
+            "references": [],
+            "headingFont": {
+              "size": 24,
+              "color": "#F3E8C8",
+              "family": "Exo 2",
+              "fontId": "exo2",
+              "sha256": "205a448676a2586f9c57c25f3d5c58ca8db7e6cf5edf7506783a010c6fe2bfb5",
+              "weight": 500,
+              "version": "205a448676a2586f",
+              "lineHeight": 1.3
+            },
+            "lockedColors": [],
+            "shapeLanguage": "Use sturdy, readable silhouettes with gently irregular hand-crafted edges: steep medieval roofs, rounded timber forms, angular stonework, layered cloaks, and distinct weapon profiles. Keep linework restrained and painterly, with moderate detail concentrated on key materials, faces, heraldic shapes, and gameplay-critical features."
+          },
+          "validation": {
+            "status": "needs_review",
+            "warnings": [
+              "Faint transparency (alpha 1–8) extends into collection gutters; artwork above this threshold is intact, but inspect faint halo edges against the retained source."
+            ],
+            "sourceHash": "3f7eddc985b4927b97426d7af63a044dd2dac85de80942b6aa46a322020a5aa1",
+            "capabilities": {
+              "artwork": {
+                "passed": true
+              }
+            },
+            "layoutVersion": 4,
+            "configurationHash": "84a11b5d93a623a4460be37fe025de19b2e1b6f3f7d641c36dc3f5ce46bdab86"
+          },
+          "componentId": "967fd6e5-1fbe-463f-aca3-35563a33d81c",
+          "configuration": {
+            "width": 252,
+            "height": 469,
+            "layers": [
+              {
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 252,
+                  "height": 469
+                },
+                "artifactId": "142a4e14-5e90-4ee4-a3ea-a26749dd5046-frame"
+              }
+            ]
+          }
+        },
+        "createdAt": "2026-10-03T12:02:41.419Z"
+      },
+      {
+        "id": "35d80fee-5602-4f3c-a1af-895c37457bda",
+        "packId": "6b066b7b-540e-4151-8e24-c02c987f475a",
+        "batchId": "c375990d-e60a-48d4-97fb-a4074cf1eef6",
+        "name": "Ash Crown",
+        "kind": "icon",
+        "role": "crown",
+        "requiredCapabilities": [
+          "artwork"
+        ],
+        "activeRevision": {
+          "id": "0ab20f16-828f-4b84-a376-9d1b3c2d7c2a",
+          "method": "illustrated",
+          "version": 1,
+          "revision": 1,
+          "artifacts": [
+            {
+              "id": "0ab20f16-828f-4b84-a376-9d1b3c2d7c2a-frame",
+              "url": "components/9-Ash-Crown/1-frame.png",
+              "role": "frame",
+              "width": 368,
+              "height": 330,
+              "sha256": "a0f74e0ab8c93763c61b4c933271e2fd745a7794d4525c49e0cdec5b48e0977f",
+              "mimeType": "image/png",
+              "storageKey": "components/9-Ash-Crown/1-frame.png"
+            }
+          ],
+          "createdAt": "2026-10-03T12:02:41.844Z",
+          "styleGuide": {
+            "id": "1fd9fb59-4f13-4156-951a-3a2f32b9e9f0",
+            "camera": "topdown",
+            "palette": {
+              "text": "#F3E8C8",
+              "muted": "#82908A",
+              "accent": "#C87532",
+              "danger": "#9B4438",
+              "outline": "#293337",
+              "success": "#829B62",
+              "surface": "#D8D0B8",
+              "warning": "#D29A45",
+              "highlight": "#F0B45B",
+              "secondary": "#687A78",
+              "background": "#1B2528"
+            },
+            "version": 1,
+            "bodyFont": {
+              "size": 16,
+              "color": "#F3E8C8",
+              "family": "Barlow",
+              "fontId": "barlow",
+              "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+              "weight": 400,
+              "version": "95aa02c7c43096e0",
+              "lineHeight": 1.5
+            },
+            "revision": 1,
+            "direction": "A premium hand-painted fantasy settlement style combining refined storybook realism with clear RTS readability. Emberhold should feel like a resilient woodland refuge: elegant medieval construction, tactile materials, atmospheric depth, and warm human light contrasted against ash-darkened wilderness.",
+            "projectId": "proj_1791027542095_991m",
+            "rendering": "Paint with visible but controlled brush texture, soft ambient occlusion, layered material strokes, and subtle atmospheric depth. Use consistent northwest lighting, slate-blue cool shadows, ivory and copper material highlights, and localized amber glow from hearths, beacons, and fire without flattening tactical readability.",
+            "references": [],
+            "headingFont": {
+              "size": 24,
+              "color": "#F3E8C8",
+              "family": "Exo 2",
+              "fontId": "exo2",
+              "sha256": "205a448676a2586f9c57c25f3d5c58ca8db7e6cf5edf7506783a010c6fe2bfb5",
+              "weight": 500,
+              "version": "205a448676a2586f",
+              "lineHeight": 1.3
+            },
+            "lockedColors": [],
+            "shapeLanguage": "Use sturdy, readable silhouettes with gently irregular hand-crafted edges: steep medieval roofs, rounded timber forms, angular stonework, layered cloaks, and distinct weapon profiles. Keep linework restrained and painterly, with moderate detail concentrated on key materials, faces, heraldic shapes, and gameplay-critical features."
+          },
+          "validation": {
+            "status": "needs_review",
+            "warnings": [
+              "Faint transparency (alpha 1–8) extends into collection gutters; artwork above this threshold is intact, but inspect faint halo edges against the retained source."
+            ],
+            "sourceHash": "a0f74e0ab8c93763c61b4c933271e2fd745a7794d4525c49e0cdec5b48e0977f",
+            "capabilities": {
+              "artwork": {
+                "passed": true
+              }
+            },
+            "layoutVersion": 4,
+            "configurationHash": "7ce7dc212ed03a29543db5abb7ba8c2a1173823f2e02d5e7265675db3d0e98ca"
+          },
+          "componentId": "35d80fee-5602-4f3c-a1af-895c37457bda",
+          "configuration": {
+            "width": 368,
+            "height": 330,
+            "layers": [
+              {
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 368,
+                  "height": 330
+                },
+                "artifactId": "0ab20f16-828f-4b84-a376-9d1b3c2d7c2a-frame"
+              }
+            ]
+          }
+        },
+        "createdAt": "2026-10-03T12:02:41.847Z"
+      },
+      {
+        "id": "2478cc3d-bf0c-4331-aded-474f8a9533da",
+        "packId": "6b066b7b-540e-4151-8e24-c02c987f475a",
+        "batchId": "a8fe7586-6bac-4413-a283-64b3b004ee74",
+        "name": "Unit selection",
+        "kind": "indicator",
+        "role": "selection",
+        "requiredCapabilities": [
+          "artwork"
+        ],
+        "activeRevision": {
+          "id": "aea4f64f-3471-4357-a716-eaded4c37532",
+          "method": "illustrated",
+          "version": 1,
+          "revision": 1,
+          "artifacts": [
+            {
+              "id": "aea4f64f-3471-4357-a716-eaded4c37532-frame",
+              "url": "components/10-Unit-selection/1-frame.png",
+              "role": "frame",
+              "width": 1232,
+              "height": 524,
+              "sha256": "1dd6ca695690d624313940f9d9432d1dcf3d5de79c35efeb45e8d90c34a3e059",
+              "mimeType": "image/png",
+              "storageKey": "components/10-Unit-selection/1-frame.png"
+            }
+          ],
+          "createdAt": "2026-10-03T12:03:39.510Z",
+          "styleGuide": {
+            "id": "1fd9fb59-4f13-4156-951a-3a2f32b9e9f0",
+            "camera": "topdown",
+            "palette": {
+              "text": "#F3E8C8",
+              "muted": "#82908A",
+              "accent": "#C87532",
+              "danger": "#9B4438",
+              "outline": "#293337",
+              "success": "#829B62",
+              "surface": "#D8D0B8",
+              "warning": "#D29A45",
+              "highlight": "#F0B45B",
+              "secondary": "#687A78",
+              "background": "#1B2528"
+            },
+            "version": 1,
+            "bodyFont": {
+              "size": 16,
+              "color": "#F3E8C8",
+              "family": "Barlow",
+              "fontId": "barlow",
+              "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+              "weight": 400,
+              "version": "95aa02c7c43096e0",
+              "lineHeight": 1.5
+            },
+            "revision": 1,
+            "direction": "A premium hand-painted fantasy settlement style combining refined storybook realism with clear RTS readability. Emberhold should feel like a resilient woodland refuge: elegant medieval construction, tactile materials, atmospheric depth, and warm human light contrasted against ash-darkened wilderness.",
+            "projectId": "proj_1791027542095_991m",
+            "rendering": "Paint with visible but controlled brush texture, soft ambient occlusion, layered material strokes, and subtle atmospheric depth. Use consistent northwest lighting, slate-blue cool shadows, ivory and copper material highlights, and localized amber glow from hearths, beacons, and fire without flattening tactical readability.",
+            "references": [],
+            "headingFont": {
+              "size": 24,
+              "color": "#F3E8C8",
+              "family": "Exo 2",
+              "fontId": "exo2",
+              "sha256": "205a448676a2586f9c57c25f3d5c58ca8db7e6cf5edf7506783a010c6fe2bfb5",
+              "weight": 500,
+              "version": "205a448676a2586f",
+              "lineHeight": 1.3
+            },
+            "lockedColors": [],
+            "shapeLanguage": "Use sturdy, readable silhouettes with gently irregular hand-crafted edges: steep medieval roofs, rounded timber forms, angular stonework, layered cloaks, and distinct weapon profiles. Keep linework restrained and painterly, with moderate detail concentrated on key materials, faces, heraldic shapes, and gameplay-critical features."
+          },
+          "validation": {
+            "status": "ready",
+            "warnings": [],
+            "sourceHash": "1dd6ca695690d624313940f9d9432d1dcf3d5de79c35efeb45e8d90c34a3e059",
+            "capabilities": {
+              "artwork": {
+                "passed": true
+              },
+              "projection": {
+                "passed": true,
+                "reason": "Turns around the ground anchor using an affine approximation; painted depth and lighting do not change."
+              }
+            },
+            "layoutVersion": 4,
+            "configurationHash": "1cd8f3c02e5b41d88d4e3bd74dfd78d4dff275003e80bb63ffd83fe5ddba709a"
+          },
+          "componentId": "2478cc3d-bf0c-4331-aded-474f8a9533da",
+          "configuration": {
+            "width": 1232,
+            "height": 524,
+            "layers": [
+              {
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1232,
+                  "height": 524
+                },
+                "artifactId": "aea4f64f-3471-4357-a716-eaded4c37532-frame"
+              }
+            ],
+            "indicator": {
+              "anchor": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "camera": "topdown",
+              "radius": 262,
+              "heading": 0,
+              "attachment": "ground",
+              "verticalScale": 1,
+              "alreadyProjected": true
+            }
+          }
+        },
+        "createdAt": "2026-10-03T12:03:39.512Z"
+      },
+      {
+        "id": "459e6d66-6354-4bd5-a0be-530a0edf7782",
+        "packId": "6b066b7b-540e-4151-8e24-c02c987f475a",
+        "batchId": "0508cb92-fbaa-47cb-9b8d-9de8cbbba401",
+        "name": "Hearth vitality",
+        "kind": "bar",
+        "role": "health",
+        "requiredCapabilities": [
+          "artwork"
+        ],
+        "activeRevision": {
+          "id": "c0af6019-0932-4c1b-a2aa-7125eb8cb4ce",
+          "method": "illustrated",
+          "version": 1,
+          "revision": 1,
+          "artifacts": [
+            {
+              "id": "c0af6019-0932-4c1b-a2aa-7125eb8cb4ce-frame",
+              "url": "components/11-Hearth-vitality/1-frame.png",
+              "role": "frame",
+              "width": 1186,
+              "height": 219,
+              "sha256": "f7375e8b56326544c48b4987527d4142fbf478f01e2109dc4cc314678f6b64d5",
+              "mimeType": "image/png",
+              "storageKey": "components/11-Hearth-vitality/1-frame.png"
+            }
+          ],
+          "createdAt": "2026-10-03T12:03:56.954Z",
+          "styleGuide": {
+            "id": "1fd9fb59-4f13-4156-951a-3a2f32b9e9f0",
+            "camera": "topdown",
+            "palette": {
+              "text": "#F3E8C8",
+              "muted": "#82908A",
+              "accent": "#C87532",
+              "danger": "#9B4438",
+              "outline": "#293337",
+              "success": "#829B62",
+              "surface": "#D8D0B8",
+              "warning": "#D29A45",
+              "highlight": "#F0B45B",
+              "secondary": "#687A78",
+              "background": "#1B2528"
+            },
+            "version": 1,
+            "bodyFont": {
+              "size": 16,
+              "color": "#F3E8C8",
+              "family": "Barlow",
+              "fontId": "barlow",
+              "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+              "weight": 400,
+              "version": "95aa02c7c43096e0",
+              "lineHeight": 1.5
+            },
+            "revision": 1,
+            "direction": "A premium hand-painted fantasy settlement style combining refined storybook realism with clear RTS readability. Emberhold should feel like a resilient woodland refuge: elegant medieval construction, tactile materials, atmospheric depth, and warm human light contrasted against ash-darkened wilderness.",
+            "projectId": "proj_1791027542095_991m",
+            "rendering": "Paint with visible but controlled brush texture, soft ambient occlusion, layered material strokes, and subtle atmospheric depth. Use consistent northwest lighting, slate-blue cool shadows, ivory and copper material highlights, and localized amber glow from hearths, beacons, and fire without flattening tactical readability.",
+            "references": [],
+            "headingFont": {
+              "size": 24,
+              "color": "#F3E8C8",
+              "family": "Exo 2",
+              "fontId": "exo2",
+              "sha256": "205a448676a2586f9c57c25f3d5c58ca8db7e6cf5edf7506783a010c6fe2bfb5",
+              "weight": 500,
+              "version": "205a448676a2586f",
+              "lineHeight": 1.3
+            },
+            "lockedColors": [],
+            "shapeLanguage": "Use sturdy, readable silhouettes with gently irregular hand-crafted edges: steep medieval roofs, rounded timber forms, angular stonework, layered cloaks, and distinct weapon profiles. Keep linework restrained and painterly, with moderate detail concentrated on key materials, faces, heraldic shapes, and gameplay-critical features."
+          },
+          "validation": {
+            "status": "ready",
+            "warnings": [],
+            "sourceHash": "f7375e8b56326544c48b4987527d4142fbf478f01e2109dc4cc314678f6b64d5",
+            "capabilities": {
+              "fill": {
+                "passed": true
+              },
+              "artwork": {
+                "passed": true
+              }
+            },
+            "layoutVersion": 4,
+            "configurationHash": "73774d84bcd7dd4481ee00da0bb30c64a3417c6f386df80337964605b8554623"
+          },
+          "componentId": "459e6d66-6354-4bd5-a0be-530a0edf7782",
+          "configuration": {
+            "fill": {
+              "mode": "continuous",
+              "color": "#C87532",
+              "value": 1,
+              "bounds": {
+                "x": 148,
+                "y": 73,
+                "width": 888,
+                "height": 74
+              },
+              "segments": 1,
+              "direction": "left-to-right"
+            },
+            "width": 1186,
+            "height": 219,
+            "layers": [
+              {
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1186,
+                  "height": 219
+                },
+                "artifactId": "c0af6019-0932-4c1b-a2aa-7125eb8cb4ce-frame"
+              }
+            ]
+          }
+        },
+        "createdAt": "2026-10-03T12:03:56.957Z"
+      }
+    ],
+    "fonts": [
+      {
+        "id": "exo2",
+        "family": "Exo 2",
+        "weight": 500,
+        "sha256": "205a448676a2586f9c57c25f3d5c58ca8db7e6cf5edf7506783a010c6fe2bfb5",
+        "version": "205a448676a2586f",
+        "url": "fonts/1-Exo-2.ttf",
+        "storageKey": "fonts/1-Exo-2.ttf",
+        "licenseKey": "fonts/1-Exo-2-LICENSE.txt",
+        "licenseUrl": "fonts/1-Exo-2-LICENSE.txt",
+        "license": "SIL Open Font License 1.1",
+        "scripts": [
+          "Latin basic alphabet",
+          "Western digits",
+          "Cyrillic basic alphabet"
+        ]
+      },
+      {
+        "id": "barlow",
+        "family": "Barlow",
+        "weight": 400,
+        "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+        "version": "95aa02c7c43096e0",
+        "url": "fonts/2-Barlow.ttf",
+        "storageKey": "fonts/2-Barlow.ttf",
+        "licenseKey": "fonts/2-Barlow-LICENSE.txt",
+        "licenseUrl": "fonts/2-Barlow-LICENSE.txt",
+        "license": "SIL Open Font License 1.1",
+        "scripts": [
+          "Latin basic alphabet",
+          "Western digits"
+        ]
+      }
+    ],
+    "capabilities": {
+      "artwork": true,
+      "runtime": false,
+      "limitations": [
+        "Native adapter included; engine execution of this UI Pack is NOT TESTED until the corresponding native release test passes.",
+        "Native examples cover continuous masked bars and stretch nine-slice panels; tiled borders, arbitrary state/composition controls, title regions and world placement need target-specific integration."
+      ]
+    }
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "type": "object",
+  "properties": {
+    "schema": {
+      "type": "string",
+      "const": "tizo8-export",
+      "description": "Discriminator that identifies this JSON as a SpriteShip export manifest. Never changes."
+    },
+    "schemaVersion": {
+      "type": "string",
+      "description": "Semver-like schema version. Additive changes bump the minor (1.0 → 1.1); breaking changes bump the major (1.x → 2.0). Consumers should pin the major."
+    },
+    "exportedAt": {
+      "type": "string",
+      "description": "ISO-8601 timestamp of when this bundle was generated."
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "app": {
+          "type": "string",
+          "const": "spriteship",
+          "description": "Source application identifier."
+        },
+        "appUrl": {
+          "type": "string",
+          "const": "https://spriteship.com",
+          "description": "Canonical app URL. Stable across exports."
+        }
+      },
+      "required": [
+        "app",
+        "appUrl"
+      ],
+      "additionalProperties": false,
+      "description": "Origin of this export. Lets downstream tools (and AI assistants) attribute the asset correctly."
+    },
+    "engine": {
+      "type": "string",
+      "enum": [
+        "phaser",
+        "godot",
+        "unity",
+        "gamemaker",
+        "fnf",
+        "unreal",
+        "tiled"
+      ],
+      "description": "Target engine this bundle is shaped for. Engine-native files in `files[]` only make sense for this engine."
+    },
+    "surface": {
+      "type": "string",
+      "const": "ui-pack"
+    },
+    "title": {
+      "type": "string",
+      "description": "Human-readable display name for the exported entity."
+    },
+    "entityId": {
+      "type": "string",
+      "description": "Stable SpriteShip ID for the entity (character/asset/map). Survives renames; safe to use as an idempotency key when re-importing."
+    },
+    "engineVersion": {
+      "type": "string",
+      "description": "Engine version this bundle was tested against. The bundle may still work in older/newer versions — this is a hint, not a hard requirement."
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Path relative to the zip root. Matches the actual file in this archive. Use this to locate the file from your engine code or build script."
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "spritesheet",
+              "atlas",
+              "metadata",
+              "mounts",
+              "pose",
+              "image",
+              "source-frame",
+              "ui-source",
+              "font",
+              "mask",
+              "tile",
+              "engine-script",
+              "engine-resource",
+              "engine-scene",
+              "engine-meta",
+              "license",
+              "readme",
+              "preview",
+              "schema",
+              "manifest",
+              "skill"
+            ],
+            "description": "Role of this file. `engine-*` roles are engine-native and consumed directly by the target engine; `license`/`readme`/`preview`/`schema`/`manifest`/`skill` are the SpriteShip bundle layer shared across all engines."
+          },
+          "description": {
+            "type": "string",
+            "description": "One-line human-readable description of the file. Safe to display to end users or pass to an AI assistant as context."
+          }
+        },
+        "required": [
+          "path",
+          "role",
+          "description"
+        ],
+        "additionalProperties": false,
+        "description": "One entry in the zip-file inventory."
+      },
+      "description": "Self-describing inventory of every file in this zip. Walk this array to discover what each file is for — never guess from filenames alone."
+    },
+    "fieldWarnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Map exports only, present when non-empty: custom data-field resolution warnings (e.g. a referenced entity was deleted so its fields were skipped). Mirrors the `warnings` array in fields-schema.json."
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "number",
+          "const": 1
+        },
+        "surface": {
+          "type": "string",
+          "const": "ui-pack"
+        },
+        "contentVersion": {
+          "type": "string"
+        },
+        "pack": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "projectId": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "projectId"
+          ],
+          "additionalProperties": false
+        },
+        "engine": {
+          "type": "string",
+          "enum": [
+            "phaser",
+            "godot",
+            "unity",
+            "gamemaker",
+            "unreal",
+            "tiled"
+          ]
+        },
+        "components": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "icon",
+                  "frame",
+                  "panel",
+                  "bar",
+                  "control",
+                  "indicator",
+                  "composition"
+                ]
+              },
+              "activeRevision": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "version": {
+                    "type": "number",
+                    "const": 1
+                  },
+                  "artifacts": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "url": {
+                          "type": "string"
+                        },
+                        "storageKey": {
+                          "type": "string"
+                        },
+                        "mimeType": {
+                          "type": "string"
+                        },
+                        "sha256": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "number"
+                        },
+                        "height": {
+                          "type": "number"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "url",
+                        "storageKey",
+                        "mimeType",
+                        "sha256",
+                        "width",
+                        "height"
+                      ],
+                      "additionalProperties": true
+                    }
+                  },
+                  "configuration": {
+                    "type": "object",
+                    "properties": {
+                      "width": {
+                        "type": "number"
+                      },
+                      "height": {
+                        "type": "number"
+                      },
+                      "layers": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "artifactId": {
+                              "type": "string"
+                            },
+                            "bounds": {
+                              "type": "object",
+                              "properties": {
+                                "x": {
+                                  "type": "number"
+                                },
+                                "y": {
+                                  "type": "number"
+                                },
+                                "width": {
+                                  "type": "number"
+                                },
+                                "height": {
+                                  "type": "number"
+                                }
+                              },
+                              "required": [
+                                "x",
+                                "y",
+                                "width",
+                                "height"
+                              ],
+                              "additionalProperties": false
+                            }
+                          },
+                          "required": [
+                            "artifactId",
+                            "bounds"
+                          ],
+                          "additionalProperties": true
+                        }
+                      }
+                    },
+                    "required": [
+                      "width",
+                      "height",
+                      "layers"
+                    ],
+                    "additionalProperties": true
+                  }
+                },
+                "required": [
+                  "id",
+                  "version",
+                  "artifacts",
+                  "configuration"
+                ],
+                "additionalProperties": true
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "kind",
+              "activeRevision"
+            ],
+            "additionalProperties": true
+          },
+          "minItems": 1
+        },
+        "fonts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              },
+              "licenseUrl": {
+                "type": "string"
+              },
+              "sha256": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "url",
+              "licenseUrl",
+              "sha256"
+            ],
+            "additionalProperties": true
+          }
+        },
+        "capabilities": {
+          "type": "object",
+          "properties": {
+            "artwork": {
+              "type": "boolean"
+            },
+            "runtime": {
+              "type": "boolean"
+            },
+            "limitations": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "artwork",
+            "runtime",
+            "limitations"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "version",
+        "surface",
+        "contentVersion",
+        "pack",
+        "engine",
+        "components",
+        "fonts",
+        "capabilities"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema",
+    "schemaVersion",
+    "exportedAt",
+    "source",
+    "engine",
+    "surface",
+    "title",
+    "entityId",
+    "engineVersion",
+    "files",
+    "payload"
+  ],
+  "additionalProperties": false,
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

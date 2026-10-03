@@ -1,0 +1,24 @@
+{
+  "verifiedAt": "2026-10-03T14:54:59Z",
+  "engine": "Godot 4.7.2.stable.official.ed1daf0bf",
+  "web": {"url": "http://localhost:4174", "htmlHttpStatus": 200, "wasmHttpStatus": 200, "wasmMime": "application/wasm", "threaded": false},
+  "native": {"import": "passed", "expandedSystemsAcceptance": "passed", "webExport": "passed", "engineErrorsAndWarnings": 0},
+  "browser": {
+    "startedAt": "2026-10-03T14:51:40.644Z",
+    "result": "passed",
+    "consoleAndPageErrors": 0,
+    "realInput": true,
+    "debugStateMutation": false,
+    "persistentSaveAndReload": true,
+    "f5SavesWithoutReload": true,
+    "characterArchetypes": ["hero", "guard", "ranger", "raider", "knight", "brute", "worker"],
+    "deliveredFortifiedArtworkChecks": true,
+    "expeditionEnemiesDefeated": 5,
+    "beaconsRekindled": 1,
+    "viewports": ["1440x900", "1280x720", "1920x1080", "900x900"],
+    "localReport": "/tmp/emberhold-browser-qa/report.json"
+  },
+  "spriteshipSync": {"checked": 18, "unchanged": 18, "changed": 0, "unavailable": 0},
+  "credits": {"net": 14360, "charged": 14760, "refunded": 400, "balance": 135790, "userCeiling": 30000},
+  "limits": ["Not a completed human campaign playthrough", "Campaign duration is a design target", "Provider animation polish flags retained", "Two building artwork tiers for three gameplay levels", "Desktop-browser, single-player, one-map scope"]
+}

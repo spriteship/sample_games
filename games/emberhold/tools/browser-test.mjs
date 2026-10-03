@@ -1,0 +1,123 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import {pathToFileURL} from 'node:url';
+
+// Isolated QA browser; never attaches to the user's signed-in profile.
+const {chromium}=await import(process.env.PLAYWRIGHT_MODULE?pathToFileURL(process.env.PLAYWRIGHT_MODULE).href:'playwright');
+const target=process.env.GAME_URL||'http://localhost:4174';
+const output=process.env.QA_DIR||'/tmp/emberhold-browser-qa';
+await fs.mkdir(output,{recursive:true});
+const browser=await chromium.launch({headless:true});
+const errors=[];
+const report={url:target,checkedAt:new Date().toISOString(),scenarios:[],errors};
+try{
+  const page=await browser.newPage({viewport:{width:1440,height:900}});
+  page.on('pageerror',e=>errors.push(e.message));
+  page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
+  const state=()=>page.evaluate(()=>window.EMBERHOLD_STATE);
+  await page.goto(target);
+  await page.waitForFunction(()=>window.EMBERHOLD_STATE,{},{timeout:120000});
+  await page.screenshot({path:output+'/01-menu.png'});
+  await page.mouse.click(270,600);
+  await page.waitForFunction(()=>window.EMBERHOLD_STATE?.story);
+  await page.screenshot({path:output+'/02-story.png'});
+  await page.mouse.click(720,635);
+  await page.waitForFunction(()=>window.EMBERHOLD_STATE?.playing&&!window.EMBERHOLD_STATE?.story);
+  const before=await state();
+  await page.keyboard.down('KeyD');
+  await page.waitForTimeout(900);
+  await page.keyboard.up('KeyD');
+  await page.waitForTimeout(1200);
+  assert((await state()).hero.x>before.hero.x+40,'Real keyboard movement must move the hero');
+  report.scenarios.push('Campaign introduction and WASD movement');
+  await page.keyboard.press('Escape');
+  await page.mouse.click(720,545);
+  await page.waitForFunction(()=>!window.EMBERHOLD_STATE?.playing);
+  await page.mouse.click(270,665);
+  await page.waitForFunction(()=>window.EMBERHOLD_STATE?.playing&&window.EMBERHOLD_STATE?.mode==='sandbox');
+  const start=await state();
+  await page.waitForFunction(s=>window.EMBERHOLD_STATE.stock.wood>s.wood&&window.EMBERHOLD_STATE.stock.stone>s.stone,{wood:start.stock.wood,stone:start.stock.stone},{timeout:45000});
+  report.scenarios.push('Autonomous settlers genuinely gather both wood and stone');
+  await page.mouse.click(370,812);
+  await page.mouse.click(760,560);
+  await page.screenshot({path:output+'/placement-cottage.png'});
+  await page.waitForFunction(()=>window.EMBERHOLD_STATE.buildings.some(b=>b.type==='cottage'&&b.progress===1),{},{timeout:25000});
+  await page.mouse.click(755,812);
+  await page.mouse.click(610,565);
+  await page.screenshot({path:output+'/placement-barracks.png'});
+  await page.waitForFunction(()=>window.EMBERHOLD_STATE.buildings.some(b=>b.type==='barracks'&&b.progress===1),{},{timeout:40000});
+  await page.mouse.click(1260,450);
+  await page.waitForFunction(()=>window.EMBERHOLD_STATE.units.some(u=>u.type==='guard'),{},{timeout:20000});
+  await page.mouse.click(1260,552);
+  await page.waitForFunction(()=>window.EMBERHOLD_STATE.buildings.some(b=>b.type==='barracks'&&b.level===2));
+  await page.mouse.click(1260,488);
+  await page.waitForFunction(()=>window.EMBERHOLD_STATE.units.some(u=>u.type==='knight'),{},{timeout:25000});
+  report.scenarios.push('Mouse construction, completed guard and knight recruitment, building upgrade');
+  await page.screenshot({path:output+'/03-settlement.png'});
+  await page.keyboard.press('KeyG');
+  await page.keyboard.press('KeyR');
+  await page.keyboard.press('Escape');
+  await page.mouse.click(600,477);
+  await page.waitForTimeout(700);
+  await page.screenshot({path:output+'/04-settings.png'});
+  await page.mouse.click(720,678);
+  await page.waitForFunction(()=>!window.EMBERHOLD_STATE.paused);
+  await page.keyboard.press('Escape');
+  await page.mouse.click(720,545);
+  await page.waitForFunction(()=>!window.EMBERHOLD_STATE.playing);
+  await page.reload();
+  await page.waitForFunction(()=>window.EMBERHOLD_STATE,{},{timeout:120000});
+  await page.mouse.click(270,535);
+  await page.waitForFunction(()=>window.EMBERHOLD_STATE?.playing);
+  const loaded=await state();
+  assert(loaded.persistent_save,'Godot browser storage must be persistent');
+  assert(loaded.buildings.some(b=>b.type==='cottage'&&b.progress===1));
+  assert(loaded.buildings.some(b=>b.type==='barracks'&&b.level===2));
+  assert(loaded.units.some(u=>u.type==='guard')&&loaded.units.some(u=>u.type==='knight'));
+  report.scenarios.push('Save, browser reload, Continue restores structures and army');
+  for(const viewport of [{width:1280,height:720},{width:1920,height:1080},{width:900,height:900}]){
+    await page.setViewportSize(viewport);
+    await page.waitForTimeout(1500);
+    await page.screenshot({path:output+`/viewport-${viewport.width}x${viewport.height}.png`});
+  }
+  report.scenarios.push('Viewport screenshots at 1440x900, 1280x720, 1920x1080 and 900x900');
+  await page.keyboard.press('F5');
+  await page.waitForTimeout(1800);
+  assert((await state())?.playing,'F5 must save inside the game instead of reloading the page');
+  report.scenarios.push('F5 save shortcut does not reload the running game');
+  if(process.env.BATTLE_QA==='1'){
+    await page.setViewportSize({width:1440,height:900});
+    await page.waitForTimeout(1000);
+    await page.mouse.click(610,525);
+    await page.mouse.click(1260,450);
+    await page.mouse.click(1260,450);
+    await page.waitForFunction(()=>window.EMBERHOLD_STATE.units.filter(u=>u.type==='guard').length>=3,{},{timeout:25000});
+    await page.keyboard.press('KeyF');
+    await page.mouse.click(1197,755);
+    await page.waitForTimeout(2200);
+    const camera=(await state()).camera;
+    await page.mouse.click((750-camera.x)*camera.zoom+720,(1300-camera.y)*camera.zoom+450);
+    await page.keyboard.press('Home');
+    await page.keyboard.down('Space');
+    await page.waitForFunction(()=>Math.hypot(window.EMBERHOLD_STATE.hero.x-750,window.EMBERHOLD_STATE.hero.y-1300)<180,{},{timeout:60000});
+    await page.keyboard.press('KeyQ');
+    await page.screenshot({path:output+'/05-beacon-battle.png'});
+    await page.waitForFunction(()=>window.EMBERHOLD_STATE.kills>=5,{},{timeout:45000});
+    await page.keyboard.up('Space');
+    await page.keyboard.press('KeyE');
+    await page.waitForFunction(()=>window.EMBERHOLD_STATE.beacons>=1,{},{timeout:10000});
+    await page.screenshot({path:output+'/06-beacon-rekindled.png'});
+    report.scenarios.push('Real-input expedition, army combat, healing and first beacon liberation');
+  }
+  report.final=await state();
+  if(process.env.FINAL_ART==='1'){
+    assert.equal(report.final.animations_loaded.length,7,'All seven animated character archetypes must be integrated');
+    assert(report.final.building_art.includes('upgrades2/6'),'Barracks II must use the actual upgraded SpriteShip artwork');
+    assert(report.final.building_art.includes('upgrades2/0')||report.final.building_art.includes('upgrades3/0'),'Sandbox Hearth III must use delivered upgraded SpriteShip artwork');
+  }
+  assert.equal(errors.length,0,'Browser console/page errors must be empty');
+  console.log('EMBERHOLD_BROWSER_OK',JSON.stringify(report));
+}finally{
+  await fs.writeFile(output+'/report.json',JSON.stringify(report,null,2));
+  await browser.close();
+}

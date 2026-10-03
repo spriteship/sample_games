@@ -1,0 +1,399 @@
+{
+  "id": "Emberhold_woodland_and_deposit_1791027762530_p99m",
+  "slug": "emberhold-nature",
+  "name": "Emberhold woodland and deposits",
+  "projectId": "proj_1791027542095_991m",
+  "assetType": "terrain",
+  "gameType": "topdown",
+  "style": "hand painted",
+  "createdAt": "2026-10-03T11:43:38.414Z",
+  "updatedAt": "2026-10-03T11:57:15.886Z",
+  "hasAnimation": false,
+  "iterationCount": 1,
+  "tags": [],
+  "favourite": false,
+  "prompt": "Exactly twelve separate standalone nature and resource props for an angled topdown fantasy strategy game: 1 large broad-canopy moss green oak tree; 2 tall dark spruce tree; 3 autumn amber birch tree; 4 rounded stone deposit boulder; 5 gold-veined ore deposit boulder; 6 small mossy rock cluster; 7 low fern bush; 8 wildflower patch; 9 tree stump; 10 pile of cut wood logs; 11 berry bush with red berries; 12 large pale twisted dead tree. Separate clean transparent cutouts, no sticker borders, soft northwest lighting. Entire subjects including base visible.",
+  "currentIterationId": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1",
+  "iterations": [
+    {
+      "id": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1",
+      "iterationIndex": 1,
+      "status": "selected",
+      "displayName": null,
+      "prompt": "CREATE\nCreate exactly twelve freestanding hand-painted nature and resource props as separate transparent cutouts, each fully visible including its natural base. Keep consistent angled-topdown scale and readable silhouettes, with no shared scene, terrain sheet, pedestal, or decorative backing. Use soft northwest lighting and painterly material detail; keep every prop physically complete and independently placeable.\n\nPLANNED OUTPUTS\nUNLABELED VISUAL SUBJECTS ONLY. The following lines describe appearance; never draw, print, typeset, annotate, name, or caption them:\n- One large broad-canopy moss green oak tree, freestanding with its full trunk and natural base visible\n- Two tall dark spruce trees, each freestanding with full trunks and natural bases visible\n- Three autumn amber birch trees, each freestanding with full trunks and natural bases visible\n- One rounded stone deposit boulder\n- One gold-veined ore deposit boulder\n- One small mossy rock cluster\n- One low fern bush\n- One compact wildflower patch\n- One tree stump\n- One pile of cut wood logs\n- One berry bush with visible red berries\n- One large pale twisted dead tree with its full trunk and natural base visible\n\nLOOK\nHand-painted fantasy strategy-game assets with visible but controlled brush texture, restrained painterly linework, sturdy readable silhouettes, layered material strokes, and moderate detail on bark, stone, moss, ore, foliage, flowers, berries, and cut wood. Palette: moss green, dark spruce green, autumn amber, pale deadwood, slate-blue cool shadows, ivory highlights, copper-toned material accents, natural stone gray, gold ore veins, red berries. Lighting: Soft consistent northwest lighting with gentle ambient occlusion and soft cast shading; preserve readable tactical silhouettes.. Atmosphere: Subtle atmospheric depth without haze obscuring any prop; resilient, warm woodland mood.. Surface treatment: Natural irregular edges and material-specific painterly texture. Transparent around and between each subject, with no artificial ground backing or expanded outer rim..\n\nVIEW\nOrthographic RPG camera looking downward 45 degrees with no isometric yaw. World east-west is screen-horizontal; north-south is screen-vertical with foreshortened depth. A ground square is an axis-aligned rectangle, not a diamond. Show top surfaces and forward-facing fronts, not two diagonal side faces. Hut lintels and east-west roads remain horizontal; north-south roads remain vertical. Keep this same camera on buildings, gates, paths and bridges.\n\nOUTPUT\n\nCreate exactly 12 approved Environment Kit pieces on one uniform opaque pure-magenta #FF00FF raw canvas. This is an intermediate image: every area that will be transparent after extraction must be flat unlit #FF00FF now, including enclosed openings through arches, bridge railings, gates and branches. Do not shade, tint or light the background inside holes. Preserve the selected subject palette; no magenta reflection or halo on objects.\nEvery logical piece must be complete, separate, uncropped and surrounded by generous bare-magenta gutters. Keep compound surface details compact and clearly separated as whole patches. No bonus variants, duplicated items, assembled scenes, shared ground, detached shadows, glow, captions, dimensions, grids, frames, dividers or borders. The final display grid is assembled later in code; do not draw it.\nUse one consistent camera, physical scale, lighting and design language throughout. Standalone props have no unwanted ground pedestal; flat overlays have no thickness or unnecessary rectangular backing. A rectangular platform or bridge deck may remain rectangular when its actual shape requires it. Connectables preserve complete matching open connection edges with consistent width, elevation and cross-section; finish only the specified terminal ends. No decorative border or taper across a joining edge. Do not turn each piece to a different flattering camera.\n \n\nOVERLAY EDGE CONTRACT: These are game-world pieces to layer directly onto existing terrain, NOT die-cut stickers. Do not surround silhouettes with white, cream, beige or colored sticker borders, expanded outer strokes, halos, glow, matte rims, paper cutout backing, plaques or unrequested bases. A ground detail ends at its actual material silhouette; a puddle has a water edge, not a thick artificial cream rim or surrounding ground patch. Keep the intermediate chroma visible immediately outside the actual shape and through openings. Preserve normal thin project-style linework and real requested structural edges; do not confuse those with a second expanded outline/backing outside the object. Art style and highlights must not become an outer sticker rim. Connector endpoints stay open and join-compatible, without decorative edge caps.\n\nVISIBLE TEXT\nNONE. Text is prohibited. Render no words, letters, numbers, names, captions, annotations, or other typography anywhere in the image. Item descriptions are private instructions only and must never become visible copy.\n\nAVOID\nShared scene or assembled environment, Seamless material sheet or terrain fill, Unrelated characters, buildings, equipment, or props, Ground pedestals, plaques, artificial bases, decorative backing, halos, glows, matte rims, or expanded outlines, White, cream, beige, or colored sticker borders, Captions, labels, item names, headings, legends, logos, signatures, watermarks, measurement annotations, pseudo-writing, and visible grids\n\nSTRICT ARTWORK-ONLY RULE — NO TEXT anywhere. THIS OUTPUT IS INVALID IF IT CONTAINS ANY VISIBLE TEXT OR TEXT-LIKE MARKS. Render ZERO words, letters, digits, typography, pseudo-text, gibberish glyphs, captions, labels, titles, legends, annotations, signatures, logos or watermarks anywhere in any image or video frame. Names, item descriptions, state names, prompt headings and bullet lines are private drawing instructions: depict the subject only and NEVER typeset, copy, abbreviate or echo any portion of them. Before finalizing, inspect the entire frame and remove every accidental character, detached pseudo-letter, caption fragment and typographic mark; replace it with a completely blank object surface or the required transparent/chroma background. Symbols mean recognizable non-letter pictograms, not writing. Keep signs, pages, screens, clothing and surfaces unlettered by default. Only specific intrinsic writing explicitly requested by the user is permitted, solely on its requested object; never infer permission from a genre, style, item name or reference image. A reviewed NONE text policy overrides every subject description and forbids even intrinsic writing, including on signs, books, cards and screens. No added subtitles or text overlays in animations. FINAL CHECK: if any unpermitted glyph or text-like fragment remains anywhere, remove it before returning the media.",
+      "feedbackPrompt": null,
+      "model": "gpt-image-2-5-flare-text-to-image",
+      "createdAt": "Sat Oct 03 2026 11:44:00 GMT+0000 (Coordinated Universal Time)",
+      "items": [
+        {
+          "id": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1_item_0",
+          "itemIndex": 0,
+          "itemToken": "item_1",
+          "displayName": "One large broad-canopy moss green oak tree, freestanding with its full trunk and natural base visible",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 19,
+            "y": 18,
+            "width": 718,
+            "height": 757
+          },
+          "confidence": 0.5,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1_item_1",
+          "itemIndex": 1,
+          "itemToken": "item_2",
+          "displayName": "Two tall dark spruce trees, each freestanding with full trunks and natural bases visible",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 760,
+            "y": 17,
+            "width": 435,
+            "height": 830
+          },
+          "confidence": 0.5,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1_item_2",
+          "itemIndex": 2,
+          "itemToken": "item_3",
+          "displayName": "Three autumn amber birch trees, each freestanding with full trunks and natural bases visible",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 1285,
+            "y": 45,
+            "width": 454,
+            "height": 787
+          },
+          "confidence": 0.5,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1_item_3",
+          "itemIndex": 3,
+          "itemToken": "item_4",
+          "displayName": "One rounded stone deposit boulder",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 1816,
+            "y": 54,
+            "width": 480,
+            "height": 751
+          },
+          "confidence": 0.5,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1_item_4",
+          "itemIndex": 4,
+          "itemToken": "item_5",
+          "displayName": "One gold-veined ore deposit boulder",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 50,
+            "y": 788,
+            "width": 348,
+            "height": 575
+          },
+          "confidence": 0.5,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1_item_5",
+          "itemIndex": 5,
+          "itemToken": "item_6",
+          "displayName": "One small mossy rock cluster",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 511,
+            "y": 880,
+            "width": 478,
+            "height": 396
+          },
+          "confidence": 0.5,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1_item_6",
+          "itemIndex": 6,
+          "itemToken": "item_7",
+          "displayName": "One low fern bush",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 1113,
+            "y": 910,
+            "width": 413,
+            "height": 381
+          },
+          "confidence": 0.5,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1_item_7",
+          "itemIndex": 7,
+          "itemToken": "item_8",
+          "displayName": "One compact wildflower patch",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 2016,
+            "y": 818,
+            "width": 329,
+            "height": 915
+          },
+          "confidence": 0.5,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1_item_8",
+          "itemIndex": 8,
+          "itemToken": "item_9",
+          "displayName": "One tree stump",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 1628,
+            "y": 975,
+            "width": 366,
+            "height": 303
+          },
+          "confidence": 0.5,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1_item_9",
+          "itemIndex": 9,
+          "itemToken": "item_10",
+          "displayName": "One pile of cut wood logs",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 23,
+            "y": 1388,
+            "width": 386,
+            "height": 330
+          },
+          "confidence": 0.5,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1_item_10",
+          "itemIndex": 10,
+          "itemToken": "item_11",
+          "displayName": "One berry bush with visible red berries",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 459,
+            "y": 1374,
+            "width": 349,
+            "height": 336
+          },
+          "confidence": 0.5,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1_item_11",
+          "itemIndex": 11,
+          "itemToken": "item_12",
+          "displayName": "One large pale twisted dead tree with its full trunk and natural base visible",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 860,
+            "y": 1391,
+            "width": 355,
+            "height": 321
+          },
+          "confidence": 0.5,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1_item_12",
+          "itemIndex": 12,
+          "itemToken": "item_13",
+          "displayName": "Extracted item 13",
+          "role": "unplanned",
+          "sourceBbox": {
+            "x": 1266,
+            "y": 1396,
+            "width": 346,
+            "height": 294
+          },
+          "confidence": 0.5,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1_item_13",
+          "itemIndex": 13,
+          "itemToken": "item_14",
+          "displayName": "Extracted item 14",
+          "role": "unplanned",
+          "sourceBbox": {
+            "x": 1653,
+            "y": 1343,
+            "width": 351,
+            "height": 353
+          },
+          "confidence": 0.5,
+          "parentItemId": null
+        }
+      ],
+      "itemsSource": "manifest"
+    }
+  ],
+  "animation": null,
+  "runtime": null,
+  "grid": {
+    "rows": 4,
+    "cols": 4,
+    "tileCount": 14,
+    "expectedTileCount": 16,
+    "complete": false,
+    "tileWidth": 592,
+    "tileHeight": 444,
+    "dimsAssumed": false,
+    "tiles": [
+      {
+        "index": 0
+      },
+      {
+        "index": 1
+      },
+      {
+        "index": 2
+      },
+      {
+        "index": 3
+      },
+      {
+        "index": 4
+      },
+      {
+        "index": 5
+      },
+      {
+        "index": 6
+      },
+      {
+        "index": 7
+      },
+      {
+        "index": 8
+      },
+      {
+        "index": 9
+      },
+      {
+        "index": 10
+      },
+      {
+        "index": 11
+      },
+      {
+        "index": 12
+      },
+      {
+        "index": 13
+      }
+    ]
+  },
+  "background": null,
+  "extraction": {
+    "mode": "logical_objects",
+    "status": "needs_review",
+    "expectedCount": 12,
+    "detectedCount": 14,
+    "outputCount": 14,
+    "groupedDecorationCount": 0,
+    "warning": "Extracted all 14 complete objects; the confirmed plan expected 12. Nothing was discarded."
+  },
+  "generationPlan": {
+    "camera": {
+      "view": "topdown",
+      "source": "project_game_type"
+    },
+    "layout": {
+      "mode": "fixed_anchors",
+      "rows": 3,
+      "columns": 4,
+      "extractionMode": "logical_objects"
+    },
+    "preview": "Exactly twelve separate standalone nature and resource props: one broad-canopy oak, two dark spruce trees, three amber birch trees, one rounded stone deposit boulder, one gold-veined ore deposit boulder, one mossy rock cluster, one fern bush, one wildflower patch, one tree stump, one cut-wood log pile, one red-berried bush, and one large pale twisted dead tree. All are clean transparent cutouts with their full subjects and bases visible, suitable for direct placement in an angled topdown strategy game.",
+    "estimate": {
+      "credits": 100,
+      "includedTextPlanning": true
+    },
+    "required": [
+      "Exactly twelve separate standalone props matching the requested item breakdown",
+      "Transparent cutouts with transparent space around and between every prop",
+      "Complete freestanding objects with full natural bases visible",
+      "Consistent angled-topdown camera and depth band",
+      "Soft northwest lighting",
+      "No sticker borders; preserve only actual material silhouettes and natural structural edges"
+    ],
+    "warnings": [],
+    "assetType": "terrain",
+    "forbidden": [
+      "Shared scene or assembled environment",
+      "Seamless material sheet or terrain fill",
+      "Unrelated characters, buildings, equipment, or props",
+      "Ground pedestals, plaques, artificial bases, decorative backing, halos, glows, matte rims, or expanded outlines",
+      "White, cream, beige, or colored sticker borders",
+      "Captions, labels, item names, headings, legends, logos, signatures, watermarks, measurement annotations, pseudo-writing, and visible grids",
+      "external captions",
+      "item-name labels",
+      "headers",
+      "legends",
+      "signatures",
+      "watermarks"
+    ],
+    "operation": "create",
+    "disposition": "collection",
+    "visibleText": {
+      "mode": "none",
+      "allowedContent": []
+    },
+    "schemaVersion": 2,
+    "outputQuantity": 12,
+    "primarySubject": "Exactly twelve separate standalone nature and resource props for an angled topdown fantasy strategy game",
+    "quantitySource": "user_explicit",
+    "requestedItems": [
+      "One large broad-canopy moss green oak tree, freestanding with its full trunk and natural base visible",
+      "Two tall dark spruce trees, each freestanding with full trunks and natural bases visible",
+      "Three autumn amber birch trees, each freestanding with full trunks and natural bases visible",
+      "One rounded stone deposit boulder",
+      "One gold-veined ore deposit boulder",
+      "One small mossy rock cluster",
+      "One low fern bush",
+      "One compact wildflower patch",
+      "One tree stump",
+      "One pile of cut wood logs",
+      "One berry bush with visible red berries",
+      "One large pale twisted dead tree with its full trunk and natural base visible"
+    ],
+    "visualTreatment": {
+      "palette": [
+        "moss green",
+        "dark spruce green",
+        "autumn amber",
+        "pale deadwood",
+        "slate-blue cool shadows",
+        "ivory highlights",
+        "copper-toned material accents",
+        "natural stone gray",
+        "gold ore veins",
+        "red berries"
+      ],
+      "lighting": "Soft consistent northwest lighting with gentle ambient occlusion and soft cast shading; preserve readable tactical silhouettes.",
+      "atmosphere": "Subtle atmospheric depth without haze obscuring any prop; resilient, warm woodland mood.",
+      "renderingStyle": "Hand-painted fantasy strategy-game assets with visible but controlled brush texture, restrained painterly linework, sturdy readable silhouettes, layered material strokes, and moderate detail on bark, stone, moss, ore, foliage, flowers, berries, and cut wood.",
+      "surfaceTreatment": "Natural irregular edges and material-specific painterly texture. Transparent around and between each subject, with no artificial ground backing or expanded outer rim."
+    },
+    "imageAspectRatio": "4:3",
+    "requestedQuantity": 12,
+    "supplementalItems": [],
+    "projectContextHash": "WSnJu7VrzOVFBbG46jz_LeqSbMHekEFwGvhiXvkWQJA",
+    "generationDirective": "Create exactly twelve freestanding hand-painted nature and resource props as separate transparent cutouts, each fully visible including its natural base. Keep consistent angled-topdown scale and readable silhouettes, with no shared scene, terrain sheet, pedestal, or decorative backing. Use soft northwest lighting and painterly material detail; keep every prop physically complete and independently placeable.",
+    "environmentKitVersion": 1
+  },
+  "material": null,
+  "quality": {}
+}

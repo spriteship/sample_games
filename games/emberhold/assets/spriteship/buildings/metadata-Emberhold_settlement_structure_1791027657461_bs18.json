@@ -1,0 +1,353 @@
+{
+  "id": "Emberhold_settlement_structure_1791027657461_bs18",
+  "slug": "emberhold-buildings",
+  "name": "Emberhold settlement structures",
+  "projectId": "proj_1791027542095_991m",
+  "assetType": "tileset",
+  "gameType": "topdown",
+  "style": "hand painted",
+  "createdAt": "2026-10-03T11:42:12.699Z",
+  "updatedAt": "2026-10-03T11:57:15.886Z",
+  "hasAnimation": false,
+  "iterationCount": 1,
+  "tags": [],
+  "favourite": false,
+  "prompt": "Exactly eleven distinct standalone medieval buildings, each separate complete transparent cutout, elevated angled top-down camera, coherent physical scale and warm northwest lighting: 1 ivory stone Hearth Hall with large copper roof and glowing hearth chimney; 2 small timber cottage with copper gable roof; 3 lumber camp with stacked logs and saw canopy; 4 stone quarry shed with stone blocks and crane; 5 gold mine entrance with timber supports and ore cart; 6 farm with wheat beds and tiny windmill; 7 barracks with blue banners and training yard; 8 archery lodge with green canvas roof and archery target; 9 forge with glowing furnace and anvil; 10 tall stone watchtower with copper roof; 11 short wooden palisade wall segment. No incidental landscape, no gridlines, no lettering. Each entire building is visible including its ground contact.",
+  "currentIterationId": "Emberhold_settlement_structure_1791027657461_bs18_iter_1",
+  "iterations": [
+    {
+      "id": "Emberhold_settlement_structure_1791027657461_bs18_iter_1",
+      "iterationIndex": 1,
+      "status": "selected",
+      "displayName": null,
+      "prompt": "CREATE\nCreate exactly eleven separate, fully visible hand-painted medieval buildings and structures with sturdy readable silhouettes, gently irregular crafted edges, restrained painterly linework, and coherent physical scale. Use consistent warm northwest lighting with slate-blue cool shadows, ivory stone and copper material highlights, layered brush texture, soft ambient occlusion, and localized amber glow where specified; keep every item isolated with no connecting terrain or assembled scene.\n\nPLANNED OUTPUTS\nUNLABELED VISUAL SUBJECTS ONLY. The following lines describe appearance; never draw, print, typeset, annotate, name, or caption them:\n- Ivory-stone Hearth Hall with a large copper roof and a chimney emitting a warm glowing hearth light\n- Small timber cottage with a copper gable roof\n- Lumber camp with stacked logs and a saw canopy\n- Stone quarry shed with stacked stone blocks and a small crane\n- Gold mine entrance with timber supports and an ore cart\n- Farm with wheat beds and a tiny windmill\n- Barracks with blue banners and an adjacent training yard\n- Archery lodge with a green canvas roof and an archery target\n- Forge with a glowing furnace and an anvil\n- Tall stone watchtower with a copper roof\n- Short wooden palisade wall segment\n\nLOOK\nHand-painted medieval strategy-game asset art with visible but controlled brush texture, soft ambient occlusion, layered material strokes, sturdy readable silhouettes, gently irregular hand-crafted edges, restrained painterly linework, and moderate detail focused on key materials and gameplay-critical features. Palette: ivory stone and warm surface neutrals, copper and muted orange accents, slate-blue cool shadows, deep blue-green outlines and secondary tones, localized amber hearth and furnace glow, muted greens and wheat golds. Lighting: Consistent warm northwest directional lighting with slate-blue cool shadows, ivory and copper highlights, and localized amber glow from hearths, furnaces, and other specified fire sources.. Atmosphere: Resilient, warm, adventurous medieval settlement mood with subtle atmospheric depth while preserving tactical readability.. Surface treatment: Layered painterly stone, timber, copper, canvas, logs, wheat, and packed-ground contact details; transparent surrounding canvas and clean complete silhouettes..\n\nVIEW\nParallel 2:1 game-isometric projection for world props. Equal ground-axis steps project (+2,+1) and (-2,+1) with screen Y downward; a ground square is a diamond twice as wide as high, not necessarily the bounds of a tall object. Vertical height stays screen-vertical. Use consistent top/side faces, scale and diagonals without perspective convergence. Do not add a diamond pedestal just to indicate the camera.\n\nOUTPUT\n\nRender exactly 11 approved logical pieces as one coordinated Object Collection on a uniform opaque pure-magenta #FF00FF intermediate canvas. Keep complete silhouettes disconnected, uncropped and generously separated; every future transparent area, including enclosed openings, must be flat unlit #FF00FF. No background reflection, magenta halo or tinted hole. The final transparent PNGs and presentation atlas are produced afterward in code; do not draw a grid, cells, frames, labels or captions around the pieces.\nEach approved item appears once. No supplemental filler, extra variants, decorative debris, detached shadows, glow, shared scenery or unrequested ground backing. Preserve each distinct item's identity. Controlled variants share the same underlying design and differ in the approved attributes only; matching families share motifs and material treatment. Do not turn an ordinary collection into animation frames or staged states. World props share plausible physical scale; flat icons/cards share optical size, margins and graphic treatment. Every object follows the resolved camera without independent flattering rotations. Intrinsic card faces and real rectangular objects retain their actual shape; only the outside/gaps become transparent. Writing or symbols may appear only inside an object when allowed by the visible-text policy, never as external item labels. Do not substitute art direction for requested content.\n\n\nVISIBLE TEXT\nNONE. Text is prohibited. Render no words, letters, numbers, names, captions, annotations, or other typography anywhere in the image. Item descriptions are private instructions only and must never become visible copy.\n\nAVOID\nNo incidental landscape, No connected map terrain, No assembled scene or overlapping buildings, No gridlines, No lettering or visible text, No labels, captions, legends, logos, watermarks, or measurement annotations, No extra buildings, bonus variants, or filler items, No cropped structures, No fictional characters or unrequested equipment\n\nSTRICT ARTWORK-ONLY RULE — NO TEXT anywhere. THIS OUTPUT IS INVALID IF IT CONTAINS ANY VISIBLE TEXT OR TEXT-LIKE MARKS. Render ZERO words, letters, digits, typography, pseudo-text, gibberish glyphs, captions, labels, titles, legends, annotations, signatures, logos or watermarks anywhere in any image or video frame. Names, item descriptions, state names, prompt headings and bullet lines are private drawing instructions: depict the subject only and NEVER typeset, copy, abbreviate or echo any portion of them. Before finalizing, inspect the entire frame and remove every accidental character, detached pseudo-letter, caption fragment and typographic mark; replace it with a completely blank object surface or the required transparent/chroma background. Symbols mean recognizable non-letter pictograms, not writing. Keep signs, pages, screens, clothing and surfaces unlettered by default. Only specific intrinsic writing explicitly requested by the user is permitted, solely on its requested object; never infer permission from a genre, style, item name or reference image. A reviewed NONE text policy overrides every subject description and forbids even intrinsic writing, including on signs, books, cards and screens. No added subtitles or text overlays in animations. FINAL CHECK: if any unpermitted glyph or text-like fragment remains anywhere, remove it before returning the media.",
+      "feedbackPrompt": null,
+      "model": "gpt-image-2-5-flare-text-to-image",
+      "createdAt": "Sat Oct 03 2026 11:42:12 GMT+0000 (Coordinated Universal Time)",
+      "items": [
+        {
+          "id": "Emberhold_settlement_structure_1791027657461_bs18_iter_1_item_0",
+          "itemIndex": 0,
+          "itemToken": "item_1",
+          "displayName": "Ivory-stone Hearth Hall with a large copper roof and a chimney emitting a warm glowing hearth light",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 34,
+            "y": 6,
+            "width": 606,
+            "height": 578
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_settlement_structure_1791027657461_bs18_iter_1_item_1",
+          "itemIndex": 1,
+          "itemToken": "item_2",
+          "displayName": "Small timber cottage with a copper gable roof",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 706,
+            "y": 112,
+            "width": 435,
+            "height": 425
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_settlement_structure_1791027657461_bs18_iter_1_item_2",
+          "itemIndex": 2,
+          "itemToken": "item_3",
+          "displayName": "Lumber camp with stacked logs and a saw canopy",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 1201,
+            "y": 144,
+            "width": 534,
+            "height": 407
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_settlement_structure_1791027657461_bs18_iter_1_item_3",
+          "itemIndex": 3,
+          "itemToken": "item_4",
+          "displayName": "Stone quarry shed with stacked stone blocks and a small crane",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 1790,
+            "y": 137,
+            "width": 545,
+            "height": 428
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_settlement_structure_1791027657461_bs18_iter_1_item_4",
+          "itemIndex": 4,
+          "itemToken": "item_5",
+          "displayName": "Gold mine entrance with timber supports and an ore cart",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 27,
+            "y": 644,
+            "width": 509,
+            "height": 478
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_settlement_structure_1791027657461_bs18_iter_1_item_5",
+          "itemIndex": 5,
+          "itemToken": "item_6",
+          "displayName": "Farm with wheat beds and a tiny windmill",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 537,
+            "y": 611,
+            "width": 615,
+            "height": 502
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_settlement_structure_1791027657461_bs18_iter_1_item_6",
+          "itemIndex": 6,
+          "itemToken": "item_7",
+          "displayName": "Barracks with blue banners and an adjacent training yard",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 1191,
+            "y": 605,
+            "width": 680,
+            "height": 542
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_settlement_structure_1791027657461_bs18_iter_1_item_7",
+          "itemIndex": 7,
+          "itemToken": "item_8",
+          "displayName": "Archery lodge with a green canvas roof and an archery target",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 1928,
+            "y": 667,
+            "width": 401,
+            "height": 416
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_settlement_structure_1791027657461_bs18_iter_1_item_8",
+          "itemIndex": 8,
+          "itemToken": "item_9",
+          "displayName": "Forge with a glowing furnace and an anvil",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 972,
+            "y": 1043,
+            "width": 313,
+            "height": 662
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_settlement_structure_1791027657461_bs18_iter_1_item_9",
+          "itemIndex": 9,
+          "itemToken": "item_10",
+          "displayName": "Tall stone watchtower with a copper roof",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 261,
+            "y": 1187,
+            "width": 556,
+            "height": 495
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_settlement_structure_1791027657461_bs18_iter_1_item_10",
+          "itemIndex": 10,
+          "itemToken": "item_11",
+          "displayName": "Short wooden palisade wall segment",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 1548,
+            "y": 1241,
+            "width": 420,
+            "height": 395
+          },
+          "confidence": 1,
+          "parentItemId": null
+        }
+      ],
+      "itemsSource": "manifest"
+    }
+  ],
+  "animation": null,
+  "runtime": null,
+  "grid": {
+    "rows": 3,
+    "cols": 4,
+    "tileCount": 11,
+    "expectedTileCount": 12,
+    "complete": false,
+    "tileWidth": 592,
+    "tileHeight": 592,
+    "dimsAssumed": false,
+    "tiles": [
+      {
+        "index": 0
+      },
+      {
+        "index": 1
+      },
+      {
+        "index": 2
+      },
+      {
+        "index": 3
+      },
+      {
+        "index": 4
+      },
+      {
+        "index": 5
+      },
+      {
+        "index": 6
+      },
+      {
+        "index": 7
+      },
+      {
+        "index": 8
+      },
+      {
+        "index": 9
+      },
+      {
+        "index": 10
+      }
+    ]
+  },
+  "background": null,
+  "extraction": {
+    "mode": "logical_objects",
+    "status": "exact",
+    "expectedCount": 11,
+    "detectedCount": 11,
+    "outputCount": 11,
+    "groupedDecorationCount": 0,
+    "warning": null
+  },
+  "generationPlan": {
+    "camera": {
+      "view": "isometric",
+      "source": "user_explicit"
+    },
+    "layout": {
+      "mode": "fixed_anchors",
+      "rows": 3,
+      "columns": 4,
+      "extractionMode": "logical_objects"
+    },
+    "preview": "One collection of exactly 11 independently editable, standalone medieval building cutouts for approval, presented with a consistent elevated angled top-down view; every complete structure is fully visible with its ground contact and transparent surroundings.",
+    "estimate": {
+      "credits": 100,
+      "includedTextPlanning": true
+    },
+    "required": [
+      "Exactly 11 distinct standalone items",
+      "Each item must be a separate complete transparent cutout",
+      "Every entire building or structure must be visible, including its ground contact",
+      "Consistent coherent physical scale across the collection",
+      "Elevated angled top-down presentation kept consistent across all items",
+      "Hearth Hall with ivory stone, large copper roof, and glowing hearth chimney",
+      "Lumber camp with stacked logs and saw canopy",
+      "Quarry shed with stone blocks and crane",
+      "Gold mine entrance with timber supports and ore cart",
+      "Farm with wheat beds and tiny windmill",
+      "Barracks with blue banners and training yard",
+      "Archery lodge with green canvas roof and archery target",
+      "Forge with glowing furnace and anvil",
+      "Watchtower with tall stone body and copper roof",
+      "Short wooden palisade wall segment",
+      "Warm northwest lighting and Emberhold hand-painted palette treatment"
+    ],
+    "warnings": [],
+    "assetType": "tileset",
+    "forbidden": [
+      "No incidental landscape",
+      "No connected map terrain",
+      "No assembled scene or overlapping buildings",
+      "No gridlines",
+      "No lettering or visible text",
+      "No labels, captions, legends, logos, watermarks, or measurement annotations",
+      "No extra buildings, bonus variants, or filler items",
+      "No cropped structures",
+      "No fictional characters or unrequested equipment",
+      "external captions",
+      "item-name labels",
+      "headers",
+      "legends",
+      "signatures",
+      "watermarks"
+    ],
+    "operation": "create",
+    "disposition": "collection",
+    "visibleText": {
+      "mode": "none",
+      "allowedContent": []
+    },
+    "schemaVersion": 2,
+    "outputQuantity": 11,
+    "primarySubject": "Eleven distinct standalone medieval settlement buildings and structures, each a complete transparent cutout at coherent physical scale.",
+    "quantitySource": "user_explicit",
+    "requestedItems": [
+      "Ivory-stone Hearth Hall with a large copper roof and a chimney emitting a warm glowing hearth light",
+      "Small timber cottage with a copper gable roof",
+      "Lumber camp with stacked logs and a saw canopy",
+      "Stone quarry shed with stacked stone blocks and a small crane",
+      "Gold mine entrance with timber supports and an ore cart",
+      "Farm with wheat beds and a tiny windmill",
+      "Barracks with blue banners and an adjacent training yard",
+      "Archery lodge with a green canvas roof and an archery target",
+      "Forge with a glowing furnace and an anvil",
+      "Tall stone watchtower with a copper roof",
+      "Short wooden palisade wall segment"
+    ],
+    "visualTreatment": {
+      "palette": [
+        "ivory stone and warm surface neutrals",
+        "copper and muted orange accents",
+        "slate-blue cool shadows",
+        "deep blue-green outlines and secondary tones",
+        "localized amber hearth and furnace glow",
+        "muted greens and wheat golds"
+      ],
+      "lighting": "Consistent warm northwest directional lighting with slate-blue cool shadows, ivory and copper highlights, and localized amber glow from hearths, furnaces, and other specified fire sources.",
+      "atmosphere": "Resilient, warm, adventurous medieval settlement mood with subtle atmospheric depth while preserving tactical readability.",
+      "renderingStyle": "Hand-painted medieval strategy-game asset art with visible but controlled brush texture, soft ambient occlusion, layered material strokes, sturdy readable silhouettes, gently irregular hand-crafted edges, restrained painterly linework, and moderate detail focused on key materials and gameplay-critical features.",
+      "surfaceTreatment": "Layered painterly stone, timber, copper, canvas, logs, wheat, and packed-ground contact details; transparent surrounding canvas and clean complete silhouettes."
+    },
+    "imageAspectRatio": "4:3",
+    "requestedQuantity": 11,
+    "supplementalItems": [],
+    "projectContextHash": "WSnJu7VrzOVFBbG46jz_LeqSbMHekEFwGvhiXvkWQJA",
+    "generationDirective": "Create exactly eleven separate, fully visible hand-painted medieval buildings and structures with sturdy readable silhouettes, gently irregular crafted edges, restrained painterly linework, and coherent physical scale. Use consistent warm northwest lighting with slate-blue cool shadows, ivory stone and copper material highlights, layered brush texture, soft ambient occlusion, and localized amber glow where specified; keep every item isolated with no connecting terrain or assembled scene.",
+    "objectCollectionVersion": 1
+  },
+  "material": null,
+  "quality": {}
+}

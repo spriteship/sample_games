@@ -1,0 +1,12 @@
+{
+  "name": "@spriteship/emberhold",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "dev": "node tools/serve.mjs",
+    "test": "node tools/build.mjs --test",
+    "art:refresh": "node tools/sync.mjs assets"
+  }
+}
