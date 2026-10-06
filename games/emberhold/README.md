@@ -4,6 +4,8 @@ A single-player painted 2D settlement strategy adventure, built in **Godot 4.7.2
 
 Local game: **http://localhost:4174**
 
+Public demo: **https://spriteship.github.io/sample_games/emberhold/**
+
 [SpriteShip project](https://spriteship.com/project/proj_1791027542095_991m) · [Authored valley](https://spriteship.com/project/proj_1791027542095_991m/level-editor?mapId=map_1791027542158_krri) · [Product vision and story](PRD.md)
 
 ## Play
@@ -42,6 +44,8 @@ npm test --workspace @spriteship/emberhold
 ```
 
 Open `http://localhost:4174`. The server builds if `dist/index.html` is absent. Set `GODOT_BIN` if Godot is not discoverable in Applications or on PATH. Open `project.godot` to edit the native project. This is a Compatibility-renderer, single-threaded Web export, not a Phaser wrapper. The local server supplies the proper WASM MIME type.
+
+`npm run build:pages` rebuilds Emberhold and packages it beside Last Light in `pages-dist/`. The existing GitHub Pages workflow publishes both on pushes to `main`. Linux x64 CI automatically downloads the official Godot 4.7.2 binary and matching Web templates, verifies pinned SHA-256 checksums, and installs only the required single-threaded Web templates. No SpriteShip credential is needed for deployment. Browser saves at the public GitHub Pages origin are separate from localhost saves.
 
 ## Source guide
 

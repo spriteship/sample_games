@@ -13,6 +13,7 @@ Playable sample games built with assets created in [SpriteShip](https://spritesh
 
 - Sample catalog: https://spriteship.github.io/sample_games/
 - Last Light: https://spriteship.github.io/sample_games/last-light/
+- Emberhold: https://spriteship.github.io/sample_games/emberhold/
 
 ## Run locally
 
