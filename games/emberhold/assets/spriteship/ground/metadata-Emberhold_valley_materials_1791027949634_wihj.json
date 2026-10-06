@@ -1,0 +1,274 @@
+{
+  "id": "Emberhold_valley_materials_1791027949634_wihj",
+  "slug": "emberhold-ground-1",
+  "name": "Emberhold valley materials #1",
+  "projectId": "proj_1791027542095_991m",
+  "assetType": "texture",
+  "gameType": "topdown",
+  "style": "hand painted",
+  "createdAt": "2026-10-03T11:47:08.404Z",
+  "updatedAt": "2026-10-03T11:57:15.886Z",
+  "hasAnimation": false,
+  "iterationCount": 1,
+  "tags": [],
+  "favourite": false,
+  "prompt": "Four earthy woodland ground fills: dense moss green grassy soil, warm ochre trampled earth, cool slate stony earth, dark ash scorched soil. Fine subtle painterly organic detail, soft subdued saturation to keep troops readable. Flat ground, no objects, no trees, no shadows of trees, no lettering.",
+  "currentIterationId": "Emberhold_valley_materials_1791027949634_wihj_iter_1",
+  "iterations": [
+    {
+      "id": "Emberhold_valley_materials_1791027949634_wihj_iter_1",
+      "iterationIndex": 1,
+      "status": "selected",
+      "displayName": null,
+      "prompt": "Four earthy woodland ground fills: dense moss green grassy soil, warm ochre trampled earth, cool slate stony earth, dark ash scorched soil. Fine subtle painterly organic detail, soft subdued saturation to keep troops readable. Flat ground, no objects, no trees, no shadows of trees, no lettering.",
+      "feedbackPrompt": null,
+      "model": "gpt-image-2-5-flare-text-to-image",
+      "createdAt": "Sat Oct 03 2026 11:47:08 GMT+0000 (Coordinated Universal Time)",
+      "items": [
+        {
+          "id": "Emberhold_valley_materials_1791027949634_wihj_iter_1_item_0",
+          "itemIndex": 0,
+          "itemToken": "item_1",
+          "displayName": "Emberhold valley materials #1",
+          "role": "requested",
+          "sourceBbox": null,
+          "confidence": 1,
+          "parentItemId": null
+        }
+      ],
+      "itemsSource": "manifest"
+    }
+  ],
+  "animation": null,
+  "runtime": {
+    "runtimeUse": "repeat_fill",
+    "config": {},
+    "tiles": []
+  },
+  "grid": null,
+  "background": null,
+  "extraction": null,
+  "generationPlan": {
+    "camera": {
+      "view": "topdown",
+      "source": "project_game_type"
+    },
+    "layout": {
+      "mode": "fixed_anchors",
+      "rows": 2,
+      "columns": 2,
+      "extractionMode": "logical_objects"
+    },
+    "preview": "4 material fills: dense moss-green grassy soil, warm ochre trampled earth, cool slate stony earth, and dark ash scorched soil. Scope is limited to four solid ground-material interiors; excluded are all objects, trees, troop shadows, terrain boundaries, shorelines, corners, transitions, and any complete woodland kit or map composition.",
+    "estimate": {
+      "credits": 60,
+      "includedTextPlanning": true
+    },
+    "required": [
+      "four solid opaque interior fills",
+      "one continuous surface per material family",
+      "seamless painterly ground texture",
+      "subdued saturation for troop readability"
+    ],
+    "warnings": [],
+    "assetType": "texture",
+    "forbidden": [
+      "internal gaps",
+      "subdivided tile atlases",
+      "separate props",
+      "shorelines",
+      "corners",
+      "transitions",
+      "labels",
+      "text",
+      "objects",
+      "trees",
+      "tree shadows",
+      "map composition",
+      "external captions",
+      "item-name labels",
+      "headers",
+      "legends",
+      "signatures",
+      "watermarks"
+    ],
+    "operation": "create",
+    "disposition": "fan_out",
+    "visibleText": {
+      "mode": "none",
+      "allowedContent": []
+    },
+    "schemaVersion": 2,
+    "outputQuantity": 4,
+    "primarySubject": "Earthy woodland ground material surfaces",
+    "quantitySource": "product_default",
+    "requestedItems": [
+      "dense moss-green grassy soil",
+      "warm ochre trampled earth",
+      "cool slate stony earth",
+      "dark ash scorched soil"
+    ],
+    "materialPacking": {
+      "families": [
+        {
+          "fillCellIndex": 0
+        },
+        {
+          "fillCellIndex": 1
+        },
+        {
+          "fillCellIndex": 2
+        },
+        {
+          "fillCellIndex": 3
+        }
+      ],
+      "projection": "topdown",
+      "familyCount": 4,
+      "sourceSheet": {
+        "rows": 2,
+        "columns": 2,
+        "cellCount": 4
+      },
+      "logicalLayout": {
+        "rows": 2,
+        "columns": 2
+      },
+      "requiredDonorRoles": [
+        "interior"
+      ]
+    },
+    "visualTreatment": {
+      "palette": [
+        "moss green",
+        "warm ochre",
+        "cool slate blue-gray",
+        "dark ash charcoal",
+        "muted ivory highlights"
+      ],
+      "lighting": "even lighting with restrained northwest tonal bias and no cast shadows",
+      "atmosphere": "resilient, subdued woodland mood with subtle earthy depth",
+      "renderingStyle": "hand-painted technique with controlled brush texture and layered material strokes",
+      "surfaceTreatment": "fine painterly organic grain, opaque seamless interiors, soft subdued saturation, and readable flat ground"
+    },
+    "requestedQuantity": 4,
+    "supplementalItems": [],
+    "projectContextHash": "WSnJu7VrzOVFBbG46jz_LeqSbMHekEFwGvhiXvkWQJA",
+    "generationDirective": "Create four separate seamless opaque topdown interior surface fills, one per named ground family: mossy grassy soil, ochre trampled earth, slate stony earth, and ash scorched soil. Use fine subtle painterly organic detail, soft subdued saturation, and flat readable ground with no objects or cast shadows."
+  },
+  "material": {
+    "contractVersion": 1,
+    "projection": "topdown",
+    "recipe": {
+      "id": "material:Emberhold_valley_materials_1791027949634_wihj",
+      "kind": "spriteship.brushable-recipe",
+      "donors": [
+        {
+          "id": "Emberhold_valley_materials_1791027949634_wihj:interior",
+          "role": "interior",
+          "sampling": {
+            "mode": "repeat-xy",
+            "scale": 1
+          },
+          "provenance": {
+            "sourceCellIndex": 0
+          }
+        }
+      ],
+      "quality": {
+        "gates": {
+          "fillPresent": true,
+          "fillSeamPass": true,
+          "fillOccupancyPass": true,
+          "fillOpaqueFraction": 1
+        },
+        "status": "ready"
+      },
+      "compiler": {
+        "id": "spriteship.terrain-runtime",
+        "version": 1,
+        "deterministicSeed": 0
+      },
+      "revision": 1,
+      "materials": [
+        {
+          "id": "Emberhold_valley_materials_1791027949634_wihj",
+          "label": "Emberhold valley materials #1",
+          "donorIds": [
+            "Emberhold_valley_materials_1791027949634_wihj:interior"
+          ]
+        }
+      ],
+      "generation": {
+        "model": "gpt-image-2-5-flare-text-to-image",
+        "provider": "kie",
+        "promptKey": "asset_image.texture.topdown",
+        "promptVersion": 4,
+        "sourceArtifactIds": [
+          null
+        ]
+      },
+      "transitions": [],
+      "capabilities": [
+        {
+          "id": "spriteship.material.multi",
+          "config": {},
+          "version": 1
+        },
+        {
+          "id": "spriteship.terrain.chunk-halo",
+          "config": {
+            "minimumHalo": 1
+          },
+          "version": 1
+        },
+        {
+          "id": "spriteship.terrain.export-geometry",
+          "config": {
+            "canonical": true
+          },
+          "version": 1
+        },
+        {
+          "id": "spriteship.topology.neighborhood",
+          "config": {
+            "neighbors": 8
+          },
+          "version": 1
+        },
+        {
+          "id": "spriteship.terrain.elevation",
+          "config": {
+            "unbounded": true
+          },
+          "version": 1
+        },
+        {
+          "id": "spriteship.terrain.ramps",
+          "config": {
+            "directions": [
+              "north",
+              "east",
+              "south",
+              "west"
+            ]
+          },
+          "version": 1
+        }
+      ],
+      "presentation": {
+        "cell": {
+          "shape": "rectangle",
+          "width": 32,
+          "height": 32,
+          "coordinateSpace": "world"
+        },
+        "parameters": {},
+        "projection": "spriteship.orthogonal"
+      },
+      "schemaVersion": 1,
+      "visualFamilyId": "Emberhold_valley_materials_1791027949634_wihj"
+    }
+  },
+  "quality": {}
+}

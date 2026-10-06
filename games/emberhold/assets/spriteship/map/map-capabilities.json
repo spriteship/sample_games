@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "adapterVersion": "map-workbench-1",
+  "target": "godot",
+  "entries": [],
+  "requiresBindings": false,
+  "nativeEngineGameplayVerified": false,
+  "note": "Implementation availability is not proof that this particular map is playable. Run its saved tests and verify your target controller."
+}

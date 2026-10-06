@@ -1,0 +1,2403 @@
+{
+  "version": 2,
+  "apiUrl": "https://spriteship.com",
+  "assets": {
+    "Emberhold_settlement_structure_1791027657461_bs18": {
+      "name": "Emberhold settlement structures",
+      "slug": "buildings",
+      "updatedAt": "2026-10-03T11:57:15.886Z",
+      "engine": "godot",
+      "files": [
+        "buildings/item-0.png",
+        "buildings/item-1.png",
+        "buildings/item-2.png",
+        "buildings/item-3.png",
+        "buildings/item-4.png",
+        "buildings/item-5.png",
+        "buildings/item-6.png",
+        "buildings/item-7.png",
+        "buildings/item-8.png",
+        "buildings/item-9.png",
+        "buildings/item-10.png"
+      ],
+      "syncedAt": "2026-10-03T13:57:14.378Z",
+      "snapshot": {
+        "kind": "asset",
+        "name": "Emberhold settlement structures",
+        "slug": "emberhold-buildings",
+        "currentIterationId": "Emberhold_settlement_structure_1791027657461_bs18_iter_1",
+        "iterationCount": 1,
+        "hasAnimation": false,
+        "runtimeUse": "plain_image",
+        "tileRuntimeUses": [],
+        "animationPairs": {}
+      }
+    },
+    "Emberhold_woodland_and_deposit_1791027762530_p99m": {
+      "name": "Emberhold woodland and deposits",
+      "slug": "nature",
+      "updatedAt": "2026-10-03T11:57:15.886Z",
+      "engine": "godot",
+      "files": [
+        "nature/item-0.png",
+        "nature/item-1.png",
+        "nature/item-2.png",
+        "nature/item-3.png",
+        "nature/item-4.png",
+        "nature/item-5.png",
+        "nature/item-6.png",
+        "nature/item-7.png",
+        "nature/item-8.png",
+        "nature/item-9.png",
+        "nature/item-10.png",
+        "nature/item-11.png",
+        "nature/item-12.png",
+        "nature/item-13.png"
+      ],
+      "syncedAt": "2026-10-03T13:57:27.498Z",
+      "snapshot": {
+        "kind": "asset",
+        "name": "Emberhold woodland and deposits",
+        "slug": "emberhold-nature",
+        "currentIterationId": "Emberhold_woodland_and_deposit_1791027762530_p99m_iter_1",
+        "iterationCount": 1,
+        "hasAnimation": false,
+        "runtimeUse": "plain_image",
+        "tileRuntimeUses": [],
+        "animationPairs": {}
+      }
+    },
+    "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g": {
+      "name": "Emberhold beacons and Ash Crown",
+      "slug": "landmarks",
+      "updatedAt": "2026-10-03T11:57:15.886Z",
+      "engine": "godot",
+      "files": [
+        "landmarks/item-0.png",
+        "landmarks/item-1.png",
+        "landmarks/item-2.png",
+        "landmarks/item-3.png",
+        "landmarks/item-4.png",
+        "landmarks/item-5.png",
+        "landmarks/item-6.png",
+        "landmarks/item-7.png"
+      ],
+      "syncedAt": "2026-10-03T13:57:40.902Z",
+      "snapshot": {
+        "kind": "asset",
+        "name": "Emberhold beacons and Ash Crown",
+        "slug": "emberhold-landmarks",
+        "currentIterationId": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g_iter_1",
+        "iterationCount": 1,
+        "hasAnimation": false,
+        "runtimeUse": "plain_image",
+        "tileRuntimeUses": [],
+        "animationPairs": {}
+      }
+    },
+    "Emberhold_valley_materials_1791027949634_wihj": {
+      "name": "Emberhold valley materials #1",
+      "slug": "ground",
+      "updatedAt": "2026-10-03T11:57:15.886Z",
+      "engine": "godot",
+      "files": [
+        "ground/item-0.png"
+      ],
+      "syncedAt": "2026-10-03T13:57:43.849Z",
+      "snapshot": {
+        "kind": "asset",
+        "name": "Emberhold valley materials #1",
+        "slug": "emberhold-ground-1",
+        "currentIterationId": "Emberhold_valley_materials_1791027949634_wihj_iter_1",
+        "iterationCount": 1,
+        "hasAnimation": false,
+        "runtimeUse": "repeat_fill",
+        "tileRuntimeUses": [],
+        "animationPairs": {}
+      }
+    },
+    "Emberhold_valley_materials_1791028027414_cr3f_1": {
+      "name": "Emberhold valley materials #2",
+      "slug": "ground",
+      "updatedAt": "2026-10-03T11:57:15.886Z",
+      "engine": "godot",
+      "files": [
+        "ground/item-1.png"
+      ],
+      "syncedAt": "2026-10-03T13:57:49.075Z",
+      "snapshot": {
+        "kind": "asset",
+        "name": "Emberhold valley materials #2",
+        "slug": "emberhold-ground-2",
+        "currentIterationId": "Emberhold_valley_materials_1791028027414_cr3f_1_iter_1",
+        "iterationCount": 1,
+        "hasAnimation": false,
+        "runtimeUse": "repeat_fill",
+        "tileRuntimeUses": [],
+        "animationPairs": {}
+      }
+    },
+    "Emberhold_valley_materials_1791028027414_kxbx_2": {
+      "name": "Emberhold valley materials #3",
+      "slug": "ground",
+      "updatedAt": "2026-10-03T11:57:15.886Z",
+      "engine": "godot",
+      "files": [
+        "ground/item-2.png"
+      ],
+      "syncedAt": "2026-10-03T13:57:57.815Z",
+      "snapshot": {
+        "kind": "asset",
+        "name": "Emberhold valley materials #3",
+        "slug": "emberhold-ground-3",
+        "currentIterationId": "Emberhold_valley_materials_1791028027414_kxbx_2_iter_1",
+        "iterationCount": 1,
+        "hasAnimation": false,
+        "runtimeUse": "repeat_fill",
+        "tileRuntimeUses": [],
+        "animationPairs": {}
+      }
+    },
+    "Emberhold_valley_materials_1791028027414_nema_3": {
+      "name": "Emberhold valley materials #4",
+      "slug": "ground",
+      "updatedAt": "2026-10-03T11:57:15.886Z",
+      "engine": "godot",
+      "files": [
+        "ground/item-3.png"
+      ],
+      "syncedAt": "2026-10-03T13:58:00.084Z",
+      "snapshot": {
+        "kind": "asset",
+        "name": "Emberhold valley materials #4",
+        "slug": "emberhold-ground-4",
+        "currentIterationId": "Emberhold_valley_materials_1791028027414_nema_3_iter_1",
+        "iterationCount": 1,
+        "hasAnimation": false,
+        "runtimeUse": "repeat_fill",
+        "tileRuntimeUses": [],
+        "animationPairs": {}
+      }
+    },
+    "Emberhold_valley_at_dawn_1791028066368_s7hu": {
+      "name": "Emberhold valley at dawn",
+      "slug": "menu",
+      "updatedAt": "2026-10-03T11:57:15.886Z",
+      "engine": "godot",
+      "files": [
+        "menu/item-0.png"
+      ],
+      "syncedAt": "2026-10-03T13:58:11.552Z",
+      "snapshot": {
+        "kind": "asset",
+        "name": "Emberhold valley at dawn",
+        "slug": "emberhold-menu",
+        "currentIterationId": "Emberhold_valley_at_dawn_1791028066368_s7hu_iter_1",
+        "iterationCount": 1,
+        "hasAnimation": false,
+        "runtimeUse": "plain_image",
+        "tileRuntimeUses": [],
+        "animationPairs": {}
+      }
+    },
+    "Emberhold_veteran_structures_1791032749417_mt6m": {
+      "name": "Emberhold veteran structures",
+      "slug": "upgrades2",
+      "updatedAt": "2026-10-03T13:20:14.465Z",
+      "engine": "godot",
+      "files": [
+        "upgrades2/item-0.png",
+        "upgrades2/item-1.png",
+        "upgrades2/item-2.png",
+        "upgrades2/item-3.png",
+        "upgrades2/item-4.png",
+        "upgrades2/item-5.png",
+        "upgrades2/item-6.png",
+        "upgrades2/item-7.png",
+        "upgrades2/item-8.png",
+        "upgrades2/item-9.png",
+        "upgrades2/item-10.png"
+      ],
+      "syncedAt": "2026-10-03T13:58:16.113Z",
+      "snapshot": {
+        "kind": "asset",
+        "name": "Emberhold veteran structures",
+        "slug": "emberhold-upgrades2",
+        "currentIterationId": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1",
+        "iterationCount": 1,
+        "hasAnimation": false,
+        "runtimeUse": "plain_image",
+        "tileRuntimeUses": [],
+        "animationPairs": {}
+      }
+    }
+  },
+  "characters": {
+    "Captain_Elara__an_original_her_1791028296579_ufc6": {
+      "slug": "hero",
+      "engine": "godot",
+      "contentVersion": "f441922ee2d5:original-v1",
+      "snapshot": {
+        "kind": "character",
+        "name": "Captain Elara Original #1",
+        "frameSize": 512,
+        "collisionBody": null,
+        "animations": {
+          "attack": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.47265625,
+              "hw": 0.1943359375,
+              "hh": 0.427734375
+            }
+          },
+          "attack_left": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.4990234375,
+              "cy": 0.6298828125,
+              "hw": 0.1005859375,
+              "hh": 0.3642578125
+            }
+          },
+          "attack_right": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.6298828125,
+              "hw": 0.1005859375,
+              "hh": 0.3642578125
+            }
+          },
+          "attack_up": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.5859375,
+              "hw": 0.1767578125,
+              "hh": 0.408203125
+            }
+          },
+          "idle_down": {
+            "displayName": "Standing down",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.69921875,
+              "hw": 0.134765625,
+              "hh": 0.29296875
+            }
+          },
+          "idle_left": {
+            "displayName": "Standing left",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.6669921875,
+              "hw": 0.0947265625,
+              "hh": 0.3212890625
+            }
+          },
+          "idle_right": {
+            "displayName": "Standing right",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.6669921875,
+              "hw": 0.08984375,
+              "hh": 0.3212890625
+            }
+          },
+          "idle_up": {
+            "displayName": "Standing up",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.697265625,
+              "hw": 0.1298828125,
+              "hh": 0.294921875
+            }
+          },
+          "walk_down": {
+            "displayName": null,
+            "frameCount": 32,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.482421875,
+              "cy": 0.5400390625,
+              "hw": 0.18359375,
+              "hh": 0.4462890625
+            }
+          },
+          "walk_left": {
+            "displayName": null,
+            "frameCount": 27,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.498046875,
+              "cy": 0.5107421875,
+              "hw": 0.23046875,
+              "hh": 0.4189453125
+            }
+          },
+          "walk_right": {
+            "displayName": null,
+            "frameCount": 27,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5029296875,
+              "cy": 0.5107421875,
+              "hw": 0.2314453125,
+              "hh": 0.4189453125
+            }
+          },
+          "walk_up": {
+            "displayName": null,
+            "frameCount": 30,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.4912109375,
+              "cy": 0.4716796875,
+              "hw": 0.1904296875,
+              "hh": 0.4443359375
+            }
+          }
+        }
+      },
+      "detailContentVersion": "9fae8aee2faa:original-v1",
+      "files": [
+        "characters/hero/attack.tres",
+        "characters/hero/idle_up.tres",
+        "characters/hero/walk_up.tres",
+        "characters/hero/attack_up.tres",
+        "characters/hero/idle_down.tres",
+        "characters/hero/idle_left.tres",
+        "characters/hero/walk_down.tres",
+        "characters/hero/walk_left.tres",
+        "characters/hero/idle_right.tres",
+        "characters/hero/walk_right.tres",
+        "characters/hero/attack_left.tres",
+        "characters/hero/attack_right.tres"
+      ],
+      "pairedAtlasScale": 0.5,
+      "quality": {
+        "status": "needs_review",
+        "ready": false,
+        "animations": {
+          "attack": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "motion"
+            ],
+            "actions": [
+              "review_or_regenerate"
+            ]
+          },
+          "idle_up": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_up": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte",
+              "motion"
+            ],
+            "actions": [
+              "rematte",
+              "review_or_regenerate"
+            ]
+          },
+          "attack_up": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte",
+              "motion"
+            ],
+            "actions": [
+              "rematte",
+              "review_or_regenerate"
+            ]
+          },
+          "idle_down": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_down": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "walk_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_right": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_right": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "attack_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "attack_right": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "motion"
+            ],
+            "actions": [
+              "review_or_regenerate"
+            ]
+          }
+        }
+      },
+      "syncedAt": "2026-10-03T14:42:52.347Z"
+    },
+    "Frontier_guard_soldier__ivory_1791028370270_r0vq": {
+      "slug": "guard",
+      "engine": "godot",
+      "contentVersion": "1bf2c8c25975:original-v1",
+      "snapshot": {
+        "kind": "character",
+        "name": "Frontier Guard Soldier #1",
+        "frameSize": 512,
+        "collisionBody": null,
+        "animations": {
+          "attack": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.40625,
+              "hw": 0.2822265625,
+              "hh": 0.34765625
+            }
+          },
+          "attack_left": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.498046875,
+              "cy": 0.6845703125,
+              "hw": 0.140625,
+              "hh": 0.3095703125
+            }
+          },
+          "attack_right": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.6845703125,
+              "hw": 0.1416015625,
+              "hh": 0.3095703125
+            }
+          },
+          "attack_up": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.67578125,
+              "hw": 0.236328125,
+              "hh": 0.318359375
+            }
+          },
+          "idle_down": {
+            "displayName": "Standing down",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.7705078125,
+              "hw": 0.1806640625,
+              "hh": 0.2236328125
+            }
+          },
+          "idle_left": {
+            "displayName": "Standing left",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.673828125,
+              "hw": 0.12890625,
+              "hh": 0.3046875
+            }
+          },
+          "idle_right": {
+            "displayName": "Standing right",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.6728515625,
+              "hw": 0.1416015625,
+              "hh": 0.3056640625
+            }
+          },
+          "idle_up": {
+            "displayName": "Standing up",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.7578125,
+              "hw": 0.173828125,
+              "hh": 0.234375
+            }
+          },
+          "walk_down": {
+            "displayName": null,
+            "frameCount": 28,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.50390625,
+              "cy": 0.5830078125,
+              "hw": 0.2734375,
+              "hh": 0.3544921875
+            }
+          },
+          "walk_left": {
+            "displayName": null,
+            "frameCount": 30,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5361328125,
+              "cy": 0.5078125,
+              "hw": 0.2431640625,
+              "hh": 0.361328125
+            }
+          },
+          "walk_right": {
+            "displayName": null,
+            "frameCount": 30,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.4638671875,
+              "cy": 0.5078125,
+              "hw": 0.2431640625,
+              "hh": 0.361328125
+            }
+          },
+          "walk_up": {
+            "displayName": null,
+            "frameCount": 30,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.486328125,
+              "cy": 0.4990234375,
+              "hw": 0.25390625,
+              "hh": 0.3681640625
+            }
+          }
+        }
+      },
+      "detailContentVersion": "cfbf0b4e7d3e:original-v1",
+      "files": [
+        "characters/guard/attack.tres",
+        "characters/guard/idle_up.tres",
+        "characters/guard/walk_up.tres",
+        "characters/guard/attack_up.tres",
+        "characters/guard/idle_down.tres",
+        "characters/guard/idle_left.tres",
+        "characters/guard/walk_down.tres",
+        "characters/guard/walk_left.tres",
+        "characters/guard/idle_right.tres",
+        "characters/guard/walk_right.tres",
+        "characters/guard/attack_left.tres",
+        "characters/guard/attack_right.tres"
+      ],
+      "pairedAtlasScale": 0.5,
+      "quality": {
+        "status": "needs_review",
+        "ready": false,
+        "animations": {
+          "attack": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "motion"
+            ],
+            "actions": [
+              "review_or_regenerate"
+            ]
+          },
+          "idle_up": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_up": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "attack_up": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "motion"
+            ],
+            "actions": [
+              "review_or_regenerate"
+            ]
+          },
+          "idle_down": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_down": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "walk_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_right": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_right": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "attack_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "attack_right": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          }
+        }
+      },
+      "syncedAt": "2026-10-03T14:43:42.325Z"
+    },
+    "Woodland_ranger_archer__moss_g_1791028461666_qi3v": {
+      "slug": "ranger",
+      "engine": "godot",
+      "contentVersion": "5ea126c60f23:original-v1",
+      "snapshot": {
+        "kind": "character",
+        "name": "Woodland Ranger Archer #1",
+        "frameSize": 512,
+        "collisionBody": null,
+        "animations": {
+          "attack": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.501953125,
+              "cy": 0.5009765625,
+              "hw": 0.21875,
+              "hh": 0.4091796875
+            }
+          },
+          "attack_left": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.498046875,
+              "cy": 0.6796875,
+              "hw": 0.111328125,
+              "hh": 0.314453125
+            }
+          },
+          "attack_right": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.6796875,
+              "hw": 0.111328125,
+              "hh": 0.314453125
+            }
+          },
+          "attack_up": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.673828125,
+              "hw": 0.15234375,
+              "hh": 0.3203125
+            }
+          },
+          "idle_down": {
+            "displayName": "Standing down",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.7333984375,
+              "hw": 0.1396484375,
+              "hh": 0.2587890625
+            }
+          },
+          "idle_left": {
+            "displayName": "Standing left",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.6748046875,
+              "hw": 0.1171875,
+              "hh": 0.3095703125
+            }
+          },
+          "idle_right": {
+            "displayName": "Standing right",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.6796875,
+              "hw": 0.1103515625,
+              "hh": 0.3046875
+            }
+          },
+          "idle_up": {
+            "displayName": "Standing up",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.7314453125,
+              "hw": 0.126953125,
+              "hh": 0.2607421875
+            }
+          },
+          "walk_down": {
+            "displayName": null,
+            "frameCount": 33,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.49609375,
+              "cy": 0.4951171875,
+              "hw": 0.220703125,
+              "hh": 0.4033203125
+            }
+          },
+          "walk_left": {
+            "displayName": null,
+            "frameCount": 30,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.4931640625,
+              "cy": 0.5009765625,
+              "hw": 0.2607421875,
+              "hh": 0.3916015625
+            }
+          },
+          "walk_right": {
+            "displayName": null,
+            "frameCount": 30,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5087890625,
+              "cy": 0.5009765625,
+              "hw": 0.2607421875,
+              "hh": 0.3916015625
+            }
+          },
+          "walk_up": {
+            "displayName": null,
+            "frameCount": 21,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.490234375,
+              "cy": 0.5283203125,
+              "hw": 0.193359375,
+              "hh": 0.4482421875
+            }
+          }
+        }
+      },
+      "detailContentVersion": "ac55555c21aa:original-v1",
+      "files": [
+        "characters/ranger/attack.tres",
+        "characters/ranger/idle_up.tres",
+        "characters/ranger/walk_up.tres",
+        "characters/ranger/attack_up.tres",
+        "characters/ranger/idle_down.tres",
+        "characters/ranger/idle_left.tres",
+        "characters/ranger/walk_down.tres",
+        "characters/ranger/walk_left.tres",
+        "characters/ranger/idle_right.tres",
+        "characters/ranger/walk_right.tres",
+        "characters/ranger/attack_left.tres",
+        "characters/ranger/attack_right.tres"
+      ],
+      "pairedAtlasScale": 0.5,
+      "quality": {
+        "status": "needs_review",
+        "ready": false,
+        "animations": {
+          "attack": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "motion"
+            ],
+            "actions": [
+              "review_or_regenerate"
+            ]
+          },
+          "idle_up": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_up": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "attack_up": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "motion"
+            ],
+            "actions": [
+              "review_or_regenerate"
+            ]
+          },
+          "idle_down": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_down": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "walk_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_right": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_right": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "attack_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "attack_right": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          }
+        }
+      },
+      "syncedAt": "2026-10-03T14:44:25.858Z"
+    },
+    "Ash_Crown_raider_enemy__dark_c_1791028836943_cdjh": {
+      "slug": "raider",
+      "engine": "godot",
+      "contentVersion": "f8887eb59801:original-v1",
+      "snapshot": {
+        "kind": "character",
+        "name": "Ash Crown Raider #1",
+        "frameSize": 512,
+        "collisionBody": null,
+        "animations": {
+          "attack": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.501953125,
+              "cy": 0.498046875,
+              "hw": 0.29296875,
+              "hh": 0.427734375
+            }
+          },
+          "attack_2": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.501953125,
+              "cy": 0.4921875,
+              "hw": 0.29296875,
+              "hh": 0.427734375
+            }
+          },
+          "attack_left": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.4990234375,
+              "cy": 0.5673828125,
+              "hw": 0.1669921875,
+              "hh": 0.4267578125
+            }
+          },
+          "attack_right": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.5673828125,
+              "hw": 0.1669921875,
+              "hh": 0.4267578125
+            }
+          },
+          "attack_up": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.501953125,
+              "cy": 0.5654296875,
+              "hw": 0.298828125,
+              "hh": 0.4287109375
+            }
+          },
+          "idle_down": {
+            "displayName": "Standing down",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.673828125,
+              "hw": 0.2216796875,
+              "hh": 0.3203125
+            }
+          },
+          "idle_left": {
+            "displayName": "Standing left",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.501953125,
+              "cy": 0.6728515625,
+              "hw": 0.125,
+              "hh": 0.3212890625
+            }
+          },
+          "idle_right": {
+            "displayName": "Standing right",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.673828125,
+              "hw": 0.126953125,
+              "hh": 0.3203125
+            }
+          },
+          "idle_up": {
+            "displayName": "Standing up",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.6728515625,
+              "hw": 0.2236328125,
+              "hh": 0.3212890625
+            }
+          },
+          "walk_down": {
+            "displayName": null,
+            "frameCount": 30,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5068359375,
+              "cy": 0.5087890625,
+              "hw": 0.3037109375,
+              "hh": 0.4052734375
+            }
+          },
+          "walk_left": {
+            "displayName": null,
+            "frameCount": 27,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5087890625,
+              "cy": 0.4970703125,
+              "hw": 0.2021484375,
+              "hh": 0.4111328125
+            }
+          },
+          "walk_right": {
+            "displayName": null,
+            "frameCount": 27,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.4931640625,
+              "cy": 0.4970703125,
+              "hw": 0.2021484375,
+              "hh": 0.4111328125
+            }
+          },
+          "walk_up": {
+            "displayName": null,
+            "frameCount": 27,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.4716796875,
+              "cy": 0.5224609375,
+              "hw": 0.2958984375,
+              "hh": 0.4677734375
+            }
+          }
+        }
+      },
+      "detailContentVersion": "c105791a6e9e:original-v1",
+      "files": [
+        "characters/raider/attack.tres",
+        "characters/raider/idle_up.tres",
+        "characters/raider/walk_up.tres",
+        "characters/raider/attack_2.tres",
+        "characters/raider/attack_up.tres",
+        "characters/raider/idle_down.tres",
+        "characters/raider/idle_left.tres",
+        "characters/raider/walk_down.tres",
+        "characters/raider/walk_left.tres",
+        "characters/raider/idle_right.tres",
+        "characters/raider/walk_right.tres",
+        "characters/raider/attack_left.tres",
+        "characters/raider/attack_right.tres"
+      ],
+      "pairedAtlasScale": 0.5,
+      "quality": {
+        "status": "needs_review",
+        "ready": false,
+        "animations": {
+          "attack": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "idle_up": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_up": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "attack_2": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "attack_up": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "motion"
+            ],
+            "actions": [
+              "review_or_regenerate"
+            ]
+          },
+          "idle_down": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_down": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "walk_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_right": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_right": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "attack_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "attack_right": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "motion"
+            ],
+            "actions": [
+              "review_or_regenerate"
+            ]
+          }
+        }
+      },
+      "syncedAt": "2026-10-03T14:45:30.471Z"
+    },
+    "Emberhold_veteran_knight__eleg_1791028924802_ab3a": {
+      "slug": "knight",
+      "engine": "godot",
+      "contentVersion": "be36ee0a50d5:original-v1",
+      "snapshot": {
+        "kind": "character",
+        "name": "Emberhold Veteran Knight #1",
+        "frameSize": 512,
+        "collisionBody": null,
+        "animations": {
+          "attack": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.5009765625,
+              "hw": 0.2294921875,
+              "hh": 0.3427734375
+            }
+          },
+          "attack_left": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.46875,
+              "cy": 0.6982421875,
+              "hw": 0.142578125,
+              "hh": 0.2958984375
+            }
+          },
+          "attack_right": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.529296875,
+              "cy": 0.6982421875,
+              "hw": 0.142578125,
+              "hh": 0.2958984375
+            }
+          },
+          "idle_down": {
+            "displayName": "Standing down",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.751953125,
+              "hw": 0.1630859375,
+              "hh": 0.2421875
+            }
+          },
+          "idle_left": {
+            "displayName": "Standing left",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.6962890625,
+              "hw": 0.1318359375,
+              "hh": 0.2900390625
+            }
+          },
+          "idle_right": {
+            "displayName": "Standing right",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.6962890625,
+              "hw": 0.1416015625,
+              "hh": 0.2900390625
+            }
+          },
+          "idle_up": {
+            "displayName": "Standing up",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.7412109375,
+              "hw": 0.1513671875,
+              "hh": 0.2509765625
+            }
+          },
+          "walk_down": {
+            "displayName": null,
+            "frameCount": 29,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5263671875,
+              "cy": 0.5634765625,
+              "hw": 0.2529296875,
+              "hh": 0.4111328125
+            }
+          },
+          "walk_left": {
+            "displayName": null,
+            "frameCount": 32,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.4580078125,
+              "cy": 0.5087890625,
+              "hw": 0.3408203125,
+              "hh": 0.4033203125
+            }
+          },
+          "walk_right": {
+            "displayName": null,
+            "frameCount": 32,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5419921875,
+              "cy": 0.5087890625,
+              "hw": 0.3408203125,
+              "hh": 0.4033203125
+            }
+          },
+          "walk_up": {
+            "displayName": null,
+            "frameCount": 28,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.4658203125,
+              "cy": 0.5322265625,
+              "hw": 0.2197265625,
+              "hh": 0.4580078125
+            }
+          }
+        }
+      },
+      "detailContentVersion": "1b8e724b8358:original-v1",
+      "files": [
+        "characters/knight/attack.tres",
+        "characters/knight/idle_up.tres",
+        "characters/knight/walk_up.tres",
+        "characters/knight/idle_down.tres",
+        "characters/knight/idle_left.tres",
+        "characters/knight/walk_down.tres",
+        "characters/knight/walk_left.tres",
+        "characters/knight/idle_right.tres",
+        "characters/knight/walk_right.tres",
+        "characters/knight/attack_left.tres",
+        "characters/knight/attack_right.tres"
+      ],
+      "pairedAtlasScale": 0.5,
+      "quality": {
+        "status": "needs_review",
+        "ready": false,
+        "animations": {
+          "attack": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "idle_up": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_up": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "idle_down": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_down": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "walk_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_right": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_right": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "attack_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "attack_right": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          }
+        }
+      },
+      "syncedAt": "2026-10-03T14:46:11.055Z"
+    },
+    "Ash_Crown_hulking_armored_brut_1791029083479_a7n3": {
+      "slug": "brute",
+      "engine": "godot",
+      "contentVersion": "174464995bed:original-v1",
+      "snapshot": {
+        "kind": "character",
+        "name": "Ash Crown Hulking #1",
+        "frameSize": 512,
+        "collisionBody": null,
+        "animations": {
+          "attack": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5029296875,
+              "cy": 0.5029296875,
+              "hw": 0.2197265625,
+              "hh": 0.2529296875
+            }
+          },
+          "attack_left": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.4677734375,
+              "cy": 0.7275390625,
+              "hw": 0.1376953125,
+              "hh": 0.2666015625
+            }
+          },
+          "attack_right": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.53125,
+              "cy": 0.7275390625,
+              "hw": 0.13671875,
+              "hh": 0.2666015625
+            }
+          },
+          "attack_up": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5400390625,
+              "cy": 0.6455078125,
+              "hw": 0.3212890625,
+              "hh": 0.3486328125
+            }
+          },
+          "idle_down": {
+            "displayName": "Standing down",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.779296875,
+              "hw": 0.18359375,
+              "hh": 0.212890625
+            }
+          },
+          "idle_left": {
+            "displayName": "Standing left",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.7333984375,
+              "hw": 0.1201171875,
+              "hh": 0.2529296875
+            }
+          },
+          "idle_right": {
+            "displayName": "Standing right",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.7333984375,
+              "hw": 0.1298828125,
+              "hh": 0.2529296875
+            }
+          },
+          "idle_up": {
+            "displayName": "Standing up",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.4990234375,
+              "cy": 0.779296875,
+              "hw": 0.1962890625,
+              "hh": 0.212890625
+            }
+          },
+          "walk_down": {
+            "displayName": null,
+            "frameCount": 25,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.43359375,
+              "cy": 0.546875,
+              "hw": 0.341796875,
+              "hh": 0.3828125
+            }
+          },
+          "walk_left": {
+            "displayName": null,
+            "frameCount": 30,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.544921875,
+              "cy": 0.517578125,
+              "hw": 0.25390625,
+              "hh": 0.3671875
+            }
+          },
+          "walk_right": {
+            "displayName": null,
+            "frameCount": 30,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.455078125,
+              "cy": 0.517578125,
+              "hw": 0.25390625,
+              "hh": 0.3671875
+            }
+          },
+          "walk_up": {
+            "displayName": null,
+            "frameCount": 45,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.533203125,
+              "cy": 0.5029296875,
+              "hw": 0.34765625,
+              "hh": 0.4013671875
+            }
+          }
+        }
+      },
+      "detailContentVersion": "09e8ac1280d9:original-v1",
+      "files": [
+        "characters/brute/attack.tres",
+        "characters/brute/idle_up.tres",
+        "characters/brute/walk_up.tres",
+        "characters/brute/attack_up.tres",
+        "characters/brute/idle_down.tres",
+        "characters/brute/idle_left.tres",
+        "characters/brute/walk_down.tres",
+        "characters/brute/walk_left.tres",
+        "characters/brute/idle_right.tres",
+        "characters/brute/walk_right.tres",
+        "characters/brute/attack_left.tres",
+        "characters/brute/attack_right.tres"
+      ],
+      "pairedAtlasScale": 0.5,
+      "quality": {
+        "status": "needs_review",
+        "ready": false,
+        "animations": {
+          "attack": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "idle_up": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_up": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "loop"
+            ],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "attack_up": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "idle_down": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_down": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "walk_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_right": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_right": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "attack_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "attack_right": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          }
+        }
+      },
+      "syncedAt": "2026-10-03T14:47:00.968Z"
+    },
+    "Frontier_settler_worker__sturd_1791030097469_l617": {
+      "slug": "worker",
+      "engine": "godot",
+      "contentVersion": "a7b25aba095a:original-v1",
+      "snapshot": {
+        "kind": "character",
+        "name": "Frontier Settler Worker #1",
+        "frameSize": 512,
+        "collisionBody": null,
+        "animations": {
+          "attack": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.5009765625,
+              "hw": 0.2529296875,
+              "hh": 0.3837890625
+            }
+          },
+          "attack_right": {
+            "displayName": null,
+            "frameCount": 0,
+            "fps": 0,
+            "loop": false,
+            "collisionBody": null
+          },
+          "attack_up": {
+            "displayName": null,
+            "frameCount": 58,
+            "fps": 30,
+            "loop": false,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5,
+              "cy": 0.634765625,
+              "hw": 0.2109375,
+              "hh": 0.359375
+            }
+          },
+          "idle_down": {
+            "displayName": "Standing down",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.6748046875,
+              "hw": 0.2099609375,
+              "hh": 0.3173828125
+            }
+          },
+          "idle_left": {
+            "displayName": "Standing left",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.671875,
+              "hw": 0.1064453125,
+              "hh": 0.3203125
+            }
+          },
+          "idle_right": {
+            "displayName": "Standing right",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.671875,
+              "hw": 0.1103515625,
+              "hh": 0.3203125
+            }
+          },
+          "idle_up": {
+            "displayName": "Standing up",
+            "frameCount": 1,
+            "fps": 1,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5009765625,
+              "cy": 0.671875,
+              "hw": 0.1884765625,
+              "hh": 0.3203125
+            }
+          },
+          "walk_down": {
+            "displayName": null,
+            "frameCount": 29,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.4892578125,
+              "cy": 0.5537109375,
+              "hw": 0.2568359375,
+              "hh": 0.4228515625
+            }
+          },
+          "walk_left": {
+            "displayName": null,
+            "frameCount": 29,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5146484375,
+              "cy": 0.46875,
+              "hw": 0.2001953125,
+              "hh": 0.376953125
+            }
+          },
+          "walk_right": {
+            "displayName": null,
+            "frameCount": 29,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.4873046875,
+              "cy": 0.46875,
+              "hw": 0.2001953125,
+              "hh": 0.376953125
+            }
+          },
+          "walk_up": {
+            "displayName": null,
+            "frameCount": 28,
+            "fps": 30,
+            "loop": true,
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.4931640625,
+              "cy": 0.5283203125,
+              "hw": 0.2451171875,
+              "hh": 0.4521484375
+            }
+          }
+        }
+      },
+      "detailContentVersion": "3394964e45fb:original-v1",
+      "files": [
+        "characters/worker/attack.tres",
+        "characters/worker/idle_up.tres",
+        "characters/worker/walk_up.tres",
+        "characters/worker/attack_up.tres",
+        "characters/worker/idle_down.tres",
+        "characters/worker/idle_left.tres",
+        "characters/worker/walk_down.tres",
+        "characters/worker/walk_left.tres",
+        "characters/worker/idle_right.tres",
+        "characters/worker/walk_right.tres"
+      ],
+      "pairedAtlasScale": 0.5,
+      "quality": {
+        "status": "needs_review",
+        "ready": false,
+        "animations": {
+          "attack": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "idle_up": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_up": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "attack_up": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "idle_down": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_down": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "walk_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "idle_right": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_right": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          }
+        }
+      },
+      "syncedAt": "2026-10-03T14:47:37.740Z"
+    }
+  },
+  "maps": {
+    "map_1791027542158_krri": {
+      "version": 2,
+      "engine": "godot",
+      "files": [
+        "map/ground.png",
+        "map/placements.json",
+        "map/map-authored.json",
+        "map/terrain-runtime.json",
+        "map/material-areas.json"
+      ],
+      "integration": "Canonical Godot export ground-only bake; authored identities/geometry retained; dynamic mechanics in game.gd.",
+      "syncedAt": "2026-10-03T13:13:52.063Z",
+      "contentVersion": "map-v1:e6a82775bcf94be889862fcf762de795485b6f45a29a704dd86a2355d8fa0fc9",
+      "snapshot": {
+        "kind": "map",
+        "name": "Main Map",
+        "widthPx": 4096,
+        "heightPx": 3584,
+        "gridSize": 64,
+        "hasMapData": true
+      }
+    }
+  },
+  "uiPacks": {
+    "6b066b7b-540e-4151-8e24-c02c987f475a": {
+      "engine": "godot",
+      "scope": "whole",
+      "artworkOnly": false,
+      "contentVersion": "ui-pack-v4:05e5c7b12d0ecae28c94555c3bfea119b1bd42135e00339251c9c7d1ae7b44a0",
+      "localFolder": "assets/spriteship/ui",
+      "components": [
+        {
+          "id": "0209c93d-66e9-4cce-a29a-386f83e9f4bb",
+          "revisionId": "731e6b42-463a-4d93-a4dc-1717d68dfbbd",
+          "role": "wood"
+        },
+        {
+          "id": "50e38ed1-f0ae-4c11-aa98-28de477c4080",
+          "revisionId": "be321d48-6787-4f9e-a3e1-da666459ecfb",
+          "role": "stone"
+        },
+        {
+          "id": "2fc071ad-e453-4fe1-afa6-2b5723a4718e",
+          "revisionId": "68256b5f-6461-47d5-ac89-f5265dc2f3c0",
+          "role": "gold"
+        },
+        {
+          "id": "4f4905f9-f1ec-4da4-a72c-432bf5afcffa",
+          "revisionId": "fcc543a3-f4ad-4d1c-a24d-5aeae45b6da3",
+          "role": "food"
+        },
+        {
+          "id": "46264e71-a223-4253-a6be-51674b516e4a",
+          "revisionId": "528a83f0-82ae-4172-a347-0fed259a820f",
+          "role": "population"
+        },
+        {
+          "id": "ce236a20-1940-43f1-af0b-06fda9241125",
+          "revisionId": "40f25333-7124-43c0-afa8-04e6a81be8e0",
+          "role": "inspector"
+        },
+        {
+          "id": "a38ac9ad-c9b3-4a54-a603-4b3237a46d07",
+          "revisionId": "6dde10fb-13d5-405c-a09b-0723e407175b",
+          "role": "sword"
+        },
+        {
+          "id": "967fd6e5-1fbe-463f-aca3-35563a33d81c",
+          "revisionId": "142a4e14-5e90-4ee4-a3ea-a26749dd5046",
+          "role": "flame"
+        },
+        {
+          "id": "35d80fee-5602-4f3c-a1af-895c37457bda",
+          "revisionId": "0ab20f16-828f-4b84-a376-9d1b3c2d7c2a",
+          "role": "crown"
+        },
+        {
+          "id": "2478cc3d-bf0c-4331-aded-474f8a9533da",
+          "revisionId": "aea4f64f-3471-4357-a716-eaded4c37532",
+          "role": "selection"
+        },
+        {
+          "id": "459e6d66-6354-4bd5-a0be-530a0edf7782",
+          "revisionId": "c0af6019-0932-4c1b-a2aa-7125eb8cb4ce",
+          "role": "health"
+        }
+      ],
+      "syncedAt": "2026-10-03T13:12:16.996Z",
+      "nativeAcceptance": "Emberhold integration verified in Godot and browser; provider native certification remains pending.",
+      "snapshot": {
+        "kind": "ui-pack",
+        "name": "Emberhold Command Interface",
+        "componentCount": 11,
+        "components": {
+          "0209c93d-66e9-4cce-a29a-386f83e9f4bb": {
+            "name": "Timber",
+            "revisionId": "731e6b42-463a-4d93-a4dc-1717d68dfbbd",
+            "configurationHash": "7150287b03f5a48ef026636c66f39be5c5b982b5221623f4f64d0a00b572de33",
+            "status": "needs_review"
+          },
+          "2478cc3d-bf0c-4331-aded-474f8a9533da": {
+            "name": "Unit selection",
+            "revisionId": "aea4f64f-3471-4357-a716-eaded4c37532",
+            "configurationHash": "1cd8f3c02e5b41d88d4e3bd74dfd78d4dff275003e80bb63ffd83fe5ddba709a",
+            "status": "ready"
+          },
+          "2fc071ad-e453-4fe1-afa6-2b5723a4718e": {
+            "name": "Gold",
+            "revisionId": "68256b5f-6461-47d5-ac89-f5265dc2f3c0",
+            "configurationHash": "b1a185b14a182bc8d687def4a8fb15056647ac04f95c6b52a8f7cd3b78d1700b",
+            "status": "needs_review"
+          },
+          "35d80fee-5602-4f3c-a1af-895c37457bda": {
+            "name": "Ash Crown",
+            "revisionId": "0ab20f16-828f-4b84-a376-9d1b3c2d7c2a",
+            "configurationHash": "7ce7dc212ed03a29543db5abb7ba8c2a1173823f2e02d5e7265675db3d0e98ca",
+            "status": "needs_review"
+          },
+          "459e6d66-6354-4bd5-a0be-530a0edf7782": {
+            "name": "Hearth vitality",
+            "revisionId": "c0af6019-0932-4c1b-a2aa-7125eb8cb4ce",
+            "configurationHash": "73774d84bcd7dd4481ee00da0bb30c64a3417c6f386df80337964605b8554623",
+            "status": "ready"
+          },
+          "46264e71-a223-4253-a6be-51674b516e4a": {
+            "name": "Settlers",
+            "revisionId": "528a83f0-82ae-4172-a347-0fed259a820f",
+            "configurationHash": "6e724f91f20a5b7145b98875389b441ce3c1ad4a23c674092a33ac1767dd2388",
+            "status": "needs_review"
+          },
+          "4f4905f9-f1ec-4da4-a72c-432bf5afcffa": {
+            "name": "Harvest",
+            "revisionId": "fcc543a3-f4ad-4d1c-a24d-5aeae45b6da3",
+            "configurationHash": "6a6a077e3d575900c416f4bdc5ee52ddeb5bc10eecdc3c3d278ca56dd03b23f4",
+            "status": "needs_review"
+          },
+          "50e38ed1-f0ae-4c11-aa98-28de477c4080": {
+            "name": "Stone",
+            "revisionId": "be321d48-6787-4f9e-a3e1-da666459ecfb",
+            "configurationHash": "f0dffdcdec98f235368b41ceafcbe35a699aec5eaacd26993de21a95c2454535",
+            "status": "needs_review"
+          },
+          "967fd6e5-1fbe-463f-aca3-35563a33d81c": {
+            "name": "Hearthlight",
+            "revisionId": "142a4e14-5e90-4ee4-a3ea-a26749dd5046",
+            "configurationHash": "84a11b5d93a623a4460be37fe025de19b2e1b6f3f7d641c36dc3f5ce46bdab86",
+            "status": "needs_review"
+          },
+          "a38ac9ad-c9b3-4a54-a603-4b3237a46d07": {
+            "name": "Command",
+            "revisionId": "6dde10fb-13d5-405c-a09b-0723e407175b",
+            "configurationHash": "172bef2f9cf4a86db14d2817a049399efa1d0169fb765db77f2aefd7cc5ed56a",
+            "status": "needs_review"
+          },
+          "ce236a20-1940-43f1-af0b-06fda9241125": {
+            "name": "Command panel",
+            "revisionId": "40f25333-7124-43c0-afa8-04e6a81be8e0",
+            "configurationHash": "d17737183d6d9008e49493f8b0fbff2bda0f49739aa6afcd4f48fb035448a5f9",
+            "status": "ready"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "id": "Emberhold_veteran_structures_1791032749417_mt6m",
+  "slug": "emberhold-upgrades2",
+  "name": "Emberhold veteran structures",
+  "projectId": "proj_1791027542095_991m",
+  "assetType": "tileset",
+  "gameType": "topdown",
+  "style": "hand painted",
+  "createdAt": "2026-10-03T13:20:14.187Z",
+  "updatedAt": "2026-10-03T13:20:14.465Z",
+  "hasAnimation": false,
+  "iterationCount": 1,
+  "tags": [],
+  "favourite": false,
+  "prompt": "Exactly eleven distinct standalone upgrade buildings, separate complete transparent cutouts. Each subject appears once, no duplicates. Retain the reference sheet's consistent elevated angled topdown camera, refined hand-painted medieval fantasy style, ivory stone, copper roofs, Northwest lighting and physical proportions. These are visibly more developed versions of the eleven reference structures: fortified ivory stone keep with copper roof, two small turrets and teal pennants; expanded timber cottage with an upper story; organized lumber workshop with large saw frame and stacked logs; expanded stone quarry shed with a stout wooden crane and stone blocks; reinforced gold mine headframe with a timber hoist and ore cart; larger farm with a copper-roof windmill and ordered wheat beds; fortified barracks with blue banners and stone training yard; expanded ranger lodge with green roof, balcony and archery targets; expanded stone forge with an orange furnace and metal bellows; two-level stone watchtower with copper roof and teal banner; strong timber palisade segment with stone end posts. Order: Hearth Hall, Cottage, Lumber Camp, Stone Quarry, Gold Mine, Harvest Farm, Barracks, Ranger Lodge, Forge, Watchtower, Palisade. No landscape, no lettering, no gridlines. Every complete subject and ground contact visible.",
+  "currentIterationId": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1",
+  "iterations": [
+    {
+      "id": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1",
+      "iterationIndex": 1,
+      "status": "selected",
+      "displayName": null,
+      "prompt": "CREATE\nCreate exactly eleven separate, complete standalone building cutouts, each appearing once in the specified order, sharing refined hand-painted medieval fantasy construction with ivory stone, copper roofs, timber, and coherent physical proportions. Preserve the distinct upgrade features for each structure: fortified Hearth Hall keep with two small turrets and teal pennants; expanded two-story timber Cottage; organized Lumber Camp with large saw frame and stacked logs; expanded Stone Quarry shed with stout wooden crane and stone blocks; reinforced Gold Mine headframe with timber hoist and ore cart; larger Harvest Farm with copper-roof windmill and ordered wheat beds; fortified Barracks with blue banners and stone training yard; expanded Ranger Lodge with green roof, balcony, and archery targets; expanded stone Forge with orange furnace and metal bellows; two-level Watchtower with copper roof and teal banner; strong timber Palisade segment with stone end posts.\n\nPLANNED OUTPUTS\nUNLABELED VISUAL SUBJECTS ONLY. The following lines describe appearance; never draw, print, typeset, annotate, name, or caption them:\n- Hearth Hall: fortified ivory-stone keep with copper roof, two small turrets, and teal pennants\n- Cottage: expanded timber cottage with an upper story\n- Lumber Camp: organized lumber workshop with a large saw frame and stacked logs\n- Stone Quarry: expanded stone quarry shed with a stout wooden crane and stone blocks\n- Gold Mine: reinforced gold mine headframe with timber hoist and ore cart\n- Harvest Farm: larger farm with a copper-roof windmill and ordered wheat beds\n- Barracks: fortified barracks with blue banners and a stone training yard\n- Ranger Lodge: expanded ranger lodge with green roof, balcony, and archery targets\n- Forge: expanded stone forge with an orange furnace and metal bellows\n- Watchtower: two-level stone watchtower with copper roof and teal banner\n- Palisade: strong timber palisade segment with stone end posts\n\nLOOK\nRefined hand-painted medieval fantasy with visible but controlled brush texture, soft ambient occlusion, layered material strokes, sturdy readable silhouettes, gently irregular hand-crafted edges, and restrained painterly detail Palette: ivory stone, copper, timber brown, teal, blue, green, slate-blue cool shadows, amber hearthlight, muted medieval earth tones. Lighting: Consistent northwest lighting with soft ambient occlusion, slate-blue cool shadows, ivory and copper highlights, and localized warm amber glow from furnaces, hearths, and beacons. Atmosphere: Resilient, warm, adventurous medieval settlement mood with subtle atmospheric depth while preserving tactical readability. Surface treatment: Hand-painted layered stone, wood, copper, cloth, soil, wheat, and masonry textures; coherent physical scale and visible ground contact.\n\nVIEW\nStrict orthographic 90-degree overhead camera for world props. Show top surfaces and footprints only, with ground axes aligned to screen axes. Do not tilt upright faces toward the viewer, expose vertical fronts or invent isometric depth. Keep every piece at the same overhead camera.\n\nOUTPUT\n\nRender exactly 11 approved logical pieces as one coordinated Object Collection on a uniform opaque pure-magenta #FF00FF intermediate canvas. Keep complete silhouettes disconnected, uncropped and generously separated; every future transparent area, including enclosed openings, must be flat unlit #FF00FF. No background reflection, magenta halo or tinted hole. The final transparent PNGs and presentation atlas are produced afterward in code; do not draw a grid, cells, frames, labels or captions around the pieces.\nEach approved item appears once. No supplemental filler, extra variants, decorative debris, detached shadows, glow, shared scenery or unrequested ground backing. Preserve each distinct item's identity. Controlled variants share the same underlying design and differ in the approved attributes only; matching families share motifs and material treatment. Do not turn an ordinary collection into animation frames or staged states. World props share plausible physical scale; flat icons/cards share optical size, margins and graphic treatment. Every object follows the resolved camera without independent flattering rotations. Intrinsic card faces and real rectangular objects retain their actual shape; only the outside/gaps become transparent. Writing or symbols may appear only inside an object when allowed by the visible-text policy, never as external item labels. Do not substitute art direction for requested content.\n\n\nVISIBLE TEXT\nNONE. Text is prohibited. Render no words, letters, numbers, names, captions, annotations, or other typography anywhere in the image. Item descriptions are private instructions only and must never become visible copy.\n\nAVOID\nNo landscape or assembled settlement scene, No duplicates, filler variants, bonus items, or animation frames, No lettering, labels, captions, logos, watermarks, gridlines, or measurement annotations, No cropped structures or hidden ground contacts, No connected map kit, deterministic terrain brush, or painted background surface\n\nSTRICT ARTWORK-ONLY RULE — NO TEXT anywhere. THIS OUTPUT IS INVALID IF IT CONTAINS ANY VISIBLE TEXT OR TEXT-LIKE MARKS. Render ZERO words, letters, digits, typography, pseudo-text, gibberish glyphs, captions, labels, titles, legends, annotations, signatures, logos or watermarks anywhere in any image or video frame. Names, item descriptions, state names, prompt headings and bullet lines are private drawing instructions: depict the subject only and NEVER typeset, copy, abbreviate or echo any portion of them. Before finalizing, inspect the entire frame and remove every accidental character, detached pseudo-letter, caption fragment and typographic mark; replace it with a completely blank object surface or the required transparent/chroma background. Symbols mean recognizable non-letter pictograms, not writing. Keep signs, pages, screens, clothing and surfaces unlettered by default. Only specific intrinsic writing explicitly requested by the user is permitted, solely on its requested object; never infer permission from a genre, style, item name or reference image. A reviewed NONE text policy overrides every subject description and forbids even intrinsic writing, including on signs, books, cards and screens. No added subtitles or text overlays in animations. FINAL CHECK: if any unpermitted glyph or text-like fragment remains anywhere, remove it before returning the media.",
+      "feedbackPrompt": null,
+      "model": "gpt-image-2-5-flare-text-to-image",
+      "createdAt": "Sat Oct 03 2026 13:20:14 GMT+0000 (Coordinated Universal Time)",
+      "items": [
+        {
+          "id": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1_item_0",
+          "itemIndex": 0,
+          "itemToken": "item_1",
+          "displayName": "Hearth Hall: fortified ivory-stone keep with copper roof, two small turrets, and teal pennants",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 72,
+            "y": 76,
+            "width": 481,
+            "height": 461
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1_item_1",
+          "itemIndex": 1,
+          "itemToken": "item_2",
+          "displayName": "Cottage: expanded timber cottage with an upper story",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 667,
+            "y": 98,
+            "width": 434,
+            "height": 439
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1_item_2",
+          "itemIndex": 2,
+          "itemToken": "item_3",
+          "displayName": "Lumber Camp: organized lumber workshop with a large saw frame and stacked logs",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 1244,
+            "y": 133,
+            "width": 460,
+            "height": 427
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1_item_3",
+          "itemIndex": 3,
+          "itemToken": "item_4",
+          "displayName": "Stone Quarry: expanded stone quarry shed with a stout wooden crane and stone blocks",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 1812,
+            "y": 129,
+            "width": 529,
+            "height": 423
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1_item_4",
+          "itemIndex": 4,
+          "itemToken": "item_5",
+          "displayName": "Gold Mine: reinforced gold mine headframe with timber hoist and ore cart",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 55,
+            "y": 661,
+            "width": 499,
+            "height": 512
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1_item_5",
+          "itemIndex": 5,
+          "itemToken": "item_6",
+          "displayName": "Harvest Farm: larger farm with a copper-roof windmill and ordered wheat beds",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 614,
+            "y": 648,
+            "width": 542,
+            "height": 525
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1_item_6",
+          "itemIndex": 6,
+          "itemToken": "item_7",
+          "displayName": "Barracks: fortified barracks with blue banners and a stone training yard",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 1223,
+            "y": 691,
+            "width": 521,
+            "height": 501
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1_item_7",
+          "itemIndex": 7,
+          "itemToken": "item_8",
+          "displayName": "Ranger Lodge: expanded ranger lodge with green roof, balcony, and archery targets",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 1852,
+            "y": 722,
+            "width": 443,
+            "height": 463
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1_item_8",
+          "itemIndex": 8,
+          "itemToken": "item_9",
+          "displayName": "Forge: expanded stone forge with an orange furnace and metal bellows",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 348,
+            "y": 1265,
+            "width": 480,
+            "height": 450
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1_item_9",
+          "itemIndex": 9,
+          "itemToken": "item_10",
+          "displayName": "Watchtower: two-level stone watchtower with copper roof and teal banner",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 1005,
+            "y": 1193,
+            "width": 227,
+            "height": 512
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_veteran_structures_1791032749417_mt6m_iter_1_item_10",
+          "itemIndex": 10,
+          "itemToken": "item_11",
+          "displayName": "Palisade: strong timber palisade segment with stone end posts",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 1429,
+            "y": 1325,
+            "width": 613,
+            "height": 344
+          },
+          "confidence": 1,
+          "parentItemId": null
+        }
+      ],
+      "itemsSource": "manifest"
+    }
+  ],
+  "animation": null,
+  "runtime": null,
+  "grid": {
+    "rows": 3,
+    "cols": 4,
+    "tileCount": 11,
+    "expectedTileCount": 12,
+    "complete": false,
+    "tileWidth": 592,
+    "tileHeight": 592,
+    "dimsAssumed": false,
+    "tiles": [
+      {
+        "index": 0
+      },
+      {
+        "index": 1
+      },
+      {
+        "index": 2
+      },
+      {
+        "index": 3
+      },
+      {
+        "index": 4
+      },
+      {
+        "index": 5
+      },
+      {
+        "index": 6
+      },
+      {
+        "index": 7
+      },
+      {
+        "index": 8
+      },
+      {
+        "index": 9
+      },
+      {
+        "index": 10
+      }
+    ]
+  },
+  "background": null,
+  "extraction": {
+    "mode": "logical_objects",
+    "status": "exact",
+    "expectedCount": 11,
+    "detectedCount": 11,
+    "outputCount": 11,
+    "groupedDecorationCount": 0,
+    "warning": null
+  },
+  "generationPlan": {
+    "camera": {
+      "view": "topdown_overhead",
+      "source": "user_explicit"
+    },
+    "layout": {
+      "mode": "fixed_anchors",
+      "rows": 3,
+      "columns": 4,
+      "extractionMode": "logical_objects"
+    },
+    "preview": "Exactly 11 distinct standalone upgrade buildings in one coordinated collection, with each complete subject as an independently editable transparent cutout for approval. Use the requested consistent elevated angled topdown presentation and preserve the specified order without adding labels or duplicates.",
+    "estimate": {
+      "credits": 100,
+      "includedTextPlanning": true
+    },
+    "required": [
+      "Exactly eleven distinct subjects, one of each, in this order: Hearth Hall, Cottage, Lumber Camp, Stone Quarry, Gold Mine, Harvest Farm, Barracks, Ranger Lodge, Forge, Watchtower, Palisade",
+      "Separate complete transparent cutouts with every subject and its ground contact fully visible",
+      "Consistent elevated angled topdown camera across the entire collection",
+      "Visible upgrade development while retaining distinct identities and requested features",
+      "Refined hand-painted medieval fantasy style with ivory stone, copper roofs, Northwest lighting, and coherent physical proportions"
+    ],
+    "warnings": [],
+    "assetType": "tileset",
+    "forbidden": [
+      "No landscape or assembled settlement scene",
+      "No duplicates, filler variants, bonus items, or animation frames",
+      "No lettering, labels, captions, logos, watermarks, gridlines, or measurement annotations",
+      "No cropped structures or hidden ground contacts",
+      "No connected map kit, deterministic terrain brush, or painted background surface",
+      "external captions",
+      "item-name labels",
+      "headers",
+      "legends",
+      "signatures",
+      "watermarks"
+    ],
+    "operation": "create",
+    "disposition": "collection",
+    "visibleText": {
+      "mode": "none",
+      "allowedContent": []
+    },
+    "schemaVersion": 2,
+    "outputQuantity": 11,
+    "primarySubject": "Eleven visibly upgraded medieval fantasy settlement buildings and defensive structures: Hearth Hall, Cottage, Lumber Camp, Stone Quarry, Gold Mine, Harvest Farm, Barracks, Ranger Lodge, Forge, Watchtower, and Palisade.",
+    "quantitySource": "user_explicit",
+    "requestedItems": [
+      "Hearth Hall: fortified ivory-stone keep with copper roof, two small turrets, and teal pennants",
+      "Cottage: expanded timber cottage with an upper story",
+      "Lumber Camp: organized lumber workshop with a large saw frame and stacked logs",
+      "Stone Quarry: expanded stone quarry shed with a stout wooden crane and stone blocks",
+      "Gold Mine: reinforced gold mine headframe with timber hoist and ore cart",
+      "Harvest Farm: larger farm with a copper-roof windmill and ordered wheat beds",
+      "Barracks: fortified barracks with blue banners and a stone training yard",
+      "Ranger Lodge: expanded ranger lodge with green roof, balcony, and archery targets",
+      "Forge: expanded stone forge with an orange furnace and metal bellows",
+      "Watchtower: two-level stone watchtower with copper roof and teal banner",
+      "Palisade: strong timber palisade segment with stone end posts"
+    ],
+    "visualTreatment": {
+      "palette": [
+        "ivory stone",
+        "copper",
+        "timber brown",
+        "teal",
+        "blue",
+        "green",
+        "slate-blue cool shadows",
+        "amber hearthlight",
+        "muted medieval earth tones"
+      ],
+      "lighting": "Consistent northwest lighting with soft ambient occlusion, slate-blue cool shadows, ivory and copper highlights, and localized warm amber glow from furnaces, hearths, and beacons",
+      "atmosphere": "Resilient, warm, adventurous medieval settlement mood with subtle atmospheric depth while preserving tactical readability",
+      "renderingStyle": "Refined hand-painted medieval fantasy with visible but controlled brush texture, soft ambient occlusion, layered material strokes, sturdy readable silhouettes, gently irregular hand-crafted edges, and restrained painterly detail",
+      "surfaceTreatment": "Hand-painted layered stone, wood, copper, cloth, soil, wheat, and masonry textures; coherent physical scale and visible ground contact"
+    },
+    "imageAspectRatio": "4:3",
+    "requestedQuantity": 11,
+    "supplementalItems": [],
+    "projectContextHash": "WSnJu7VrzOVFBbG46jz_LeqSbMHekEFwGvhiXvkWQJA",
+    "generationDirective": "Create exactly eleven separate, complete standalone building cutouts, each appearing once in the specified order, sharing refined hand-painted medieval fantasy construction with ivory stone, copper roofs, timber, and coherent physical proportions. Preserve the distinct upgrade features for each structure: fortified Hearth Hall keep with two small turrets and teal pennants; expanded two-story timber Cottage; organized Lumber Camp with large saw frame and stacked logs; expanded Stone Quarry shed with stout wooden crane and stone blocks; reinforced Gold Mine headframe with timber hoist and ore cart; larger Harvest Farm with copper-roof windmill and ordered wheat beds; fortified Barracks with blue banners and stone training yard; expanded Ranger Lodge with green roof, balcony, and archery targets; expanded stone Forge with orange furnace and metal bellows; two-level Watchtower with copper roof and teal banner; strong timber Palisade segment with stone end posts.",
+    "objectCollectionVersion": 1
+  },
+  "material": null,
+  "quality": {}
+}

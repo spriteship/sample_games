@@ -1,0 +1,1039 @@
+{
+  "projectId": "proj_1791027542095_991m",
+  "projectUrl": "https://spriteship.com/project/proj_1791027542095_991m",
+  "createdAt": "2026-10-03T11:39:02.114Z",
+  "auditedAt": "2026-10-03T14:47:48.756Z",
+  "credits": {
+    "net": 14360,
+    "balance": 135790,
+    "startingBalance": 150150,
+    "ceiling": 30000,
+    "quotedReservation": 15460,
+    "charged": 14760,
+    "refunded": 400
+  },
+  "authorization": "User authorized original Godot web game and all SpriteShip artwork, with no questions and a 30,000-credit ceiling.",
+  "accounting": "Actual signed-in API-key ledger entries since this project was created, including provider refunds; quoted estimates are not counted as actual spend.",
+  "requests": {
+    "foundation": {
+      "estimatedCredits": 0
+    },
+    "art-buildings": {
+      "estimatedCredits": 100,
+      "jobId": "asset_1791027657461_eeznol"
+    },
+    "art-nature": {
+      "estimatedCredits": 100,
+      "jobId": "asset_1791027762530_l4gqx5"
+    },
+    "art-landmarks": {
+      "estimatedCredits": 100,
+      "jobId": "asset_1791027867142_8edlhq"
+    },
+    "art-ground": {
+      "estimatedCredits": 60,
+      "jobId": "asset_1791027949634_3f0f42"
+    },
+    "art-menu": {
+      "estimatedCredits": 100,
+      "jobId": "asset_1791028066368_wxqnbs"
+    },
+    "cast-hero": {
+      "estimatedCredits": 100,
+      "jobId": "wizard_1791028296579_xn49h2"
+    },
+    "cast-guard": {
+      "estimatedCredits": 100,
+      "jobId": "wizard_1791028370270_ry0cbr"
+    },
+    "cast-ranger": {
+      "estimatedCredits": 100,
+      "jobId": "wizard_1791028461666_i3q5yz"
+    },
+    "cast-raider": {
+      "estimatedCredits": 100,
+      "jobId": "wizard_1791028836943_6c1otc"
+    },
+    "interface": {
+      "estimatedCredits": 500
+    },
+    "cast-knight": {
+      "estimatedCredits": 100,
+      "jobId": "wizard_1791028924802_7n7xg2"
+    },
+    "cast-brute": {
+      "estimatedCredits": 100,
+      "jobId": "wizard_1791029083479_nw69ex"
+    },
+    "motion-hero-walk": {
+      "estimatedCredits": 900,
+      "jobId": "regen_1791029442599_ct2tpz",
+      "operations": [
+        {
+          "jobId": "regen_1791029442599_ct2tpz",
+          "animations": [
+            "walk_s"
+          ]
+        },
+        {
+          "jobId": "regen_1791029442730_0qeb1w",
+          "animations": [
+            "walk_e",
+            "walk_w"
+          ]
+        },
+        {
+          "jobId": "regen_1791029442917_glwbqk",
+          "animations": [
+            "walk_n"
+          ]
+        }
+      ]
+    },
+    "motion-hero-walk-v2": {
+      "estimatedCredits": 900,
+      "jobId": "regen_1791029695719_hilake",
+      "operations": [
+        {
+          "jobId": "regen_1791029695719_hilake",
+          "animations": [
+            "walk_down"
+          ]
+        },
+        {
+          "jobId": "regen_1791029695866_vnlv3z",
+          "animations": [
+            "walk_right",
+            "walk_left"
+          ]
+        },
+        {
+          "jobId": "regen_1791029696050_8llp98",
+          "animations": [
+            "walk_up"
+          ]
+        }
+      ]
+    },
+    "ui-portrait-recovery": {
+      "estimatedCredits": 100,
+      "jobId": "ui_pack_66154991-068f-4987-9a72-6ab82cd14940"
+    },
+    "motion-hero-attack": {
+      "estimatedCredits": 300,
+      "jobId": "regen_1791030074367_pxqbe3",
+      "operations": [
+        {
+          "jobId": "regen_1791030074367_pxqbe3",
+          "animations": [
+            "attack"
+          ]
+        }
+      ]
+    },
+    "cast-worker": {
+      "estimatedCredits": 100,
+      "jobId": "wizard_1791030097469_g4x3f6"
+    },
+    "motion-guard-walk-v2": {
+      "estimatedCredits": 900,
+      "jobId": "regen_1791030406694_pmlqpq",
+      "operations": [
+        {
+          "jobId": "regen_1791030406694_pmlqpq",
+          "animations": [
+            "walk_down"
+          ]
+        },
+        {
+          "jobId": "regen_1791030406843_yjcxww",
+          "animations": [
+            "walk_right",
+            "walk_left"
+          ]
+        },
+        {
+          "jobId": "regen_1791030407038_oa971g",
+          "animations": [
+            "walk_up"
+          ]
+        }
+      ]
+    },
+    "motion-guard-attack": {
+      "estimatedCredits": 300,
+      "jobId": "regen_1791030862675_u67tqr",
+      "operations": [
+        {
+          "jobId": "regen_1791030862675_u67tqr",
+          "animations": [
+            "attack"
+          ]
+        }
+      ]
+    },
+    "motion-ranger-walk-v2": {
+      "estimatedCredits": 900,
+      "jobId": "regen_1791031245258_lbhmy9",
+      "operations": [
+        {
+          "jobId": "regen_1791031245258_lbhmy9",
+          "animations": [
+            "walk_down"
+          ]
+        },
+        {
+          "jobId": "regen_1791031245447_er7v35",
+          "animations": [
+            "walk_right",
+            "walk_left"
+          ]
+        },
+        {
+          "jobId": "regen_1791031245706_y1pxpl",
+          "animations": [
+            "walk_up"
+          ]
+        }
+      ]
+    },
+    "motion-raider-walk-v2": {
+      "estimatedCredits": 900,
+      "jobId": "regen_1791031515270_dvwueq",
+      "operations": [
+        {
+          "jobId": "regen_1791031515270_dvwueq",
+          "animations": [
+            "walk_down"
+          ]
+        },
+        {
+          "jobId": "regen_1791031515409_859bkg",
+          "animations": [
+            "walk_right",
+            "walk_left"
+          ]
+        },
+        {
+          "jobId": "regen_1791031515583_o5xz0c",
+          "animations": [
+            "walk_up"
+          ]
+        }
+      ]
+    },
+    "motion-knight-walk-v2": {
+      "estimatedCredits": 900,
+      "jobId": "regen_1791031516586_ugssvr",
+      "operations": [
+        {
+          "jobId": "regen_1791031516586_ugssvr",
+          "animations": [
+            "walk_down"
+          ]
+        },
+        {
+          "jobId": "regen_1791031516774_0r47xh",
+          "animations": [
+            "walk_right",
+            "walk_left"
+          ]
+        },
+        {
+          "jobId": "regen_1791031516986_rtik5u",
+          "animations": [
+            "walk_up"
+          ]
+        }
+      ]
+    },
+    "motion-brute-walk-v2": {
+      "estimatedCredits": 900,
+      "jobId": "regen_1791031707773_9v2kyf",
+      "operations": [
+        {
+          "jobId": "regen_1791031707773_9v2kyf",
+          "animations": [
+            "walk_down"
+          ]
+        },
+        {
+          "jobId": "regen_1791031707919_3kc4fl",
+          "animations": [
+            "walk_right",
+            "walk_left"
+          ]
+        },
+        {
+          "jobId": "regen_1791031708083_0ig2hx",
+          "animations": [
+            "walk_up"
+          ]
+        }
+      ]
+    },
+    "motion-worker-walk-v2": {
+      "estimatedCredits": 900,
+      "jobId": "regen_1791031708804_x6tv8a",
+      "operations": [
+        {
+          "jobId": "regen_1791031708804_x6tv8a",
+          "animations": [
+            "walk_down"
+          ]
+        },
+        {
+          "jobId": "regen_1791031708934_wckwkm",
+          "animations": [
+            "walk_right",
+            "walk_left"
+          ]
+        },
+        {
+          "jobId": "regen_1791031709108_t88c14",
+          "animations": [
+            "walk_up"
+          ]
+        }
+      ]
+    },
+    "motion-ranger-attack": {
+      "estimatedCredits": 300,
+      "jobId": "regen_1791032042781_tjavxx",
+      "operations": [
+        {
+          "jobId": "regen_1791032042781_tjavxx",
+          "animations": [
+            "attack"
+          ]
+        }
+      ]
+    },
+    "combat-directions-hero": {
+      "estimatedCredits": 600,
+      "jobId": "regen_1791032382897_1wg1m0",
+      "operations": [
+        {
+          "jobId": "regen_1791032382897_1wg1m0",
+          "animations": [
+            "attack_up"
+          ]
+        },
+        {
+          "jobId": "regen_1791032383092_szpwwt",
+          "animations": [
+            "attack_right",
+            "attack_left"
+          ]
+        }
+      ]
+    },
+    "motion-raider-attack": {
+      "estimatedCredits": 300,
+      "jobId": "regen_1791032648485_hv14xc",
+      "operations": [
+        {
+          "jobId": "regen_1791032648485_hv14xc",
+          "animations": [
+            "attack_2"
+          ]
+        }
+      ]
+    },
+    "art-upgrades2": {
+      "estimatedCredits": 100,
+      "jobId": "asset_1791032749417_4rkrwm"
+    },
+    "motion-knight-attack": {
+      "estimatedCredits": 300,
+      "jobId": "regen_1791032710085_lgeoak",
+      "operations": [
+        {
+          "jobId": "regen_1791032710085_lgeoak",
+          "animations": [
+            "attack"
+          ]
+        }
+      ]
+    },
+    "motion-brute-attack": {
+      "estimatedCredits": 300,
+      "jobId": "regen_1791033043503_gkjais",
+      "operations": [
+        {
+          "jobId": "regen_1791033043503_gkjais",
+          "animations": [
+            "attack"
+          ]
+        }
+      ]
+    },
+    "motion-worker-attack": {
+      "estimatedCredits": 300,
+      "jobId": "regen_1791033306268_rs4wu7",
+      "operations": [
+        {
+          "jobId": "regen_1791033306268_rs4wu7",
+          "animations": [
+            "attack"
+          ]
+        }
+      ]
+    },
+    "combat-directions-guard": {
+      "estimatedCredits": 600,
+      "jobId": "regen_1791033376089_sjr6am",
+      "operations": [
+        {
+          "jobId": "regen_1791033376089_sjr6am",
+          "animations": [
+            "attack_up"
+          ]
+        },
+        {
+          "jobId": "regen_1791033376248_n3ev3d",
+          "animations": [
+            "attack_right",
+            "attack_left"
+          ]
+        }
+      ]
+    },
+    "combat-directions-ranger": {
+      "estimatedCredits": 600,
+      "jobId": "regen_1791033376160_l8o2lx",
+      "operations": [
+        {
+          "jobId": "regen_1791033376160_l8o2lx",
+          "animations": [
+            "attack_up"
+          ]
+        },
+        {
+          "jobId": "regen_1791033376337_e11swq",
+          "animations": [
+            "attack_right",
+            "attack_left"
+          ]
+        }
+      ]
+    },
+    "combat-directions-raider": {
+      "estimatedCredits": 600,
+      "jobId": "regen_1791033553453_iqedy1",
+      "operations": [
+        {
+          "jobId": "regen_1791033553453_iqedy1",
+          "animations": [
+            "attack_up"
+          ]
+        },
+        {
+          "jobId": "regen_1791033553622_ys1o02",
+          "animations": [
+            "attack_right",
+            "attack_left"
+          ]
+        }
+      ]
+    },
+    "art-upgrades3": {
+      "estimatedCredits": 100,
+      "jobId": "asset_1791033713396_r90xvf"
+    },
+    "combat-directions-knight": {
+      "estimatedCredits": 600,
+      "jobId": "regen_1791033912298_m6rh77",
+      "operations": [
+        {
+          "jobId": "regen_1791033912298_m6rh77",
+          "animations": [
+            "attack_up"
+          ]
+        },
+        {
+          "jobId": "regen_1791033912730_npic17",
+          "animations": [
+            "attack_right",
+            "attack_left"
+          ]
+        }
+      ]
+    },
+    "combat-directions-brute": {
+      "estimatedCredits": 600,
+      "jobId": "regen_1791033990048_42qez0",
+      "operations": [
+        {
+          "jobId": "regen_1791033990048_42qez0",
+          "animations": [
+            "attack_up"
+          ]
+        },
+        {
+          "jobId": "regen_1791033990190_i4gnke",
+          "animations": [
+            "attack_right",
+            "attack_left"
+          ]
+        }
+      ]
+    },
+    "combat-directions-worker": {
+      "estimatedCredits": 600,
+      "jobId": "regen_1791034479870_b8bv13",
+      "operations": [
+        {
+          "jobId": "regen_1791034479870_b8bv13",
+          "animations": [
+            "attack_up"
+          ]
+        },
+        {
+          "jobId": "regen_1791034480163_pphc9q",
+          "animations": [
+            "attack_right",
+            "attack_left"
+          ]
+        }
+      ]
+    },
+    "art-upgrades3-free-recovery-1": {
+      "estimatedCredits": 0
+    }
+  },
+  "deliveryFailures": {
+    "regen_1791033912298_m6rh77": {
+      "error": "attack_up: The provider submission outcome is unknown. Generation is paused to prevent duplicate charges. Contact support to reconcile the original request before starting a replacement.",
+      "failureKind": "provider_error",
+      "credits": {
+        "charged": 300,
+        "refunded": 300,
+        "net": 0,
+        "balance": 136090,
+        "spendCapDaily": 15000,
+        "spentLast24h": 14460,
+        "capRemaining": 540,
+        "freeCreditLimit": {
+          "experimentKey": "free-credit-daily-limit-v1",
+          "variant": null,
+          "assignmentSource": null,
+          "assignedAt": null,
+          "applies": false,
+          "exemptionReason": "api_key",
+          "limit": null,
+          "spent": 0,
+          "remaining": null,
+          "resetsAt": null,
+          "firstAnimationAllowance": null
+        }
+      },
+      "retryMode": null
+    },
+    "asset_1791033713396_r90xvf": {
+      "error": "All eligible image generation routes failed; no automatic regeneration",
+      "failureKind": "unknown",
+      "credits": {
+        "charged": 100,
+        "refunded": 0,
+        "net": 100,
+        "balance": 135790,
+        "spendCapDaily": 15000,
+        "spentLast24h": 14760,
+        "capRemaining": 240,
+        "freeCreditLimit": {
+          "experimentKey": "free-credit-daily-limit-v1",
+          "variant": null,
+          "assignmentSource": null,
+          "assignedAt": null,
+          "applies": false,
+          "exemptionReason": "api_key",
+          "limit": null,
+          "spent": 0,
+          "remaining": null,
+          "resetsAt": null,
+          "firstAnimationAllowance": null
+        }
+      },
+      "recoveryBlocked": "SPEND_CAP_EXCEEDED",
+      "fallback": "Level III uses delivered veteran artwork with scale increase and existing SpriteShip crown indicator; no replacement generation."
+    },
+    "regen_1791034480163_pphc9q": {
+      "error": "attack_right: Background removal failed: fetch failed",
+      "failureKind": "provider_error",
+      "credits": {
+        "charged": 300,
+        "refunded": 0,
+        "net": 300,
+        "balance": 135790,
+        "spendCapDaily": 15000,
+        "spentLast24h": 14760,
+        "capRemaining": 240,
+        "freeCreditLimit": {
+          "experimentKey": "free-credit-daily-limit-v1",
+          "variant": null,
+          "assignmentSource": null,
+          "assignedAt": null,
+          "applies": false,
+          "exemptionReason": "api_key",
+          "limit": null,
+          "spent": 0,
+          "remaining": null,
+          "resetsAt": null,
+          "firstAnimationAllowance": null
+        }
+      },
+      "retryMode": null
+    }
+  },
+  "ledger": [
+    {
+      "id": "5539",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791034480163_pphc9q",
+      "createdAt": "2026-10-03T13:55:43.346Z"
+    },
+    {
+      "id": "5537",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791034479870_b8bv13",
+      "createdAt": "2026-10-03T13:46:20.343Z"
+    },
+    {
+      "id": "5536",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791033990190_i4gnke",
+      "createdAt": "2026-10-03T13:46:07.108Z"
+    },
+    {
+      "id": "5535",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791033990048_42qez0",
+      "createdAt": "2026-10-03T13:41:41.949Z"
+    },
+    {
+      "id": "5534",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791033912730_npic17",
+      "createdAt": "2026-10-03T13:41:39.947Z"
+    },
+    {
+      "id": "5533",
+      "kind": "ai_call",
+      "delta": 300,
+      "jobId": "regen_1791033912298_m6rh77",
+      "createdAt": "2026-10-03T13:40:22.875Z"
+    },
+    {
+      "id": "5532",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791033912298_m6rh77",
+      "createdAt": "2026-10-03T13:40:03.818Z"
+    },
+    {
+      "id": "5530",
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "asset_1791033713396_r90xvf",
+      "createdAt": "2026-10-03T13:36:16.547Z"
+    },
+    {
+      "id": "5528",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791033553622_ys1o02",
+      "createdAt": "2026-10-03T13:33:40.071Z"
+    },
+    {
+      "id": "5527",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791033553453_iqedy1",
+      "createdAt": "2026-10-03T13:30:32.035Z"
+    },
+    {
+      "id": "5526",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791033376337_e11swq",
+      "createdAt": "2026-10-03T13:27:32.676Z"
+    },
+    {
+      "id": "5525",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791033376248_n3ev3d",
+      "createdAt": "2026-10-03T13:26:38.817Z"
+    },
+    {
+      "id": "5524",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791033376160_l8o2lx",
+      "createdAt": "2026-10-03T13:26:06.622Z"
+    },
+    {
+      "id": "5523",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791033376089_sjr6am",
+      "createdAt": "2026-10-03T13:23:38.078Z"
+    },
+    {
+      "id": "5522",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791033306268_rs4wu7",
+      "createdAt": "2026-10-03T13:20:50.316Z"
+    },
+    {
+      "id": "5521",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791033043503_gkjais",
+      "createdAt": "2026-10-03T13:20:32.273Z"
+    },
+    {
+      "id": "5519",
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "asset_1791032749417_4rkrwm",
+      "createdAt": "2026-10-03T13:19:03.876Z"
+    },
+    {
+      "id": "5518",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791032710085_lgeoak",
+      "createdAt": "2026-10-03T13:17:35.385Z"
+    },
+    {
+      "id": "5517",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791032648485_hv14xc",
+      "createdAt": "2026-10-03T13:15:13.312Z"
+    },
+    {
+      "id": "5516",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791032383092_szpwwt",
+      "createdAt": "2026-10-03T13:15:09.420Z"
+    },
+    {
+      "id": "5514",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791032382897_1wg1m0",
+      "createdAt": "2026-10-03T13:10:51.893Z"
+    },
+    {
+      "id": "5513",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791032366575_x3ybez",
+      "createdAt": "2026-10-03T13:10:07.884Z"
+    },
+    {
+      "id": "5512",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791031709108_t88c14",
+      "createdAt": "2026-10-03T13:09:59.530Z"
+    },
+    {
+      "id": "5511",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791031708934_wckwkm",
+      "createdAt": "2026-10-03T13:05:54.124Z"
+    },
+    {
+      "id": "5510",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791031708083_0ig2hx",
+      "createdAt": "2026-10-03T13:05:23.001Z"
+    },
+    {
+      "id": "5509",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791031707919_3kc4fl",
+      "createdAt": "2026-10-03T13:04:17.660Z"
+    },
+    {
+      "id": "5508",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791031708804_x6tv8a",
+      "createdAt": "2026-10-03T13:01:46.992Z"
+    },
+    {
+      "id": "5507",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791031707773_9v2kyf",
+      "createdAt": "2026-10-03T13:01:04.407Z"
+    },
+    {
+      "id": "5506",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791032042781_tjavxx",
+      "createdAt": "2026-10-03T13:00:06.918Z"
+    },
+    {
+      "id": "5505",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791031516986_rtik5u",
+      "createdAt": "2026-10-03T12:54:10.113Z"
+    },
+    {
+      "id": "5504",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791031516774_0r47xh",
+      "createdAt": "2026-10-03T12:54:08.514Z"
+    },
+    {
+      "id": "5503",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791031515583_o5xz0c",
+      "createdAt": "2026-10-03T12:53:49.824Z"
+    },
+    {
+      "id": "5502",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791031516586_ugssvr",
+      "createdAt": "2026-10-03T12:49:09.497Z"
+    },
+    {
+      "id": "5501",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791031515409_859bkg",
+      "createdAt": "2026-10-03T12:48:36.402Z"
+    },
+    {
+      "id": "5500",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791031515270_dvwueq",
+      "createdAt": "2026-10-03T12:48:23.501Z"
+    },
+    {
+      "id": "5499",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791031245706_y1pxpl",
+      "createdAt": "2026-10-03T12:42:39.070Z"
+    },
+    {
+      "id": "5498",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791031245447_er7v35",
+      "createdAt": "2026-10-03T12:42:37.680Z"
+    },
+    {
+      "id": "5497",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791031245258_lbhmy9",
+      "createdAt": "2026-10-03T12:42:36.170Z"
+    },
+    {
+      "id": "5496",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791030862675_u67tqr",
+      "createdAt": "2026-10-03T12:34:44.364Z"
+    },
+    {
+      "id": "5494",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791030406843_yjcxww",
+      "createdAt": "2026-10-03T12:28:31.095Z"
+    },
+    {
+      "id": "5493",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791030407038_oa971g",
+      "createdAt": "2026-10-03T12:28:30.914Z"
+    },
+    {
+      "id": "5492",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791030406694_pmlqpq",
+      "createdAt": "2026-10-03T12:28:29.147Z"
+    },
+    {
+      "id": "5491",
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "wizard_1791030097469_g4x3f6",
+      "createdAt": "2026-10-03T12:21:37.775Z"
+    },
+    {
+      "id": "5490",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791030074367_pxqbe3",
+      "createdAt": "2026-10-03T12:21:26.194Z"
+    },
+    {
+      "id": "5489",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791029696050_8llp98",
+      "createdAt": "2026-10-03T12:15:11.495Z"
+    },
+    {
+      "id": "5488",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791029695866_vnlv3z",
+      "createdAt": "2026-10-03T12:15:09.093Z"
+    },
+    {
+      "id": "5487",
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1791029695719_hilake",
+      "createdAt": "2026-10-03T12:15:08.209Z"
+    },
+    {
+      "id": "5486",
+      "kind": "ai_call",
+      "delta": 100,
+      "jobId": "ui_pack_66154991-068f-4987-9a72-6ab82cd14940",
+      "createdAt": "2026-10-03T12:12:34.035Z"
+    },
+    {
+      "id": "5485",
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "wizard_1791029083479_nw69ex",
+      "createdAt": "2026-10-03T12:04:43.732Z"
+    },
+    {
+      "id": "5484",
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "wizard_1791028924802_7n7xg2",
+      "createdAt": "2026-10-03T12:03:40.030Z"
+    },
+    {
+      "id": "5483",
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "ui_pack_a8fe7586-6bac-4413-a283-64b3b004ee74",
+      "createdAt": "2026-10-03T12:02:42.269Z"
+    },
+    {
+      "id": "5482",
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "ui_pack_0508cb92-fbaa-47cb-9b8d-9de8cbbba401",
+      "createdAt": "2026-10-03T12:02:41.217Z"
+    },
+    {
+      "id": "5481",
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "ui_pack_66154991-068f-4987-9a72-6ab82cd14940",
+      "createdAt": "2026-10-03T12:01:45.649Z"
+    },
+    {
+      "id": "5480",
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "ui_pack_a3de535f-2978-4228-b586-a15d262b6710",
+      "createdAt": "2026-10-03T12:01:32.729Z"
+    },
+    {
+      "id": "5479",
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "ui_pack_c375990d-e60a-48d4-97fb-a4074cf1eef6",
+      "createdAt": "2026-10-03T12:01:32.705Z"
+    },
+    {
+      "id": "5478",
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "wizard_1791028836943_6c1otc",
+      "createdAt": "2026-10-03T12:00:37.504Z"
+    },
+    {
+      "id": "5477",
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "wizard_1791028461666_i3q5yz",
+      "createdAt": "2026-10-03T11:54:21.911Z"
+    },
+    {
+      "id": "5476",
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "wizard_1791028370270_ry0cbr",
+      "createdAt": "2026-10-03T11:52:50.561Z"
+    },
+    {
+      "id": "5475",
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "wizard_1791028296579_xn49h2",
+      "createdAt": "2026-10-03T11:51:36.840Z"
+    },
+    {
+      "id": "5474",
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "asset_1791028066368_wxqnbs",
+      "createdAt": "2026-10-03T11:47:46.664Z"
+    },
+    {
+      "id": "5473",
+      "kind": "ai_call",
+      "delta": -60,
+      "jobId": "asset_1791027949634_3f0f42",
+      "createdAt": "2026-10-03T11:45:49.862Z"
+    },
+    {
+      "id": "5472",
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "asset_1791027867142_8edlhq",
+      "createdAt": "2026-10-03T11:44:27.346Z"
+    },
+    {
+      "id": "5471",
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "asset_1791027762530_l4gqx5",
+      "createdAt": "2026-10-03T11:42:42.755Z"
+    },
+    {
+      "id": "5470",
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "asset_1791027657461_eeznol",
+      "createdAt": "2026-10-03T11:40:57.720Z"
+    }
+  ]
+}

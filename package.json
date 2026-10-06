@@ -8,6 +8,8 @@
   ],
   "scripts": {
     "dev": "npm run dev --workspace @spriteship/last-light",
+    "dev:emberhold": "npm run dev --workspace @spriteship/emberhold",
+    "build:emberhold": "npm run build --workspace @spriteship/emberhold",
     "build": "npm run build --workspaces --if-present",
     "build:pages": "node scripts/build-pages.mjs",
     "test": "npm test --workspaces --if-present"

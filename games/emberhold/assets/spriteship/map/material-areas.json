@@ -1,0 +1,553 @@
+{
+  "version": 1,
+  "areas": [
+    {
+      "id": "hearth-road",
+      "kind": "shape",
+      "shape": {
+        "type": "path",
+        "fill": "#ffffff",
+        "stroke": "transparent",
+        "strokeWidth": 0,
+        "points": [
+          {
+            "x": 0.5393489198867626,
+            "y": 0.010053619302949061
+          },
+          {
+            "x": 0.5676600881417777,
+            "y": 0.05697050938337802
+          },
+          {
+            "x": 0.5786166547002475,
+            "y": 0.10388739946380697
+          },
+          {
+            "x": 0.5677898499402426,
+            "y": 0.15080428954423591
+          },
+          {
+            "x": 0.5356448591132008,
+            "y": 0.19772117962466487
+          },
+          {
+            "x": 0.4876204151959413,
+            "y": 0.24463806970509383
+          },
+          {
+            "x": 0.4323563404899633,
+            "y": 0.2915549597855228
+          },
+          {
+            "x": 0.37879084946397273,
+            "y": 0.33847184986595175
+          },
+          {
+            "x": 0.3333173441248097,
+            "y": 0.3853887399463807
+          },
+          {
+            "x": 0.2981524398015717,
+            "y": 0.43230563002680966
+          },
+          {
+            "x": 0.27154016002463244,
+            "y": 0.4792225201072386
+          },
+          {
+            "x": 0.24962776572010575,
+            "y": 0.5261394101876675
+          },
+          {
+            "x": 0.22913482135986224,
+            "y": 0.5730563002680965
+          },
+          {
+            "x": 0.20960441122275128,
+            "y": 0.6199731903485255
+          },
+          {
+            "x": 0.19421590111807113,
+            "y": 0.6668900804289544
+          },
+          {
+            "x": 0.18876995358811738,
+            "y": 0.7138069705093834
+          },
+          {
+            "x": 0.19925727893616083,
+            "y": 0.7607238605898123
+          },
+          {
+            "x": 0.22904871953914124,
+            "y": 0.8076407506702413
+          },
+          {
+            "x": 0.27692628997856544,
+            "y": 0.8545576407506702
+          },
+          {
+            "x": 0.33683345465632525,
+            "y": 0.9014745308310992
+          },
+          {
+            "x": 0.3995031335048509,
+            "y": 0.9483914209115282
+          },
+          {
+            "x": 0.45533081983077184,
+            "y": 0.9953083109919572
+          },
+          {
+            "x": 0.6376118093495758,
+            "y": 0.9953083109919572
+          },
+          {
+            "x": 0.5997667388755951,
+            "y": 0.9483914209115282
+          },
+          {
+            "x": 0.5670688177338701,
+            "y": 0.9014745308310992
+          },
+          {
+            "x": 0.5362878823339058,
+            "y": 0.8545576407506702
+          },
+          {
+            "x": 0.5042184192754571,
+            "y": 0.8076407506702413
+          },
+          {
+            "x": 0.4701475298100866,
+            "y": 0.7607238605898123
+          },
+          {
+            "x": 0.4371257683928698,
+            "y": 0.7138069705093834
+          },
+          {
+            "x": 0.41143211231410237,
+            "y": 0.6668900804289544
+          },
+          {
+            "x": 0.4004106229244794,
+            "y": 0.6199731903485255
+          },
+          {
+            "x": 0.40957007235091547,
+            "y": 0.5730563002680965
+          },
+          {
+            "x": 0.4401722043963861,
+            "y": 0.5261394101876675
+          },
+          {
+            "x": 0.4883449230488346,
+            "y": 0.4792225201072386
+          },
+          {
+            "x": 0.5461233238783512,
+            "y": 0.43230563002680966
+          },
+          {
+            "x": 0.6040140188597736,
+            "y": 0.3853887399463807
+          },
+          {
+            "x": 0.6540412218850599,
+            "y": 0.33847184986595175
+          },
+          {
+            "x": 0.6920383082547751,
+            "y": 0.2915549597855228
+          },
+          {
+            "x": 0.7182786634946539,
+            "y": 0.24463806970509383
+          },
+          {
+            "x": 0.7362527692906472,
+            "y": 0.19772117962466487
+          },
+          {
+            "x": 0.7501891237607009,
+            "y": 0.15080428954423591
+          },
+          {
+            "x": 0.7624463959438196,
+            "y": 0.10388739946380697
+          },
+          {
+            "x": 0.7719468379919007,
+            "y": 0.05697050938337802
+          },
+          {
+            "x": 0.7743590072287558,
+            "y": 0.010053619302949061
+          }
+        ],
+        "curveType": "catmullRom",
+        "closed": true
+      },
+      "materialArea": {
+        "version": 1,
+        "projection": "ortho",
+        "material": {
+          "materialId": "earth",
+          "assetId": "Emberhold_valley_materials_1791028027414_cr3f_1__version__Emberhold_valley_materials_1791028027414_cr3f_1_iter_1",
+          "recipeId": "material:Emberhold_valley_materials_1791028027414_cr3f_1",
+          "recipeRevision": 1,
+          "fillUrl": "../_spriteship_media/63fbd772664b490448f58fa8a7128b8ec4f9adb9ad0c39c3ebfcb93c13f9d891.png"
+        },
+        "repeatSize": 512,
+        "blendWidthPx": 90
+      },
+      "x": 1600,
+      "y": 600,
+      "width": 920,
+      "height": 2984,
+      "layerId": "paths",
+      "collisionBody": {
+        "kind": "none"
+      },
+      "assetId": "Emberhold_valley_materials_1791028027414_cr3f_1__version__Emberhold_valley_materials_1791028027414_cr3f_1_iter_1",
+      "assetUrl": "../_spriteship_media/63fbd772664b490448f58fa8a7128b8ec4f9adb9ad0c39c3ebfcb93c13f9d891.png",
+      "layerName": "The old beacon roads",
+      "inheritedBlendWidthPx": 16
+    },
+    {
+      "id": "hearth-clearing",
+      "kind": "shape",
+      "shape": {
+        "type": "ellipse",
+        "fill": "#ffffff",
+        "stroke": "transparent",
+        "strokeWidth": 0
+      },
+      "materialArea": {
+        "version": 1,
+        "projection": "ortho",
+        "material": {
+          "materialId": "earth",
+          "assetId": "Emberhold_valley_materials_1791028027414_cr3f_1__version__Emberhold_valley_materials_1791028027414_cr3f_1_iter_1",
+          "recipeId": "material:Emberhold_valley_materials_1791028027414_cr3f_1",
+          "recipeRevision": 1,
+          "fillUrl": "../_spriteship_media/63fbd772664b490448f58fa8a7128b8ec4f9adb9ad0c39c3ebfcb93c13f9d891.png"
+        },
+        "repeatSize": 512,
+        "blendWidthPx": 90
+      },
+      "x": 1720,
+      "y": 2350,
+      "width": 660,
+      "height": 660,
+      "layerId": "paths",
+      "collisionBody": {
+        "kind": "none"
+      },
+      "assetId": "Emberhold_valley_materials_1791028027414_cr3f_1__version__Emberhold_valley_materials_1791028027414_cr3f_1_iter_1",
+      "assetUrl": "../_spriteship_media/63fbd772664b490448f58fa8a7128b8ec4f9adb9ad0c39c3ebfcb93c13f9d891.png",
+      "layerName": "The old beacon roads",
+      "inheritedBlendWidthPx": 16
+    },
+    {
+      "id": "westwatch-path",
+      "kind": "shape",
+      "shape": {
+        "type": "path",
+        "fill": "#ffffff",
+        "stroke": "transparent",
+        "strokeWidth": 0,
+        "points": [
+          {
+            "x": 0,
+            "y": 0.28
+          },
+          {
+            "x": 0.2,
+            "y": 0.05
+          },
+          {
+            "x": 0.5,
+            "y": 0.22
+          },
+          {
+            "x": 0.8,
+            "y": 0.35
+          },
+          {
+            "x": 1,
+            "y": 0.32
+          },
+          {
+            "x": 1,
+            "y": 0.75
+          },
+          {
+            "x": 0.75,
+            "y": 0.85
+          },
+          {
+            "x": 0.45,
+            "y": 0.58
+          },
+          {
+            "x": 0.18,
+            "y": 0.52
+          },
+          {
+            "x": 0,
+            "y": 0.8
+          }
+        ],
+        "curveType": "catmullRom",
+        "closed": true
+      },
+      "materialArea": {
+        "version": 1,
+        "projection": "ortho",
+        "material": {
+          "materialId": "earth",
+          "assetId": "Emberhold_valley_materials_1791028027414_cr3f_1__version__Emberhold_valley_materials_1791028027414_cr3f_1_iter_1",
+          "recipeId": "material:Emberhold_valley_materials_1791028027414_cr3f_1",
+          "recipeRevision": 1,
+          "fillUrl": "../_spriteship_media/63fbd772664b490448f58fa8a7128b8ec4f9adb9ad0c39c3ebfcb93c13f9d891.png"
+        },
+        "repeatSize": 512,
+        "blendWidthPx": 90
+      },
+      "x": 650,
+      "y": 1240,
+      "width": 1600,
+      "height": 280,
+      "layerId": "paths",
+      "collisionBody": {
+        "kind": "none"
+      },
+      "assetId": "Emberhold_valley_materials_1791028027414_cr3f_1__version__Emberhold_valley_materials_1791028027414_cr3f_1_iter_1",
+      "assetUrl": "../_spriteship_media/63fbd772664b490448f58fa8a7128b8ec4f9adb9ad0c39c3ebfcb93c13f9d891.png",
+      "layerName": "The old beacon roads",
+      "inheritedBlendWidthPx": 16
+    },
+    {
+      "id": "dawnspire-path",
+      "kind": "shape",
+      "shape": {
+        "type": "path",
+        "fill": "#ffffff",
+        "stroke": "transparent",
+        "strokeWidth": 0,
+        "points": [
+          {
+            "x": 0,
+            "y": 0.05
+          },
+          {
+            "x": 0.3,
+            "y": 0.3
+          },
+          {
+            "x": 0.6,
+            "y": 0.12
+          },
+          {
+            "x": 0.82,
+            "y": 0.35
+          },
+          {
+            "x": 1,
+            "y": 0.25
+          },
+          {
+            "x": 1,
+            "y": 0.8
+          },
+          {
+            "x": 0.8,
+            "y": 0.85
+          },
+          {
+            "x": 0.55,
+            "y": 0.62
+          },
+          {
+            "x": 0.3,
+            "y": 0.78
+          },
+          {
+            "x": 0,
+            "y": 0.6
+          }
+        ],
+        "curveType": "catmullRom",
+        "closed": true
+      },
+      "materialArea": {
+        "version": 1,
+        "projection": "ortho",
+        "material": {
+          "materialId": "earth",
+          "assetId": "Emberhold_valley_materials_1791028027414_cr3f_1__version__Emberhold_valley_materials_1791028027414_cr3f_1_iter_1",
+          "recipeId": "material:Emberhold_valley_materials_1791028027414_cr3f_1",
+          "recipeRevision": 1,
+          "fillUrl": "../_spriteship_media/63fbd772664b490448f58fa8a7128b8ec4f9adb9ad0c39c3ebfcb93c13f9d891.png"
+        },
+        "repeatSize": 512,
+        "blendWidthPx": 90
+      },
+      "x": 2040,
+      "y": 1290,
+      "width": 1450,
+      "height": 280,
+      "layerId": "paths",
+      "collisionBody": {
+        "kind": "none"
+      },
+      "assetId": "Emberhold_valley_materials_1791028027414_cr3f_1__version__Emberhold_valley_materials_1791028027414_cr3f_1_iter_1",
+      "assetUrl": "../_spriteship_media/63fbd772664b490448f58fa8a7128b8ec4f9adb9ad0c39c3ebfcb93c13f9d891.png",
+      "layerName": "The old beacon roads",
+      "inheritedBlendWidthPx": 16
+    },
+    {
+      "id": "beacon-dais-0",
+      "kind": "shape",
+      "shape": {
+        "type": "ellipse",
+        "fill": "#ffffff",
+        "stroke": "transparent",
+        "strokeWidth": 0
+      },
+      "materialArea": {
+        "version": 1,
+        "projection": "ortho",
+        "material": {
+          "materialId": "slate",
+          "assetId": "Emberhold_valley_materials_1791028027414_kxbx_2__version__Emberhold_valley_materials_1791028027414_kxbx_2_iter_1",
+          "recipeId": "material:Emberhold_valley_materials_1791028027414_kxbx_2",
+          "recipeRevision": 1,
+          "fillUrl": "../_spriteship_media/cd3c6dcacb8c7dad207dc889ca8d9a926f21f1695da97005c0a229e570355677.png"
+        },
+        "repeatSize": 512,
+        "blendWidthPx": 90
+      },
+      "x": 540,
+      "y": 1140,
+      "width": 420,
+      "height": 330,
+      "layerId": "paths",
+      "collisionBody": {
+        "kind": "none"
+      },
+      "assetId": "Emberhold_valley_materials_1791028027414_kxbx_2__version__Emberhold_valley_materials_1791028027414_kxbx_2_iter_1",
+      "assetUrl": "../_spriteship_media/cd3c6dcacb8c7dad207dc889ca8d9a926f21f1695da97005c0a229e570355677.png",
+      "layerName": "The old beacon roads",
+      "inheritedBlendWidthPx": 16
+    },
+    {
+      "id": "beacon-dais-1",
+      "kind": "shape",
+      "shape": {
+        "type": "ellipse",
+        "fill": "#ffffff",
+        "stroke": "transparent",
+        "strokeWidth": 0
+      },
+      "materialArea": {
+        "version": 1,
+        "projection": "ortho",
+        "material": {
+          "materialId": "slate",
+          "assetId": "Emberhold_valley_materials_1791028027414_kxbx_2__version__Emberhold_valley_materials_1791028027414_kxbx_2_iter_1",
+          "recipeId": "material:Emberhold_valley_materials_1791028027414_kxbx_2",
+          "recipeRevision": 1,
+          "fillUrl": "../_spriteship_media/cd3c6dcacb8c7dad207dc889ca8d9a926f21f1695da97005c0a229e570355677.png"
+        },
+        "repeatSize": 512,
+        "blendWidthPx": 90
+      },
+      "x": 3130,
+      "y": 1260,
+      "width": 420,
+      "height": 330,
+      "layerId": "paths",
+      "collisionBody": {
+        "kind": "none"
+      },
+      "assetId": "Emberhold_valley_materials_1791028027414_kxbx_2__version__Emberhold_valley_materials_1791028027414_kxbx_2_iter_1",
+      "assetUrl": "../_spriteship_media/cd3c6dcacb8c7dad207dc889ca8d9a926f21f1695da97005c0a229e570355677.png",
+      "layerName": "The old beacon roads",
+      "inheritedBlendWidthPx": 16
+    },
+    {
+      "id": "beacon-dais-2",
+      "kind": "shape",
+      "shape": {
+        "type": "ellipse",
+        "fill": "#ffffff",
+        "stroke": "transparent",
+        "strokeWidth": 0
+      },
+      "materialArea": {
+        "version": 1,
+        "projection": "ortho",
+        "material": {
+          "materialId": "slate",
+          "assetId": "Emberhold_valley_materials_1791028027414_kxbx_2__version__Emberhold_valley_materials_1791028027414_kxbx_2_iter_1",
+          "recipeId": "material:Emberhold_valley_materials_1791028027414_kxbx_2",
+          "recipeRevision": 1,
+          "fillUrl": "../_spriteship_media/cd3c6dcacb8c7dad207dc889ca8d9a926f21f1695da97005c0a229e570355677.png"
+        },
+        "repeatSize": 512,
+        "blendWidthPx": 90
+      },
+      "x": 1838,
+      "y": 600,
+      "width": 420,
+      "height": 330,
+      "layerId": "paths",
+      "collisionBody": {
+        "kind": "none"
+      },
+      "assetId": "Emberhold_valley_materials_1791028027414_kxbx_2__version__Emberhold_valley_materials_1791028027414_kxbx_2_iter_1",
+      "assetUrl": "../_spriteship_media/cd3c6dcacb8c7dad207dc889ca8d9a926f21f1695da97005c0a229e570355677.png",
+      "layerName": "The old beacon roads",
+      "inheritedBlendWidthPx": 16
+    },
+    {
+      "id": "ash-crown",
+      "kind": "shape",
+      "shape": {
+        "type": "ellipse",
+        "fill": "#ffffff",
+        "stroke": "transparent",
+        "strokeWidth": 0
+      },
+      "materialArea": {
+        "version": 1,
+        "projection": "ortho",
+        "material": {
+          "materialId": "ash",
+          "assetId": "Emberhold_valley_materials_1791028027414_nema_3__version__Emberhold_valley_materials_1791028027414_nema_3_iter_1",
+          "recipeId": "material:Emberhold_valley_materials_1791028027414_nema_3",
+          "recipeRevision": 1,
+          "fillUrl": "../_spriteship_media/1079390140f8838288f41cf9e2481be6a0e6d58979609d93f017ba25703d618d.png"
+        },
+        "repeatSize": 512,
+        "blendWidthPx": 90
+      },
+      "x": 1410,
+      "y": 60,
+      "width": 1300,
+      "height": 700,
+      "layerId": "paths",
+      "collisionBody": {
+        "kind": "none"
+      },
+      "assetId": "Emberhold_valley_materials_1791028027414_nema_3__version__Emberhold_valley_materials_1791028027414_nema_3_iter_1",
+      "assetUrl": "../_spriteship_media/1079390140f8838288f41cf9e2481be6a0e6d58979609d93f017ba25703d618d.png",
+      "layerName": "The old beacon roads",
+      "inheritedBlendWidthPx": 16
+    }
+  ]
+}

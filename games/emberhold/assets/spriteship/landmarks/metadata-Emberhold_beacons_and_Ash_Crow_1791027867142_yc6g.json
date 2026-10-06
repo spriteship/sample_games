@@ -1,0 +1,293 @@
+{
+  "id": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g",
+  "slug": "emberhold-landmarks",
+  "name": "Emberhold beacons and Ash Crown",
+  "projectId": "proj_1791027542095_991m",
+  "assetType": "tileset",
+  "gameType": "topdown",
+  "style": "hand painted",
+  "createdAt": "2026-10-03T11:45:25.563Z",
+  "updatedAt": "2026-10-03T11:57:15.886Z",
+  "hasAnimation": false,
+  "iterationCount": 1,
+  "tags": [],
+  "favourite": false,
+  "prompt": "Exactly eight separate fantasy landmarks, elevated angled topdown, complete transparent isolated objects: 1 ancient ivory stone beacon tower unlit with circular stone dais; 2 same beacon tower with bright amber flame burning at top; 3 ruined stone archway draped in moss; 4 abandoned small roofless stone cottage; 5 sinister dark stone Ash Crown citadel with red cloth and ember-lit gate; 6 ash raider encampment of black tents and red banner; 7 ruined stone bridge segment; 8 large ancient standing runestone with amber magical crack but no writing. Northwest lighting, consistent painterly fantasy scale.",
+  "currentIterationId": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g_iter_1",
+  "iterations": [
+    {
+      "id": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g_iter_1",
+      "iterationIndex": 1,
+      "status": "selected",
+      "displayName": null,
+      "prompt": "CREATE\nCreate exactly eight complete, transparent-isolated fantasy landmark objects with sturdy readable silhouettes and coherent physical scale: two matching ivory beacon towers distinguished only by an unlit versus bright amber-flaming top, plus a mossy ruined archway, roofless stone cottage, Ash Crown citadel, ash raider encampment, ruined bridge segment, and ancient cracked standing runestone. Use visible controlled brush texture, irregular hand-crafted stonework, soft ambient occlusion, slate-blue shadows, ivory and copper highlights, ember and beacon amber glow, restrained painterly detail, and consistent northwest lighting; keep every object separate with no assembled scene or background.\n\nPLANNED OUTPUTS\nUNLABELED VISUAL SUBJECTS ONLY. The following lines describe appearance; never draw, print, typeset, annotate, name, or caption them:\n- Ancient ivory stone beacon tower, unlit, with circular stone dais\n- Matching ancient ivory stone beacon tower with bright amber flame burning at the top and circular stone dais\n- Ruined stone archway draped in moss\n- Abandoned small roofless stone cottage\n- Sinister dark stone Ash Crown citadel with red cloth and ember-lit gate\n- Ash raider encampment composed of black tents and a red banner\n- Ruined stone bridge segment\n- Large ancient standing runestone with one amber magical crack and no writing\n\nLOOK\nHand-painted fantasy game art with visible but controlled brush texture, sturdy silhouettes, gently irregular edges, layered material strokes, soft ambient occlusion, and moderate material detail. Palette: slate-blue cool shadows, ivory stone, copper highlights, amber and ember glow, moss green, dark ash black, red cloth, muted woodland tones. Lighting: Consistent northwest lighting with localized amber illumination from the lit beacon, ember-lit citadel gate, and magical runestone crack.. Atmosphere: Resilient but ominous medieval fantasy mood with subtle atmospheric depth, without a shared scene background.. Surface treatment: Painterly layered stone, worn masonry, moss, ash-dark fabric, aged wood, weathered bridgework, and restrained glowing effects..\n\nVIEW\nOrthographic angled RPG camera looking downward about 45 degrees, without isometric yaw. Ground axes stay screen-horizontal and screen-vertical with depth foreshortening, not diagonal diamond axes. Show tops and forward-facing fronts consistently across all world props. No perspective convergence or separate flattering rotations.\n\nOUTPUT\n\nRender exactly 8 approved logical pieces as one coordinated Object Collection on a uniform opaque pure-magenta #FF00FF intermediate canvas. Keep complete silhouettes disconnected, uncropped and generously separated; every future transparent area, including enclosed openings, must be flat unlit #FF00FF. No background reflection, magenta halo or tinted hole. The final transparent PNGs and presentation atlas are produced afterward in code; do not draw a grid, cells, frames, labels or captions around the pieces.\nEach approved item appears once. No supplemental filler, extra variants, decorative debris, detached shadows, glow, shared scenery or unrequested ground backing. Preserve each distinct item's identity. Controlled variants share the same underlying design and differ in the approved attributes only; matching families share motifs and material treatment. Do not turn an ordinary collection into animation frames or staged states. World props share plausible physical scale; flat icons/cards share optical size, margins and graphic treatment. Every object follows the resolved camera without independent flattering rotations. Intrinsic card faces and real rectangular objects retain their actual shape; only the outside/gaps become transparent. Writing or symbols may appear only inside an object when allowed by the visible-text policy, never as external item labels. Do not substitute art direction for requested content.\n\n\nVISIBLE TEXT\nNONE. Text is prohibited. Render no words, letters, numbers, names, captions, annotations, or other typography anywhere in the image. Item descriptions are private instructions only and must never become visible copy.\n\nAVOID\nConnected map or assembled scene, Background terrain or painted ground plane, Tiles joined into a deterministic map brush, Extra landmarks or bonus variants, Characters, creatures, vehicles, or equipment, Visible labels, captions, legends, watermarks, logos, pseudo-writing, or decorative lettering, Writing or symbols on the standing runestone, Perspective tilt inconsistent with the requested elevated angled topdown view\n\nSTRICT ARTWORK-ONLY RULE — NO TEXT anywhere. THIS OUTPUT IS INVALID IF IT CONTAINS ANY VISIBLE TEXT OR TEXT-LIKE MARKS. Render ZERO words, letters, digits, typography, pseudo-text, gibberish glyphs, captions, labels, titles, legends, annotations, signatures, logos or watermarks anywhere in any image or video frame. Names, item descriptions, state names, prompt headings and bullet lines are private drawing instructions: depict the subject only and NEVER typeset, copy, abbreviate or echo any portion of them. Before finalizing, inspect the entire frame and remove every accidental character, detached pseudo-letter, caption fragment and typographic mark; replace it with a completely blank object surface or the required transparent/chroma background. Symbols mean recognizable non-letter pictograms, not writing. Keep signs, pages, screens, clothing and surfaces unlettered by default. Only specific intrinsic writing explicitly requested by the user is permitted, solely on its requested object; never infer permission from a genre, style, item name or reference image. A reviewed NONE text policy overrides every subject description and forbids even intrinsic writing, including on signs, books, cards and screens. No added subtitles or text overlays in animations. FINAL CHECK: if any unpermitted glyph or text-like fragment remains anywhere, remove it before returning the media.",
+      "feedbackPrompt": null,
+      "model": "gpt-image-2-5-flare-text-to-image",
+      "createdAt": "Sat Oct 03 2026 11:45:25 GMT+0000 (Coordinated Universal Time)",
+      "items": [
+        {
+          "id": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g_iter_1_item_0",
+          "itemIndex": 0,
+          "itemToken": "item_1",
+          "displayName": "Ancient ivory stone beacon tower, unlit, with circular stone dais",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 55,
+            "y": 123,
+            "width": 426,
+            "height": 813
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g_iter_1_item_1",
+          "itemIndex": 1,
+          "itemToken": "item_2",
+          "displayName": "Matching ancient ivory stone beacon tower with bright amber flame burning at the top and circular stone dais",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 535,
+            "y": 95,
+            "width": 427,
+            "height": 841
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g_iter_1_item_2",
+          "itemIndex": 2,
+          "itemToken": "item_3",
+          "displayName": "Ruined stone archway draped in moss",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 997,
+            "y": 239,
+            "width": 510,
+            "height": 721
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g_iter_1_item_3",
+          "itemIndex": 3,
+          "itemToken": "item_4",
+          "displayName": "Abandoned small roofless stone cottage",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 1536,
+            "y": 316,
+            "width": 497,
+            "height": 634
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g_iter_1_item_4",
+          "itemIndex": 4,
+          "itemToken": "item_5",
+          "displayName": "Sinister dark stone Ash Crown citadel with red cloth and ember-lit gate",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 27,
+            "y": 1003,
+            "width": 518,
+            "height": 880
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g_iter_1_item_5",
+          "itemIndex": 5,
+          "itemToken": "item_6",
+          "displayName": "Ash raider encampment composed of black tents and a red banner",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 586,
+            "y": 1099,
+            "width": 534,
+            "height": 741
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g_iter_1_item_6",
+          "itemIndex": 6,
+          "itemToken": "item_7",
+          "displayName": "Ruined stone bridge segment",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 1136,
+            "y": 1218,
+            "width": 569,
+            "height": 633
+          },
+          "confidence": 1,
+          "parentItemId": null
+        },
+        {
+          "id": "Emberhold_beacons_and_Ash_Crow_1791027867142_yc6g_iter_1_item_7",
+          "itemIndex": 7,
+          "itemToken": "item_8",
+          "displayName": "Large ancient standing runestone with one amber magical crack and no writing",
+          "role": "requested",
+          "sourceBbox": {
+            "x": 1686,
+            "y": 1194,
+            "width": 346,
+            "height": 650
+          },
+          "confidence": 1,
+          "parentItemId": null
+        }
+      ],
+      "itemsSource": "manifest"
+    }
+  ],
+  "animation": null,
+  "runtime": null,
+  "grid": {
+    "rows": 3,
+    "cols": 3,
+    "tileCount": 8,
+    "expectedTileCount": 9,
+    "complete": false,
+    "tileWidth": 682,
+    "tileHeight": 682,
+    "dimsAssumed": false,
+    "tiles": [
+      {
+        "index": 0
+      },
+      {
+        "index": 1
+      },
+      {
+        "index": 2
+      },
+      {
+        "index": 3
+      },
+      {
+        "index": 4
+      },
+      {
+        "index": 5
+      },
+      {
+        "index": 6
+      },
+      {
+        "index": 7
+      }
+    ]
+  },
+  "background": null,
+  "extraction": {
+    "mode": "logical_objects",
+    "status": "exact",
+    "expectedCount": 8,
+    "detectedCount": 8,
+    "outputCount": 8,
+    "groupedDecorationCount": 0,
+    "warning": null
+  },
+  "generationPlan": {
+    "camera": {
+      "view": "topdown",
+      "source": "user_explicit"
+    },
+    "layout": {
+      "mode": "fixed_anchors",
+      "rows": 3,
+      "columns": 3,
+      "extractionMode": "logical_objects"
+    },
+    "preview": "Exactly eight separate, independently editable fantasy landmark objects in one coordinated collection, presented from an elevated angled topdown view for approval.",
+    "estimate": {
+      "credits": 100,
+      "includedTextPlanning": true
+    },
+    "required": [
+      "Exactly eight separate complete objects",
+      "Transparent isolated presentation for every object",
+      "Elevated angled topdown view shared consistently across the collection",
+      "Two matching beacon towers sharing the same base design, one unlit and one with a bright amber flame",
+      "Circular stone dais on both beacon towers",
+      "Moss draping on the ruined archway",
+      "Roofless construction for the abandoned cottage",
+      "Red cloth and an ember-lit gate on the Ash Crown citadel",
+      "Black tents and a red banner in the ash raider encampment",
+      "One amber magical crack on the standing runestone",
+      "Northwest lighting",
+      "No writing on the standing runestone"
+    ],
+    "warnings": [],
+    "assetType": "tileset",
+    "forbidden": [
+      "Connected map or assembled scene",
+      "Background terrain or painted ground plane",
+      "Tiles joined into a deterministic map brush",
+      "Extra landmarks or bonus variants",
+      "Characters, creatures, vehicles, or equipment",
+      "Visible labels, captions, legends, watermarks, logos, pseudo-writing, or decorative lettering",
+      "Writing or symbols on the standing runestone",
+      "Perspective tilt inconsistent with the requested elevated angled topdown view",
+      "external captions",
+      "item-name labels",
+      "headers",
+      "legends",
+      "signatures",
+      "watermarks"
+    ],
+    "operation": "create",
+    "disposition": "collection",
+    "visibleText": {
+      "mode": "none",
+      "allowedContent": []
+    },
+    "schemaVersion": 2,
+    "outputQuantity": 8,
+    "primarySubject": "Eight isolated hand-painted fantasy landmarks for Emberhold, including two controlled states of the same ancient beacon tower and six distinct ruined, ominous, or magical landmarks.",
+    "quantitySource": "user_explicit",
+    "requestedItems": [
+      "Ancient ivory stone beacon tower, unlit, with circular stone dais",
+      "Matching ancient ivory stone beacon tower with bright amber flame burning at the top and circular stone dais",
+      "Ruined stone archway draped in moss",
+      "Abandoned small roofless stone cottage",
+      "Sinister dark stone Ash Crown citadel with red cloth and ember-lit gate",
+      "Ash raider encampment composed of black tents and a red banner",
+      "Ruined stone bridge segment",
+      "Large ancient standing runestone with one amber magical crack and no writing"
+    ],
+    "visualTreatment": {
+      "palette": [
+        "slate-blue cool shadows",
+        "ivory stone",
+        "copper highlights",
+        "amber and ember glow",
+        "moss green",
+        "dark ash black",
+        "red cloth",
+        "muted woodland tones"
+      ],
+      "lighting": "Consistent northwest lighting with localized amber illumination from the lit beacon, ember-lit citadel gate, and magical runestone crack.",
+      "atmosphere": "Resilient but ominous medieval fantasy mood with subtle atmospheric depth, without a shared scene background.",
+      "renderingStyle": "Hand-painted fantasy game art with visible but controlled brush texture, sturdy silhouettes, gently irregular edges, layered material strokes, soft ambient occlusion, and moderate material detail.",
+      "surfaceTreatment": "Painterly layered stone, worn masonry, moss, ash-dark fabric, aged wood, weathered bridgework, and restrained glowing effects."
+    },
+    "imageAspectRatio": "1:1",
+    "requestedQuantity": 8,
+    "supplementalItems": [],
+    "projectContextHash": "WSnJu7VrzOVFBbG46jz_LeqSbMHekEFwGvhiXvkWQJA",
+    "generationDirective": "Create exactly eight complete, transparent-isolated fantasy landmark objects with sturdy readable silhouettes and coherent physical scale: two matching ivory beacon towers distinguished only by an unlit versus bright amber-flaming top, plus a mossy ruined archway, roofless stone cottage, Ash Crown citadel, ash raider encampment, ruined bridge segment, and ancient cracked standing runestone. Use visible controlled brush texture, irregular hand-crafted stonework, soft ambient occlusion, slate-blue shadows, ivory and copper highlights, ember and beacon amber glow, restrained painterly detail, and consistent northwest lighting; keep every object separate with no assembled scene or background.",
+    "objectCollectionVersion": 1
+  },
+  "material": null,
+  "quality": {}
+}
