@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#07111c" />
+  <meta name="description" content="Play BLACKOUT: Core Heist free. Eleven top-down stealth missions, six pistols, security patrols and cinematic SpriteShip artwork." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="BLACKOUT: Core Heist — Play Free" />
+  <meta property="og:description" content="Eleven stealth operations. One way out. Play free in your browser." />
+  <meta property="og:url" content="https://spriteship.github.io/sample_games/blackout/" />
+  <meta property="og:image" content="https://spriteship.github.io/sample_games/blackout/social-card.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://spriteship.github.io/sample_games/blackout/social-card.png" />
+  <link rel="canonical" href="https://spriteship.github.io/sample_games/blackout/" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <title>BLACKOUT — Core Heist</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main id="game-shell" aria-label="BLACKOUT stealth game">
+    <canvas id="game" width="1280" height="720" aria-label="Top-down game world"></canvas>
+    <div class="cinema-bars" aria-hidden="true"></div>
+
+    <header id="hud" class="hud hidden">
+      <div class="hud-left">
+        <div class="brand-small"><span class="brand-mark"></span> BLACKOUT <i>// 01</i></div>
+        <div class="objective"><small id="objective-label">MISSION OBJECTIVE</small><strong id="objective-text">Retrieve the power core</strong><span id="objective-hint">Find the cyan signal in the eastern vault</span></div>
+      </div>
+      <div class="hud-right">
+        <div class="clock"><small>ELAPSED</small><strong id="timer">00:00</strong></div>
+        <div class="alert"><div><small>EXPOSURE</small><b id="alert-number">0%</b></div><div class="alert-track"><span id="alert-fill"></span></div></div>
+        <button id="pause-button" class="icon-button" aria-label="Pause game">Ⅱ</button>
+      </div>
+    </header>
+
+    <div id="ability" class="ability hidden"><div class="ability-icon">ϟ</div><div><small>EMP PULSE <kbd>Q</kbd></small><strong id="ability-state">READY</strong></div><div class="cooldown"><span id="cooldown-fill"></span></div></div>
+    <div id="weapon" class="weapon hidden"><small><span id="weapon-name">SERVICE PISTOL</span> <kbd>R</kbd> RELOAD</small><strong id="ammo-count">10 / 10</strong><span id="weapon-state">SPACE / CLICK TO FIRE</span></div>
+    <div id="prompt" class="prompt hidden"><kbd>E</kbd><span id="prompt-text">INTERACT</span></div>
+    <div id="toast" class="toast hidden" role="status"></div>
+    <div id="touch" class="touch hidden"><div id="stick" class="stick"><i></i></div><div class="touch-actions"><button id="touch-fire" aria-label="Fire weapon">⌖</button><button id="touch-emp" aria-label="EMP pulse">ϟ</button><button id="touch-interact" aria-label="Interact">E</button></div></div>
+
+    <section id="menu" class="screen menu">
+      <div class="menu-shade"></div>
+      <div class="menu-content">
+        <p class="eyebrow"><span></span> ORBITAL RESEARCH FACILITY · 02:17 AM</p>
+        <h1>BLACK<span>OUT</span></h1>
+        <p class="subtitle">Eleven operations. One way out.</p>
+        <div class="briefing"><span>01 / INFILTRATE</span><span>02 / TAKE THE OBJECTIVE</span><span>03 / EXTRACT</span></div>
+        <button id="start-button" class="primary-button"><span>SELECT OPERATION</span><b>↗</b></button>
+        <p class="controls">WASD MOVE <i>·</i> SPACE / CLICK FIRE <i>·</i> R RELOAD <i>·</i> E INTERACT <i>·</i> Q EMP <i>·</i> ESC PAUSE</p>
+      </div>
+      <div class="menu-bottom"><span>BLACKOUT // CORE HEIST</span><span>SECURITY LEVEL <b>HIGH</b></span></div>
+    </section>
+
+    <section id="operations" class="screen operations hidden" aria-label="Campaign missions">
+      <div class="operations-inner"><p class="eyebrow">BLACKOUT // CAMPAIGN</p><h2>Operations</h2>
+        <p class="operations-intro">Choose an unlocked mission. Extract the objective to unlock the next location.</p>
+        <div id="mission-grid" class="mission-grid"></div>
+        <button id="operations-back" class="text-button">← Back to title</button>
+      </div>
+    </section>
+
+    <section id="mission-briefing" class="screen campaign-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="briefing-title">
+      <div class="campaign-panel briefing-panel">
+        <p id="briefing-kicker" class="eyebrow">MISSION 01 / 11</p>
+        <h2 id="briefing-title">Core Heist</h2>
+        <div class="campaign-meta"><span id="briefing-place"></span><span id="briefing-difficulty"></span><span id="briefing-challenge"></span></div>
+        <p id="briefing-objective" class="campaign-objective"></p>
+        <p id="briefing-copy" class="campaign-copy"></p>
+        <div class="instruction-grid">
+          <div><kbd>WASD</kbd><span>Move. Hold Shift to sprint.</span></div>
+          <div><kbd>E</kbd><span>Take objective, open crates, use terminal, extract.</span></div>
+          <div><kbd>SPACE / CLICK</kbd><span>Fire your pistol. R reloads.</span></div>
+          <div><kbd>Q</kbd><span>EMP stuns nearby security.</span></div>
+        </div>
+        <p class="briefing-tip">Guards shoot when they see you. Use cover and watch the exposure meter.</p>
+        <div class="campaign-actions"><button id="launch-button" class="primary-button"><span>BEGIN MISSION</span><b>↗</b></button><button id="briefing-back" class="text-button">Choose another operation</button></div>
+      </div>
+    </section>
+
+    <section id="pause" class="screen modal hidden" role="dialog" aria-modal="true" aria-labelledby="pause-title">
+      <p class="eyebrow">MISSION SUSPENDED</p><h2 id="pause-title">Hold position.</h2>
+      <p>The facility is waiting.</p>
+      <button id="resume-button" class="primary-button"><span>RESUME MISSION</span><b>↗</b></button>
+      <button id="restart-pause" class="text-button">Restart mission</button>
+      <button id="operations-pause" class="text-button">Operations</button>
+    </section>
+
+    <section id="loot" class="screen loot-screen hidden" role="dialog" aria-modal="true" aria-labelledby="loot-title">
+      <div class="loot-panel">
+        <p class="eyebrow">SUPPLY CACHE // WEAPON FOUND</p>
+        <div class="loot-layout">
+          <div class="loot-visual"><canvas id="loot-art" width="240" height="180" aria-label="Pistol artwork"></canvas></div>
+          <div class="loot-details">
+            <small id="loot-tag">SIDEARM</small>
+            <h2 id="loot-title">New pistol</h2>
+            <p id="loot-description"></p>
+            <div class="loot-stats"><span id="loot-damage"></span><span id="loot-rate"></span><span id="loot-magazine"></span></div>
+            <p id="loot-bonus" class="loot-bonus">EMP READY · AMMO REFILLED · EXPOSURE REDUCED</p>
+            <p class="loot-current">EQUIPPED <strong id="loot-current">Service Pistol</strong></p>
+          </div>
+        </div>
+        <div class="loot-actions"><button id="equip-button" class="primary-button"><span>TAKE & EQUIP <kbd>E</kbd></span><b>↗</b></button><button id="leave-button" class="text-button">Keep current pistol <kbd>ESC</kbd></button></div>
+      </div>
+    </section>
+
+    <section id="result" class="screen modal hidden" role="dialog" aria-modal="true" aria-labelledby="result-title">
+      <div class="result-panel">
+      <p id="result-kicker" class="eyebrow">EXTRACTION COMPLETE</p><h2 id="result-title">Into the dark.</h2>
+      <p id="result-copy"></p>
+      <div class="result-stats"><div><small>TIME</small><strong id="result-time">00:00</strong></div><div><small>PEAK EXPOSURE</small><strong id="result-alert">0%</strong></div><div><small>EMP USED</small><strong id="result-emp">0</strong></div></div>
+      <button id="restart-button" class="primary-button"><span>PLAY AGAIN</span><b>↗</b></button>
+      <button id="next-button" class="primary-button hidden"><span>NEXT OPERATION</span><b>↗</b></button>
+      <button id="operations-result" class="text-button">Operations</button>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="./game.js"></script>
+</body>
+</html>

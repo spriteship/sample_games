@@ -1,0 +1,382 @@
+{
+  "ground": "ground.png",
+  "steelFloor": "steel-floor.png",
+  "rubberFloor": "rubber-floor.png",
+  "labFloor": "lab-floor.png",
+  "hero": "hero.png",
+  "guard": "guard.png",
+  "stack": {
+    "file": "facility.png",
+    "frame": [
+      0,
+      0,
+      256,
+      256
+    ]
+  },
+  "server": {
+    "file": "facility.png",
+    "frame": [
+      256,
+      0,
+      256,
+      256
+    ]
+  },
+  "crate": {
+    "file": "facility.png",
+    "frame": [
+      512,
+      0,
+      256,
+      256
+    ]
+  },
+  "cart": {
+    "file": "facility.png",
+    "frame": [
+      768,
+      0,
+      256,
+      256
+    ]
+  },
+  "concrete": {
+    "file": "facility.png",
+    "frame": [
+      0,
+      256,
+      256,
+      256
+    ]
+  },
+  "pipe": {
+    "file": "facility.png",
+    "frame": [
+      256,
+      256,
+      256,
+      256
+    ]
+  },
+  "vent": {
+    "file": "facility.png",
+    "frame": [
+      512,
+      256,
+      256,
+      256
+    ]
+  },
+  "drain": {
+    "file": "facility.png",
+    "frame": [
+      768,
+      256,
+      256,
+      256
+    ]
+  },
+  "lamp": {
+    "file": "facility.png",
+    "frame": [
+      0,
+      512,
+      256,
+      256
+    ]
+  },
+  "camera": {
+    "file": "facility.png",
+    "frame": [
+      256,
+      512,
+      256,
+      256
+    ]
+  },
+  "terminal": {
+    "file": "facility.png",
+    "frame": [
+      512,
+      512,
+      256,
+      256
+    ]
+  },
+  "pedestal": {
+    "file": "facility.png",
+    "frame": [
+      768,
+      512,
+      256,
+      256
+    ]
+  },
+  "core": {
+    "file": "mission.png",
+    "frame": [
+      0,
+      0,
+      256,
+      256
+    ]
+  },
+  "bollard": {
+    "file": "mission.png",
+    "frame": [
+      256,
+      0,
+      256,
+      256
+    ]
+  },
+  "door": {
+    "file": "mission.png",
+    "frame": [
+      512,
+      0,
+      256,
+      256
+    ]
+  },
+  "exit": {
+    "file": "mission.png",
+    "frame": [
+      0,
+      256,
+      256,
+      256
+    ]
+  },
+  "cable": {
+    "file": "mission.png",
+    "frame": [
+      256,
+      256,
+      256,
+      256
+    ]
+  },
+  "hatch": {
+    "file": "mission.png",
+    "frame": [
+      512,
+      256,
+      256,
+      256
+    ]
+  },
+  "plant": {
+    "file": "mission.png",
+    "frame": [
+      0,
+      512,
+      256,
+      256
+    ]
+  },
+  "floorlight": {
+    "file": "mission.png",
+    "frame": [
+      256,
+      512,
+      256,
+      256
+    ]
+  },
+  "heroWalkDown": {
+    "file": "characters/hero/walk_down.png",
+    "atlas": "characters/hero/walk_down.json"
+  },
+  "heroIdleDown": "characters/hero/idle_down.png",
+  "heroWalkUp": {
+    "file": "characters/hero/walk_up.png",
+    "atlas": "characters/hero/walk_up.json"
+  },
+  "heroIdleUp": "characters/hero/idle_up.png",
+  "heroWalkRight": {
+    "file": "characters/hero/walk_right.png",
+    "atlas": "characters/hero/walk_right.json"
+  },
+  "heroIdleRight": "characters/hero/idle_right.png",
+  "heroWalkLeft": {
+    "file": "characters/hero/walk_left.png",
+    "atlas": "characters/hero/walk_left.json"
+  },
+  "heroIdleLeft": "characters/hero/idle_left.png",
+  "guardWalkDown": {
+    "file": "characters/guard/walk_down.png",
+    "atlas": "characters/guard/walk_down.json"
+  },
+  "guardIdleDown": "characters/guard/idle_down.png",
+  "guardWalkUp": {
+    "file": "characters/guard/walk_up.png",
+    "atlas": "characters/guard/walk_up.json"
+  },
+  "guardIdleUp": "characters/guard/idle_up.png",
+  "guardWalkRight": {
+    "file": "characters/guard/walk_right.png",
+    "atlas": "characters/guard/walk_right.json"
+  },
+  "guardIdleRight": "characters/guard/idle_right.png",
+  "guardWalkLeft": {
+    "file": "characters/guard/walk_left.png",
+    "atlas": "characters/guard/walk_left.json"
+  },
+  "guardIdleLeft": "characters/guard/idle_left.png",
+  "pistolService": {
+    "file": "weapons.png",
+    "frame": [
+      0,
+      0,
+      256,
+      254
+    ]
+  },
+  "pistolGhost": {
+    "file": "weapons.png",
+    "frame": [
+      256,
+      0,
+      256,
+      254
+    ]
+  },
+  "pistolViper": {
+    "file": "weapons.png",
+    "frame": [
+      512,
+      0,
+      256,
+      254
+    ]
+  },
+  "pistolBreach": {
+    "file": "weapons.png",
+    "frame": [
+      0,
+      254,
+      256,
+      255
+    ]
+  },
+  "pistolArc": {
+    "file": "weapons.png",
+    "frame": [
+      256,
+      254,
+      256,
+      255
+    ]
+  },
+  "pistolTwinshot": {
+    "file": "weapons.png",
+    "frame": [
+      512,
+      254,
+      256,
+      255
+    ]
+  },
+  "campaignFloor1": "campaign-floor-1.png",
+  "campaignFloor2": "campaign-floor-2.png",
+  "campaignFloor3": "campaign-floor-3.png",
+  "campaignFloor4": "campaign-floor-4.png",
+  "campaignFloor5": "campaign-floor-5.png",
+  "campaignFloor6": "campaign-floor-6.png",
+  "campaignFloor7": "campaign-floor-7.png",
+  "campaignFloor8": "campaign-floor-8.png",
+  "campaignFloor9": "campaign-floor-9.png",
+  "campaignFloor10": "campaign-floor-10.png",
+  "campaignArtifact1": {
+    "file": "campaign-artifacts.png",
+    "frame": [
+      0,
+      0,
+      256,
+      256
+    ]
+  },
+  "campaignArtifact2": {
+    "file": "campaign-artifacts.png",
+    "frame": [
+      512,
+      0,
+      256,
+      256
+    ]
+  },
+  "campaignArtifact3": {
+    "file": "campaign-artifacts.png",
+    "frame": [
+      256,
+      0,
+      256,
+      256
+    ]
+  },
+  "campaignArtifact4": {
+    "file": "campaign-artifacts.png",
+    "frame": [
+      768,
+      0,
+      256,
+      256
+    ]
+  },
+  "campaignArtifact5": {
+    "file": "campaign-artifacts.png",
+    "frame": [
+      0,
+      256,
+      256,
+      256
+    ]
+  },
+  "campaignArtifact6": {
+    "file": "campaign-artifacts.png",
+    "frame": [
+      256,
+      256,
+      256,
+      256
+    ]
+  },
+  "campaignArtifact7": {
+    "file": "campaign-artifacts.png",
+    "frame": [
+      512,
+      256,
+      256,
+      256
+    ]
+  },
+  "campaignArtifact8": {
+    "file": "campaign-artifacts.png",
+    "frame": [
+      768,
+      256,
+      256,
+      256
+    ]
+  },
+  "campaignArtifact9": {
+    "file": "campaign-artifacts.png",
+    "frame": [
+      0,
+      512,
+      256,
+      256
+    ]
+  },
+  "campaignArtifact10": {
+    "file": "campaign-artifacts.png",
+    "frame": [
+      256,
+      512,
+      256,
+      256
+    ]
+  }
+}

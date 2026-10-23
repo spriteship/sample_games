@@ -1,0 +1,273 @@
+{
+  "projectId": "proj_1792743954380_xsbt",
+  "projectUrl": "https://spriteship.com/project/proj_1792743954380_xsbt",
+  "auditedAt": "2026-10-23T10:50:51.044Z",
+  "authorization": "User authorized up to 30,000 SpriteShip credits for this new game.",
+  "creditCeiling": 30000,
+  "actualChargedCredits": 2940,
+  "actualRefundedCredits": 0,
+  "actualNetCredits": 2940,
+  "accounting": "API-key ledger entries matched to this production run’s SpriteShip job IDs.",
+  "ledger": [
+    {
+      "kind": "ai_call",
+      "delta": -60,
+      "jobId": "asset_1792752274049_64hntp",
+      "createdAt": "2026-10-23T10:44:34.493Z"
+    },
+    {
+      "kind": "ai_call",
+      "delta": -60,
+      "jobId": "asset_1792751270169_fvdwm0",
+      "createdAt": "2026-10-23T10:28:18.609Z"
+    },
+    {
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "asset_1792750955522_x31wx9",
+      "createdAt": "2026-10-23T10:22:35.756Z"
+    },
+    {
+      "kind": "ai_call",
+      "delta": -60,
+      "jobId": "asset_1792750834040_nig6sl",
+      "createdAt": "2026-10-23T10:20:34.276Z"
+    },
+    {
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "ui_pack_3f495da5-0715-4d5e-a7e2-bf246bb554dd",
+      "createdAt": "2026-10-23T10:19:09.879Z"
+    },
+    {
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "ui_pack_7feca851-24c6-4d7c-9b2d-ad808a573e0d",
+      "createdAt": "2026-10-23T10:19:09.876Z"
+    },
+    {
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "asset_1792748349189_sg94k0",
+      "createdAt": "2026-10-23T09:39:09.475Z"
+    },
+    {
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1792745797228_ek049z",
+      "createdAt": "2026-10-23T08:58:28.495Z"
+    },
+    {
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1792745796856_zueg09",
+      "createdAt": "2026-10-23T08:58:25.851Z"
+    },
+    {
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1792745797011_jggzw1",
+      "createdAt": "2026-10-23T08:58:25.238Z"
+    },
+    {
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1792744873000_eotrkm",
+      "createdAt": "2026-10-23T08:43:56.288Z"
+    },
+    {
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1792744872815_29vmaq",
+      "createdAt": "2026-10-23T08:43:54.880Z"
+    },
+    {
+      "kind": "ai_call",
+      "delta": -300,
+      "jobId": "regen_1792744872461_mhp6hx",
+      "createdAt": "2026-10-23T08:43:53.520Z"
+    },
+    {
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "wizard_1792744782767_1nq22u",
+      "createdAt": "2026-10-23T08:39:43.029Z"
+    },
+    {
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "wizard_1792744456276_u0wvcv",
+      "createdAt": "2026-10-23T08:34:16.650Z"
+    },
+    {
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "asset_1792744354335_ekks0a",
+      "createdAt": "2026-10-23T08:32:34.540Z"
+    },
+    {
+      "kind": "ai_call",
+      "delta": -60,
+      "jobId": "asset_1792744283552_kxrxi2",
+      "createdAt": "2026-10-23T08:31:23.789Z"
+    },
+    {
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "asset_1792744215971_jds5ll",
+      "createdAt": "2026-10-23T08:30:16.319Z"
+    },
+    {
+      "kind": "ai_call",
+      "delta": -100,
+      "jobId": "asset_1792744123161_6ujwa5",
+      "createdAt": "2026-10-23T08:28:43.416Z"
+    }
+  ],
+  "assets": {
+    "facility": [
+      "BLACKOUT_facility_cover_and_ma_1792744123161_neyl"
+    ],
+    "mission": [
+      "BLACKOUT_mission_props_1792744215971_e8pf"
+    ],
+    "ground": [
+      "BLACKOUT_floor_materials_1792744283552_fgxs",
+      "BLACKOUT_floor_materials_1792744334116_5fhc_1",
+      "BLACKOUT_floor_materials_1792744334116_nhqi_2",
+      "BLACKOUT_floor_materials_1792744334116_4sn9_3"
+    ],
+    "menu": [
+      "BLACKOUT_key_art_1792744354335_rdtk"
+    ],
+    "weapons": [
+      "BLACKOUT_six_collectible_pisto_1792748349189_6x1b"
+    ],
+    "campaign-ground": [
+      "BLACKOUT_campaign_floor_materi_1792750834040_kq3h",
+      "BLACKOUT_campaign_floor_materi_1792750914221_w3cz_1",
+      "BLACKOUT_campaign_floor_materi_1792750914222_4pqa_2",
+      "BLACKOUT_campaign_floor_materi_1792750914222_3dmx_3"
+    ],
+    "campaign-objectives": [
+      "BLACKOUT_campaign_mission_arti_1792750955522_9iby"
+    ],
+    "campaign-ground-b": [
+      "BLACKOUT_industrial_campaign_f_1792751270169_qfle",
+      "BLACKOUT_industrial_campaign_f_1792751379036_so09_1",
+      "BLACKOUT_industrial_campaign_f_1792751379036_q4n5_2",
+      "BLACKOUT_industrial_campaign_f_1792751379036_2eye_3"
+    ],
+    "campaign-ground-c": [
+      "BLACKOUT_final_campaign_floors_1792752274049_yhjf",
+      "BLACKOUT_final_campaign_floors_1792752347168_ojnf_1",
+      "BLACKOUT_final_campaign_floors_1792752347168_lcon_2",
+      "BLACKOUT_final_campaign_floors_1792752347168_3j33_3"
+    ]
+  },
+  "characters": {
+    "infiltrator": {
+      "id": "An_original_stealth_infiltrato_1792744456276_j90h",
+      "animations": [
+        "walk_up",
+        "walk_down",
+        "walk_left",
+        "walk_right"
+      ],
+      "animationDirection": "four_direction",
+      "quality": {
+        "status": "needs_review",
+        "ready": false,
+        "animations": {
+          "walk_up": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "walk_down": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte",
+              "loop"
+            ],
+            "actions": [
+              "rematte",
+              "inspect_frames"
+            ]
+          },
+          "walk_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_right": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          }
+        }
+      }
+    },
+    "guard": {
+      "id": "A_research_facility_security_g_1792744782768_bijs",
+      "animations": [
+        "walk_up",
+        "walk_down",
+        "walk_left",
+        "walk_right"
+      ],
+      "animationDirection": "four_direction",
+      "quality": {
+        "status": "needs_review",
+        "ready": false,
+        "animations": {
+          "walk_up": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          },
+          "walk_down": {
+            "status": "ready",
+            "ready": true,
+            "deliveredIssues": [],
+            "actions": []
+          },
+          "walk_left": {
+            "status": "unscored",
+            "ready": null,
+            "deliveredIssues": [],
+            "actions": [
+              "inspect_frames"
+            ]
+          },
+          "walk_right": {
+            "status": "needs_review",
+            "ready": false,
+            "deliveredIssues": [
+              "matte"
+            ],
+            "actions": [
+              "rematte"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "uiPack": "4e4ccc28-7ff5-4af4-ad29-f167c61d2ccf"
+}

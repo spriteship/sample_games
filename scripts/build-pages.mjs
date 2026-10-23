@@ -7,6 +7,7 @@ const catalog = new URL("../site/", import.meta.url);
 const game = new URL("../games/last-light/public/", import.meta.url);
 const lastLight = new URL("./last-light/", output);
 const emberhold = new URL("./emberhold/", output);
+const blackout = new URL("./blackout/", output);
 
 // Rebuild from source, never publish a stale local export. Linux CI installs
 // the pinned Godot engine and templates through the game's build helper.
@@ -20,6 +21,12 @@ await mkdir(lastLight, { recursive: true });
 await cp(game, lastLight, { recursive: true });
 await mkdir(emberhold, { recursive: true });
 await cp(new URL("../games/emberhold/dist/", import.meta.url), emberhold, { recursive: true, filter: (source) => !source.endsWith('.import') });
+await mkdir(blackout, { recursive: true });
+await cp(new URL("../games/blackout/public/", import.meta.url), blackout, { recursive: true });
+await cp(new URL("../games/blackout/media/", import.meta.url), new URL("./media/", blackout), {
+  recursive: true,
+  filter: (source) => !source.endsWith('.md') && !source.endsWith('recording.json'),
+});
 await writeFile(new URL("./.nojekyll", output), "");
 
-console.log("Built GitHub Pages catalog, Last Light and Emberhold into pages-dist/");
+console.log("Built GitHub Pages catalog, Last Light, Emberhold and BLACKOUT into pages-dist/");

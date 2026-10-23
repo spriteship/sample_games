@@ -1,0 +1,6 @@
+.spriteship/production.json
+.spriteship/local.env
+.spriteship/*.zip
+.spriteship/exports/
+.spriteship/previews/
+.recording-frames/
