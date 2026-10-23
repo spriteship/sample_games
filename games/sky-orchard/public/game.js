@@ -10,6 +10,10 @@ class Orchard extends Phaser.Scene {
   constructor(){super('Orchard');this.levelIndex=0;this.phase='menu';this.coinsTotal=0;this.health=3;this.held={left:false,right:false,jump:false};this.lastGround=0;this.lastJumpPress=-1000;this.jumps=0;this.invulnerableUntil=0;this.soundContext=null;}
   preload(){
     for(const name of assetNames) this.load.image(name,`./assets/${name}.png`);
+    for(const spec of LEVELS.slice(1)){
+      this.load.image(`sky-${spec.slug}`,`./assets/worlds/${spec.slug}-sky.png`);
+      for(const size of ['large','medium','small'])this.load.image(`island-${spec.slug}-${size}`,`./assets/worlds/${spec.slug}-${size}.png`);
+    }
     for(const key of ['pip-idle','pip-walk','bramble-walk','mallow-idle']){
       this.load.atlas(key,`./assets/animations/${key}.png`,`./assets/animations/${key}.json`);
       this.load.json(key+'-data',`./assets/animations/${key}.json`);
@@ -77,20 +81,20 @@ class Orchard extends Phaser.Scene {
   }
   start(index){
     this.levelStartCoins=this.coinsTotal;
-    this.levelIndex=index;this.health=3;this.seeds=0;this.jumps=0;this.invulnerableUntil=0;
+    this.levelIndex=index;this.health=3;this.seeds=0;this.jumps=0;this.invulnerableUntil=0;this.lastSpringAt=0;this.springBoostUntil=0;
     this.buildLevel(index);
     this.phase='playing';this.physics.resume();show(null);
     $('hud').classList.remove('hidden');
     $('touchControls').classList.toggle('hidden',!window.matchMedia('(pointer: coarse)').matches);
     this.updateHud();
-    this.toast(`${String(index+1).padStart(2,'0')} · ${LEVELS[index].name}`,1900);
+    this.toast(`${String(index+1).padStart(2,'0')} · ${LEVELS[index].name}\n${LEVELS[index].subtitle}`,2200);
   }
   clearLevel(){
     for(const collider of this.colliders||[])collider.destroy();
     this.colliders=[];
     this.player?.destroy();this.player=null;
     this.exit?.destroy();this.exit=null;
-    for(const key of ['scenery','platforms','coins','enemies','hazards','checkpoints','bridges','actors','effects']){
+    for(const key of ['scenery','platforms','coins','enemies','hazards','checkpoints','springPads','bridges','actors','effects']){
       if(this[key]){this[key].destroy(true);this[key]=null;}
     }
     this.tweens.killAll();
@@ -101,13 +105,18 @@ class Orchard extends Phaser.Scene {
     this.cameras.main.setBackgroundColor(spec.sky);
     this.physics.world.setBounds(0,0,level.width,level.height);
     this.scenery=this.add.group();
-    const backdrop=this.add.image(480,270,'sky').setDisplaySize(960,540).setScrollFactor(0).setDepth(-100);
+    const themedSky=`sky-${spec.slug}`;
+    const backdrop=this.add.image(480,270,this.textures.exists(themedSky)?themedSky:'sky').setDisplaySize(960,540).setScrollFactor(0).setDepth(-100);
     this.scenery.add(backdrop);
+    this.addAtmosphere(index);
     this.platforms=this.physics.add.staticGroup();
+    this.springPads=this.physics.add.staticGroup();
     this.bridges=this.add.group();
     this.effects=this.add.group();
     level.platforms.forEach((p,i)=>{
-      const islandKey=p.w>345?'island':p.w<250?'island-small':'island-medium';
+      const size=p.w>345?'large':p.w<250?'small':'medium';
+      const themedIsland=`island-${spec.slug}-${size}`;
+      const islandKey=this.textures.exists(themedIsland)?themedIsland:size==='large'?'island':size==='small'?'island-small':'island-medium';
       const artHeight=clamp(p.w*.36,92,153);
       const art=this.add.image(p.x+p.w*.5,p.y-27+artHeight/2,islandKey).setDisplaySize(p.w,artHeight).setDepth(-1);
       this.effects.add(art);
@@ -120,7 +129,8 @@ class Orchard extends Phaser.Scene {
         }});
       }
       if(i>0&&i%3===1){
-        const m=this.add.image(p.x+Math.min(p.w*.28,86),p.y-16,'mushroom').setDisplaySize(35,39).setDepth(1);this.effects.add(m);
+        const m=this.add.image(p.x+Math.min(p.w*.28,86),p.y-16,'mushroom').setDisplaySize(spec.surface==='spring'?43:35,spec.surface==='spring'?47:39).setDepth(1);this.effects.add(m);
+        if(spec.surface==='spring')this.springPads.create(m.x,p.y-38,'pixel').setVisible(false).setDisplaySize(41,14).refreshBody();
       }
       if(i>0&&i%4===0){
         const ladder=this.add.image(p.x+32,p.y+57,'ladder').setDisplaySize(26,98).setDepth(0);this.effects.add(ladder);
@@ -156,7 +166,8 @@ class Orchard extends Phaser.Scene {
     for(const e of level.enemies){
       const animated=this.textures.exists('bramble-walk');
       const foe=this.enemies.create(e.x,e.y,animated?'bramble-walk':'bramble').setDisplaySize(53,53).setDepth(3);
-      if(animated){foe.play('bramble:walk');this.applyExportBody(foe,'bramble','walk');}
+      // A compact feet-first body keeps the animated sprite standing on its island.
+      if(animated){foe.play('bramble:walk');foe.body.setSize(62,62).setOffset(33,55);}
       else foe.body.setSize(foe.width*.59,foe.height*.64).setOffset(foe.width*.205,foe.height*.3);
       foe.setData('patrol',e);foe.setData('direction',1);foe.setVelocityX(57+index*5);foe.setBounce(0);
     }
@@ -164,11 +175,12 @@ class Orchard extends Phaser.Scene {
     this.player=this.physics.add.sprite(98,390,pipAnimated?'pip-idle':'pip').setDisplaySize(73,76).setDepth(5);
     if(pipAnimated){this.player.play('pip:idle');this.applyExportBody(this.player,'pip','idle');}
     else this.player.body.setSize(this.player.width*.42,this.player.height*.7).setOffset(this.player.width*.29,this.player.height*.25);
-    this.player.setMaxVelocity(310,900).setDragX(1400);
+    this.player.setMaxVelocity(spec.surface==='honey'?285:310,900).setDragX(spec.surface==='ice'?120:spec.surface==='honey'?1850:1400);
     this.colliders.push(this.physics.add.collider(this.player,this.platforms));
     this.colliders.push(this.physics.add.collider(this.enemies,this.platforms));
     this.colliders.push(this.physics.add.overlap(this.player,this.coins,(_player,coin)=>this.takeCoin(coin)));
     this.colliders.push(this.physics.add.overlap(this.player,this.checkpoints,(_player,check)=>this.touchCheckpoint(check)));
+    this.colliders.push(this.physics.add.overlap(this.player,this.springPads,(_player,pad)=>this.springFrom(pad)));
     this.colliders.push(this.physics.add.overlap(this.player,this.hazards,()=>this.hurt()));
     this.colliders.push(this.physics.add.overlap(this.player,this.enemies,(_player,enemy)=>this.touchEnemy(enemy)));
     this.exit=this.physics.add.staticImage(level.exit.x,level.exit.y-54,'portal').setDisplaySize(99,112).refreshBody().setDepth(3);
@@ -189,12 +201,18 @@ class Orchard extends Phaser.Scene {
     if(this.phase!=='playing'||!this.player?.active)return;
     const p=this.player,now=this.time.now;
     const onGround=p.body.blocked.down||p.body.touching.down;
+    const wind=this.level.spec.wind||0;
+    const groundSpeed=this.level.spec.surface==='honey'?285:310;
+    p.setMaxVelocity(!onGround&&wind<0?265:!onGround&&wind>0?330:groundSpeed,900);
     if(onGround){this.lastGround=now;this.jumps=0;}
     const left=this.held.left||this.keys.A.isDown||this.keys.LEFT.isDown;
     const right=this.held.right||this.keys.D.isDown||this.keys.RIGHT.isDown;
-    if(left&&!right){p.setAccelerationX(-1700);p.setFlipX(true);}
-    else if(right&&!left){p.setAccelerationX(1700);p.setFlipX(false);}
-    else p.setAccelerationX(0);
+    const stride=this.level.spec.surface==='honey'?1450:1700;
+    let acceleration=left&&!right?-stride:right&&!left?stride:0;
+    if(!onGround)acceleration+=wind;
+    p.setAccelerationX(acceleration);
+    if(left&&!right)p.setFlipX(true);
+    else if(right&&!left)p.setFlipX(false);
     if(this.anims.exists('pip:walk')){
       const target=(left!==right&&onGround)?'pip:walk':'pip:idle';
       if(p.anims.currentAnim?.key!==target){p.play(target);this.applyExportBody(p,'pip',target==='pip:walk'?'walk_2':'idle');}
@@ -207,7 +225,7 @@ class Orchard extends Phaser.Scene {
       this.jumps++;this.lastJumpPress=-1000;this.lastGround=-1000;
       this.burst(p.x,p.y+20,0xffe088,5);this.tone(this.jumps===1?470:650,.08);
     }
-    if(!jumpDown&&p.body.velocity.y< -185)p.setVelocityY(Math.max(p.body.velocity.y,-410));
+    if(!jumpDown&&now>this.springBoostUntil&&p.body.velocity.y< -185)p.setVelocityY(Math.max(p.body.velocity.y,-410));
     if(p.y>605)this.hurt(true);
     for(const enemy of this.enemies.getChildren()){
       const patrol=enemy.getData('patrol');if(!patrol)continue;
@@ -234,6 +252,22 @@ class Orchard extends Phaser.Scene {
     if(check.getData('active'))return;
     check.setData('active',true);check.setTint(0xfff8b2);this.respawn={x:check.x,y:check.y-65};
     this.burst(check.x,check.y,0xffe177,16);this.toast('Checkpoint lit!',1500);this.tone(590,.16);
+  }
+  springFrom(pad){
+    if(this.phase!=='playing'||this.player.body.velocity.y<80||this.player.body.bottom>pad.body.center.y+16||this.time.now<(this.lastSpringAt||0)+300)return;
+    this.player.setVelocityY(-770);this.jumps=1;this.lastGround=-1000;this.lastSpringAt=this.time.now;this.springBoostUntil=this.time.now+170;
+    this.burst(pad.x,pad.y,0xffc184,12);this.tone(720,.14);this.toast('Mushroom boost!',1000);
+  }
+  addAtmosphere(index){
+    const moods={1:[0xffe9cd,18,2,8],4:[0xffd7ff,20,2,12],5:[0xffd277,20,1,7],6:[0xd7ffcf,18,2,8],7:[0xcad8ff,24,2,17],8:[0xffffff,28,3,12],9:[0xffeeaa,22,2,9]};
+    const mood=moods[index];if(!mood)return;
+    const [color,count,radius,length]=mood;
+    for(let i=0;i<count;i++){
+      const x=(i*73+index*29)%960,y=(i*131+index*37)%540;
+      const particle=index===7?this.add.rectangle(x,y,2,length,color,.36).setAngle(16):this.add.circle(x,y,radius+(i%3),color,.3+(i%4)*.08);
+      particle.setScrollFactor(0).setDepth(-40);this.scenery.add(particle);
+      this.tweens.add({targets:particle,x:x+(index===7?-80:24),y:y+(index===7?210:55),alpha:index===7?.1:.05,duration:index===7?1200:2400+i*60,delay:i*30,repeat:-1});
+    }
   }
   touchEnemy(enemy){
     if(!enemy.active)return;
@@ -272,7 +306,7 @@ class Orchard extends Phaser.Scene {
   pause(){if(this.phase!=='playing')return;this.phase='paused';this.physics.pause();show('pause');$('touchControls').classList.add('hidden');}
   resume(){if(this.phase!=='paused')return;this.phase='playing';this.physics.resume();show(null);$('touchControls').classList.toggle('hidden',!window.matchMedia('(pointer: coarse)').matches);}
   toMenu(){this.phase='menu';this.physics.pause();this.buildLevel(0);show('menu');$('hud').classList.add('hidden');$('touchControls').classList.add('hidden');}
-  toast(message,duration=1600){$('toast').textContent=message;$('toast').classList.remove('hidden');this.toastUntil=this.time.now+duration;}
+  toast(message,duration=1600){const toast=$('toast');toast.textContent=message;toast.style.whiteSpace='pre-line';toast.style.textAlign='center';toast.style.maxWidth='calc(100% - 30px)';toast.classList.remove('hidden');this.toastUntil=this.time.now+duration;}
   updateHud(){$('seedCount').textContent=`${this.seeds||0} / ${this.seedGoal||3}`;$('coinCount').textContent=this.coinsTotal;$('heartCount').textContent='♥ '.repeat(this.health).trim()+' ♡'.repeat(3-this.health);}
   burst(x,y,color,count){
     for(let i=0;i<count;i++){

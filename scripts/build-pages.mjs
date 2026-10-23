@@ -24,7 +24,7 @@ await mkdir(skyOrchard, { recursive: true });
 await cp(skyOrchardGame, skyOrchard, { recursive: true });
 const skyOrchardMedia = new URL("./media/", skyOrchard);
 await mkdir(skyOrchardMedia, { recursive: true });
-for (const name of ["cover.png", "menu.png", "first-flight.png", "violet-grove.png", "sun-orchard.png", "finale.png", "gameplay.mp4"]) {
+for (const name of ["cover.png", "menu.png", "first-flight.png", "violet-grove.png", "sun-orchard.png", "finale.png", "ten-worlds.png", "gameplay.mp4"]) {
   await cp(new URL(`../games/sky-orchard/media/${name}`, import.meta.url), new URL(name, skyOrchardMedia));
 }
 await mkdir(emberhold, { recursive: true });

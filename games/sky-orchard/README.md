@@ -14,6 +14,8 @@ A ten-level Phaser 3 platform adventure inspired by the supplied bright floating
 
 The [title screen](media/menu.png) and [campaign finale](media/finale.png) are also available. The [cover image](media/cover.png) is assembled from the game's SpriteShip assets by `tools/make-cover.sh` using ImageMagick.
 
+[See all ten level screenshots together](media/ten-worlds.png), or open any image in [`media/levels/`](media/levels/).
+
 ## Play
 
 From the repository root:
@@ -33,25 +35,27 @@ Open <http://127.0.0.1:4285>. `npm run build:sky-orchard` copies the self-contai
 
 ## Campaign
 
-1. First Flight
-2. Mushroom Mile
-3. Breezy Bridges
-4. Honeydrop Heights
-5. The Violet Grove
-6. Lantern Ledges
-7. Whispering Canopy
-8. Thunderberry Run
-9. Cloudbreak Crossing
-10. The Sun Orchard
+| Level | Landscape | Play twist |
+| --- | --- | --- |
+| 1. First Flight | Sunny meadow islands | Learn the jumps |
+| 2. Mushroom Mile | Rose sky, mushroom-covered earth | Bounce on mushroom caps |
+| 3. Breezy Bridges | Turquoise coastal cliffs | Ride a gentle tailwind |
+| 4. Honeydrop Heights | Amber sunset and honeycomb rock | Sticky ground slows your run |
+| 5. The Violet Grove | Lavender dusk and crystal moss | More Bramble patrols |
+| 6. Lantern Ledges | Lantern-lit blue stone | More moving landings |
+| 7. Whispering Canopy | Jade treetops and root-bound islands | Longer jumps and thorn patches |
+| 8. Thunderberry Run | Storm clouds and slate cliffs | Headwind across wide gaps |
+| 9. Cloudbreak Crossing | Cloud sea and frosted stone | Slippery ground and high climbs |
+| 10. The Sun Orchard | Golden dawn and flowering earth | The longest route and final gauntlet |
 
-The levels use seeded authored parameters, so their routes remain stable across retries. Later routes add longer jumps, moving platforms, more patrols, and more hazards.
+Each level has its own SpriteShip backdrop and three matching island silhouettes. Routes remain stable across retries. Bramble patrols increase from two in level 1 to nine in level 10; gaps, vertical climbs, moving platforms, and hazards also grow through the campaign.
 
 ## Art and credits
 
-All characters, terrain, props, and the sky backdrop were generated for this game in SpriteShip project `proj_1792746064854_ufby`. The selected original cast is Pip (`Pip__a_small_brave_cinnamon_or_1792746179524_cpd5`), Bramble (`Bramble__a_mischievous_round_p_1792746190265_o2uh`), and Mallow (`Mallow__a_tiny_floating_cream_1792746240039_a6wu`). The backdrop and prop collection are stored as `orchard-sky`, `floating-island-kit`, and `orchard-props`. Their locally bundled animation atlases and manifest data live in `public/assets/animations/`; [SpriteShip's asset license](public/assets/SPRITESHIP-LICENSE.txt) is included.
+All characters, terrain, props, and backdrops were generated for this game in SpriteShip project `proj_1792746064854_ufby`. The selected original cast is Pip (`Pip__a_small_brave_cinnamon_or_1792746179524_cpd5`), Bramble (`Bramble__a_mischievous_round_p_1792746190265_o2uh`), and Mallow (`Mallow__a_tiny_floating_cream_1792746240039_a6wu`). Each later level has a matching distant backdrop and terrain collection, bundled in `public/assets/worlds/`. The first level uses `orchard-sky` and `floating-island-kit`; shared props use `orchard-props`. Animation atlases and manifest data live in `public/assets/animations/`; [SpriteShip's asset license](public/assets/SPRITESHIP-LICENSE.txt) is included.
 
-Net SpriteShip spending for this production was **1,800 credits** of the authorized 20,000. A failed Mallow motion job and revised Pip walk attempts were refunded and recovered at zero additional credits. The revised Pip walk has cleaner edges and a more visible gait; the original idle scored better, so it remains in the game. The game makes no SpriteShip API calls at runtime.
+Net SpriteShip spending for this production was **3,600 credits** of the authorized 20,000, including 1,800 credits for nine new backdrops and nine terrain collections. A failed Mallow motion job and revised Pip walk attempts were refunded and recovered at zero additional credits. The revised Pip walk has cleaner edges and a more visible gait; the original idle scored better, so it remains in the game. The game makes no SpriteShip API calls at runtime.
 
 ## Verification
 
-Run `npm test --workspace @spriteship/sky-orchard` to validate the ten routes and jump geometry. The browser play pass covered a first-level gap and seed, a late-level 126 px gap, hazards, checkpoints, exit locking, all ten level transitions, and all four animation atlases.
+Run `npm test --workspace @spriteship/sky-orchard` to validate the ten routes, enemy counts, art coverage, and jump geometry. Browser play passes covered a first-level gap and seed, a late-level 126 px gap, hazards, checkpoints, exit locking, all ten level transitions, and all four animation atlases. After adjusting Bramble's collision body, a second pass confirmed that patrols stay on all ten levels' islands, a side collision costs one heart, and a stomp defeats the enemy and awards two coins. A 1,200-frame manual scene pass had no asset load failures; its measured update cost was below 0.4 ms per frame on this machine.
