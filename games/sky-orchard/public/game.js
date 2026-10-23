@@ -14,6 +14,7 @@ class Orchard extends Phaser.Scene {
       this.load.image(`sky-${spec.slug}`,`./assets/worlds/${spec.slug}-sky.png`);
       for(const size of ['large','medium','small'])this.load.image(`island-${spec.slug}-${size}`,`./assets/worlds/${spec.slug}-${size}.png`);
     }
+    for(const spec of LEVELS.slice(2))this.load.image(`landmark-${spec.slug}`,`./assets/worlds/${spec.slug}-landmark.png`);
     for(const key of ['pip-idle','pip-walk','bramble-walk','mallow-idle']){
       this.load.atlas(key,`./assets/animations/${key}.png`,`./assets/animations/${key}.json`);
       this.load.json(key+'-data',`./assets/animations/${key}.json`);
@@ -94,7 +95,7 @@ class Orchard extends Phaser.Scene {
     this.colliders=[];
     this.player?.destroy();this.player=null;
     this.exit?.destroy();this.exit=null;
-    for(const key of ['scenery','platforms','coins','enemies','hazards','checkpoints','springPads','bridges','actors','effects']){
+    for(const key of ['scenery','platforms','coins','enemies','hazards','checkpoints','springPads','bridges','actors','effects','particles']){
       if(this[key]){this[key].destroy(true);this[key]=null;}
     }
     this.tweens.killAll();
@@ -105,6 +106,7 @@ class Orchard extends Phaser.Scene {
     this.cameras.main.setBackgroundColor(spec.sky);
     this.physics.world.setBounds(0,0,level.width,level.height);
     this.scenery=this.add.group();
+    this.particles=this.add.group();
     const themedSky=`sky-${spec.slug}`;
     const backdrop=this.add.image(480,270,this.textures.exists(themedSky)?themedSky:'sky').setDisplaySize(960,540).setScrollFactor(0).setDepth(-100);
     this.scenery.add(backdrop);
@@ -129,16 +131,19 @@ class Orchard extends Phaser.Scene {
         }});
       }
       if(i>0&&i%3===1){
-        const m=this.add.image(p.x+Math.min(p.w*.28,86),p.y-16,'mushroom').setDisplaySize(spec.surface==='spring'?43:35,spec.surface==='spring'?47:39).setDepth(1);this.effects.add(m);
-        if(spec.surface==='spring')this.springPads.create(m.x,p.y-38,'pixel').setVisible(false).setDisplaySize(41,14).refreshBody();
+        if(index===0 || spec.surface==='spring'){
+          const m=this.add.image(p.x+Math.min(p.w*.28,86),p.y-16,'mushroom').setDisplaySize(spec.surface==='spring'?43:35,spec.surface==='spring'?47:39).setDepth(1);this.effects.add(m);
+          if(spec.surface==='spring')this.springPads.create(m.x,p.y-38,'pixel').setVisible(false).setDisplaySize(41,14).refreshBody();
+        }
       }
-      if(i>0&&i%4===0){
+      if(index>0&&!p.moving&&(i===0||i%3===1))this.addLandmark(index,p,i);
+      if(index===0&&i>0&&i%4===0){
         const ladder=this.add.image(p.x+32,p.y+57,'ladder').setDisplaySize(26,98).setDepth(0);this.effects.add(ladder);
       }
-      if(i>0 && i<level.platforms.length-1 && i%5===0){
+      if(index===0&&i>0&&i<level.platforms.length-1&&i%5===0){
         const sign=this.add.image(p.x+p.w-45,p.y-25,'sign').setDisplaySize(50,60).setDepth(2);this.effects.add(sign);
       }
-      if(i>0 && Math.abs(p.y-level.platforms[i-1].y)<28 && i%4===2){
+      if(i>0 && p.bridge && Math.abs(p.y-level.platforms[i-1].y)<28){
         const prev=level.platforms[i-1],gap=p.x-(prev.x+prev.w);
         const bx=prev.x+prev.w+gap/2,by=(prev.y+p.y)/2;
         const bridge=this.add.image(bx,by+1,'bridge').setDisplaySize(gap+12,28).setDepth(1);this.bridges.add(bridge);
@@ -172,7 +177,8 @@ class Orchard extends Phaser.Scene {
       foe.setData('patrol',e);foe.setData('direction',1);foe.setVelocityX(57+index*5);foe.setBounce(0);
     }
     const pipAnimated=this.textures.exists('pip-idle');
-    this.player=this.physics.add.sprite(98,390,pipAnimated?'pip-idle':'pip').setDisplaySize(73,76).setDepth(5);
+    const startY=level.platforms[0].y-64;
+    this.player=this.physics.add.sprite(98,startY,pipAnimated?'pip-idle':'pip').setDisplaySize(73,76).setDepth(5);
     if(pipAnimated){this.player.play('pip:idle');this.applyExportBody(this.player,'pip','idle');}
     else this.player.body.setSize(this.player.width*.42,this.player.height*.7).setOffset(this.player.width*.29,this.player.height*.25);
     this.player.setMaxVelocity(spec.surface==='honey'?285:310,900).setDragX(spec.surface==='ice'?120:spec.surface==='honey'?1850:1400);
@@ -189,7 +195,7 @@ class Orchard extends Phaser.Scene {
     this.mallow=mallowAnimated?this.add.sprite(180,195,'mallow-idle').play('mallow:idle'):this.add.image(180,195,'mallow');
     this.mallow.setDisplaySize(47,47).setDepth(4).setAlpha(.92);
     this.effects.add(this.mallow);
-    this.respawn={x:98,y:390};
+    this.respawn={x:98,y:startY};
     this.cameras.main.setBounds(0,0,level.width,540);
     this.cameras.main.startFollow(this.player,true,.075,0);
     this.cameras.main.setDeadzone(175,540);
@@ -258,6 +264,61 @@ class Orchard extends Phaser.Scene {
     this.player.setVelocityY(-770);this.jumps=1;this.lastGround=-1000;this.lastSpringAt=this.time.now;this.springBoostUntil=this.time.now+170;
     this.burst(pad.x,pad.y,0xffc184,12);this.tone(720,.14);this.toast('Mushroom boost!',1000);
   }
+  addLandmark(index,p,i){
+    const x=p.x+p.w*(i===0?.69:.2),y=p.y-5;
+    if(index===1){
+      for(const [dx,scale] of [[-25,.8],[0,1.15],[29,.7]])this.effects.add(this.add.image(x+dx,y-18*scale,'mushroom').setDisplaySize(37*scale,41*scale).setDepth(1));
+      return;
+    }
+    const artKey=`landmark-${LEVELS[index].slug}`;
+    if(this.textures.exists(artKey)){
+      const height=[0,0,87,91,88,93,103,94,91,102][index];
+      const art=this.add.image(x,y,artKey).setOrigin(.5,1).setDepth(1);
+      art.setScale(height/art.height);
+      this.effects.add(art);
+      return;
+    }
+    const g=this.add.graphics({x,y}).setDepth(1);
+    if(index===2){
+      g.lineStyle(4,0x577f91).lineBetween(0,0,0,-79);
+      g.fillStyle(0xfdf7e1).fillTriangle(2,-76,55,-63,2,-50);
+      g.fillStyle(0x63d6d7).fillTriangle(2,-59,36,-49,2,-40);
+      g.lineStyle(2,0xffffff,.8).lineBetween(12,-30,62,-30).lineBetween(29,-21,71,-21);
+    }else if(index===3){
+      g.fillStyle(0xa25b2d).fillRoundedRect(-16,-43,34,39,8);
+      g.fillStyle(0xffcf5a).fillCircle(1,-29,17).fillCircle(1,-11,12);
+      g.fillStyle(0xffed9d).fillCircle(-7,-35,4).fillCircle(8,-22,3);
+      g.fillStyle(0xd9952c).fillRoundedRect(12,-8,8,23,4);
+    }else if(index===4){
+      g.fillStyle(0x735ab5).fillTriangle(-29,0,-16,-56,-2,0).fillTriangle(-2,0,16,-79,33,0);
+      g.fillStyle(0xbb9af2).fillTriangle(-17,-1,-8,-44,1,-1).fillTriangle(7,-1,19,-62,29,-1);
+      g.lineStyle(2,0xf2dcff,.8).lineBetween(16,-72,16,-13);
+    }else if(index===5){
+      g.lineStyle(5,0x46616c).lineBetween(0,0,0,-71);
+      g.fillStyle(0xffde7d,.16).fillCircle(0,-70,32);
+      g.fillStyle(0xffd77e).fillRoundedRect(-12,-85,24,30,5);
+      g.fillStyle(0xfff0aa).fillCircle(0,-70,7);
+      g.lineStyle(3,0x314e61).strokeRoundedRect(-12,-85,24,30,5);
+    }else if(index===6){
+      g.lineStyle(9,0x77553b).lineBetween(0,0,0,-82);
+      g.fillStyle(0x4baf83).fillCircle(-23,-83,28).fillCircle(13,-100,34).fillCircle(39,-77,22);
+      g.fillStyle(0x9ee2a5,.75).fillCircle(15,-112,10).fillCircle(-30,-91,8);
+      g.lineStyle(2,0x4d9e84).lineBetween(24,-75,27,-20);
+    }else if(index===7){
+      g.fillStyle(0x3a466e).fillTriangle(-23,0,2,-76,28,0);
+      g.lineStyle(5,0xa7b6d4).lineBetween(2,-72,2,-116);
+      g.lineStyle(5,0xe7e0ff).lineBetween(14,-112,-4,-88).lineBetween(-4,-88,10,-88).lineBetween(10,-88,-7,-58);
+      g.fillStyle(0xad75d6).fillCircle(-19,-4,5).fillCircle(25,-4,4);
+    }else if(index===8){
+      g.fillStyle(0x8cbbd3).fillTriangle(-33,0,-19,-67,-5,0).fillTriangle(-8,0,13,-92,30,0).fillTriangle(21,0,38,-54,51,0);
+      g.fillStyle(0xe6f8ff).fillTriangle(-17,-9,-18,-62,-5,-9).fillTriangle(12,-12,14,-81,29,-12);
+      g.fillStyle(0xffffff,.8).fillCircle(-34,-12,4).fillCircle(46,-19,3);
+    }else if(index===9){
+      g.lineStyle(8,0x826044).lineBetween(0,0,0,-77).lineBetween(0,-48,-27,-70).lineBetween(0,-55,24,-78);
+      for(const [dx,dy,r] of [[-24,-78,16],[0,-95,22],[24,-84,17],[5,-70,13]]){g.fillStyle(0xf8b2b8).fillCircle(dx,dy,r);g.fillStyle(0xfff1ca).fillCircle(dx+3,dy-3,3);}
+    }
+    this.effects.add(g);
+  }
   addAtmosphere(index){
     const moods={1:[0xffe9cd,18,2,8],4:[0xffd7ff,20,2,12],5:[0xffd277,20,1,7],6:[0xd7ffcf,18,2,8],7:[0xcad8ff,24,2,17],8:[0xffffff,28,3,12],9:[0xffeeaa,22,2,9]};
     const mood=moods[index];if(!mood)return;
@@ -305,12 +366,13 @@ class Orchard extends Phaser.Scene {
   }
   pause(){if(this.phase!=='playing')return;this.phase='paused';this.physics.pause();show('pause');$('touchControls').classList.add('hidden');}
   resume(){if(this.phase!=='paused')return;this.phase='playing';this.physics.resume();show(null);$('touchControls').classList.toggle('hidden',!window.matchMedia('(pointer: coarse)').matches);}
-  toMenu(){this.phase='menu';this.physics.pause();this.buildLevel(0);show('menu');$('hud').classList.add('hidden');$('touchControls').classList.add('hidden');}
+  toMenu(){this.phase='menu';this.physics.pause();this.buildLevel(0);show('menu');$('hud').classList.add('hidden');$('touchControls').classList.add('hidden');$('toast').classList.add('hidden');this.toastUntil=0;}
   toast(message,duration=1600){const toast=$('toast');toast.textContent=message;toast.style.whiteSpace='pre-line';toast.style.textAlign='center';toast.style.maxWidth='calc(100% - 30px)';toast.classList.remove('hidden');this.toastUntil=this.time.now+duration;}
   updateHud(){$('seedCount').textContent=`${this.seeds||0} / ${this.seedGoal||3}`;$('coinCount').textContent=this.coinsTotal;$('heartCount').textContent='♥ '.repeat(this.health).trim()+' ♡'.repeat(3-this.health);}
   burst(x,y,color,count){
     for(let i=0;i<count;i++){
       const dot=this.add.circle(x,y,2+Math.random()*3,color).setDepth(10);
+      this.particles.add(dot);
       this.tweens.add({targets:dot,x:x+(Math.random()-.5)*80,y:y+(Math.random()-.5)*70,alpha:0,scale:0,duration:360+Math.random()*300,onComplete:()=>dot.destroy()});
     }
   }
