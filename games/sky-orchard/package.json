@@ -1,0 +1,12 @@
+{
+  "name": "@spriteship/sky-orchard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Pip & the Sky Orchard, a ten-level Phaser platform adventure with SpriteShip art",
+  "scripts": {
+    "dev": "node tools/serve.mjs",
+    "build": "node tools/build.mjs",
+    "test": "node --test tests/levels.test.mjs"
+  }
+}

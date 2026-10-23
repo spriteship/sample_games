@@ -1,0 +1,1257 @@
+{
+  "schema": "tizo8-export",
+  "schemaVersion": "1.2",
+  "exportedAt": "2026-10-23T09:23:15.351Z",
+  "source": {
+    "app": "spriteship",
+    "appUrl": "https://spriteship.com"
+  },
+  "engine": "phaser",
+  "surface": "sprite",
+  "title": "Mallow Tiny Floating #1",
+  "entityId": "Mallow__a_tiny_floating_cream_1792746240039_a6wu",
+  "engineVersion": "3.90",
+  "files": [
+    {
+      "path": "Mallow_Tiny_Floating_1/atlas_idle.json",
+      "role": "atlas",
+      "description": "TexturePacker JSON Hash atlas for the matching spritesheet."
+    },
+    {
+      "path": "Mallow_Tiny_Floating_1/character_display.png",
+      "role": "image",
+      "description": "Character image asset."
+    },
+    {
+      "path": "Mallow_Tiny_Floating_1/character.png",
+      "role": "image",
+      "description": "Character image asset."
+    },
+    {
+      "path": "Mallow_Tiny_Floating_1/metadata.json",
+      "role": "metadata",
+      "description": "SpriteShip character metadata."
+    },
+    {
+      "path": "Mallow_Tiny_Floating_1/mounts.json",
+      "role": "mounts",
+      "description": "Equipment attachment points per frame."
+    },
+    {
+      "path": "Mallow_Tiny_Floating_1/poses/default_128.png",
+      "role": "pose",
+      "description": "Character pose image."
+    },
+    {
+      "path": "Mallow_Tiny_Floating_1/poses/default_256.png",
+      "role": "pose",
+      "description": "Character pose image."
+    },
+    {
+      "path": "Mallow_Tiny_Floating_1/poses/default_512.png",
+      "role": "pose",
+      "description": "Character pose image."
+    },
+    {
+      "path": "Mallow_Tiny_Floating_1/poses/default_64.png",
+      "role": "pose",
+      "description": "Character pose image."
+    },
+    {
+      "path": "Mallow_Tiny_Floating_1/poses/default.png",
+      "role": "pose",
+      "description": "Character pose image."
+    },
+    {
+      "path": "Mallow_Tiny_Floating_1/spritesheet_idle.png",
+      "role": "spritesheet",
+      "description": "Spritesheet image shipped by this Phaser export."
+    },
+    {
+      "path": "Mallow_Tiny_Floating_1/LICENSE.txt",
+      "role": "license",
+      "description": "SpriteShip asset permissions and third-party rights limitations; read before redistribution."
+    },
+    {
+      "path": "Mallow_Tiny_Floating_1/tizo-export.json",
+      "role": "manifest",
+      "description": "Self-describing manifest — file inventory + engine payload + schema version."
+    },
+    {
+      "path": "Mallow_Tiny_Floating_1/schema.json",
+      "role": "schema",
+      "description": "JSON Schema for tizo-export.json. Readable by AI coding assistants."
+    },
+    {
+      "path": "Mallow_Tiny_Floating_1/README.md",
+      "role": "readme",
+      "description": "Quick-start + loader snippet for phaser."
+    },
+    {
+      "path": "Mallow_Tiny_Floating_1/preview.html",
+      "role": "preview",
+      "description": "Standalone browser preview — double-click to view without installing the engine."
+    },
+    {
+      "path": "Mallow_Tiny_Floating_1/SKILL.md",
+      "role": "skill",
+      "description": "Agent skill — integration procedure + pitfalls for AI coding assistants."
+    }
+  ],
+  "payload": {
+    "schema": "tizo8-phaser-character",
+    "version": 1,
+    "characterId": "Mallow__a_tiny_floating_cream_1792746240039_a6wu",
+    "characterName": "Mallow Tiny Floating #1",
+    "gameType": "platformer",
+    "frameSize": 128,
+    "animations": {
+      "idle": {
+        "fps": 30,
+        "row": 0,
+        "loop": true,
+        "duration": 2,
+        "nativeFps": 30,
+        "frameCount": 37,
+        "videoModel": "wan/3-0-video",
+        "autoCurated": {
+          "at": "2026-10-23T09:21:07.622Z",
+          "reason": "motion",
+          "window": {
+            "end": 50,
+            "start": 14,
+            "seamRatio": 1.533
+          },
+          "droppedStalls": 0,
+          "scorerVersion": "aqs-9",
+          "seamRatioFull": 0.144
+        },
+        "operationId": "regen_1792746649745_xp1bdm",
+        "publishedAt": "2026-10-23T09:21:07.674Z",
+        "useLastFrame": true,
+        "autoSelection": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "collisionBody": {
+          "kind": "rect",
+          "cx": 0.5087890625,
+          "cy": 0.5888671875,
+          "hw": 0.2861328125,
+          "hh": 0.3935546875
+        },
+        "useFirstFrame": true,
+        "frameSelection": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "scaleReference": {
+          "version": 2,
+          "sourceKind": "canonical-character",
+          "captureEdge": "first",
+          "heightRatio": 0.8006182380216383,
+          "linearMassRatio": 0.5178896731921641
+        },
+        "artifactVersion": "regen_1792746649745_xp1bdm.v22",
+        "operationVersion": 22,
+        "collisionBodyMode": "auto",
+        "watermarkEligible": true
+      }
+    },
+    "groups": [
+      {
+        "key": "idle",
+        "sheetUrl": "spritesheet_idle.png",
+        "atlasUrl": "atlas_idle.json",
+        "atlas": {
+          "frames": {
+            "idle_0000": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0001": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 129,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0002": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 258,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0003": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 387,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0004": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 516,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0005": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 645,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0006": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 774,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0007": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 903,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0008": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 1032,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0009": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 1161,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0010": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 1290,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0011": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 1419,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0012": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 1548,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0013": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 1677,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0014": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 1806,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0015": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 0,
+                "y": 129,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0016": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 129,
+                "y": 129,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0017": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 258,
+                "y": 129,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0018": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 387,
+                "y": 129,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0019": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 516,
+                "y": 129,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0020": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 645,
+                "y": 129,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0021": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 774,
+                "y": 129,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0022": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 903,
+                "y": 129,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0023": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 1032,
+                "y": 129,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0024": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 1161,
+                "y": 129,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0025": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 1290,
+                "y": 129,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0026": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 1419,
+                "y": 129,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0027": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 1548,
+                "y": 129,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0028": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 1677,
+                "y": 129,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0029": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 1806,
+                "y": 129,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0030": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 0,
+                "y": 258,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0031": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 129,
+                "y": 258,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0032": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 258,
+                "y": 258,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0033": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 387,
+                "y": 258,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0034": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 516,
+                "y": 258,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0035": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 645,
+                "y": 258,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            },
+            "idle_0036": {
+              "watermarkEligible": true,
+              "frame": {
+                "x": 774,
+                "y": 258,
+                "w": 128,
+                "h": 128
+              },
+              "rotated": false,
+              "trimmed": false,
+              "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+              },
+              "sourceSize": {
+                "w": 128,
+                "h": 128
+              },
+              "duration": 33
+            }
+          },
+          "animations": {
+            "idle": {
+              "frames": [
+                "idle_0000",
+                "idle_0001",
+                "idle_0002",
+                "idle_0003",
+                "idle_0004",
+                "idle_0005",
+                "idle_0006",
+                "idle_0007",
+                "idle_0008",
+                "idle_0009",
+                "idle_0010",
+                "idle_0011",
+                "idle_0012",
+                "idle_0013",
+                "idle_0014",
+                "idle_0015",
+                "idle_0016",
+                "idle_0017",
+                "idle_0018",
+                "idle_0019",
+                "idle_0020",
+                "idle_0021",
+                "idle_0022",
+                "idle_0023",
+                "idle_0024",
+                "idle_0025",
+                "idle_0026",
+                "idle_0027",
+                "idle_0028",
+                "idle_0029",
+                "idle_0030",
+                "idle_0031",
+                "idle_0032",
+                "idle_0033",
+                "idle_0034",
+                "idle_0035",
+                "idle_0036"
+              ],
+              "fps": 30,
+              "loop": true
+            }
+          },
+          "meta": {
+            "app": "https://spriteship.com",
+            "version": "1.0",
+            "image": "spritesheet_idle.png",
+            "format": "RGBA8888",
+            "size": {
+              "w": 1935,
+              "h": 387
+            },
+            "scale": "0.25",
+            "frameTags": [
+              {
+                "name": "idle",
+                "from": 0,
+                "to": 36,
+                "direction": "forward",
+                "color": "#000000ff"
+              }
+            ]
+          }
+        },
+        "variants": [],
+        "animations": {
+          "idle": {
+            "fps": 30,
+            "row": 0,
+            "loop": true,
+            "duration": 2,
+            "nativeFps": 30,
+            "frameCount": 37,
+            "videoModel": "wan/3-0-video",
+            "autoCurated": {
+              "at": "2026-10-23T09:21:07.622Z",
+              "reason": "motion",
+              "window": {
+                "end": 50,
+                "start": 14,
+                "seamRatio": 1.533
+              },
+              "droppedStalls": 0,
+              "scorerVersion": "aqs-9",
+              "seamRatioFull": 0.144
+            },
+            "operationId": "regen_1792746649745_xp1bdm",
+            "publishedAt": "2026-10-23T09:21:07.674Z",
+            "useLastFrame": true,
+            "autoSelection": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50
+            ],
+            "collisionBody": {
+              "kind": "rect",
+              "cx": 0.5087890625,
+              "cy": 0.5888671875,
+              "hw": 0.2861328125,
+              "hh": 0.3935546875
+            },
+            "useFirstFrame": true,
+            "frameSelection": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50
+            ],
+            "scaleReference": {
+              "version": 2,
+              "sourceKind": "canonical-character",
+              "captureEdge": "first",
+              "heightRatio": 0.8006182380216383,
+              "linearMassRatio": 0.5178896731921641
+            },
+            "artifactVersion": "regen_1792746649745_xp1bdm.v22",
+            "operationVersion": 22,
+            "collisionBodyMode": "auto",
+            "watermarkEligible": true
+          }
+        }
+      }
+    ],
+    "imageUrl": "character_display.png",
+    "mountsData": {
+      "version": 1,
+      "frameSize": 512,
+      "slots": {},
+      "quality": {},
+      "confidence": {
+        "average": 0,
+        "skippedAnimations": []
+      }
+    }
+  }
+}
