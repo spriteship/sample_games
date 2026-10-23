@@ -39,3 +39,6 @@ dist/
 outputs/
 work/
 pages-dist/
+games/sky-orchard/.spriteship-review/
+games/sky-orchard/.spriteship-ledger.json
+games/sky-orchard/media/frames/

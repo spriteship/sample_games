@@ -5,7 +5,9 @@ import { fileURLToPath } from "node:url";
 const output = new URL("../pages-dist/", import.meta.url);
 const catalog = new URL("../site/", import.meta.url);
 const game = new URL("../games/last-light/public/", import.meta.url);
+const skyOrchardGame = new URL("../games/sky-orchard/public/", import.meta.url);
 const lastLight = new URL("./last-light/", output);
+const skyOrchard = new URL("./sky-orchard/", output);
 const emberhold = new URL("./emberhold/", output);
 const blackout = new URL("./blackout/", output);
 
@@ -19,6 +21,13 @@ await mkdir(output, { recursive: true });
 await cp(catalog, output, { recursive: true });
 await mkdir(lastLight, { recursive: true });
 await cp(game, lastLight, { recursive: true });
+await mkdir(skyOrchard, { recursive: true });
+await cp(skyOrchardGame, skyOrchard, { recursive: true });
+const skyOrchardMedia = new URL("./media/", skyOrchard);
+await mkdir(skyOrchardMedia, { recursive: true });
+for (const name of ["cover.png", "menu.png", "first-flight.png", "violet-grove.png", "sun-orchard.png", "finale.png", "ten-worlds.png", "gameplay.mp4"]) {
+  await cp(new URL(`../games/sky-orchard/media/${name}`, import.meta.url), new URL(name, skyOrchardMedia));
+}
 await mkdir(emberhold, { recursive: true });
 await cp(new URL("../games/emberhold/dist/", import.meta.url), emberhold, { recursive: true, filter: (source) => !source.endsWith('.import') });
 await mkdir(blackout, { recursive: true });
@@ -29,4 +38,4 @@ await cp(new URL("../games/blackout/media/", import.meta.url), new URL("./media/
 });
 await writeFile(new URL("./.nojekyll", output), "");
 
-console.log("Built GitHub Pages catalog, Last Light, Emberhold and BLACKOUT into pages-dist/");
+console.log("Built GitHub Pages catalog, Last Light, Sky Orchard, Emberhold and BLACKOUT into pages-dist/");

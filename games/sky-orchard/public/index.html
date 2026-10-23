@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no" />
+  <meta name="theme-color" content="#70cffa" />
+  <meta name="description" content="Pip & the Sky Orchard: a ten-level floating-island platform adventure." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Pip & the Sky Orchard" />
+  <meta property="og:description" content="Leap across ten floating islands with Pip and bring every sun seed home." />
+  <meta property="og:image" content="https://spriteship.github.io/sample_games/sky-orchard/media/cover.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>Pip & the Sky Orchard</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="masthead"><a href="../" class="back">← SPRITESHIP ARCADE</a><span>AN ORIGINAL SKYBOUND ADVENTURE</span></header>
+    <section class="game-shell" aria-label="Pip and the Sky Orchard game">
+      <div id="game" aria-label="Platform game canvas"></div>
+      <div id="hud" class="hud hidden">
+        <div class="hud-left"><span class="hud-kicker">SKY ORCHARD · <b id="levelNumber">01</b> / 10</span><strong id="levelName">First Flight</strong></div>
+        <div class="hud-center"><span class="seed-icon">✦</span><strong id="seedCount">0 / 3</strong><span class="hud-label">SUN SEEDS</span></div>
+        <div class="hud-right"><span id="heartCount" aria-label="Three hearts">♥ ♥ ♥</span><span class="coin-readout">● <b id="coinCount">0</b></span><button id="pauseButton" class="hud-button" aria-label="Pause">Ⅱ</button></div>
+      </div>
+      <div id="toast" class="toast hidden" role="status"></div>
+      <div id="menu" class="screen menu">
+        <div class="menu-art" aria-hidden="true"><span class="sun"></span><img src="./assets/pip.png" alt="" /></div>
+        <div class="menu-copy"><p class="eyebrow">A TEN-LEVEL PLATFORM ADVENTURE</p><h1>PIP <span>&</span> THE<br /><em>SKY ORCHARD</em></h1><p class="intro">The sun seeds have scattered across the floating isles. Leap, explore, and bring the light back home.</p><button id="startButton" class="primary">START ADVENTURE <span>➜</span></button><button id="continueButton" class="secondary hidden">CONTINUE JOURNEY</button><p class="controls-note">MOVE <kbd>A</kbd><kbd>D</kbd> OR <kbd>←</kbd><kbd>→</kbd> &nbsp; JUMP <kbd>SPACE</kbd> · <kbd>↑</kbd> · <kbd>W</kbd><br />DOUBLE JUMP IN MID-AIR · STOMP BRAMBLES FROM ABOVE</p></div>
+      </div>
+      <div id="pause" class="screen shade hidden" role="dialog" aria-modal="true"><div class="card"><p class="eyebrow">TAKE A BREATHER</p><h2>Paused</h2><p>The sky will wait for you.</p><button id="resumeButton" class="primary">RESUME <span>➜</span></button><button id="restartButton" class="secondary">RESTART LEVEL</button><button id="menuButton" class="text-button">Return to title</button></div></div>
+      <div id="result" class="screen shade hidden" role="dialog" aria-modal="true"><div class="card"><p id="resultKicker" class="eyebrow">ISLAND COMPLETE</p><h2 id="resultTitle">A brighter sky!</h2><p id="resultText">Pip found the sun seeds.</p><div class="results"><div><span>LEVEL</span><b id="resultLevel">01 / 10</b></div><div><span>COINS</span><b id="resultCoins">0</b></div><div><span>HEARTS</span><b id="resultHearts">3</b></div></div><button id="nextButton" class="primary">NEXT ISLAND <span>➜</span></button><button id="resultMenuButton" class="text-button">Return to title</button></div></div>
+      <div id="gameover" class="screen shade hidden" role="dialog" aria-modal="true"><div class="card"><p class="eyebrow">THE WIND WON THIS ROUND</p><h2>Try again, Pip.</h2><p>Every great courier knows the next leap is the one that counts.</p><button id="retryButton" class="primary">RETRY LEVEL <span>↻</span></button><button id="overMenuButton" class="text-button">Return to title</button></div></div>
+      <div id="touchControls" class="touch-controls hidden"><div><button id="leftButton" aria-label="Move left">◀</button><button id="rightButton" aria-label="Move right">▶</button></div><button id="jumpButton" class="jump" aria-label="Jump">JUMP</button></div>
+    </section>
+    <footer class="footnote"><span>10 LEVEL CAMPAIGN · ORIGINAL SPRITESHIP CAST</span><span>COLLECT EVERY ✦ TO OPEN THE GATE</span></footer>
+  </main>
+  <script src="./vendor/phaser.min.js"></script>
+  <script type="module" src="./game.js?v=2"></script>
+</body>
+</html>

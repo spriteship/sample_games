@@ -7,6 +7,7 @@ Playable sample games built with assets created in [SpriteShip](https://spritesh
 | Game | Engine | Description |
 | --- | --- | --- |
 | [Last Light](games/last-light) | Phaser 3 | A top-down survival game with animated characters, enemies, weapons, and collectibles. |
+| [Pip & the Sky Orchard](games/sky-orchard) | Phaser 3 | A ten-level floating-island platformer with original SpriteShip characters and art. |
 | [Emberhold: The Last Hearth](games/emberhold) | Godot 4.7.2 | A painted 2D settlement strategy campaign with gathering, construction, autonomous settlers, army commands, beacons and a final boss. |
 | [BLACKOUT: Core Heist](games/blackout) | Canvas 2D | An eleven-operation top-down stealth campaign with distinct SpriteShip locations, pistols and extraction missions. |
 
@@ -14,6 +15,7 @@ Playable sample games built with assets created in [SpriteShip](https://spritesh
 
 - Sample catalog: https://spriteship.github.io/sample_games/
 - Last Light: https://spriteship.github.io/sample_games/last-light/
+- Pip & the Sky Orchard: https://spriteship.github.io/sample_games/sky-orchard/
 - Emberhold: https://spriteship.github.io/sample_games/emberhold/
 - BLACKOUT: https://spriteship.github.io/sample_games/blackout/
 

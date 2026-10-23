@@ -8,8 +8,10 @@
   ],
   "scripts": {
     "dev": "npm run dev --workspace @spriteship/last-light",
+    "dev:sky-orchard": "npm run dev --workspace @spriteship/sky-orchard",
     "dev:emberhold": "npm run dev --workspace @spriteship/emberhold",
     "dev:blackout": "npm run dev --workspace @spriteship/blackout",
+    "build:sky-orchard": "npm run build --workspace @spriteship/sky-orchard",
     "build:emberhold": "npm run build --workspace @spriteship/emberhold",
     "build": "npm run build --workspaces --if-present",
     "build:pages": "node scripts/build-pages.mjs",
